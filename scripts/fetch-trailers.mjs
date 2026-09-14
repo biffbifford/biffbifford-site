@@ -29,6 +29,18 @@ if (!apiKey) {
   process.exit(1);
 }
 
+// YouTube's API sometimes returns titles with HTML entities already baked in
+// (e.g. "Ocean&#39;s 11" instead of "Ocean's 11"). Decode those here so the
+// saved data is clean text — the website's own escaping handles safe display.
+function decodeEntities(str) {
+  if (!str) return str;
+  const named = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+  return str
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(code))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&(amp|lt|gt|quot|apos|nbsp);/g, (_, name) => named[name]);
+}
+
 function pickQueryForToday() {
   const dayOfYear = Math.floor(
     (Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000
@@ -61,8 +73,8 @@ async function main() {
     .filter((item) => item.id?.videoId)
     .map((item) => ({
       id: item.id.videoId,
-      title: item.snippet.title,
-      channel: item.snippet.channelTitle,
+      title: decodeEntities(item.snippet.title),
+      channel: decodeEntities(item.snippet.channelTitle),
       thumbnail:
         item.snippet.thumbnails?.high?.url ||
         item.snippet.thumbnails?.medium?.url ||
