@@ -622,6 +622,13 @@
         .map((t) => `<span>${esc(t.text.toUpperCase())}</span>`)
         .join('');
       ticker.innerHTML = items + items; // duplicated for a seamless scroll loop
+
+      // Scroll speed should depend on content length, not a fixed duration —
+      // otherwise longer real post text blurs past at the same fixed pace.
+      const pixelsPerSecond = 60;
+      const singleSetWidth = ticker.scrollWidth / 2; // half, since content is duplicated
+      const duration = Math.max(20, singleSetWidth / pixelsPerSecond);
+      ticker.style.animationDuration = `${duration}s`;
     }
 
     // Update the dispatch cards with your latest real posts.
