@@ -1,3 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BiffBifford — Classic Hollywood, Rare Interviews, Music Moments</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#15120D;
+    --black-soft:#1D1811;
+    --cream:#EDE3CC;
+    --paper:#F5EEDD;
+    --gold:#C9A036;
+    --gold-dim:#8A6F27;
+    --rust:#8C3B2E;
+    --steel:#6E675C;
+    --steel-line: rgba(237,227,204,0.14);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--black);
+    color:var(--cream);
+    font-family:'Work Sans', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+  }
+  ::selection{ background:var(--gold); color:var(--black); }
 
+  body::before{
+    content:"";
+    position:fixed; inset:0;
+    pointer-events:none;
+    z-index:200;
+    opacity:0.05;
+    mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  h1,h2,h3{ font-family:'Fraunces', serif; margin:0; font-weight:600; }
+  a{ color:inherit; }
+  .wrap{ max-width:1120px; margin:0 auto; padding:0 28px; }
+
+  nav{
+    position:sticky; top:0; z-index:100;
+    background:rgba(21,18,13,0.92);
+    backdrop-filter: blur(6px);
+    border-bottom:1px solid var(--steel-line);
+  }
+  nav .wrap{ display:flex; align-items:center; justify-content:space-between; height:68px; }
+  .brandmark{ display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .brandmark svg{ width:30px; height:30px; }
+  .brandmark span{ font-family:'Fraunces', serif; font-weight:600; font-size:1.15rem; color:var(--cream); }
+  .brandmark small{ display:block; font-family:'Space Mono', monospace; font-size:0.6rem; letter-spacing:0.06em; color:var(--gold); margin-top:1px; }
+  .navlinks{ display:flex; gap:28px; align-items:center; }
+  .navlinks a{ text-decoration:none; font-size:0.92rem; color:var(--cream); opacity:0.75; transition:opacity .15s; }
+  .navlinks a:hover{ opacity:1; }
+  .navlinks .icon-links{ display:flex; gap:14px; margin-left:6px; padding-left:18px; border-left:1px solid var(--steel-line); }
+  .navlinks .icon-links a{ opacity:0.9; }
+  .navlinks svg{ width:19px; height:19px; display:block; }
+  @media (max-width:720px){ .navlinks a:not(.icon-links a){ display:none; } }
+
+  .hero{
+    position:relative;
+    padding:88px 0 64px;
+    text-align:center;
+    overflow:hidden;
+    background:
+      radial-gradient(ellipse at 50% -10%, rgba(201,160,54,0.12), transparent 60%),
+      var(--black);
+  }
+  .marquee-frame{
+    display:inline-block;
+    position:relative;
+    padding:34px 46px;
+    border:2px solid var(--gold);
+    border-radius:4px;
+  }
+  .marquee-frame .bulb{
+    position:absolute;
+    width:8px; height:8px;
+    border-radius:50%;
+    background:var(--gold-dim);
+    box-shadow:0 0 0 rgba(201,160,54,0);
+    animation:lightup 2.6s ease-in-out infinite;
+  }
+  @keyframes lightup{
+    0%, 100%{ background:var(--gold-dim); box-shadow:0 0 0 rgba(201,160,54,0);}
+    50%{ background:var(--gold); box-shadow:0 0 8px 2px rgba(201,160,54,0.7);}
+  }
+  .eyebrow{
+    font-family:'Space Mono', monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    color:var(--rust);
+    margin-bottom:14px;
+  }
+  .eyebrow::before{ content:"● "; color:var(--rust); }
+  h1.title{
+    font-size:clamp(2.6rem, 7vw, 4.6rem);
+    color:var(--cream);
+    letter-spacing:-0.01em;
+    line-height:1.02;
+  }
+  h1.title em{ font-style:italic; color:var(--gold); font-weight:500; }
+  .tagline{
+    max-width:520px;
+    margin:20px auto 0;
+    color:var(--cream);
+    opacity:0.78;
+    font-size:1.05rem;
+  }
+  .hero-ctas{ margin-top:34px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
+  .btn{
+    display:inline-flex; align-items:center; gap:9px;
+    padding:13px 24px;
+    font-family:'Work Sans', sans-serif;
+    font-weight:600; font-size:0.94rem;
+    text-decoration:none;
+    border-radius:2px;
+    transition:transform .15s ease, background .15s ease;
+  }
+  .btn:hover{ transform:translateY(-1px); }
+  .btn-primary{ background:var(--gold); color:var(--black); }
+  .btn-primary:hover{ background:#DBAF45; }
+  .btn-ghost{ border:1px solid var(--steel-line); color:var(--cream); }
+  .btn-ghost:hover{ border-color:var(--gold); }
+  .btn svg{ width:16px; height:16px; }
+
+  .stats{ display:flex; justify-content:center; gap:44px; margin-top:52px; flex-wrap:wrap; }
+  .stat{ text-align:center; }
+  .stat .num{ font-family:'Fraunces', serif; font-size:1.8rem; color:var(--gold); }
+  .stat .lbl{ font-family:'Space Mono', monospace; font-size:0.68rem; letter-spacing:0.08em; color:var(--steel); text-transform:uppercase; margin-top:2px; }
+
+  .ticker{
+    background:var(--rust);
+    border-top:1px solid rgba(0,0,0,0.25);
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    overflow:hidden;
+    white-space:nowrap;
+    padding:10px 0;
+  }
+  .ticker-track{
+    display:inline-block;
+    animation:scroll 34s linear infinite;
+    font-family:'Space Mono', monospace;
+    font-size:0.82rem;
+    letter-spacing:0.02em;
+    color:var(--paper);
+  }
+  .ticker-track span{ margin-right:38px; }
+  .ticker-track span::after{ content:"✦"; margin-left:38px; color:var(--gold); }
+  @keyframes scroll{ from{ transform:translateX(0);} to{ transform:translateX(-50%);} }
+
+  .title-card .actions{ display:flex; gap:6px; margin-top:14px; padding-top:14px; border-top:1px solid var(--steel-line); }
+  .title-card .actions a{
+    display:inline-flex; align-items:center; gap:5px;
+    font-family:'Space Mono', monospace; font-size:0.68rem;
+    color:var(--steel); text-decoration:none;
+    padding:6px 10px; border:1px solid var(--steel-line); border-radius:2px;
+    transition:color .15s, border-color .15s;
+  }
+  .title-card .actions a:hover{ color:var(--gold); border-color:var(--gold-dim); }
+  .title-card .actions svg{ width:13px; height:13px; }
+
+  section{ padding:88px 0; border-bottom:1px solid var(--steel-line); }
+  .section-head{ margin-bottom:44px; max-width:640px; }
+  .section-head .eyebrow{ margin-bottom:10px; }
+  .section-head h2{ font-size:clamp(1.7rem, 3.4vw, 2.3rem); color:var(--cream); }
+  .section-head p{ color:var(--steel); margin-top:12px; font-size:0.98rem; max-width:520px; }
+
+  .featured{ display:grid; grid-template-columns:220px 1fr; gap:44px; }
+  @media (max-width:760px){ .featured{ grid-template-columns:1fr; } }
+  .featured-rail{ border-right:1px solid var(--steel-line); padding-right:44px; }
+  @media (max-width:760px){ .featured-rail{ border-right:none; padding-right:0; padding-bottom:24px; border-bottom:1px solid var(--steel-line); } }
+  .featured-rail .tag{ font-family:'Space Mono', monospace; font-size:0.68rem; color:var(--gold); letter-spacing:0.06em; }
+  .featured-rail h2{ font-size:1.7rem; margin-top:14px; color:var(--cream); line-height:1.2; }
+  .featured-rail .byline{ margin-top:18px; font-size:0.85rem; color:var(--steel); }
+  .featured-body p{ color:var(--cream); opacity:0.85; font-size:1.02rem; margin:0 0 20px; max-width:640px; }
+  .featured-body p:first-child{ font-family:'Fraunces', serif; font-size:1.15rem; font-style:italic; opacity:0.95; }
+  .featured-body .cont{ color:var(--gold); font-size:0.9rem; text-decoration:none; font-weight:600; }
+
+  .card-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; }
+  @media (max-width:860px){ .card-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:600px){ .card-grid{ grid-template-columns:1fr; } }
+  .title-card{
+    background:var(--black-soft);
+    border:1px solid var(--steel-line);
+    padding:26px 22px;
+    position:relative;
+    transition:border-color .15s;
+  }
+  .title-card:hover{ border-color:var(--gold-dim); }
+  .title-card .tag{
+    font-family:'Space Mono', monospace;
+    font-size:0.68rem;
+    color:var(--gold);
+    letter-spacing:0.06em;
+  }
+  .title-card h3{ font-size:1.2rem; margin-top:12px; color:var(--cream); line-height:1.25; }
+  .title-card p{ font-size:0.9rem; color:var(--steel); margin-top:10px; }
+  .title-card .meta{ margin-top:18px; padding-top:14px; border-top:1px solid var(--steel-line); display:flex; justify-content:space-between; font-family:'Space Mono', monospace; font-size:0.68rem; color:var(--steel); }
+
+  .reel-list{ border-top:1px solid var(--steel-line); }
+  .reel-row{
+    display:grid;
+    grid-template-columns:80px 1fr auto;
+    gap:22px;
+    align-items:center;
+    padding:26px 0;
+    border-bottom:1px solid var(--steel-line);
+  }
+  @media (max-width:640px){ .reel-row{ grid-template-columns:56px 1fr; } .reel-row .runtime{ display:none; } }
+  .reel-icon{
+    width:56px; height:56px;
+    border-radius:50%;
+    border:2px solid var(--gold-dim);
+    display:flex; align-items:center; justify-content:center;
+    position:relative;
+    flex-shrink:0;
+  }
+  .reel-icon::before{
+    content:"";
+    position:absolute; inset:8px;
+    border-radius:50%;
+    border:1px dashed var(--steel);
+  }
+  .reel-icon svg{ width:16px; height:16px; fill:var(--gold); position:relative; }
+  .reel-body h3{ font-size:1.05rem; color:var(--cream); }
+  .reel-body p{ font-size:0.9rem; color:var(--steel); margin-top:6px; font-style:italic; font-family:'Fraunces', serif; }
+  .runtime{ font-family:'Space Mono', monospace; font-size:0.78rem; color:var(--gold); white-space:nowrap; }
+
+  .timeline{ position:relative; padding-left:26px; }
+  .timeline::before{ content:""; position:absolute; left:4px; top:6px; bottom:6px; width:1px; background:var(--steel-line); }
+  .tl-item{ position:relative; padding-bottom:32px; }
+  .tl-item:last-child{ padding-bottom:0; }
+  .tl-item::before{ content:""; position:absolute; left:-26px; top:4px; width:9px; height:9px; border-radius:50%; background:var(--gold); }
+  .tl-date{ font-family:'Space Mono', monospace; font-size:0.75rem; color:var(--gold); }
+  .tl-item h3{ font-size:1.05rem; margin-top:6px; color:var(--cream); }
+  .tl-item p{ font-size:0.9rem; color:var(--steel); margin-top:6px; max-width:560px; }
+
+  .vault{ display:grid; grid-template-columns:1.1fr 1fr; gap:48px; align-items:center; }
+  @media (max-width:800px){ .vault{ grid-template-columns:1fr; } }
+  .vault-panel{
+    background:var(--black-soft);
+    border:1px solid var(--steel-line);
+    padding:28px;
+    font-family:'Space Mono', monospace;
+    font-size:0.82rem;
+    color:var(--cream);
+    line-height:1.75;
+  }
+  .vault-panel .dots{ display:flex; gap:6px; margin-bottom:16px; }
+  .vault-panel .dots span{ width:9px; height:9px; border-radius:50%; background:var(--steel); }
+  .vault-panel .c1{ color:var(--gold); }
+  .vault-panel .c2{ color:var(--rust); }
+  .vault-panel .comment{ color:var(--steel); }
+
+  footer{ padding:64px 0 40px; }
+  .foot-grid{ display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap; }
+  .foot-form{ display:flex; gap:0; max-width:380px; width:100%; }
+  .foot-form input{
+    flex:1;
+    background:transparent;
+    border:1px solid var(--steel-line);
+    border-right:none;
+    padding:12px 14px;
+    color:var(--cream);
+    font-family:'Work Sans', sans-serif;
+    font-size:0.9rem;
+  }
+  .foot-form input:focus{ outline:none; border-color:var(--gold); }
+  .foot-form button{
+    background:var(--gold);
+    border:none;
+    color:var(--black);
+    font-weight:600;
+    padding:0 20px;
+    cursor:pointer;
+    font-family:'Work Sans', sans-serif;
+  }
+  .foot-note{ margin-top:56px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:0.8rem; color:var(--steel); border-top:1px solid var(--steel-line); padding-top:24px; }
+  .foot-note a{ text-decoration:none; color:var(--steel); }
+  .foot-note a:hover{ color:var(--gold); }
+
+  @media (prefers-reduced-motion: reduce){
+    .marquee-frame .bulb, .ticker-track{ animation:none !important; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brandmark" href="#top">
+      <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#C9A036" stroke-width="2"/><circle cx="16" cy="16" r="4" fill="#C9A036"/><circle cx="16" cy="6" r="1.6" fill="#EDE3CC"/><circle cx="26" cy="16" r="1.6" fill="#EDE3CC"/><circle cx="16" cy="26" r="1.6" fill="#EDE3CC"/><circle cx="6" cy="16" r="1.6" fill="#EDE3CC"/></svg>
+      <span>BiffBifford<small>THE ARCHIVE</small></span>
+    </a>
+    <div class="navlinks">
+      <a href="#feature">The Long Take</a>
+      <a href="#dispatches">Dispatches</a>
+      <a href="#interviews">Interviews</a>
+      <a href="#history">History</a>
+      <a href="#vault">The Vault</a>
+      <div class="icon-links">
+        <a href="https://x.com/TBifford" target="_blank" rel="noopener" aria-label="X profile">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-6.9l-5.4-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.9 6.3L18.9 2Zm-1.2 18h1.9L7.4 4H5.4l12.3 16Z"/></svg>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.7.5 12.2c0 5.2 3.4 9.6 8 11.1.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.9 1.2 1.9 1.2 3.2 0 4.5-2.8 5.5-5.4 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 8-5.9 8-11.1C23.5 5.7 18.4.5 12 .5Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="top" class="hero">
+  <div class="wrap">
+    <div class="marquee-frame">
+      <div class="bulb" style="top:-5px; left:-5px; animation-delay:0s;"></div>
+      <div class="bulb" style="top:-5px; left:24%; animation-delay:.2s;"></div>
+      <div class="bulb" style="top:-5px; left:48%; animation-delay:.4s;"></div>
+      <div class="bulb" style="top:-5px; left:72%; animation-delay:.6s;"></div>
+      <div class="bulb" style="top:-5px; right:-5px; animation-delay:.8s;"></div>
+      <div class="bulb" style="bottom:-5px; left:-5px; animation-delay:1.4s;"></div>
+      <div class="bulb" style="bottom:-5px; left:24%; animation-delay:1.2s;"></div>
+      <div class="bulb" style="bottom:-5px; left:48%; animation-delay:1s;"></div>
+      <div class="bulb" style="bottom:-5px; left:72%; animation-delay:.8s;"></div>
+      <div class="bulb" style="bottom:-5px; right:-5px; animation-delay:.6s;"></div>
+      <p class="eyebrow">Now Showing</p>
+      <h1 class="title">The reels they<br><em>didn't</em> keep rolling</h1>
+    </div>
+    <p class="tagline">Classic Hollywood, told through the footage, the vinyl, and the interviews that never made the highlight reel. A daily archive for people who miss when entertainment had texture.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="https://x.com/TBifford" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-6.9l-5.4-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.9 6.3L18.9 2Zm-1.2 18h1.9L7.4 4H5.4l12.3 16Z"/></svg>
+        Follow the feed
+      </a>
+      <a class="btn btn-ghost" href="#vault">Browse the vault →</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="num">71.1K</div><div class="lbl">Posts archived</div></div>
+      <div class="stat"><div class="num">80.3K</div><div class="lbl">Following the reel</div></div>
+      <div class="stat"><div class="num">Apr '22</div><div class="lbl">Projector switched on</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="ticker-track">
+    <span>THE STUDIO SYSTEM DIDN'T DIE — IT WENT INTO REDEVELOPMENT</span>
+    <span>WHY THE BEST TALK-SHOW MOMENTS WERE NEVER THE ONES THAT AIRED</span>
+    <span>A GUITAR THAT OUTLASTED THE BAND IT WAS BOUGHT FOR</span>
+    <span>THE LAST GENERATION OF ACTORS WHO LEARNED ON FILM, NOT VIDEO</span>
+    <span>THE STUDIO SYSTEM DIDN'T DIE — IT WENT INTO REDEVELOPMENT</span>
+    <span>WHY THE BEST TALK-SHOW MOMENTS WERE NEVER THE ONES THAT AIRED</span>
+    <span>A GUITAR THAT OUTLASTED THE BAND IT WAS BOUGHT FOR</span>
+    <span>THE LAST GENERATION OF ACTORS WHO LEARNED ON FILM, NOT VIDEO</span>
+  </div>
+</div>
+
+<section id="feature">
+  <div class="wrap">
+    <div class="featured">
+      <div class="featured-rail">
+        <span class="tag">THE LONG TAKE</span>
+        <h2>Why the coverage shot mattered more than the close-up</h2>
+        <p class="byline">A running column on the craft decisions nobody puts in the trailer.</p>
+      </div>
+      <div class="featured-body">
+        <p>Every director who came up through the studio system learned the same unglamorous lesson first: you don't fall in love with the shot you want, you protect the shot you'll need.</p>
+        <p>Placeholder essay — swap this for a real long-form piece, a pinned thread expanded into prose, or an edited transcript excerpt. This space is built for 400–700 words, enough to give a reader something to sink into before they hit the archive below.</p>
+        <p>The layout keeps a narrow label column on the left and a comfortable reading width on the right, so whatever you drop in here reads like a magazine column rather than a blog post.</p>
+        <a class="cont" href="https://x.com/TBifford" target="_blank" rel="noopener">Read the full thread on X →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dispatches">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Dispatches</p>
+      <h2>What's running this week</h2>
+      <p>Threads and one-off finds from the feed — replace these with your latest pinned posts or pull them in live once you wire up the X API.</p>
+    </div>
+    <div class="card-grid" id="dispatch-grid">
+      <div class="title-card">
+        <span class="tag">FILM HISTORY</span>
+        <h3>The camera operator nobody credited</h3>
+        <p>How a single uncredited DP shaped the look of three decades of studio pictures — and why his name still isn't on IMDb.</p>
+        <div class="meta"><span>Thread · 14 posts</span><span>2.1K saves</span></div>
+      </div>
+      <div class="title-card">
+        <span class="tag">TV HISTORY</span>
+        <h3>The pilot that almost wasn't</h3>
+        <p>A network passed twice. The reel that changed their mind sat in a drawer for eleven months first.</p>
+        <div class="meta"><span>Thread · 9 posts</span><span>1.4K saves</span></div>
+      </div>
+      <div class="title-card">
+        <span class="tag">MUSIC MOMENTS</span>
+        <h3>One take, no click track</h3>
+        <p>The session story behind a record that was supposed to be a scratch vocal — and stayed on the final cut.</p>
+        <div class="meta"><span>Thread · 6 posts</span><span>3.8K saves</span></div>
+      </div>
+      <div class="title-card">
+        <span class="tag">BEHIND THE SCENES</span>
+        <h3>The stunt double who never got billing</h3>
+        <p>He's in the two most-quoted minutes of the film. His name appears nowhere in the credits, and he says he prefers it that way.</p>
+        <div class="meta"><span>Thread · 11 posts</span><span>1.9K saves</span></div>
+      </div>
+      <div class="title-card">
+        <span class="tag">TV HISTORY</span>
+        <h3>The syndication deal that saved a canceled show</h3>
+        <p>Dead on network TV by March. Sold into syndication by June. The rerun money outperformed the original run within two years.</p>
+        <div class="meta"><span>Thread · 8 posts</span><span>2.6K saves</span></div>
+      </div>
+      <div class="title-card">
+        <span class="tag">MUSIC MOMENTS</span>
+        <h3>The b-side that outsold the single</h3>
+        <p>The label pressed it as filler. Radio flipped the record over within a month, and nobody remembers what was on the A-side anymore.</p>
+        <div class="meta"><span>Thread · 7 posts</span><span>3.1K saves</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="interviews">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Rare Interviews</p>
+      <h2>From the reel-to-reel</h2>
+      <p>Excerpts and context from interview footage that rarely gets replayed. Sample entries below — drop in real transcripts and timestamps as you publish them.</p>
+    </div>
+    <div class="reel-list">
+      <div class="reel-row">
+        <div class="reel-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="reel-body">
+          <h3>A director on the scene the studio cut</h3>
+          <p>"We shot it because I didn't trust the ending yet — turned out neither did the audience."</p>
+        </div>
+        <div class="runtime">04:12</div>
+      </div>
+      <div class="reel-row">
+        <div class="reel-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="reel-body">
+          <h3>A session drummer on the record that made him quit touring</h3>
+          <p>"You can hear the moment I stopped trying to impress anyone in that room."</p>
+        </div>
+        <div class="runtime">07:48</div>
+      </div>
+      <div class="reel-row">
+        <div class="reel-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="reel-body">
+          <h3>A late-night booker on the guest who refused to leave the green room</h3>
+          <p>"We aired eleven minutes of a twenty-minute conversation. The rest is still on tape somewhere."</p>
+        </div>
+        <div class="runtime">05:30</div>
+      </div>
+      <div class="reel-row">
+        <div class="reel-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="reel-body">
+          <h3>A costume designer on the star who refused every fitting</h3>
+          <p>"I built the whole wardrobe off a single photograph and a phone call. It fit perfectly. I still don't know how."</p>
+        </div>
+        <div class="runtime">06:15</div>
+      </div>
+      <div class="reel-row">
+        <div class="reel-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="reel-body">
+          <h3>A radio DJ on the interview he taped over by accident</h3>
+          <p>"Forty minutes of tape, gone in about four seconds. I've been telling people about it for longer than the interview even ran."</p>
+        </div>
+        <div class="runtime">03:52</div>
+      </div>
+      <div class="reel-row">
+        <div class="reel-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="reel-body">
+          <h3>A stand-in on stepping into the most quoted scene of the film</h3>
+          <p>"They needed the exact silhouette in the doorway and I happened to be the right height. Nobody tells you that part."</p>
+        </div>
+        <div class="runtime">08:04</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="history">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">This Week, Then</p>
+      <h2>Hollywood history, dated</h2>
+      <p>A running timeline of what happened on this stretch of the calendar — good material for anniversary posts.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">SEPT 12</div>
+        <h3>A studio's biggest gamble of the decade opened quietly</h3>
+        <p>No press junket, a single trade ad, and a line around the block by the second weekend.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">SEPT 15</div>
+        <h3>A late-night format changed overnight — literally</h3>
+        <p>The desk moved eighteen inches to the left and nobody at home noticed for a year.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">SEPT 18</div>
+        <h3>A soundtrack outsold the film that carried it</h3>
+        <p>By a factor of four, within the same fiscal quarter.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">OCT 3</div>
+        <h3>A canceled variety show got one more episode by accident</h3>
+        <p>A contract clause nobody re-read in time forced one final taping — it's the only episode still in circulation.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">NOV 21</div>
+        <h3>A director walked off set for two days over a font</h3>
+        <p>The title card typeface, specifically. The studio caved. Nobody who saw the finished film ever noticed.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">DEC 8</div>
+        <h3>A holiday special outlasted the network that made it</h3>
+        <p>The network folded within the decade. The special still airs somewhere every December, license fees and all.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="vault">
+  <div class="wrap">
+    <div class="vault">
+      <div>
+        <p class="eyebrow">The Vault</p>
+        <h2 style="font-size:clamp(1.7rem, 3.4vw, 2.3rem); margin-top:10px;">The archive lives on GitHub too</h2>
+        <p style="color:var(--steel); margin-top:16px; max-width:460px;">A structured, open dataset of the trivia, timelines, and interview citations behind the feed — release dates, credited crew, session details, sourced and versioned like anything else worth keeping straight. Open to pull requests from anyone who spots a correction.</p>
+        <div class="hero-ctas" style="justify-content:flex-start; margin-top:26px;">
+          <a class="btn btn-primary" href="https://github.com/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.7.5 12.2c0 5.2 3.4 9.6 8 11.1.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.9 1.2 1.9 1.2 3.2 0 4.5-2.8 5.5-5.4 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 8-5.9 8-11.1C23.5 5.7 18.4.5 12 .5Z"/></svg>
+            View the repo
+          </a>
+        </div>
+      </div>
+      <div class="vault-panel">
+        <div class="dots"><span></span><span></span><span></span></div>
+        <div><span class="comment">// hollywood-archive/timeline.json</span></div>
+        <div>&#123;</div>
+        <div>&nbsp;&nbsp;<span class="c1">"date"</span>: <span class="c2">"1971-09-15"</span>,</div>
+        <div>&nbsp;&nbsp;<span class="c1">"event"</span>: <span class="c2">"pilot_greenlit"</span>,</div>
+        <div>&nbsp;&nbsp;<span class="c1">"source"</span>: <span class="c2">"trade_press"</span>,</div>
+        <div>&nbsp;&nbsp;<span class="c1">"verified"</span>: <span style="color:var(--gold);">true</span></div>
+        <div>&#125;</div>
+        <div style="margin-top:14px;"><span class="comment">// open issues: 3 &nbsp; contributors: 12</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3 style="font-size:1.3rem; color:var(--cream);">Get the weekly reel</h3>
+        <p style="color:var(--steel); margin-top:8px; max-width:340px; font-size:0.92rem;">One email a week — the best thread, one rare interview clip, and the history timeline. No studio notes attached.</p>
+      </div>
+      <form class="foot-form" onsubmit="return false;">
+        <input type="email" placeholder="you@email.com" aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="foot-note">
+      <span>© 2026 BiffBifford — Classic Hollywood, Gen-X film &amp; TV culture.</span>
+      <span>
+        <a href="https://x.com/TBifford" target="_blank" rel="noopener">X / Twitter</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(async function () {
+  try {
+    const res = await fetch('data/posts.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const data = await res.json();
+    const tweets = data.tweets || [];
+    if (!tweets.length) return;
+
+    const esc = (str) =>
+      String(str).replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    const truncate = (str, n) => (str.length > n ? str.slice(0, n - 1) + '…' : str);
+
+    const ticker = document.getElementById('ticker-track');
+    if (ticker) {
+      const items = tweets
+        .map((t) => `<span>${esc(t.text.toUpperCase())}</span>`)
+        .join('');
+      ticker.innerHTML = items + items;
+    }
+
+    const grid = document.getElementById('dispatch-grid');
+    if (grid) {
+      grid.innerHTML = tweets
+        .slice(0, 6)
+        .map((t) => {
+          const date = new Date(t.created_at).toLocaleDateString(undefined, {
+            month: 'short', day: 'numeric'
+          });
+          return `
+            <div class="title-card">
+              <span class="tag">FROM THE FEED</span>
+              <h3>${esc(truncate(t.text, 80))}</h3>
+              <p>${esc(truncate(t.text, 160))}</p>
+              <div class="meta"><span>${date}</span><span>${t.likes} likes</span></div>
+              <div class="actions">
+                <a href="https://twitter.com/intent/like?tweet_id=${t.id}" target="_blank" rel="noopener" aria-label="Like this post on X">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-6.7-4.35-9.3-8.1C.9 10.1 1.4 6.6 4.4 5.1c2.2-1.1 4.6-.3 5.9 1.4.5.6.9 1.3 1.7 1.3s1.2-.7 1.7-1.3c1.3-1.7 3.7-2.5 5.9-1.4 3 1.5 3.5 5 1.7 7.8C18.7 16.65 12 21 12 21z"/></svg>
+                  Like
+                </a>
+                <a href="https://twitter.com/intent/tweet?in_reply_to=${t.id}" target="_blank" rel="noopener" aria-label="Reply to this post on X">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 6.5c0-1.4-1.1-2.5-2.5-2.5h-13C4.1 4 3 5.1 3 6.5v8c0 1.4 1.1 2.5 2.5 2.5H7v3.3c0 .4.5.7.8.4L12 17h6.5c1.4 0 2.5-1.1 2.5-2.5v-8z"/></svg>
+                  Reply
+                </a>
+                <a href="https://twitter.com/intent/retweet?tweet_id=${t.id}" target="_blank" rel="noopener" aria-label="Repost this on X">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 2l4 4-4 4V7h-7a3 3 0 0 0-3 3v2H5v-2a5 5 0 0 1 5-5h7V2zM7 22l-4-4 4-4v3h7a3 3 0 0 0 3-3v-2h2v2a5 5 0 0 1-5 5H7v3z"/></svg>
+                  Repost
+                </a>
+              </div>
+            </div>`;
+        })
+        .join('');
+    }
+  } catch (e) {
+    console.log('Live posts unavailable, showing placeholder content.', e);
+  }
+})();
+</script>
+</body>
+</html>
 
 
