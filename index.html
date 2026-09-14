@@ -30,6 +30,7 @@
   }
   ::selection{ background:var(--gold); color:var(--black); }
 
+  /* film grain texture */
   body::before{
     content:"";
     position:fixed; inset:0;
@@ -41,9 +42,12 @@
   }
 
   h1,h2,h3{ font-family:'Fraunces', serif; margin:0; font-weight:600; }
+
   a{ color:inherit; }
+
   .wrap{ max-width:1120px; margin:0 auto; padding:0 28px; }
 
+  /* ---------- NAV ---------- */
   nav{
     position:sticky; top:0; z-index:100;
     background:rgba(21,18,13,0.92);
@@ -63,6 +67,7 @@
   .navlinks svg{ width:19px; height:19px; display:block; }
   @media (max-width:720px){ .navlinks a:not(.icon-links a){ display:none; } }
 
+  /* ---------- HERO / MARQUEE ---------- */
   .hero{
     position:relative;
     padding:88px 0 64px;
@@ -135,6 +140,7 @@
   .stat .num{ font-family:'Fraunces', serif; font-size:1.8rem; color:var(--gold); }
   .stat .lbl{ font-family:'Space Mono', monospace; font-size:0.68rem; letter-spacing:0.08em; color:var(--steel); text-transform:uppercase; margin-top:2px; }
 
+  /* ---------- TICKER ---------- */
   .ticker{
     background:var(--rust);
     border-top:1px solid rgba(0,0,0,0.25);
@@ -166,12 +172,14 @@
   .title-card .actions a:hover{ color:var(--gold); border-color:var(--gold-dim); }
   .title-card .actions svg{ width:13px; height:13px; }
 
+  /* ---------- SECTION SHARED ---------- */
   section{ padding:88px 0; border-bottom:1px solid var(--steel-line); }
   .section-head{ margin-bottom:44px; max-width:640px; }
   .section-head .eyebrow{ margin-bottom:10px; }
   .section-head h2{ font-size:clamp(1.7rem, 3.4vw, 2.3rem); color:var(--cream); }
   .section-head p{ color:var(--steel); margin-top:12px; font-size:0.98rem; max-width:520px; }
 
+  /* ---------- FEATURED (long read) ---------- */
   .featured{ display:grid; grid-template-columns:220px 1fr; gap:44px; }
   @media (max-width:760px){ .featured{ grid-template-columns:1fr; } }
   .featured-rail{ border-right:1px solid var(--steel-line); padding-right:44px; }
@@ -183,6 +191,7 @@
   .featured-body p:first-child{ font-family:'Fraunces', serif; font-size:1.15rem; font-style:italic; opacity:0.95; }
   .featured-body .cont{ color:var(--gold); font-size:0.9rem; text-decoration:none; font-weight:600; }
 
+  /* ---------- DISPATCHES (title cards) ---------- */
   .card-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; }
   @media (max-width:860px){ .card-grid{ grid-template-columns:1fr 1fr; } }
   @media (max-width:600px){ .card-grid{ grid-template-columns:1fr; } }
@@ -204,6 +213,7 @@
   .title-card p{ font-size:0.9rem; color:var(--steel); margin-top:10px; }
   .title-card .meta{ margin-top:18px; padding-top:14px; border-top:1px solid var(--steel-line); display:flex; justify-content:space-between; font-family:'Space Mono', monospace; font-size:0.68rem; color:var(--steel); }
 
+  /* ---------- INTERVIEWS (reel list) ---------- */
   .reel-list{ border-top:1px solid var(--steel-line); }
   .reel-row{
     display:grid;
@@ -233,6 +243,7 @@
   .reel-body p{ font-size:0.9rem; color:var(--steel); margin-top:6px; font-style:italic; font-family:'Fraunces', serif; }
   .runtime{ font-family:'Space Mono', monospace; font-size:0.78rem; color:var(--gold); white-space:nowrap; }
 
+  /* ---------- HISTORY TIMELINE ---------- */
   .timeline{ position:relative; padding-left:26px; }
   .timeline::before{ content:""; position:absolute; left:4px; top:6px; bottom:6px; width:1px; background:var(--steel-line); }
   .tl-item{ position:relative; padding-bottom:32px; }
@@ -242,6 +253,7 @@
   .tl-item h3{ font-size:1.05rem; margin-top:6px; color:var(--cream); }
   .tl-item p{ font-size:0.9rem; color:var(--steel); margin-top:6px; max-width:560px; }
 
+  /* ---------- VAULT / GITHUB ---------- */
   .vault{ display:grid; grid-template-columns:1.1fr 1fr; gap:48px; align-items:center; }
   @media (max-width:800px){ .vault{ grid-template-columns:1fr; } }
   .vault-panel{
@@ -259,6 +271,7 @@
   .vault-panel .c2{ color:var(--rust); }
   .vault-panel .comment{ color:var(--steel); }
 
+  /* ---------- FOOTER / SUBSCRIBE ---------- */
   footer{ padding:64px 0 40px; }
   .foot-grid{ display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap; }
   .foot-form{ display:flex; gap:0; max-width:380px; width:100%; }
@@ -385,7 +398,7 @@
     <div class="section-head">
       <p class="eyebrow">Dispatches</p>
       <h2>What's running this week</h2>
-      <p>Threads and one-off finds from the feed — replace these with your latest pinned posts or pull them in live once you wire up the X API.</p>
+      <p>Pulled straight from the feed, updated automatically every 12 hours.</p>
     </div>
     <div class="card-grid" id="dispatch-grid">
       <div class="title-card">
@@ -586,7 +599,7 @@
 (async function () {
   try {
     const res = await fetch('data/posts.json', { cache: 'no-store' });
-    if (!res.ok) return;
+    if (!res.ok) return; // no data file yet — keep the placeholder content
     const data = await res.json();
     const tweets = data.tweets || [];
     if (!tweets.length) return;
@@ -595,16 +608,23 @@
       String(str).replace(/[&<>"']/g, (c) => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
       }[c]));
-    const truncate = (str, n) => (str.length > n ? str.slice(0, n - 1) + '…' : str);
+    const truncate = (str, n) => {
+      if (str.length <= n) return str;
+      const cut = str.slice(0, n);
+      const lastSpace = cut.lastIndexOf(' ');
+      return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
+    };
 
+    // Update the marquee ticker with real post text.
     const ticker = document.getElementById('ticker-track');
     if (ticker) {
       const items = tweets
         .map((t) => `<span>${esc(t.text.toUpperCase())}</span>`)
         .join('');
-      ticker.innerHTML = items + items;
+      ticker.innerHTML = items + items; // duplicated for a seamless scroll loop
     }
 
+    // Update the dispatch cards with your latest real posts.
     const grid = document.getElementById('dispatch-grid');
     if (grid) {
       grid.innerHTML = tweets
@@ -638,11 +658,10 @@
         .join('');
     }
   } catch (e) {
+    // If anything goes wrong, the static placeholder content simply stays put.
     console.log('Live posts unavailable, showing placeholder content.', e);
   }
 })();
 </script>
 </body>
 </html>
-
-
