@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T20:50:01.539Z",
+  "updated_at": "2026-09-14T20:54:04.069Z",
   "query": "70s movie trailer original",
   "clips": [
     {
@@ -19,28 +19,20 @@
       "url": "https://www.youtube.com/watch?v=--gdB-nnQkU"
     },
     {
-      "id": "x7UsBmavjsE",
-      "title": "Gimme Shelter (1970) ORIGINAL TRAILER [HD 1080p]",
-      "channel": "HD Retro Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/x7UsBmavjsE/hqdefault.jpg",
-      "publishedAt": "2018-03-10T16:59:30Z",
-      "url": "https://www.youtube.com/watch?v=x7UsBmavjsE"
-    },
-    {
-      "id": "bHw39LmnRJU",
-      "title": "Superman (1978) Official Trailer Christopher Reeve Movie HD",
-      "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/bHw39LmnRJU/hqdefault.jpg",
-      "publishedAt": "2014-03-14T05:06:28Z",
-      "url": "https://www.youtube.com/watch?v=bHw39LmnRJU"
-    },
-    {
       "id": "-Hk-LYcavrw",
       "title": "ROCKY (1976) | Official Trailer | MGM",
       "channel": "Amazon MGM Studios",
       "thumbnail": "https://i.ytimg.com/vi/-Hk-LYcavrw/hqdefault.jpg",
       "publishedAt": "2022-04-13T23:00:00Z",
       "url": "https://www.youtube.com/watch?v=-Hk-LYcavrw"
+    },
+    {
+      "id": "x7UsBmavjsE",
+      "title": "Gimme Shelter (1970) ORIGINAL TRAILER [HD 1080p]",
+      "channel": "HD Retro Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/x7UsBmavjsE/hqdefault.jpg",
+      "publishedAt": "2018-03-10T16:59:30Z",
+      "url": "https://www.youtube.com/watch?v=x7UsBmavjsE"
     },
     {
       "id": "SutDTIhbQ2g",
@@ -51,24 +43,32 @@
       "url": "https://www.youtube.com/watch?v=SutDTIhbQ2g"
     },
     {
-      "id": "kyOEwiQhzMI",
-      "title": "Colossus: The Forbin Project (1970)  - Official Trailer (HD)",
-      "channel": "ScreamFactoryTV",
-      "thumbnail": "https://i.ytimg.com/vi/kyOEwiQhzMI/hqdefault.jpg",
-      "publishedAt": "2018-02-05T22:30:02Z",
-      "url": "https://www.youtube.com/watch?v=kyOEwiQhzMI"
+      "id": "bHw39LmnRJU",
+      "title": "Superman (1978) Official Trailer Christopher Reeve Movie HD",
+      "channel": "Rotten Tomatoes Classic Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/bHw39LmnRJU/hqdefault.jpg",
+      "publishedAt": "2014-03-14T05:06:28Z",
+      "url": "https://www.youtube.com/watch?v=bHw39LmnRJU"
     },
     {
-      "id": "GY1oeoVD_zI",
-      "title": "Magic - 1978 Trailer",
-      "channel": "terminallunch",
-      "thumbnail": "https://i.ytimg.com/vi/GY1oeoVD_zI/hqdefault.jpg",
-      "publishedAt": "2012-10-22T15:39:09Z",
-      "url": "https://www.youtube.com/watch?v=GY1oeoVD_zI"
+      "id": "QleJxygRP0o",
+      "title": "Patton (1970) Trailer | George C. Scott, Karl Malden, Stephen Young Movie",
+      "channel": "Movie Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/QleJxygRP0o/hqdefault.jpg",
+      "publishedAt": "2024-06-24T21:00:16Z",
+      "url": "https://www.youtube.com/watch?v=QleJxygRP0o"
+    },
+    {
+      "id": "IAn_PrquNIY",
+      "title": "The Warriors Original Trailer (Walter Hill, 1979)",
+      "channel": "Arrow Video",
+      "thumbnail": "https://i.ytimg.com/vi/IAn_PrquNIY/hqdefault.jpg",
+      "publishedAt": "2023-10-02T11:40:24Z",
+      "url": "https://www.youtube.com/watch?v=IAn_PrquNIY"
     },
     {
       "id": "gfEpqaNth1A",
-      "title": "Ocean&#39;s 11 (1960) Official Trailer - Frank Sinatra, Sammy Davis Jr. Heist Movie HD",
+      "title": "Ocean's 11 (1960) Official Trailer - Frank Sinatra, Sammy Davis Jr. Heist Movie HD",
       "channel": "Rotten Tomatoes Classic Trailers",
       "thumbnail": "https://i.ytimg.com/vi/gfEpqaNth1A/hqdefault.jpg",
       "publishedAt": "2014-07-25T07:21:15Z",
