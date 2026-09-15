@@ -1,7 +1,63 @@
 {
-  "updated_at": "2026-09-14T20:54:04.069Z",
-  "query": "70s movie trailer original",
+  "updated_at": "2026-09-15T10:39:59.722Z",
+  "query": "classic movie trailer restored HD",
   "clips": [
+    {
+      "id": "6tC_5mp3udE",
+      "title": "RoboCop (1987) Official Trailer - Cyborg Police Sci-Fi Movie HD",
+      "channel": "Rotten Tomatoes Classic Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/6tC_5mp3udE/hqdefault.jpg",
+      "publishedAt": "2014-06-27T07:40:26Z",
+      "url": "https://www.youtube.com/watch?v=6tC_5mp3udE"
+    },
+    {
+      "id": "MF7JH_54d8c",
+      "title": "Casablanca | 4K Trailer | Warner Bros. Entertainment",
+      "channel": "Warner Bros. Entertainment",
+      "thumbnail": "https://i.ytimg.com/vi/MF7JH_54d8c/hqdefault.jpg",
+      "publishedAt": "2022-09-13T15:59:49Z",
+      "url": "https://www.youtube.com/watch?v=MF7JH_54d8c"
+    },
+    {
+      "id": "eoDn_Os4DkY",
+      "title": "Rad | 4K Restoration Official Trailer | Utopia",
+      "channel": "Utopia",
+      "thumbnail": "https://i.ytimg.com/vi/eoDn_Os4DkY/hqdefault.jpg",
+      "publishedAt": "2020-06-22T15:28:14Z",
+      "url": "https://www.youtube.com/watch?v=eoDn_Os4DkY"
+    },
+    {
+      "id": "qvsgGtivCgs",
+      "title": "Back To The Future (1985) Theatrical Trailer - Michael J. Fox Movie HD",
+      "channel": "Rotten Tomatoes Classic Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/qvsgGtivCgs/hqdefault.jpg",
+      "publishedAt": "2013-11-16T00:03:27Z",
+      "url": "https://www.youtube.com/watch?v=qvsgGtivCgs"
+    },
+    {
+      "id": "cPNiwc3ogIo",
+      "title": "North By Northwest | Official Trailer 4K Ultra HD | Warner Bros. Entertainment",
+      "channel": "Warner Bros. Entertainment",
+      "thumbnail": "https://i.ytimg.com/vi/cPNiwc3ogIo/hqdefault.jpg",
+      "publishedAt": "2024-10-07T18:50:21Z",
+      "url": "https://www.youtube.com/watch?v=cPNiwc3ogIo"
+    },
+    {
+      "id": "EXeTwQWrcwY",
+      "title": "The Dark Knight (2008) Official Trailer #1 - Christopher Nolan Movie HD",
+      "channel": "Rotten Tomatoes Classic Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/EXeTwQWrcwY/hqdefault.jpg",
+      "publishedAt": "2013-12-03T00:46:23Z",
+      "url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    },
+    {
+      "id": "eTjDsENDZ6s",
+      "title": "Jumanji (1995) Trailer #1 |  Movieclips Classic Trailers",
+      "channel": "Rotten Tomatoes Classic Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/eTjDsENDZ6s/hqdefault.jpg",
+      "publishedAt": "2020-05-11T13:00:28Z",
+      "url": "https://www.youtube.com/watch?v=eTjDsENDZ6s"
+    },
     {
       "id": "XHk5kCIiGoM",
       "title": "STAR WARS Original Trailer (Restored) - 1976",
@@ -11,68 +67,12 @@
       "url": "https://www.youtube.com/watch?v=XHk5kCIiGoM"
     },
     {
-      "id": "--gdB-nnQkU",
-      "title": "The Warriors (1979) ORIGINAL TRAILER [HD 1080p]",
-      "channel": "HD Retro Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/--gdB-nnQkU/hqdefault.jpg",
-      "publishedAt": "2018-11-08T22:02:11Z",
-      "url": "https://www.youtube.com/watch?v=--gdB-nnQkU"
-    },
-    {
-      "id": "-Hk-LYcavrw",
-      "title": "ROCKY (1976) | Official Trailer | MGM",
-      "channel": "Amazon MGM Studios",
-      "thumbnail": "https://i.ytimg.com/vi/-Hk-LYcavrw/hqdefault.jpg",
-      "publishedAt": "2022-04-13T23:00:00Z",
-      "url": "https://www.youtube.com/watch?v=-Hk-LYcavrw"
-    },
-    {
-      "id": "x7UsBmavjsE",
-      "title": "Gimme Shelter (1970) ORIGINAL TRAILER [HD 1080p]",
-      "channel": "HD Retro Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/x7UsBmavjsE/hqdefault.jpg",
-      "publishedAt": "2018-03-10T16:59:30Z",
-      "url": "https://www.youtube.com/watch?v=x7UsBmavjsE"
-    },
-    {
-      "id": "SutDTIhbQ2g",
-      "title": "Duel  (1971) Official Trailer - Dennis Weaver, Steven Spielberg Thriller Movie HD",
+      "id": "a3qcNyjj9ZQ",
+      "title": "The Rock (1996) Trailer #1 | Movieclips Classic Trailers",
       "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/SutDTIhbQ2g/hqdefault.jpg",
-      "publishedAt": "2014-06-12T08:04:22Z",
-      "url": "https://www.youtube.com/watch?v=SutDTIhbQ2g"
-    },
-    {
-      "id": "bHw39LmnRJU",
-      "title": "Superman (1978) Official Trailer Christopher Reeve Movie HD",
-      "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/bHw39LmnRJU/hqdefault.jpg",
-      "publishedAt": "2014-03-14T05:06:28Z",
-      "url": "https://www.youtube.com/watch?v=bHw39LmnRJU"
-    },
-    {
-      "id": "QleJxygRP0o",
-      "title": "Patton (1970) Trailer | George C. Scott, Karl Malden, Stephen Young Movie",
-      "channel": "Movie Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/QleJxygRP0o/hqdefault.jpg",
-      "publishedAt": "2024-06-24T21:00:16Z",
-      "url": "https://www.youtube.com/watch?v=QleJxygRP0o"
-    },
-    {
-      "id": "IAn_PrquNIY",
-      "title": "The Warriors Original Trailer (Walter Hill, 1979)",
-      "channel": "Arrow Video",
-      "thumbnail": "https://i.ytimg.com/vi/IAn_PrquNIY/hqdefault.jpg",
-      "publishedAt": "2023-10-02T11:40:24Z",
-      "url": "https://www.youtube.com/watch?v=IAn_PrquNIY"
-    },
-    {
-      "id": "gfEpqaNth1A",
-      "title": "Ocean's 11 (1960) Official Trailer - Frank Sinatra, Sammy Davis Jr. Heist Movie HD",
-      "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/gfEpqaNth1A/hqdefault.jpg",
-      "publishedAt": "2014-07-25T07:21:15Z",
-      "url": "https://www.youtube.com/watch?v=gfEpqaNth1A"
+      "thumbnail": "https://i.ytimg.com/vi/a3qcNyjj9ZQ/hqdefault.jpg",
+      "publishedAt": "2020-08-14T13:00:00Z",
+      "url": "https://www.youtube.com/watch?v=a3qcNyjj9ZQ"
     }
   ]
 }
