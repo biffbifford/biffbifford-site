@@ -1,12 +1,22 @@
 {
-  "updated_at": "2026-09-14T18:55:05.853Z",
+  "updated_at": "2026-09-15T04:00:09.411Z",
   "account": {
     "followers": 80328,
     "following": 28529,
-    "posts": 71119,
+    "posts": 71124,
     "listed": 97
   },
   "tweets": [
+    {
+      "id": "2099658639107637332",
+      "text": "😱I think Shania is sexy. But there is something really wrong with this. She is deliberately flashing her crotch in granny underwear, and it looks creepy. \nhttps://t.co/zyq5n8y6iq",
+      "created_at": "2026-09-15T00:36:43.000Z",
+      "likes": 92,
+      "retweets": 4,
+      "replies": 46,
+      "quotes": 4,
+      "url": "https://x.com/TBifford/status/2099658639107637332"
+    },
     {
       "id": "2099523268025758164",
       "text": "🤔Unpopular opinion: movie sequels get judged unfairly. \n\nCritics review them against the original's novelty, but audiences just want more of what worked. That mismatch is why so many 'objectively worse' sequels still outperform at the box office. \n\nThe Force Awakens got hammered https://t.co/qrGpJwhmZ4",
@@ -42,7 +52,7 @@
       "text": "🍿Christopher Nolan’s rotating hotel hallway scene in Inception (2010) looks like a seamless masterclass in digital CGI, but the actual engineering behind how they pulled it off in real life is mind-blowing.\n\n🔥As you can see in this structural breakdown asset, the production https://t.co/EyR57hXBer",
       "created_at": "2026-09-13T21:38:15.000Z",
       "likes": 6,
-      "retweets": 0,
+      "retweets": 1,
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2099251334986018907"
@@ -86,16 +96,6 @@
       "replies": 1,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2099186382937669784"
-    },
-    {
-      "id": "2099163615957827642",
-      "text": "😍If you grew up watching television in the late 1970s and 1980s, you definitely remember the absolute classic setup of The Dukes of Hazzard. This clip from the very first episode in 1979 perfectly captures the show's signature charm, showcasing Daisy Duke alongside Bo and Luke. https://t.co/4xay1P2S1i",
-      "created_at": "2026-09-13T15:49:41.000Z",
-      "likes": 50,
-      "retweets": 1,
-      "replies": 1,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2099163615957827642"
     }
   ]
 }
