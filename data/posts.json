@@ -1,20 +1,30 @@
 {
-  "updated_at": "2026-09-15T16:33:03.818Z",
+  "updated_at": "2026-09-16T03:58:08.473Z",
   "account": {
-    "followers": 80362,
-    "following": 28528,
-    "posts": 71127,
+    "followers": 80367,
+    "following": 28526,
+    "posts": 71139,
     "listed": 97
   },
   "tweets": [
     {
+      "id": "2099931187925946425",
+      "text": "🔥Guess the movie 🎬 One clue: a small beach town, a rogue predator, and possibly the most quoted ad-lib in film history. Drop your guess below. 🤔 https://t.co/HjEHERpa8w",
+      "created_at": "2026-09-15T18:39:44.000Z",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 6,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2099931187925946425"
+    },
+    {
       "id": "2099658639107637332",
       "text": "😱I think Shania is sexy. But there is something really wrong with this. She is deliberately flashing her crotch in granny underwear, and it looks creepy. \nhttps://t.co/zyq5n8y6iq",
       "created_at": "2026-09-15T00:36:43.000Z",
-      "likes": 522,
-      "retweets": 17,
-      "replies": 286,
-      "quotes": 18,
+      "likes": 660,
+      "retweets": 26,
+      "replies": 358,
+      "quotes": 23,
       "url": "https://x.com/TBifford/status/2099658639107637332"
     },
     {
@@ -86,16 +96,6 @@
       "replies": 1,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2099209856121217529"
-    },
-    {
-      "id": "2099186382937669784",
-      "text": "🛑If you’re a creator on here trying to figure out why your payouts are tanking or why you got randomly denied from the monetization program, you need to understand \"Layer 3\" of X’s Original Content Rewards guidelines. \n\nThis is the unwritten trapdoor most people are completely",
-      "created_at": "2026-09-13T17:20:09.000Z",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 1,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2099186382937669784"
     }
   ]
 }
