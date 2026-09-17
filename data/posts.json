@@ -1,17 +1,27 @@
 {
-  "updated_at": "2026-09-17T04:04:03.969Z",
+  "updated_at": "2026-09-17T16:31:57.633Z",
   "account": {
-    "followers": 80387,
-    "following": 28524,
-    "posts": 71155,
+    "followers": 80382,
+    "following": 28522,
+    "posts": 71157,
     "listed": 97
   },
   "tweets": [
     {
+      "id": "2100611581084086691",
+      "text": "🔥That deep hum before every movie in the 80s and 90s wasn't just for volume-testing. It has a name: \"Deep Note.\"\n\nA Lucasfilm sound engineer named Andy Moorer built it in 1982 using 30 individual synthesized voices, each one sliding upward from a low, narrow band into a specific https://t.co/wu8qw5Xkgo",
+      "created_at": "2026-09-17T15:43:23.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2100611581084086691"
+    },
+    {
       "id": "2100339422961307801",
       "text": "📺Wonder Woman didn't need a stunt double.\n\nLynda Carter insisted on doing her own stunts on the show — including hanging from a helicopter in the 1977 episode \"Anschluss '77,\" a moment that reportedly made CBS nervous the entire time they filmed it. There was no green screen https://t.co/vHqPPCefDN",
       "created_at": "2026-09-16T21:41:55.000Z",
-      "likes": 4,
+      "likes": 10,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -21,7 +31,7 @@
       "id": "2100301157272789254",
       "text": "🔥\"Huckleberry\" or \"Huckle Bearer\"?\n\nDoc Holliday's most famous line in Tombstone has a rumor attached to it. Some people claim he really said \"huckle-bearer\" — supposedly old slang for a pallbearer, meaning he was threatening to bury Johnny Ringo. Sounds cooler. Sounds more https://t.co/08W2kyrYji",
       "created_at": "2026-09-16T19:09:52.000Z",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -31,7 +41,7 @@
       "id": "2100266242531529190",
       "text": "Classic entertainment. Wait for Mitch to come rolling by. 😂 https://t.co/27dzmeS9DG",
       "created_at": "2026-09-16T16:51:07.000Z",
-      "likes": 1,
+      "likes": 2,
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
@@ -41,7 +51,7 @@
       "id": "2100238638143439190",
       "text": "🎥Deep cut: the most famous line in The Shining wasn't in the script.\n\nJack Nicholson ad-libbed \"Here's Johnny!\" on set, riffing on Ed McMahon's catchphrase from The Tonight Show — something a British crew largely didn't get at the time, since the show didn't air in the UK. https://t.co/ddast0iKAb",
       "created_at": "2026-09-16T15:01:26.000Z",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -86,16 +96,6 @@
       "replies": 1,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2099309076878336058"
-    },
-    {
-      "id": "2099251334986018907",
-      "text": "🍿Christopher Nolan’s rotating hotel hallway scene in Inception (2010) looks like a seamless masterclass in digital CGI, but the actual engineering behind how they pulled it off in real life is mind-blowing.\n\n🔥As you can see in this structural breakdown asset, the production https://t.co/EyR57hXBer",
-      "created_at": "2026-09-13T21:38:15.000Z",
-      "likes": 6,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2099251334986018907"
     }
   ]
 }
