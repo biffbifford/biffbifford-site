@@ -1,17 +1,37 @@
 {
-  "updated_at": "2026-09-17T16:31:57.633Z",
+  "updated_at": "2026-09-18T03:50:37.744Z",
   "account": {
-    "followers": 80382,
-    "following": 28522,
-    "posts": 71157,
+    "followers": 80383,
+    "following": 28526,
+    "posts": 71161,
     "listed": 97
   },
   "tweets": [
     {
+      "id": "2100729078873510145",
+      "text": "🔥Before stunt coordinators and CGI, there was just Douglas Fairbanks and a bullwhip.\n\nIn 1925's Don Q, Son of Zorro, Fairbanks played a dual role — reprising Zorro himself and starring as his son. For the son's signature weapon, the studio gave him a real stock whip, and https://t.co/EydFj2uVt7",
+      "created_at": "2026-09-17T23:30:16.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2100729078873510145"
+    },
+    {
+      "id": "2100646209648205962",
+      "text": "🔥Hollywood almost left California for good — and the fight isn't over.\n\nBy last year, the state had lost roughly 40,000 production jobs in two years. Newsom himself called the industry \"on life support.\" California's answer: more than double its film tax credit, from $330 https://t.co/air0ZnDcRW",
+      "created_at": "2026-09-17T18:00:59.000Z",
+      "likes": 2,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2100646209648205962"
+    },
+    {
       "id": "2100611581084086691",
       "text": "🔥That deep hum before every movie in the 80s and 90s wasn't just for volume-testing. It has a name: \"Deep Note.\"\n\nA Lucasfilm sound engineer named Andy Moorer built it in 1982 using 30 individual synthesized voices, each one sliding upward from a low, narrow band into a specific https://t.co/wu8qw5Xkgo",
       "created_at": "2026-09-17T15:43:23.000Z",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -21,7 +41,7 @@
       "id": "2100339422961307801",
       "text": "📺Wonder Woman didn't need a stunt double.\n\nLynda Carter insisted on doing her own stunts on the show — including hanging from a helicopter in the 1977 episode \"Anschluss '77,\" a moment that reportedly made CBS nervous the entire time they filmed it. There was no green screen https://t.co/vHqPPCefDN",
       "created_at": "2026-09-16T21:41:55.000Z",
-      "likes": 10,
+      "likes": 11,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -31,7 +51,7 @@
       "id": "2100301157272789254",
       "text": "🔥\"Huckleberry\" or \"Huckle Bearer\"?\n\nDoc Holliday's most famous line in Tombstone has a rumor attached to it. Some people claim he really said \"huckle-bearer\" — supposedly old slang for a pallbearer, meaning he was threatening to bury Johnny Ringo. Sounds cooler. Sounds more https://t.co/08W2kyrYji",
       "created_at": "2026-09-16T19:09:52.000Z",
-      "likes": 4,
+      "likes": 5,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -41,7 +61,7 @@
       "id": "2100266242531529190",
       "text": "Classic entertainment. Wait for Mitch to come rolling by. 😂 https://t.co/27dzmeS9DG",
       "created_at": "2026-09-16T16:51:07.000Z",
-      "likes": 2,
+      "likes": 3,
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
@@ -51,7 +71,7 @@
       "id": "2100238638143439190",
       "text": "🎥Deep cut: the most famous line in The Shining wasn't in the script.\n\nJack Nicholson ad-libbed \"Here's Johnny!\" on set, riffing on Ed McMahon's catchphrase from The Tonight Show — something a British crew largely didn't get at the time, since the show didn't air in the UK. https://t.co/ddast0iKAb",
       "created_at": "2026-09-16T15:01:26.000Z",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -61,7 +81,7 @@
       "id": "2099931187925946425",
       "text": "🔥Guess the movie 🎬 One clue: a small beach town, a rogue predator, and possibly the most quoted ad-lib in film history. Drop your guess below. 🤔 https://t.co/HjEHERpa8w",
       "created_at": "2026-09-15T18:39:44.000Z",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 6,
       "quotes": 0,
@@ -86,16 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2099330250568090106"
-    },
-    {
-      "id": "2099309076878336058",
-      "text": "🍿Celebrating the career of Judd Hughes’ ultimate rebel, Judd Nelson, at 66 years old. On the left is the absolute pinnacle of 1980s cinematic anti-establishment: John Bender in The Breakfast Club (1985). With the layer of the long tweed coat, the deep burgundy scarf, and the https://t.co/098Qo2sj1b",
-      "created_at": "2026-09-14T01:27:41.000Z",
-      "likes": 9,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2099309076878336058"
     }
   ]
 }
