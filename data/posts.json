@@ -1,12 +1,42 @@
 {
-  "updated_at": "2026-09-18T16:03:15.202Z",
+  "updated_at": "2026-09-19T03:47:14.828Z",
   "account": {
-    "followers": 80368,
-    "following": 28523,
-    "posts": 71161,
+    "followers": 80342,
+    "following": 28520,
+    "posts": 71164,
     "listed": 96
   },
   "tweets": [
+    {
+      "id": "2101121534588846508",
+      "text": "🎥Bicentennial Man needed 160 crew members and a trip to NASA to make one robot face look real.\n\nThe film's makeup team invented a silicone process that didn't exist before, just to get Robin Williams' face inside a suit that barely moved. It got an Oscar nomination for the https://t.co/o9Ln4nf0CM",
+      "created_at": "2026-09-19T01:29:45.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2101121534588846508"
+    },
+    {
+      "id": "2101114254451523789",
+      "text": "🔥Bicentennial Man imagined a robot spending 200 years earning the right to become human.\n\nThe whole plot hinges on one twist: courts wouldn't grant Andrew personhood until he agreed to give up immortality and die like the rest of us. Fiction's answer was \"yes, eventually — if it https://t.co/0X7du114zu",
+      "created_at": "2026-09-19T01:00:49.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2101114254451523789"
+    },
+    {
+      "id": "2101052527286571037",
+      "text": "🔥The year Robin Williams became a star was also the year he got married.\n\nIn 1976, he was bartending at a San Francisco tavern when Valerie Velardi walked in. He chatted her up in French, asked her for a ride home, and that was that. Two years later, in June 1978, they got https://t.co/gBfktICOji",
+      "created_at": "2026-09-18T20:55:32.000Z",
+      "likes": 10,
+      "retweets": 1,
+      "replies": 1,
+      "quotes": 1,
+      "url": "https://x.com/TBifford/status/2101052527286571037"
+    },
     {
       "id": "2100729078873510145",
       "text": "🔥Before stunt coordinators and CGI, there was just Douglas Fairbanks and a bullwhip.\n\nIn 1925's Don Q, Son of Zorro, Fairbanks played a dual role — reprising Zorro himself and starring as his son. For the son's signature weapon, the studio gave him a real stock whip, and https://t.co/EydFj2uVt7",
@@ -76,36 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2100238638143439190"
-    },
-    {
-      "id": "2099931187925946425",
-      "text": "🔥Guess the movie 🎬 One clue: a small beach town, a rogue predator, and possibly the most quoted ad-lib in film history. Drop your guess below. 🤔 https://t.co/HjEHERpa8w",
-      "created_at": "2026-09-15T18:39:44.000Z",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 6,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2099931187925946425"
-    },
-    {
-      "id": "2099523268025758164",
-      "text": "🤔Unpopular opinion: movie sequels get judged unfairly. \n\nCritics review them against the original's novelty, but audiences just want more of what worked. That mismatch is why so many 'objectively worse' sequels still outperform at the box office. \n\nThe Force Awakens got hammered https://t.co/qrGpJwhmZ4",
-      "created_at": "2026-09-14T15:38:49.000Z",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2099523268025758164"
-    },
-    {
-      "id": "2099330250568090106",
-      "text": "🔥Box office predictions for this weekend: Practical Magic 2 opening between $40M–$50M, and Spider-Man: Brand New Day adding another $9M–$11M as it closes in on The Force Awakens for the #1 domestic spot of all time.\n\nMy prediction: Practical Magic 2 hits the high end. A 28-year https://t.co/ahFeBccaqJ",
-      "created_at": "2026-09-14T02:51:50.000Z",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2099330250568090106"
     }
   ]
 }
