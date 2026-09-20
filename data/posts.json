@@ -1,12 +1,42 @@
 {
-  "updated_at": "2026-09-19T15:35:55.512Z",
+  "updated_at": "2026-09-20T04:03:21.387Z",
   "account": {
-    "followers": 80338,
+    "followers": 80336,
     "following": 28517,
-    "posts": 71164,
+    "posts": 71175,
     "listed": 96
   },
   "tweets": [
+    {
+      "id": "2101482630646583341",
+      "text": "🔥I've been posting fewer videos lately, and I wanted to say why.\n\nI love clipping and sharing classic film and TV moments — that's not going anywhere. But I've been shifting a lot of my focus toward deeper, researched pieces: real history, real production stories, real context https://t.co/GOvX1MAxnS",
+      "created_at": "2026-09-20T01:24:37.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2101482630646583341"
+    },
+    {
+      "id": "2101401257709539787",
+      "text": "Mickey (Biff's family dog). I do not feel bad for shaming this dog. He just had a bath and decided that it was a good time to play in the pond and dig a hole near the garden. You know how long it took to clean him? https://t.co/neLgV30YBB",
+      "created_at": "2026-09-19T20:01:16.000Z",
+      "likes": 7,
+      "retweets": 0,
+      "replies": 4,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2101401257709539787"
+    },
+    {
+      "id": "2101373871815356591",
+      "text": "🎥Buster Keaton broke his neck filming a stunt in 1924. He didn't find out for 11 years.\n\nThe scene: he runs across the top of a moving freight train in Sherlock Jr., then leaps to grab a water tower's release tube on the way down. The plan was a light splash for the gag. https://t.co/YSKuUz7sGw",
+      "created_at": "2026-09-19T18:12:27.000Z",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2101373871815356591"
+    },
     {
       "id": "2101121534588846508",
       "text": "🎥Bicentennial Man needed 160 crew members and a trip to NASA to make one robot face look real.\n\nThe film's makeup team invented a silicone process that didn't exist before, just to get Robin Williams' face inside a suit that barely moved. It got an Oscar nomination for the https://t.co/o9Ln4nf0CM",
@@ -31,7 +61,7 @@
       "id": "2101052527286571037",
       "text": "🔥The year Robin Williams became a star was also the year he got married.\n\nIn 1976, he was bartending at a San Francisco tavern when Valerie Velardi walked in. He chatted her up in French, asked her for a ride home, and that was that. Two years later, in June 1978, they got https://t.co/gBfktICOji",
       "created_at": "2026-09-18T20:55:32.000Z",
-      "likes": 13,
+      "likes": 14,
       "retweets": 1,
       "replies": 1,
       "quotes": 1,
@@ -76,36 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2100339422961307801"
-    },
-    {
-      "id": "2100301157272789254",
-      "text": "🔥\"Huckleberry\" or \"Huckle Bearer\"?\n\nDoc Holliday's most famous line in Tombstone has a rumor attached to it. Some people claim he really said \"huckle-bearer\" — supposedly old slang for a pallbearer, meaning he was threatening to bury Johnny Ringo. Sounds cooler. Sounds more https://t.co/08W2kyrYji",
-      "created_at": "2026-09-16T19:09:52.000Z",
-      "likes": 5,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2100301157272789254"
-    },
-    {
-      "id": "2100266242531529190",
-      "text": "Classic entertainment. Wait for Mitch to come rolling by. 😂 https://t.co/27dzmeS9DG",
-      "created_at": "2026-09-16T16:51:07.000Z",
-      "likes": 3,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2100266242531529190"
-    },
-    {
-      "id": "2100238638143439190",
-      "text": "🎥Deep cut: the most famous line in The Shining wasn't in the script.\n\nJack Nicholson ad-libbed \"Here's Johnny!\" on set, riffing on Ed McMahon's catchphrase from The Tonight Show — something a British crew largely didn't get at the time, since the show didn't air in the UK. https://t.co/ddast0iKAb",
-      "created_at": "2026-09-16T15:01:26.000Z",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2100238638143439190"
     }
   ]
 }
