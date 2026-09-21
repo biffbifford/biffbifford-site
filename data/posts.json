@@ -1,12 +1,22 @@
 {
-  "updated_at": "2026-09-21T04:00:55.434Z",
+  "updated_at": "2026-09-21T18:01:25.975Z",
   "account": {
-    "followers": 80334,
-    "following": 28520,
-    "posts": 71180,
+    "followers": 80321,
+    "following": 28513,
+    "posts": 71183,
     "listed": 96
   },
   "tweets": [
+    {
+      "id": "2102060522887647547",
+      "text": "🔥Alfred Hitchcock once lit a glass of milk from the inside to make an audience suspicious of murder.\n\nIn Suspicion (1941), Cary Grant carries a glass of milk up a dark staircase to his wife — and Hitchcock wanted the audience to wonder if it's poisoned. Instead of just lighting https://t.co/Fp5Qq7rJlH",
+      "created_at": "2026-09-21T15:40:57.000Z",
+      "likes": 10,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2102060522887647547"
+    },
     {
       "id": "2101482630646583341",
       "text": "🔥I've been posting fewer videos lately, and I wanted to say why.\n\nI love clipping and sharing classic film and TV moments — that's not going anywhere. But I've been shifting a lot of my focus toward deeper, researched pieces: real history, real production stories, real context https://t.co/GOvX1MAxnS",
@@ -43,7 +53,7 @@
       "created_at": "2026-09-19T01:29:45.000Z",
       "likes": 2,
       "retweets": 0,
-      "replies": 3,
+      "replies": 4,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2101121534588846508"
     },
@@ -96,16 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2100611581084086691"
-    },
-    {
-      "id": "2100339422961307801",
-      "text": "📺Wonder Woman didn't need a stunt double.\n\nLynda Carter insisted on doing her own stunts on the show — including hanging from a helicopter in the 1977 episode \"Anschluss '77,\" a moment that reportedly made CBS nervous the entire time they filmed it. There was no green screen https://t.co/vHqPPCefDN",
-      "created_at": "2026-09-16T21:41:55.000Z",
-      "likes": 11,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2100339422961307801"
     }
   ]
 }
