@@ -1,17 +1,27 @@
 {
-  "updated_at": "2026-09-21T18:01:25.975Z",
+  "updated_at": "2026-09-22T03:58:15.290Z",
   "account": {
-    "followers": 80321,
+    "followers": 80313,
     "following": 28513,
-    "posts": 71183,
+    "posts": 71186,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2102151504597487825",
+      "text": "🔥John Vernon played the same type of man three times, in three completely different movies.\n\nThe exasperated, by-the-book authority figure. First as the mayor endlessly frustrated by Dirty Harry in 1971. Then as Fletcher, the reluctant Confederate officer forced to hunt his own https://t.co/4Hvs1C83ts",
+      "created_at": "2026-09-21T21:42:29.000Z",
+      "likes": 13,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2102151504597487825"
+    },
+    {
       "id": "2102060522887647547",
       "text": "🔥Alfred Hitchcock once lit a glass of milk from the inside to make an audience suspicious of murder.\n\nIn Suspicion (1941), Cary Grant carries a glass of milk up a dark staircase to his wife — and Hitchcock wanted the audience to wonder if it's poisoned. Instead of just lighting https://t.co/Fp5Qq7rJlH",
       "created_at": "2026-09-21T15:40:57.000Z",
-      "likes": 10,
+      "likes": 17,
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
@@ -51,9 +61,9 @@
       "id": "2101121534588846508",
       "text": "🎥Bicentennial Man needed 160 crew members and a trip to NASA to make one robot face look real.\n\nThe film's makeup team invented a silicone process that didn't exist before, just to get Robin Williams' face inside a suit that barely moved. It got an Oscar nomination for the https://t.co/o9Ln4nf0CM",
       "created_at": "2026-09-19T01:29:45.000Z",
-      "likes": 2,
+      "likes": 3,
       "retweets": 0,
-      "replies": 4,
+      "replies": 5,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2101121534588846508"
     },
@@ -71,7 +81,7 @@
       "id": "2101052527286571037",
       "text": "🔥The year Robin Williams became a star was also the year he got married.\n\nIn 1976, he was bartending at a San Francisco tavern when Valerie Velardi walked in. He chatted her up in French, asked her for a ride home, and that was that. Two years later, in June 1978, they got https://t.co/gBfktICOji",
       "created_at": "2026-09-18T20:55:32.000Z",
-      "likes": 14,
+      "likes": 15,
       "retweets": 1,
       "replies": 1,
       "quotes": 1,
@@ -96,16 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2100646209648205962"
-    },
-    {
-      "id": "2100611581084086691",
-      "text": "🔥That deep hum before every movie in the 80s and 90s wasn't just for volume-testing. It has a name: \"Deep Note.\"\n\nA Lucasfilm sound engineer named Andy Moorer built it in 1982 using 30 individual synthesized voices, each one sliding upward from a low, narrow band into a specific https://t.co/wu8qw5Xkgo",
-      "created_at": "2026-09-17T15:43:23.000Z",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2100611581084086691"
     }
   ]
 }
