@@ -1,17 +1,37 @@
 {
-  "updated_at": "2026-09-22T03:58:15.290Z",
+  "updated_at": "2026-09-22T16:33:34.396Z",
   "account": {
-    "followers": 80313,
-    "following": 28513,
-    "posts": 71186,
+    "followers": 80307,
+    "following": 28510,
+    "posts": 71184,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2102425193377329576",
+      "text": "🎥Mary Pickford once spent 15 hours filming a kiss that lasts less than two seconds on screen.\n\nIn Little Lord Fauntleroy (1921), Pickford played both a mother and her young son — and one scene called for the boy to kiss his mother on the cheek. Same actress, same frame, no CGI, https://t.co/PmKyK58Akt",
+      "created_at": "2026-09-22T15:50:01.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2102425193377329576"
+    },
+    {
+      "id": "2102247050549268927",
+      "text": "🎥The most famous horror villain in film history was based on a real man. 🍿\n\nAnd the director who created him didn't even believe in the psychology behind his own movie. https://t.co/VTwB1AbQrf",
+      "created_at": "2026-09-22T04:02:09.000Z",
+      "likes": 6,
+      "retweets": 1,
+      "replies": 3,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2102247050549268927"
+    },
+    {
       "id": "2102151504597487825",
       "text": "🔥John Vernon played the same type of man three times, in three completely different movies.\n\nThe exasperated, by-the-book authority figure. First as the mayor endlessly frustrated by Dirty Harry in 1971. Then as Fletcher, the reluctant Confederate officer forced to hunt his own https://t.co/4Hvs1C83ts",
       "created_at": "2026-09-21T21:42:29.000Z",
-      "likes": 13,
+      "likes": 14,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -86,26 +106,6 @@
       "replies": 1,
       "quotes": 1,
       "url": "https://x.com/TBifford/status/2101052527286571037"
-    },
-    {
-      "id": "2100729078873510145",
-      "text": "🔥Before stunt coordinators and CGI, there was just Douglas Fairbanks and a bullwhip.\n\nIn 1925's Don Q, Son of Zorro, Fairbanks played a dual role — reprising Zorro himself and starring as his son. For the son's signature weapon, the studio gave him a real stock whip, and https://t.co/EydFj2uVt7",
-      "created_at": "2026-09-17T23:30:16.000Z",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2100729078873510145"
-    },
-    {
-      "id": "2100646209648205962",
-      "text": "🔥Hollywood almost left California for good — and the fight isn't over.\n\nBy last year, the state had lost roughly 40,000 production jobs in two years. Newsom himself called the industry \"on life support.\" California's answer: more than double its film tax credit, from $330 https://t.co/air0ZnDcRW",
-      "created_at": "2026-09-17T18:00:59.000Z",
-      "likes": 2,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2100646209648205962"
     }
   ]
 }
