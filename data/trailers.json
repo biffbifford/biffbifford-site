@@ -1,7 +1,23 @@
 {
-  "updated_at": "2026-09-21T11:23:43.506Z",
-  "query": "classic movie trailer restored HD",
+  "updated_at": "2026-09-22T10:33:14.775Z",
+  "query": "80s movie trailer official",
   "clips": [
+    {
+      "id": "0nBr5OqPr2A",
+      "title": "The 80s: A Motion Picture Special - FINAL TRAILER",
+      "channel": "The Vintage Tribute",
+      "thumbnail": "https://i.ytimg.com/vi/0nBr5OqPr2A/hqdefault.jpg",
+      "publishedAt": "2026-08-13T19:30:10Z",
+      "url": "https://www.youtube.com/watch?v=0nBr5OqPr2A"
+    },
+    {
+      "id": "ez-iAzzYzWg",
+      "title": "The 80s: A Motion Picture Special OFFICIAL TEASER",
+      "channel": "The Vintage Tribute",
+      "thumbnail": "https://i.ytimg.com/vi/ez-iAzzYzWg/hqdefault.jpg",
+      "publishedAt": "2025-06-13T15:58:12Z",
+      "url": "https://www.youtube.com/watch?v=ez-iAzzYzWg"
+    },
     {
       "id": "6tC_5mp3udE",
       "title": "RoboCop (1987) Official Trailer - Cyborg Police Sci-Fi Movie HD",
@@ -11,12 +27,36 @@
       "url": "https://www.youtube.com/watch?v=6tC_5mp3udE"
     },
     {
-      "id": "MF7JH_54d8c",
-      "title": "Casablanca | 4K Trailer | Warner Bros. Entertainment",
-      "channel": "Warner Bros. Entertainment",
-      "thumbnail": "https://i.ytimg.com/vi/MF7JH_54d8c/hqdefault.jpg",
-      "publishedAt": "2022-09-13T15:59:49Z",
-      "url": "https://www.youtube.com/watch?v=MF7JH_54d8c"
+      "id": "j4pFHmSuHRQ",
+      "title": "The Outsiders (1983) Official Trailer - Matt Dillon, Tom Cruise Movie HD",
+      "channel": "Rotten Tomatoes Classic Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/j4pFHmSuHRQ/hqdefault.jpg",
+      "publishedAt": "2014-06-27T07:50:17Z",
+      "url": "https://www.youtube.com/watch?v=j4pFHmSuHRQ"
+    },
+    {
+      "id": "ybnoJErfDas",
+      "title": "Legend (1985) ORIGINAL TRAILER [HD 1080p]",
+      "channel": "Unseen Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/ybnoJErfDas/hqdefault.jpg",
+      "publishedAt": "2022-06-08T13:12:13Z",
+      "url": "https://www.youtube.com/watch?v=ybnoJErfDas"
+    },
+    {
+      "id": "g4oPo5BBxA8",
+      "title": "\"Less Than Zero (1987)\" Theatrical Trailer #1",
+      "channel": "Cinematic Movie Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/g4oPo5BBxA8/hqdefault.jpg",
+      "publishedAt": "2013-01-15T23:28:16Z",
+      "url": "https://www.youtube.com/watch?v=g4oPo5BBxA8"
+    },
+    {
+      "id": "T8j47fK6lVE",
+      "title": "Oxford Blues (1984) Official Trailer - Rob Lowe, Ally Sheedy Movie HD",
+      "channel": "Rotten Tomatoes Classic Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/T8j47fK6lVE/hqdefault.jpg",
+      "publishedAt": "2014-09-11T05:02:54Z",
+      "url": "https://www.youtube.com/watch?v=T8j47fK6lVE"
     },
     {
       "id": "eoDn_Os4DkY",
@@ -27,52 +67,12 @@
       "url": "https://www.youtube.com/watch?v=eoDn_Os4DkY"
     },
     {
-      "id": "qvsgGtivCgs",
-      "title": "Back To The Future (1985) Theatrical Trailer - Michael J. Fox Movie HD",
+      "id": "O2yd4em1I6M",
+      "title": "Labyrinth (1986) Official Trailer - David Bowie, Jennifer Connelly Movie HD",
       "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/qvsgGtivCgs/hqdefault.jpg",
-      "publishedAt": "2013-11-16T00:03:27Z",
-      "url": "https://www.youtube.com/watch?v=qvsgGtivCgs"
-    },
-    {
-      "id": "EXeTwQWrcwY",
-      "title": "The Dark Knight (2008) Official Trailer #1 - Christopher Nolan Movie HD",
-      "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/EXeTwQWrcwY/hqdefault.jpg",
-      "publishedAt": "2013-12-03T00:46:23Z",
-      "url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
-    },
-    {
-      "id": "cPNiwc3ogIo",
-      "title": "North By Northwest | Official Trailer 4K Ultra HD | Warner Bros. Entertainment",
-      "channel": "Warner Bros. Entertainment",
-      "thumbnail": "https://i.ytimg.com/vi/cPNiwc3ogIo/hqdefault.jpg",
-      "publishedAt": "2024-10-07T18:50:21Z",
-      "url": "https://www.youtube.com/watch?v=cPNiwc3ogIo"
-    },
-    {
-      "id": "eTjDsENDZ6s",
-      "title": "Jumanji (1995) Trailer #1 |  Movieclips Classic Trailers",
-      "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/eTjDsENDZ6s/hqdefault.jpg",
-      "publishedAt": "2020-05-11T13:00:28Z",
-      "url": "https://www.youtube.com/watch?v=eTjDsENDZ6s"
-    },
-    {
-      "id": "A4U2pMRV9_k",
-      "title": "Old - Official Trailer [HD]",
-      "channel": "Universal Pictures",
-      "thumbnail": "https://i.ytimg.com/vi/A4U2pMRV9_k/hqdefault.jpg",
-      "publishedAt": "2021-05-27T14:59:42Z",
-      "url": "https://www.youtube.com/watch?v=A4U2pMRV9_k"
-    },
-    {
-      "id": "iXOOL6SygW8",
-      "title": "The Sandlot (1993) Trailer #1 | Movieclips Classic Trailers",
-      "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/iXOOL6SygW8/hqdefault.jpg",
-      "publishedAt": "2019-07-05T16:00:15Z",
-      "url": "https://www.youtube.com/watch?v=iXOOL6SygW8"
+      "thumbnail": "https://i.ytimg.com/vi/O2yd4em1I6M/hqdefault.jpg",
+      "publishedAt": "2016-01-11T17:46:23Z",
+      "url": "https://www.youtube.com/watch?v=O2yd4em1I6M"
     }
   ]
 }
