@@ -1,17 +1,47 @@
 {
-  "updated_at": "2026-09-22T16:33:34.396Z",
+  "updated_at": "2026-09-23T03:55:57.009Z",
   "account": {
-    "followers": 80307,
-    "following": 28510,
-    "posts": 71184,
+    "followers": 80294,
+    "following": 28511,
+    "posts": 71190,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2102558845318934676",
+      "text": "🔥The ending of Casablanca wasn't written when they started shooting the film.\n\nThe 1942 classic began production before the script was finished — writers were handing pages to actors just days, sometimes hours, before scenes were shot. Ingrid Bergman later said she didn't know https://t.co/b9FUZsVNMT",
+      "created_at": "2026-09-23T00:41:07.000Z",
+      "likes": 7,
+      "retweets": 2,
+      "replies": 1,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2102558845318934676"
+    },
+    {
+      "id": "2102549666772451533",
+      "text": "🔥Peg Entwistle was already a respected Broadway \"It Girl\" before Hollywood ever knew her name.\n\nBorn in Wales in 1908, she moved to New York in 1925 and trained with the New York Theatre Guild before joining a repertory company in Boston, where her performance in Ibsen's The https://t.co/5GPhgNvcJr",
+      "created_at": "2026-09-23T00:04:38.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2102549666772451533"
+    },
+    {
+      "id": "2102496108811550885",
+      "text": "📺Before TV had special effects, one man just built his own out of a can of Sterno. 🍿\n\nIn the early 1950s, live television had no way to do a split screen or a smooth transition—the equipment didn't exist yet. So Ernie Kovacs invented his own.\n\nTo fake a heat-shimmer dissolve https://t.co/NXVL1pccUL",
+      "created_at": "2026-09-22T20:31:49.000Z",
+      "likes": 9,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2102496108811550885"
+    },
+    {
       "id": "2102425193377329576",
       "text": "🎥Mary Pickford once spent 15 hours filming a kiss that lasts less than two seconds on screen.\n\nIn Little Lord Fauntleroy (1921), Pickford played both a mother and her young son — and one scene called for the boy to kiss his mother on the cheek. Same actress, same frame, no CGI, https://t.co/PmKyK58Akt",
       "created_at": "2026-09-22T15:50:01.000Z",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -21,7 +51,7 @@
       "id": "2102247050549268927",
       "text": "🎥The most famous horror villain in film history was based on a real man. 🍿\n\nAnd the director who created him didn't even believe in the psychology behind his own movie. https://t.co/VTwB1AbQrf",
       "created_at": "2026-09-22T04:02:09.000Z",
-      "likes": 6,
+      "likes": 7,
       "retweets": 1,
       "replies": 3,
       "quotes": 0,
@@ -31,9 +61,9 @@
       "id": "2102151504597487825",
       "text": "🔥John Vernon played the same type of man three times, in three completely different movies.\n\nThe exasperated, by-the-book authority figure. First as the mayor endlessly frustrated by Dirty Harry in 1971. Then as Fletcher, the reluctant Confederate officer forced to hunt his own https://t.co/4Hvs1C83ts",
       "created_at": "2026-09-21T21:42:29.000Z",
-      "likes": 14,
+      "likes": 15,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2102151504597487825"
     },
@@ -76,36 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2101373871815356591"
-    },
-    {
-      "id": "2101121534588846508",
-      "text": "🎥Bicentennial Man needed 160 crew members and a trip to NASA to make one robot face look real.\n\nThe film's makeup team invented a silicone process that didn't exist before, just to get Robin Williams' face inside a suit that barely moved. It got an Oscar nomination for the https://t.co/o9Ln4nf0CM",
-      "created_at": "2026-09-19T01:29:45.000Z",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 5,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2101121534588846508"
-    },
-    {
-      "id": "2101114254451523789",
-      "text": "🔥Bicentennial Man imagined a robot spending 200 years earning the right to become human.\n\nThe whole plot hinges on one twist: courts wouldn't grant Andrew personhood until he agreed to give up immortality and die like the rest of us. Fiction's answer was \"yes, eventually — if it https://t.co/0X7du114zu",
-      "created_at": "2026-09-19T01:00:49.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2101114254451523789"
-    },
-    {
-      "id": "2101052527286571037",
-      "text": "🔥The year Robin Williams became a star was also the year he got married.\n\nIn 1976, he was bartending at a San Francisco tavern when Valerie Velardi walked in. He chatted her up in French, asked her for a ride home, and that was that. Two years later, in June 1978, they got https://t.co/gBfktICOji",
-      "created_at": "2026-09-18T20:55:32.000Z",
-      "likes": 15,
-      "retweets": 1,
-      "replies": 1,
-      "quotes": 1,
-      "url": "https://x.com/TBifford/status/2101052527286571037"
     }
   ]
 }
