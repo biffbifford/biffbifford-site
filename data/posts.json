@@ -1,17 +1,37 @@
 {
-  "updated_at": "2026-09-25T16:50:19.536Z",
+  "updated_at": "2026-09-26T04:09:08.777Z",
   "account": {
-    "followers": 80260,
-    "following": 28504,
-    "posts": 71203,
+    "followers": 80261,
+    "following": 28501,
+    "posts": 71208,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2103678511219130398",
+      "text": "One of the most famous organ riffs in rock history was played by a guy who didn't play organ.\n\nIn June 1965, Al Kooper showed up to a Bob Dylan session hoping to play guitar. Then he heard the actual session guitarist warming up — Mike Bloomfield — and quietly put his own guitar https://t.co/sER55rp5JB",
+      "created_at": "2026-09-26T02:50:16.000Z",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2103678511219130398"
+    },
+    {
+      "id": "2103643384216772738",
+      "text": "A 19-year-old climbed onto a burning tank destroyer, alone, and held off an entire company of German soldiers with its machine gun.\n\nThat wasn't a movie scene. It happened in January 1945, and the soldier was Audie Murphy — who by the end of World War II became the most decorated https://t.co/gUf27msK77",
+      "created_at": "2026-09-26T00:30:41.000Z",
+      "likes": 11,
+      "retweets": 3,
+      "replies": 2,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2103643384216772738"
+    },
+    {
       "id": "2103258679432892925",
       "text": "🎥A Technicolor three-strip camera never captured a single frame of color. Not one.\n\nInside, light hits a prism and splits across three separate strips of plain black-and-white film — one behind a green filter, two more sandwiched together behind a magenta filter for red and https://t.co/toGVvBArx4",
       "created_at": "2026-09-24T23:02:00.000Z",
-      "likes": 3,
+      "likes": 4,
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
@@ -86,26 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2102425193377329576"
-    },
-    {
-      "id": "2102247050549268927",
-      "text": "🎥The most famous horror villain in film history was based on a real man. 🍿\n\nAnd the director who created him didn't even believe in the psychology behind his own movie. https://t.co/VTwB1AbQrf",
-      "created_at": "2026-09-22T04:02:09.000Z",
-      "likes": 9,
-      "retweets": 1,
-      "replies": 3,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2102247050549268927"
-    },
-    {
-      "id": "2102151504597487825",
-      "text": "🔥John Vernon played the same type of man three times, in three completely different movies.\n\nThe exasperated, by-the-book authority figure. First as the mayor endlessly frustrated by Dirty Harry in 1971. Then as Fletcher, the reluctant Confederate officer forced to hunt his own https://t.co/4Hvs1C83ts",
-      "created_at": "2026-09-21T21:42:29.000Z",
-      "likes": 15,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2102151504597487825"
     }
   ]
 }
