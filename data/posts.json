@@ -1,17 +1,27 @@
 {
-  "updated_at": "2026-09-26T04:09:08.777Z",
+  "updated_at": "2026-09-26T16:01:28.884Z",
   "account": {
-    "followers": 80261,
-    "following": 28501,
+    "followers": 80248,
+    "following": 28500,
     "posts": 71208,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2103863593359856081",
+      "text": "🔥Mickey Mouse only exists because Walt Disney lost a bet on a rabbit.\n\nIn 1927, Disney and animator Ub Iwerks created Oswald the Lucky Rabbit — his first real hit, produced for distributor Charles Mintz and Universal Pictures. Oswald was popular enough to spawn merchandise, one https://t.co/RbIEXnkg5p",
+      "created_at": "2026-09-26T15:05:43.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2103863593359856081"
+    },
+    {
       "id": "2103678511219130398",
       "text": "One of the most famous organ riffs in rock history was played by a guy who didn't play organ.\n\nIn June 1965, Al Kooper showed up to a Bob Dylan session hoping to play guitar. Then he heard the actual session guitarist warming up — Mike Bloomfield — and quietly put his own guitar https://t.co/sER55rp5JB",
       "created_at": "2026-09-26T02:50:16.000Z",
-      "likes": 3,
+      "likes": 6,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -21,9 +31,9 @@
       "id": "2103643384216772738",
       "text": "A 19-year-old climbed onto a burning tank destroyer, alone, and held off an entire company of German soldiers with its machine gun.\n\nThat wasn't a movie scene. It happened in January 1945, and the soldier was Audie Murphy — who by the end of World War II became the most decorated https://t.co/gUf27msK77",
       "created_at": "2026-09-26T00:30:41.000Z",
-      "likes": 11,
+      "likes": 19,
       "retweets": 3,
-      "replies": 2,
+      "replies": 4,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2103643384216772738"
     },
@@ -41,7 +51,7 @@
       "id": "2103197664082887079",
       "text": "😱The Exorcist wasn't invented. It was based on a real Catholic Church record of a 1949 exorcism — and even the real story has its own myths.\n\nA 14-year-old boy from Maryland, known for decades only as \"Roland Doe,\" was reportedly the subject of 20 to 30 exorcism rites performed https://t.co/LiTsxONKwH",
       "created_at": "2026-09-24T18:59:33.000Z",
-      "likes": 6,
+      "likes": 7,
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
@@ -61,7 +71,7 @@
       "id": "2102780779747287174",
       "text": "🏆Hattie McDaniel won the first Oscar ever given to a Black performer. She still wasn't allowed to sit with her own cast.\n\nIn 1940, she won Best Supporting Actress for Gone with the Wind — a historic first. The ceremony was held at the Cocoanut Grove nightclub, which enforced a https://t.co/0czdyhDl4i",
       "created_at": "2026-09-23T15:23:00.000Z",
-      "likes": 4,
+      "likes": 5,
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
@@ -96,16 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2102496108811550885"
-    },
-    {
-      "id": "2102425193377329576",
-      "text": "🎥Mary Pickford once spent 15 hours filming a kiss that lasts less than two seconds on screen.\n\nIn Little Lord Fauntleroy (1921), Pickford played both a mother and her young son — and one scene called for the boy to kiss his mother on the cheek. Same actress, same frame, no CGI, https://t.co/PmKyK58Akt",
-      "created_at": "2026-09-22T15:50:01.000Z",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2102425193377329576"
     }
   ]
 }
