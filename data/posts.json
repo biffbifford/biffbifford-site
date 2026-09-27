@@ -1,17 +1,27 @@
 {
-  "updated_at": "2026-09-27T04:23:57.510Z",
+  "updated_at": "2026-09-27T16:38:24.817Z",
   "account": {
-    "followers": 80239,
-    "following": 28497,
-    "posts": 71213,
+    "followers": 80230,
+    "following": 28495,
+    "posts": 71215,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2104228633380376975",
+      "text": "🔥Batman fans in 1967 tuned in and the Riddler suddenly had a different face — and nobody explained why.\n\nFrank Gorshin's Riddler had been the breakout villain of Batman's first season, earning him an Emmy nomination. So when his new agents asked for more money for season two, he https://t.co/NDxgPOCWOA",
+      "created_at": "2026-09-27T15:16:15.000Z",
+      "likes": 10,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2104228633380376975"
+    },
+    {
       "id": "2104005925883560149",
       "text": "🐭Walt Disney once received an Oscar that couldn't stand on its own — literally.\n\nIn 1939, the Academy wanted to honor Snow White and the Seven Dwarfs, but wouldn't give an animated film a Best Picture nomination. So Academy president Frank Capra designed something that had never https://t.co/0Pvl1VbZPS",
       "created_at": "2026-09-27T00:31:17.000Z",
-      "likes": 7,
+      "likes": 10,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -31,7 +41,7 @@
       "id": "2103933853392093195",
       "text": "🔥You've heard Tommy Tedesco's guitar hundreds of times. You've just never heard his name.\n\nThat twangy opening riff on Bonanza. The fuzzy, galloping guitar on Green Acres. The wah-wah solo that kicks off Three's Company. All the same guy.\n\nTedesco was part of an unofficial group https://t.co/6ckhrsqulL",
       "created_at": "2026-09-26T19:44:54.000Z",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -41,7 +51,7 @@
       "id": "2103863593359856081",
       "text": "🔥Mickey Mouse only exists because Walt Disney lost a bet on a rabbit.\n\nIn 1927, Disney and animator Ub Iwerks created Oswald the Lucky Rabbit — his first real hit, produced for distributor Charles Mintz and Universal Pictures. Oswald was popular enough to spawn merchandise, one https://t.co/RbIEXnkg5p",
       "created_at": "2026-09-26T15:05:43.000Z",
-      "likes": 5,
+      "likes": 6,
       "retweets": 0,
       "replies": 2,
       "quotes": 0,
@@ -51,7 +61,7 @@
       "id": "2103678511219130398",
       "text": "One of the most famous organ riffs in rock history was played by a guy who didn't play organ.\n\nIn June 1965, Al Kooper showed up to a Bob Dylan session hoping to play guitar. Then he heard the actual session guitarist warming up — Mike Bloomfield — and quietly put his own guitar https://t.co/sER55rp5JB",
       "created_at": "2026-09-26T02:50:16.000Z",
-      "likes": 11,
+      "likes": 12,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
@@ -64,7 +74,7 @@
       "likes": 24,
       "retweets": 3,
       "replies": 4,
-      "quotes": 1,
+      "quotes": 0,
       "url": "https://x.com/TBifford/status/2103643384216772738"
     },
     {
@@ -96,16 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2103132645626400905"
-    },
-    {
-      "id": "2102780779747287174",
-      "text": "🏆Hattie McDaniel won the first Oscar ever given to a Black performer. She still wasn't allowed to sit with her own cast.\n\nIn 1940, she won Best Supporting Actress for Gone with the Wind — a historic first. The ceremony was held at the Cocoanut Grove nightclub, which enforced a https://t.co/0czdyhDl4i",
-      "created_at": "2026-09-23T15:23:00.000Z",
-      "likes": 5,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2102780779747287174"
     }
   ]
 }
