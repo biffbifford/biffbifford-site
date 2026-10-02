@@ -1,17 +1,27 @@
 {
-  "updated_at": "2026-10-02T04:43:58.426Z",
+  "updated_at": "2026-10-02T17:38:17.675Z",
   "account": {
-    "followers": 80186,
-    "following": 28492,
-    "posts": 71263,
+    "followers": 80177,
+    "following": 28490,
+    "posts": 71268,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2106038680947191895",
+      "text": "🔥The studio took out a multi-million-dollar life insurance policy on Robin. By the end of the show, he joked they seemed to be trying to collect on it.\n\nBurt Ward was 19 when he landed Robin in the 1966 Batman series. He was told he'd need to do his own stunts; his costume https://t.co/LB01uKi1h3",
+      "created_at": "2026-10-02T15:08:44.000Z",
+      "likes": 9,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0,
+      "url": "https://x.com/TBifford/status/2106038680947191895"
+    },
+    {
       "id": "2105859166506033571",
       "text": "🔥The first movie star in history became famous because a studio boss announced her death in a fake newspaper story.\n\nIn the earliest years of film, studios deliberately kept actors anonymous, afraid that famous names would demand more money. Audiences didn't know Florence https://t.co/EibAAgs8GW",
       "created_at": "2026-10-02T03:15:24.000Z",
-      "likes": 2,
+      "likes": 3,
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
@@ -21,8 +31,8 @@
       "id": "2105810420502065561",
       "text": "Thirteen years before Michael Curtiz made Casablanca, he nearly got people killed trying to film the Great Flood for real.\n\nFor the climax of Noah's Ark (1928), Curtiz wanted total authenticity. He dumped roughly 600,000 gallons of water onto thousands of extras, without warning https://t.co/CLNug2lout",
       "created_at": "2026-10-02T00:01:42.000Z",
-      "likes": 5,
-      "retweets": 1,
+      "likes": 8,
+      "retweets": 2,
       "replies": 1,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2105810420502065561"
@@ -96,16 +106,6 @@
       "replies": 0,
       "quotes": 0,
       "url": "https://x.com/TBifford/status/2105308685559840782"
-    },
-    {
-      "id": "2105112306229088419",
-      "text": "🔥She was called the most beautiful woman in film. She also invented the technology your phone uses right now.\n\nHedy Lamarr wasn't just a Hollywood star in the 1930s and 40s; she was also a self-taught inventor, encouraged by her father as a child. During World War II, she teamed https://t.co/5o5gGymew4",
-      "created_at": "2026-09-30T01:47:39.000Z",
-      "likes": 13,
-      "retweets": 1,
-      "replies": 3,
-      "quotes": 0,
-      "url": "https://x.com/TBifford/status/2105112306229088419"
     }
   ]
 }
