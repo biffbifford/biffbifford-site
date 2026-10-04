@@ -1,3 +1,4 @@
+javascript
 // scripts/fetch-news.mjs
 //
 // Pulls headlines from public RSS feeds and writes them to data/news.json.
@@ -131,4 +132,45 @@ async function main() {
     }
   }
 
-  // A real failure: nothing
+  // A real failure: nothing could be reached at all.
+  if (!feedsWorked) {
+    console.error("Every feed failed; leaving data/news.json unchanged.");
+    process.exit(1);
+  }
+
+  const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
+  const seen = new Set();
+  const classicOnly = all
+    .filter((i) => i.time >= cutoff && i.time <= Date.now() + 86400000)
+    .filter((i) => (seen.has(i.url) ? false : seen.add(i.url)))
+    .filter((i) => i.fromClassicOutlet || classicRe.test(i.title))
+    .sort((a, b) => b.time - a.time);
+
+  const perSource = {};
+  const picked = [];
+  for (const item of classicOnly) {
+    if ((perSource[item.source] || 0) >= MAX_PER_SOURCE) continue;
+    perSource[item.source] = (perSource[item.source] || 0) + 1;
+    picked.push(item);
+    if (picked.length >= MAX_ITEMS) break;
+  }
+
+  // Feeds worked but nothing classic turned up: keep the current file, no error.
+  if (!picked.length) {
+    console.log("No classic-era stories this time; keeping the existing data/news.json.");
+    return;
+  }
+
+  const items = picked.map(({ title, url, source, time }) => ({
+    title, url, source, published: new Date(time).toISOString()
+  }));
+
+  await mkdir("data", { recursive: true });
+  await writeFile(OUTPUT_PATH, JSON.stringify({ updated_at: new Date().toISOString(), items }, null, 2));
+  console.log(`Wrote ${items.length} classic-era headlines to ${OUTPUT_PATH}`);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
