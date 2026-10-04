@@ -1,30 +1,38 @@
 {
-  "updated_at": "2026-10-03T10:47:36.961Z",
-  "query": "classic movie trailer restored HD",
+  "updated_at": "2026-10-04T11:29:37.401Z",
+  "query": "80s movie trailer official",
   "clips": [
     {
-      "id": "eoDn_Os4DkY",
-      "title": "Rad | 4K Restoration Official Trailer | Utopia",
-      "channel": "Utopia",
-      "thumbnail": "https://i.ytimg.com/vi/eoDn_Os4DkY/hqdefault.jpg",
-      "publishedAt": "2020-06-22T15:28:14Z",
-      "url": "https://www.youtube.com/watch?v=eoDn_Os4DkY"
+      "id": "0nBr5OqPr2A",
+      "title": "The 80s: A Motion Picture Special - FINAL TRAILER",
+      "channel": "The Vintage Tribute",
+      "thumbnail": "https://i.ytimg.com/vi/0nBr5OqPr2A/hqdefault.jpg",
+      "publishedAt": "2026-08-13T19:30:10Z",
+      "url": "https://www.youtube.com/watch?v=0nBr5OqPr2A"
     },
     {
-      "id": "A4U2pMRV9_k",
-      "title": "Old - Official Trailer [HD]",
-      "channel": "Universal Pictures",
-      "thumbnail": "https://i.ytimg.com/vi/A4U2pMRV9_k/hqdefault.jpg",
-      "publishedAt": "2021-05-27T14:59:42Z",
-      "url": "https://www.youtube.com/watch?v=A4U2pMRV9_k"
+      "id": "ez-iAzzYzWg",
+      "title": "The 80s: A Motion Picture Special OFFICIAL TEASER",
+      "channel": "The Vintage Tribute",
+      "thumbnail": "https://i.ytimg.com/vi/ez-iAzzYzWg/hqdefault.jpg",
+      "publishedAt": "2025-06-13T15:58:12Z",
+      "url": "https://www.youtube.com/watch?v=ez-iAzzYzWg"
     },
     {
-      "id": "5NmGPCjXph0",
-      "title": "Carrie: 4K Restoration | Official Trailer | Park Circus",
-      "channel": "Park Circus",
-      "thumbnail": "https://i.ytimg.com/vi/5NmGPCjXph0/hqdefault.jpg",
-      "publishedAt": "2024-09-18T09:33:11Z",
-      "url": "https://www.youtube.com/watch?v=5NmGPCjXph0"
+      "id": "_fTMb1olDQY",
+      "title": "ASSI TRAILER: Taapsee Pannu, Kani Kusruti | Anubhav Sinha | Bhushan Kumar | 20 February 2026",
+      "channel": "T-Series",
+      "thumbnail": "https://i.ytimg.com/vi/_fTMb1olDQY/hqdefault.jpg",
+      "publishedAt": "2026-02-04T10:30:07Z",
+      "url": "https://www.youtube.com/watch?v=_fTMb1olDQY"
+    },
+    {
+      "id": "g4oPo5BBxA8",
+      "title": "\"Less Than Zero (1987)\" Theatrical Trailer #1",
+      "channel": "Cinematic Movie Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/g4oPo5BBxA8/hqdefault.jpg",
+      "publishedAt": "2013-01-15T23:28:16Z",
+      "url": "https://www.youtube.com/watch?v=g4oPo5BBxA8"
     },
     {
       "id": "6tC_5mp3udE",
@@ -35,36 +43,28 @@
       "url": "https://www.youtube.com/watch?v=6tC_5mp3udE"
     },
     {
-      "id": "PA-h3-0wheo",
-      "title": "Alice in Wonderland (1951) Trailer #1 | Movieclips Classic Trailers",
+      "id": "ybnoJErfDas",
+      "title": "Legend (1985) ORIGINAL TRAILER [HD 1080p]",
+      "channel": "Unseen Trailers",
+      "thumbnail": "https://i.ytimg.com/vi/ybnoJErfDas/hqdefault.jpg",
+      "publishedAt": "2022-06-08T13:12:13Z",
+      "url": "https://www.youtube.com/watch?v=ybnoJErfDas"
+    },
+    {
+      "id": "j4pFHmSuHRQ",
+      "title": "The Outsiders (1983) Official Trailer - Matt Dillon, Tom Cruise Movie HD",
       "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/PA-h3-0wheo/hqdefault.jpg",
-      "publishedAt": "2019-07-10T16:00:06Z",
-      "url": "https://www.youtube.com/watch?v=PA-h3-0wheo"
+      "thumbnail": "https://i.ytimg.com/vi/j4pFHmSuHRQ/hqdefault.jpg",
+      "publishedAt": "2014-06-27T07:50:17Z",
+      "url": "https://www.youtube.com/watch?v=j4pFHmSuHRQ"
     },
     {
-      "id": "MF7JH_54d8c",
-      "title": "Casablanca | 4K Trailer | Warner Bros. Entertainment",
-      "channel": "Warner Bros. Entertainment",
-      "thumbnail": "https://i.ytimg.com/vi/MF7JH_54d8c/hqdefault.jpg",
-      "publishedAt": "2022-09-13T15:59:49Z",
-      "url": "https://www.youtube.com/watch?v=MF7JH_54d8c"
-    },
-    {
-      "id": "qvsgGtivCgs",
-      "title": "Back To The Future (1985) Theatrical Trailer - Michael J. Fox Movie HD",
+      "id": "QqFZuR6UzjA",
+      "title": "Little Shop Of Horrors (1986) Official Trailer - Steve Martin, Bill Murray Comedy Musical HD",
       "channel": "Rotten Tomatoes Classic Trailers",
-      "thumbnail": "https://i.ytimg.com/vi/qvsgGtivCgs/hqdefault.jpg",
-      "publishedAt": "2013-11-16T00:03:27Z",
-      "url": "https://www.youtube.com/watch?v=qvsgGtivCgs"
-    },
-    {
-      "id": "NcMKhpugdQE",
-      "title": "Old | M. Night Shyamalan | Official Hindi Trailer",
-      "channel": "Universal Pictures India",
-      "thumbnail": "https://i.ytimg.com/vi/NcMKhpugdQE/hqdefault.jpg",
-      "publishedAt": "2021-07-31T12:30:08Z",
-      "url": "https://www.youtube.com/watch?v=NcMKhpugdQE"
+      "thumbnail": "https://i.ytimg.com/vi/QqFZuR6UzjA/hqdefault.jpg",
+      "publishedAt": "2014-07-10T08:32:24Z",
+      "url": "https://www.youtube.com/watch?v=QqFZuR6UzjA"
     },
     {
       "id": "ickbVzajrk0",
