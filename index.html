@@ -1,7 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BiffBifford — Classic Hollywood, TV History, Music Moments</title>
+<meta name="description" content="Classic Hollywood, TV history, and music moments, plus the stories behind them. Straight from the feed at @TBifford.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%2315120D' stroke='%23C9A036' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23C9A036'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#15120D;
+    --black-soft:#1D1811;
+    --cream:#EDE3CC;
+    --paper:#F5EEDD;
+    --gold:#C9A036;
+    --gold-dim:#8A6F27;
+    --rust:#8C3B2E;
+    --steel:#6E675C;
+    --steel-line: rgba(237,227,204,0.14);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--black);
+    color:var(--cream);
+    font-family:'Work Sans', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+  }
+  ::selection{ background:var(--gold); color:var(--black); }
+
+  /* film grain texture */
+  body::before{
+    content:"";
+    position:fixed; inset:0;
+    pointer-events:none;
+    z-index:200;
+    opacity:0.05;
+    mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  h1,h2,h3{ font-family:'Fraunces', serif; margin:0; font-weight:600; }
+
+  a{ color:inherit; }
+
+  .wrap{ max-width:1120px; margin:0 auto; padding:0 28px; }
+
+  /* ---------- NAV ---------- */
+  nav{
+    position:sticky; top:0; z-index:100;
+    background:rgba(21,18,13,0.92);
+    backdrop-filter: blur(6px);
+    border-bottom:1px solid var(--steel-line);
+  }
+  nav .wrap{ display:flex; align-items:center; justify-content:space-between; height:68px; }
+  .brandmark{ display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .brandmark svg{ width:30px; height:30px; }
+  .brandmark span{ font-family:'Fraunces', serif; font-weight:600; font-size:1.15rem; color:var(--cream); }
+  .brandmark small{ display:block; font-family:'Space Mono', monospace; font-size:0.6rem; letter-spacing:0.06em; color:var(--gold); margin-top:1px; }
+  .navlinks{ display:flex; gap:28px; align-items:center; }
+  .navlinks a{ text-decoration:none; font-size:0.92rem; color:var(--cream); opacity:0.75; transition:opacity .15s; }
+  .navlinks a:hover{ opacity:1; }
+  .navlinks .icon-links{ display:flex; gap:14px; margin-left:6px; padding-left:18px; border-left:1px solid var(--steel-line); }
+  .navlinks .icon-links a{ opacity:0.9; }
+  .navlinks svg{ width:19px; height:19px; display:block; }
+  @media (max-width:720px){ .navlinks a:not(.icon-links a){ display:none; } }
+
+  /* ---------- HERO / MARQUEE ---------- */
+  .hero{
+    position:relative;
+    padding:88px 0 64px;
+    text-align:center;
+    overflow:hidden;
+    background:
+      radial-gradient(ellipse at 50% -10%, rgba(201,160,54,0.12), transparent 60%),
+      var(--black);
+  }
+  .marquee-frame{
+    display:inline-block;
+    position:relative;
+    padding:34px 46px;
+    border:2px solid var(--gold);
+    border-radius:4px;
+  }
+  .marquee-frame .bulb{
+    position:absolute;
+    width:8px; height:8px;
+    border-radius:50%;
+    background:var(--gold-dim);
+    box-shadow:0 0 0 rgba(201,160,54,0);
+    animation:lightup 2.6s ease-in-out infinite;
+  }
+  @keyframes lightup{
+    0%, 100%{ background:var(--gold-dim); box-shadow:0 0 0 rgba(201,160,54,0);}
+    50%{ background:var(--gold); box-shadow:0 0 8px 2px rgba(201,160,54,0.7);}
+  }
+  .eyebrow{
+    font-family:'Space Mono', monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    color:var(--rust);
+    margin-bottom:14px;
+  }
+  .eyebrow::before{ content:"● "; color:var(--rust); }
+  h1.title{
+    font-size:clamp(2.6rem, 7vw, 4.6rem);
+    color:var(--cream);
+    letter-spacing:-0.01em;
+    line-height:1.02;
+  }
+  h1.title em{ font-style:italic; color:var(--gold); font-weight:500; }
+  .tagline{
+    max-width:520px;
+    margin:20px auto 0;
+    color:var(--cream);
+    opacity:0.78;
+    font-size:1.05rem;
+  }
+  .hero-ctas{ margin-top:34px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
+  .btn{
+    display:inline-flex; align-items:center; gap:9px;
+    padding:13px 24px;
+    font-family:'Work Sans', sans-serif;
+    font-weight:600; font-size:0.94rem;
+    text-decoration:none;
+    border-radius:2px;
+    transition:transform .15s ease, background .15s ease;
+  }
+  .btn:hover{ transform:translateY(-1px); }
+  .btn-primary{ background:var(--gold); color:var(--black); }
+  .btn-primary:hover{ background:#DBAF45; }
+  .btn-ghost{ border:1px solid var(--steel-line); color:var(--cream); }
+  .btn-ghost:hover{ border-color:var(--gold); }
+  .btn svg{ width:16px; height:16px; }
+
+  .stats{ display:flex; justify-content:center; gap:44px; margin-top:52px; flex-wrap:wrap; }
+  .stat{ text-align:center; }
+  .stat .num{ font-family:'Fraunces', serif; font-size:1.8rem; color:var(--gold); }
+  .stat .lbl{ font-family:'Space Mono', monospace; font-size:0.68rem; letter-spacing:0.08em; color:var(--steel); text-transform:uppercase; margin-top:2px; }
+
+  /* ---------- TICKER ---------- */
+  .ticker{
+    background:var(--rust);
+    border-top:1px solid rgba(0,0,0,0.25);
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    overflow:hidden;
+    white-space:nowrap;
+    padding:10px 0;
+  }
+  .ticker-track{
+    display:inline-block;
+    animation:scroll 34s linear infinite;
+    font-family:'Space Mono', monospace;
+    font-size:0.82rem;
+    letter-spacing:0.02em;
+    color:var(--paper);
+  }
+  .ticker-track span{ margin-right:38px; }
+  .ticker-track span::after{ content:"✦"; margin-left:38px; color:var(--gold); }
+  @keyframes scroll{ from{ transform:translateX(0);} to{ transform:translateX(-50%);} }
+
+  .title-card .actions{ display:flex; gap:6px; margin-top:14px; padding-top:14px; border-top:1px solid var(--steel-line); }
+  .title-card .actions a{
+    display:inline-flex; align-items:center; gap:5px;
+    font-family:'Space Mono', monospace; font-size:0.68rem;
+    color:var(--steel); text-decoration:none;
+    padding:6px 10px; border:1px solid var(--steel-line); border-radius:2px;
+    transition:color .15s, border-color .15s;
+  }
+  .title-card .actions a:hover{ color:var(--gold); border-color:var(--gold-dim); }
+  .title-card .actions svg{ width:13px; height:13px; }
+
+  /* ---------- NOW SCREENING (trailers) ---------- */
+  .screening-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; }
+  @media (max-width:860px){ .screening-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:600px){ .screening-grid{ grid-template-columns:1fr; } }
+  .screening-card{
+    background:var(--black-soft);
+    border:1px solid var(--steel-line);
+    overflow:hidden;
+    transition:border-color .15s;
+  }
+  .screening-card:hover{ border-color:var(--gold-dim); }
+  .screening-thumb{
+    position:relative;
+    aspect-ratio:16/9;
+    background:var(--black);
+    cursor:pointer;
+    overflow:hidden;
+  }
+  .screening-thumb img{ width:100%; height:100%; object-fit:cover; display:block; opacity:0.85; }
+  .screening-thumb iframe{ width:100%; height:100%; border:0; display:block; }
+  .screening-play{
+    position:absolute; inset:0;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .screening-play span{
+    width:52px; height:52px;
+    border-radius:50%;
+    background:rgba(21,18,13,0.75);
+    border:2px solid var(--gold);
+    display:flex; align-items:center; justify-content:center;
+    transition:background .15s;
+  }
+  .screening-thumb:hover .screening-play span{ background:var(--gold); }
+  .screening-thumb:hover .screening-play svg{ fill:var(--black); }
+  .screening-play svg{ width:16px; height:16px; fill:var(--gold); margin-left:2px; transition:fill .15s; }
+  .screening-body{ padding:16px 18px; }
+  .screening-body h3{ font-size:0.98rem; color:var(--cream); line-height:1.3; }
+  .screening-body .meta{ margin-top:10px; font-family:'Space Mono', monospace; font-size:0.68rem; color:var(--steel); }
+
+  /* ---------- SECTION SHARED ---------- */
+  section{ padding:88px 0; border-bottom:1px solid var(--steel-line); }
+  .section-head{ margin-bottom:44px; max-width:640px; }
+  .section-head .eyebrow{ margin-bottom:10px; }
+  .section-head h2{ font-size:clamp(1.7rem, 3.4vw, 2.3rem); color:var(--cream); }
+  .section-head p{ color:var(--steel); margin-top:12px; font-size:0.98rem; max-width:520px; }
+
+  /* ---------- DISPATCHES (title cards) ---------- */
+  .card-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; }
+  @media (max-width:860px){ .card-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:600px){ .card-grid{ grid-template-columns:1fr; } }
+  .title-card{
+    background:var(--black-soft);
+    border:1px solid var(--steel-line);
+    padding:26px 22px;
+    position:relative;
+    transition:border-color .15s;
+  }
+  .title-card:hover{ border-color:var(--gold-dim); }
+  .title-card .tag{
+    font-family:'Space Mono', monospace;
+    font-size:0.68rem;
+    color:var(--gold);
+    letter-spacing:0.06em;
+  }
+  .title-card h3{ font-size:1.2rem; margin-top:12px; color:var(--cream); line-height:1.25; }
+  .title-card p{ font-size:0.9rem; color:var(--steel); margin-top:10px; }
+  .title-card .meta{ margin-top:18px; padding-top:14px; border-top:1px solid var(--steel-line); display:flex; justify-content:space-between; font-family:'Space Mono', monospace; font-size:0.68rem; color:var(--steel); }
+
+  /* ---------- FOOTER ---------- */
+  footer{ padding:64px 0 40px; }
+  .foot-grid{ display:flex; justify-content:space-between; align-items:center; gap:40px; flex-wrap:wrap; }
+  .foot-note{ margin-top:56px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:0.8rem; color:var(--steel); border-top:1px solid var(--steel-line); padding-top:24px; }
+  .foot-note a{ text-decoration:none; color:var(--steel); }
+  .foot-note a:hover{ color:var(--gold); }
+
+  @media (prefers-reduced-motion: reduce){
+    .marquee-frame .bulb, .ticker-track{ animation:none !important; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brandmark" href="#top">
+      <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#C9A036" stroke-width="2"/><circle cx="16" cy="16" r="4" fill="#C9A036"/><circle cx="16" cy="6" r="1.6" fill="#EDE3CC"/><circle cx="26" cy="16" r="1.6" fill="#EDE3CC"/><circle cx="16" cy="26" r="1.6" fill="#EDE3CC"/><circle cx="6" cy="16" r="1.6" fill="#EDE3CC"/></svg>
+      <span>BiffBifford<small>THE ARCHIVE</small></span>
+    </a>
+    <div class="navlinks">
+      <a href="#screening">Now Screening</a>
+      <a href="#dispatches">Dispatches</a>
+      <a href="#wire">The Wire</a>
+      <div class="icon-links">
+        <a href="https://x.com/TBifford" target="_blank" rel="noopener" aria-label="X profile">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-6.9l-5.4-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.9 6.3L18.9 2Zm-1.2 18h1.9L7.4 4H5.4l12.3 16Z"/></svg>
+        </a>
+        <a href="https://github.com/biffbifford" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.7.5 12.2c0 5.2 3.4 9.6 8 11.1.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.9 1.2 1.9 1.2 3.2 0 4.5-2.8 5.5-5.4 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 8-5.9 8-11.1C23.5 5.7 18.4.5 12 .5Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="top" class="hero">
+  <div class="wrap">
+    <div class="marquee-frame">
+      <div class="bulb" style="top:-5px; left:-5px; animation-delay:0s;"></div>
+      <div class="bulb" style="top:-5px; left:24%; animation-delay:.2s;"></div>
+      <div class="bulb" style="top:-5px; left:48%; animation-delay:.4s;"></div>
+      <div class="bulb" style="top:-5px; left:72%; animation-delay:.6s;"></div>
+      <div class="bulb" style="top:-5px; right:-5px; animation-delay:.8s;"></div>
+      <div class="bulb" style="bottom:-5px; left:-5px; animation-delay:1.4s;"></div>
+      <div class="bulb" style="bottom:-5px; left:24%; animation-delay:1.2s;"></div>
+      <div class="bulb" style="bottom:-5px; left:48%; animation-delay:1s;"></div>
+      <div class="bulb" style="bottom:-5px; left:72%; animation-delay:.8s;"></div>
+      <div class="bulb" style="bottom:-5px; right:-5px; animation-delay:.6s;"></div>
+      <p class="eyebrow">Now Showing</p>
+      <h1 class="title">The reels they<br><em>didn't</em> keep rolling</h1>
+    </div>
+    <p class="tagline">Classic Hollywood, TV history, and music moments, plus the stories behind them. Straight from the feed.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="https://x.com/TBifford" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-6.9l-5.4-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.9 6.3L18.9 2Zm-1.2 18h1.9L7.4 4H5.4l12.3 16Z"/></svg>
+        Follow the feed
+      </a>
+      <a class="btn btn-ghost" href="#screening">Watch the trailers →</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="num" id="stat-posts">71.1K</div><div class="lbl">Posts</div></div>
+      <div class="stat"><div class="num" id="stat-followers">80.3K</div><div class="lbl">Followers</div></div>
+      <div class="stat"><div class="num">Apr '22</div><div class="lbl">On X since</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="ticker-track">
+    <span>CLASSIC HOLLYWOOD</span>
+    <span>TELEVISION HISTORY</span>
+    <span>MUSIC MOMENTS</span>
+    <span>THE STORIES BEHIND THEM</span>
+    <span>GEN-X FILM &amp; TV CULTURE</span>
+    <span>CLASSIC HOLLYWOOD</span>
+    <span>TELEVISION HISTORY</span>
+    <span>MUSIC MOMENTS</span>
+    <span>THE STORIES BEHIND THEM</span>
+    <span>GEN-X FILM &amp; TV CULTURE</span>
+  </div>
+</div>
+
+<section id="screening">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Now Screening</p>
+      <h2>Trailers worth a rewatch</h2>
+      <p>A rotating set of classic trailers and clips, pulled in automatically. Click any thumbnail to play.</p>
+    </div>
+    <div class="screening-grid" id="screening-grid">
+      <div class="screening-card">
+        <div class="screening-thumb" style="display:flex; align-items:center; justify-content:center; background:var(--black); cursor:default;">
+          <span style="font-family:'Space Mono', monospace; font-size:0.7rem; color:var(--steel);">Loading reel…</span>
+        </div>
+        <div class="screening-body">
+          <h3>Classic trailers load in here</h3>
+          <div class="meta">Via YouTube</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dispatches">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Dispatches</p>
+      <h2>What's running this week</h2>
+      <p>Pulled straight from the feed, updated automatically every 12 hours.</p>
+    </div>
+    <div class="card-grid" id="dispatch-grid">
+      <div class="title-card">
+        <span class="tag">FROM THE FEED</span>
+        <h3>Latest posts load in here</h3>
+        <p>If this doesn't update, the live feed is always one click away.</p>
+        <div class="actions"><a href="https://x.com/TBifford" target="_blank" rel="noopener">Open @TBifford on X</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="wire">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">The Wire</p>
+      <h2>Headlines worth a look</h2>
+      <p>Fresh headlines from film and TV outlets, with classic-era stories first. Each one opens the original article.</p>
+    </div>
+    <div class="wire-list" id="wire-list">
+      <div class="wire-row">
+        <span class="wire-title">Headlines load in here</span>
+        <span class="wire-meta">Via RSS</span>
+      </div>
+    </div>
+    <p class="wire-note">Headlines and links belong to their publishers.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3 style="font-size:1.3rem; color:var(--cream);">Follow the feed</h3>
+        <p style="color:var(--steel); margin-top:8px; max-width:340px; font-size:0.92rem;">New posts land on X first. This page pulls the latest in automatically.</p>
+      </div>
+      <a class="btn btn-primary" href="https://x.com/TBifford" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-6.9l-5.4-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.9 6.3L18.9 2Zm-1.2 18h1.9L7.4 4H5.4l12.3 16Z"/></svg>
+        @TBifford on X
+      </a>
+    </div>
+    <div class="foot-note">
+      <span>© 2026 BiffBifford™. Classic Hollywood, Gen-X film &amp; TV culture.</span>
+      <span>
+        <a href="https://x.com/TBifford" target="_blank" rel="noopener">X</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/biffbifford" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
 <style>
   .title-card .post-text{ font-family:'Fraunces', serif; font-weight:500; font-size:1.06rem; line-height:1.45; color:var(--cream); margin:12px 0 0; }
   .title-card .meta a{ color:var(--steel); text-decoration:none; transition:color .15s; }
   .title-card .meta a:hover{ color:var(--gold); }
+
+  .wire-list{ border-top:1px solid var(--steel-line); }
+  .wire-row{ display:grid; grid-template-columns:1fr auto; gap:18px; align-items:baseline; padding:18px 0; border-bottom:1px solid var(--steel-line); text-decoration:none; transition:background .15s; }
+  a.wire-row:hover{ background:rgba(237,227,204,0.03); }
+  a.wire-row:hover .wire-title{ color:var(--gold); }
+  .wire-title{ font-family:'Fraunces', serif; font-weight:500; font-size:1.08rem; line-height:1.35; color:var(--cream); transition:color .15s; }
+  .wire-meta{ font-family:'Space Mono', monospace; font-size:0.68rem; color:var(--steel); white-space:nowrap; text-align:right; }
+  .wire-note{ margin-top:18px; font-size:0.8rem; color:var(--steel); }
+  @media (max-width:640px){ .wire-row{ grid-template-columns:1fr; gap:6px; } .wire-meta{ text-align:left; white-space:normal; } }
 </style>
 <script>
 const esc = (str) =>
@@ -27,6 +442,16 @@ const cleanPost = (text) =>
     .replace(/https?:\/\/t\.co\/\S+/gi, '')
     .replace(/\s+/g, ' ')
     .trim();
+
+// Only ever link to normal web addresses.
+const safeUrl = (value) => {
+  try {
+    const u = new URL(value);
+    return u.protocol === 'https:' || u.protocol === 'http:' ? u.href : '';
+  } catch (e) {
+    return '';
+  }
+};
 
 async function loadPosts() {
   try {
@@ -146,8 +571,40 @@ async function loadTrailers() {
   }
 }
 
+async function loadNews() {
+  try {
+    const res = await fetch('data/news.json', { cache: 'no-store' });
+    if (!res.ok) return; // no data file yet — keep the placeholder row
+    const data = await res.json();
+    const items = (data.items || []).filter((i) => i.title && safeUrl(i.url));
+    if (!items.length) return;
+
+    const list = document.getElementById('wire-list');
+    if (!list) return;
+
+    list.innerHTML = items
+      .slice(0, 9)
+      .map((i) => {
+        const d = new Date(i.published);
+        const date = Number.isNaN(d.getTime())
+          ? ''
+          : ' · ' + d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+        return `
+          <a class="wire-row" href="${esc(safeUrl(i.url))}" target="_blank" rel="noopener noreferrer">
+            <span class="wire-title">${esc(i.title)}</span>
+            <span class="wire-meta">${esc(i.source || '')}${date} ↗</span>
+          </a>`;
+      })
+      .join('');
+  } catch (e) {
+    // If anything goes wrong, the placeholder row simply stays put.
+    console.log('Live headlines unavailable, showing placeholder.', e);
+  }
+}
+
 loadPosts();
 loadTrailers();
+loadNews();
 </script>
 </body>
 </html>
