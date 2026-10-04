@@ -8,6 +8,8 @@
 import { writeFile, mkdir } from "fs/promises";
 
 // Add or remove outlets here. Each one needs a name and its RSS feed address.
+// "classic: true" means everything this outlet posts counts as classic-era.
+// Outlets without it only count when a headline contains a classic word (below).
 const FEEDS = [
   { source: "Variety", url: "https://variety.com/feed/" },
   { source: "The Hollywood Reporter", url: "https://www.hollywoodreporter.com/feed/" },
@@ -16,23 +18,29 @@ const FEEDS = [
   { source: "Collider", url: "https://collider.com/feed/" },
   { source: "TheWrap", url: "https://www.thewrap.com/feed/" },
   { source: "MovieMaker", url: "https://www.moviemaker.com/feed/" },
-  { source: "Open Culture", url: "https://www.openculture.com/feed" }
+  { source: "Open Culture", url: "https://www.openculture.com/feed" },
+
+  // Classic-film blogs. Small blogs post slowly, so a quiet one is normal.
+  { source: "Classic Movie Hub", url: "https://www.classicmoviehub.com/blog/feed", classic: true },
+  { source: "Come Over Hollywood", url: "https://www.cometoverhollywood.com/feed", classic: true },
+  // Address below is a best guess; the run log will say SKIP if it's wrong.
+  { source: "Classic Film & TV Café", url: "https://www.classicfilmtvcafe.com/feed/", classic: true }
 ];
 
 const OUTPUT_PATH = "data/news.json";
 const MAX_ITEMS = 9;        // how many headlines to keep
 const MAX_PER_SOURCE = 3;   // so one outlet can't take over the list
-const MAX_AGE_DAYS = 21;    // ignore anything older than this
+const MAX_AGE_DAYS = 60;    // ignore anything older than this
 const USER_AGENT = "BiffBiffordSiteBot/1.0 (+https://biffbifford.com)";
 
-// Headlines mentioning these words float to the top, so a classic-Hollywood
-// page isn't all this month's industry deals. Edit the list to taste.
+// On general outlets, only headlines containing one of these words are kept,
+// so the page stays classic-era. Edit the list to taste.
 const CLASSIC_WORDS = [
   "classic", "classics", "restored", "restoration", "retrospective",
-  "anniversary", "legend", "legendary", "vintage", "tribute", "remembered",
-  "golden age", "silent film", "film noir", "noir", "western", "criterion",
-  "tcm", "turner classic movies", "rediscovered", "archive", "cult classic",
-  "1930s", "1940s", "1950s", "1960s", "1970s", "1980s", "1990s"
+  "vintage", "golden age", "old hollywood", "silent film", "silent era",
+  "film noir", "noir", "western", "criterion", "tcm", "turner classic movies",
+  "rediscovered", "cult classic", "centennial",
+  "1920s", "1930s", "1940s", "1950s", "1960s", "1970s", "1980s", "1990s"
 ];
 const classicRe = new RegExp(`\\b(${CLASSIC_WORDS.join("|")})\\b`, "i");
 
@@ -98,63 +106,29 @@ function parseFeed(xml, source) {
     .filter((i) => i.title && i.url && !Number.isNaN(i.time));
 }
 
-async function readFeed({ source, url }) {
+async function readFeed({ source, url, classic }) {
   const res = await fetch(url, {
     headers: { "User-Agent": USER_AGENT, Accept: "application/rss+xml, application/xml, text/xml, */*" },
     signal: AbortSignal.timeout(15000)
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return parseFeed(await res.text(), source);
+  return parseFeed(await res.text(), source).map((i) => ({ ...i, fromClassicOutlet: Boolean(classic) }));
 }
 
 // ---------- main ----------
 
 async function main() {
   let all = [];
+  let feedsWorked = 0;
   for (const feed of FEEDS) {
     try {
       const items = await readFeed(feed);
       console.log(`OK    ${feed.source}: ${items.length} items`);
       all = all.concat(items);
+      feedsWorked += 1;
     } catch (err) {
       console.warn(`SKIP  ${feed.source}: ${err.message}`);
     }
   }
 
-  const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
-  const seen = new Set();
-  const fresh = all
-    .filter((i) => i.time >= cutoff && i.time <= Date.now() + 86400000)
-    .filter((i) => (seen.has(i.url) ? false : seen.add(i.url)))
-    .map((i) => ({ ...i, classic: classicRe.test(i.title) }))
-    .sort((a, b) => Number(b.classic) - Number(a.classic) || b.time - a.time);
-
-  const perSource = {};
-  const picked = [];
-  for (const item of fresh) {
-    if ((perSource[item.source] || 0) >= MAX_PER_SOURCE) continue;
-    perSource[item.source] = (perSource[item.source] || 0) + 1;
-    picked.push(item);
-    if (picked.length >= MAX_ITEMS) break;
-  }
-
-  // If every feed failed, keep yesterday's file rather than publishing nothing.
-  if (!picked.length) {
-    console.error("No headlines collected from any feed; leaving data/news.json unchanged.");
-    process.exit(1);
-  }
-
-  picked.sort((a, b) => b.time - a.time);
-  const items = picked.map(({ title, url, source, time }) => ({
-    title, url, source, published: new Date(time).toISOString()
-  }));
-
-  await mkdir("data", { recursive: true });
-  await writeFile(OUTPUT_PATH, JSON.stringify({ updated_at: new Date().toISOString(), items }, null, 2));
-  console.log(`Wrote ${items.length} headlines to ${OUTPUT_PATH}`);
-}
-
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+  // A real failure: nothing
