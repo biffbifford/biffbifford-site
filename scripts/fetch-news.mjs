@@ -1,4 +1,3 @@
-javascript
 // scripts/fetch-news.mjs
 //
 // Pulls headlines from public RSS feeds and writes them to data/news.json.
