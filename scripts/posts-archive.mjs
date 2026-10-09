@@ -8,6 +8,15 @@ export const REFRESH_WINDOW_MS = REFRESH_DAYS * 24 * 60 * 60 * 1000;
 // Hard stop so a missing date can never walk the whole account history.
 export const MAX_PAGES = 10;
 
+// X wants start_time as YYYY-MM-DDTHH:mm:ssZ. The boundary is inclusive.
+export function refreshStartTime(nowIso) {
+  const now = new Date(nowIso).getTime();
+  if (Number.isNaN(now)) {
+    throw new Error(`Invalid time: ${nowIso}`);
+  }
+  return new Date(now - REFRESH_WINDOW_MS).toISOString().replace(/\.\d{3}Z$/, "Z");
+}
+
 export function isWithinRefreshWindow(createdAt, nowIso) {
   const published = new Date(createdAt).getTime();
   const now = new Date(nowIso).getTime();

@@ -4,6 +4,7 @@ import {
   PAGE_SIZE,
   SNAPSHOT_SIZE,
   isWithinRefreshWindow,
+  refreshStartTime,
   shouldFetchAnotherPage,
   toPostRecord,
   toSnapshotTweet,
@@ -127,6 +128,11 @@ test("does not wipe a saved view count when a later response omits it", () => {
   const { posts } = mergeArchive([stored], [incoming], NOW);
   assert.equal(posts[0].impression_count, 40);
   assert.equal(posts[0].likes, 2);
+});
+
+test("start_time is 7 days before now, in the X timestamp format", () => {
+  assert.equal(refreshStartTime("2026-10-09T18:00:00.000Z"), "2026-10-02T18:00:00Z");
+  assert.equal(refreshStartTime("2026-10-09T18:00:00.500Z"), "2026-10-02T18:00:00Z");
 });
 
 test("pages forward only while the whole page is inside the refresh window", () => {

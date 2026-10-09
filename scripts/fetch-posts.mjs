@@ -17,6 +17,7 @@ import { pathToFileURL } from "node:url";
 import {
   PAGE_SIZE,
   MAX_PAGES,
+  refreshStartTime,
   toPostRecord,
   newestSnapshot,
   mergeArchive,
@@ -52,12 +53,14 @@ async function fetchRecentPosts(userId, token, nowIso) {
   const collected = [];
   let paginationToken = null;
   let pages = 0;
+  const startTime = refreshStartTime(nowIso);
 
   while (pages < MAX_PAGES) {
     const url = new URL(`https://api.twitter.com/2/users/${userId}/tweets`);
     url.searchParams.set("max_results", String(PAGE_SIZE));
     url.searchParams.set("exclude", "replies,retweets");
     url.searchParams.set("tweet.fields", "created_at,public_metrics");
+    url.searchParams.set("start_time", startTime);
     if (paginationToken) url.searchParams.set("pagination_token", paginationToken);
 
     const tweetData = await xFetch(url, token);
@@ -101,8 +104,8 @@ export async function main() {
 
   const now = new Date().toISOString();
 
-  // 2. Pull recent original posts, up to 100 per page, and stop once the
-  //    page reaches past the 7-day refresh window.
+  // 2. Pull original posts from the last 7 days (start_time), up to 100
+  //    per page, and stop once a page reaches past that window.
   const { tweets: rawTweets, pages } = await fetchRecentPosts(userId, token, now);
   const records = rawTweets.map((tweet) => toPostRecord(tweet, now, USERNAME));
 
