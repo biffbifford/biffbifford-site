@@ -1,65 +1,76 @@
 {
-  "updated_at": "2026-10-10T04:59:12.569Z",
+  "updated_at": "2026-10-10T17:07:01.007Z",
   "account": {
-    "followers": 80047,
-    "following": 28464,
-    "posts": 71490,
+    "followers": 80042,
+    "following": 28461,
+    "posts": 71492,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2108935838155391092",
+      "text": "🎸 Elvis’s “Hound Dog” sold about 10 million copies. The woman who recorded it first said she got one check for $500.\n\nIn 1952, two 19-year-old songwriters, Jerry Leiber and Mike Stoller, wrote a song for a blues singer named Willie Mae “Big Mama” Thornton. It took them about 12 https://t.co/tw2A9hiQaw",
+      "created_at": "2026-10-10T15:01:00.000Z",
+      "likes": 9,
+      "retweets": 1,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 695,
+      "url": "https://x.com/TBifford/status/2108935838155391092"
+    },
+    {
       "id": "2108709596328079648",
       "text": "🇨🇦 Leslie Nielsen’s father was a Mountie. His brother became Deputy Prime Minister of Canada. And for nearly 30 years, Leslie played it completely straight.\n\nHe was born in Regina, Saskatchewan, in 1926. His father was a constable in the Royal Canadian Mounted Police. At 17, https://t.co/twitjd6Eme",
       "created_at": "2026-10-10T00:02:00.000Z",
-      "likes": 31,
-      "retweets": 2,
-      "replies": 5,
+      "likes": 48,
+      "retweets": 4,
+      "replies": 7,
       "quotes": 0,
-      "impression_count": 2704,
+      "impression_count": 4191,
       "url": "https://x.com/TBifford/status/2108709596328079648"
     },
     {
       "id": "2108682165227761665",
       "text": "⚖️ Raymond Burr went in to read for the man who always lost. He came out as the man who rarely did.\n\nIn 1956, CBS was casting Perry Mason. Burr was best known for playing villains, including the killer across the courtyard in Hitchcock’s Rear Window.\n\nHe read for Hamilton Burger, https://t.co/WL42xlQEmW",
       "created_at": "2026-10-09T22:13:00.000Z",
-      "likes": 79,
-      "retweets": 8,
-      "replies": 10,
-      "quotes": 4,
-      "impression_count": 7576,
+      "likes": 145,
+      "retweets": 11,
+      "replies": 13,
+      "quotes": 5,
+      "impression_count": 11367,
       "url": "https://x.com/TBifford/status/2108682165227761665"
     },
     {
       "id": "2108649449849323631",
       "text": "📺 The Honeymooners made only 39 episodes. After one season, Jackie Gleason chose to stop, walking away from $7 million left on his contract.\n\nThe show debuted on CBS in October 1955 and opened as the No. 2 show in America. Gleason was signed for two seasons, with an option for a https://t.co/2nzDpDwn2R",
       "created_at": "2026-10-09T20:03:00.000Z",
-      "likes": 31,
-      "retweets": 3,
+      "likes": 50,
+      "retweets": 5,
       "replies": 0,
-      "quotes": 0,
-      "impression_count": 2252,
+      "quotes": 2,
+      "impression_count": 3077,
       "url": "https://x.com/TBifford/status/2108649449849323631"
     },
     {
       "id": "2108618999244186015",
       "text": "🐉 “Puff, the Magic Dragon” was never about drugs. It started as a poem by a 19-year-old college kid who then forgot all about it.\n\nIn 1959, Lenny Lipton was a student at Cornell. Inspired by an Ogden Nash poem about a cowardly dragon, he wrote one of his own. He typed it on a https://t.co/9UmSX4wKvJ",
       "created_at": "2026-10-09T18:02:00.000Z",
-      "likes": 26,
-      "retweets": 11,
+      "likes": 35,
+      "retweets": 12,
       "replies": 1,
-      "quotes": 1,
-      "impression_count": 2445,
+      "quotes": 2,
+      "impression_count": 2735,
       "url": "https://x.com/TBifford/status/2108618999244186015"
     },
     {
       "id": "2108573701834699227",
       "text": "🎤 In March 1970, the No. 1 record in Britain wasn't by the Beatles. It was by Lee Marvin.\n\nMarvin was no singer. His voice was a gravelly growl. But in the 1969 movie musical Paint Your Wagon, the studio let him do his own singing instead of dubbing him.\n\nOne of his songs was https://t.co/xscTqLdCG6",
       "created_at": "2026-10-09T15:02:00.000Z",
-      "likes": 105,
-      "retweets": 7,
-      "replies": 2,
-      "quotes": 0,
-      "impression_count": 7578,
+      "likes": 177,
+      "retweets": 16,
+      "replies": 4,
+      "quotes": 2,
+      "impression_count": 11264,
       "url": "https://x.com/TBifford/status/2108573701834699227"
     },
     {
@@ -70,18 +81,18 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 1013,
+      "impression_count": 1025,
       "url": "https://x.com/TBifford/status/2108392181472108904"
     },
     {
       "id": "2108347208462708843",
       "text": "🎣Andy Griffith called Don Knotts by a name almost nobody else used. He used it one last time at Don's hospital bedside.\n\nThey met in 1955 on Broadway, in No Time for Sergeants, and became lifelong friends.\n\nWhen The Andy Griffith Show began in 1960, Knotts became Barney Fife, https://t.co/LeWV6y1pNF",
       "created_at": "2026-10-09T00:02:00.000Z",
-      "likes": 1440,
+      "likes": 1442,
       "retweets": 120,
       "replies": 23,
       "quotes": 1,
-      "impression_count": 76267,
+      "impression_count": 76648,
       "url": "https://x.com/TBifford/status/2108347208462708843"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 12,
       "replies": 9,
       "quotes": 0,
-      "impression_count": 25341,
+      "impression_count": 25469,
       "url": "https://x.com/TBifford/status/2108293856793948215"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 205,
+      "impression_count": 211,
       "url": "https://x.com/TBifford/status/2108279920757735544"
-    },
-    {
-      "id": "2108256863166808217",
-      "text": "🐴For five years, the credits said Mister Ed was played by \"Himself.\" A cowboy movie star provided the real voice but wasn't allowed to take credit.\n\nMister Ed ran on CBS from 1961 to 1966: a talking palomino who only spoke to his owner, Wilbur, played by Alan Young.\n\nThe horse https://t.co/khdKNkHTmy",
-      "created_at": "2026-10-08T18:03:00.000Z",
-      "likes": 52,
-      "retweets": 8,
-      "replies": 3,
-      "quotes": 0,
-      "impression_count": 2664,
-      "url": "https://x.com/TBifford/status/2108256863166808217"
     }
   ]
 }
