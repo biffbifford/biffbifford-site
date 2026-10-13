@@ -1,54 +1,65 @@
 {
-  "updated_at": "2026-10-13T06:02:33.921Z",
+  "updated_at": "2026-10-13T19:02:09.241Z",
   "account": {
-    "followers": 80003,
-    "following": 28459,
-    "posts": 71542,
+    "followers": 79992,
+    "following": 28457,
+    "posts": 71547,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2110070060702167488",
+      "text": "🏃 For nine years, Chester limped across Dodge City. The actor who played him was one of the best athletes in America.\n\nIn 1948, Dennis Weaver competed in the U.S. Olympic decathlon trials. He finished sixth, behind a 17-year-old high school track star named Bob Mathias, who went https://t.co/p8TIuRYzEw",
+      "created_at": "2026-10-13T18:08:00.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 273,
+      "url": "https://x.com/TBifford/status/2110070060702167488"
+    },
+    {
       "id": "2109758759279231222",
       "text": "📹In 1954, Walt Disney sat down to watch a giant-ant movie so he could size up James Arness.\n\nDisney was casting Davy Crockett for his new TV show. The director wanted Buddy Ebsen for the part. Disney also considered Arness, the tall star of the sci-fi film Them!, and screened it https://t.co/l8FHzsfJkt",
       "created_at": "2026-10-12T21:31:00.000Z",
-      "likes": 124,
-      "retweets": 14,
-      "replies": 4,
+      "likes": 194,
+      "retweets": 22,
+      "replies": 7,
       "quotes": 1,
-      "impression_count": 5911,
+      "impression_count": 8481,
       "url": "https://x.com/TBifford/status/2109758759279231222"
     },
     {
       "id": "2109705911489187991",
       "text": "Mary Tyler Moore’s first TV jobs kept her face off camera.\n\nShe started out as “Happy Hotpoint,” a tiny dancing elf in appliance commercials that aired during The Adventures of Ozzie and Harriet. The job ended when her pregnancy got too hard to hide under the costume.\n\nThen came https://t.co/a3FWdT7tIu",
       "created_at": "2026-10-12T18:01:00.000Z",
-      "likes": 24,
-      "retweets": 1,
+      "likes": 39,
+      "retweets": 4,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 1846,
+      "impression_count": 2432,
       "url": "https://x.com/TBifford/status/2109705911489187991"
     },
     {
       "id": "2109656586528702733",
       "text": "🧶 Every Christmas, Mister Rogers got a new sweater from his mother.\n\nHis mother, Nancy, knitted him zippered cardigans in a variety of colors, a new one every year.\n\nThose were the sweaters he put on at the start of each episode of Mister Rogers’ Neighborhood, right after https://t.co/rL6kN1SsHR",
       "created_at": "2026-10-12T14:45:00.000Z",
-      "likes": 20,
+      "likes": 22,
       "retweets": 2,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 1312,
+      "impression_count": 1532,
       "url": "https://x.com/TBifford/status/2109656586528702733"
     },
     {
       "id": "2109501817692606934",
       "text": "🇬🇧 Julie Andrews lost the role of a lifetime. Then she won the Oscar anyway.\n\nOn Broadway in 1956, and then in London’s West End, Julie Andrews was Eliza Doolittle in My Fair Lady, a smash hit on both sides of the Atlantic.\n\nWhen Warner Bros. made the movie, studio boss Jack https://t.co/wB5Qn8RpHT",
       "created_at": "2026-10-12T04:30:00.000Z",
-      "likes": 205,
-      "retweets": 15,
+      "likes": 208,
+      "retweets": 16,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 8045,
+      "impression_count": 8250,
       "url": "https://x.com/TBifford/status/2109501817692606934"
     },
     {
@@ -59,7 +70,7 @@
       "retweets": 6,
       "replies": 0,
       "quotes": 2,
-      "impression_count": 2480,
+      "impression_count": 2502,
       "url": "https://x.com/TBifford/status/2109433868189372896"
     },
     {
@@ -70,18 +81,18 @@
       "retweets": 10,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 2756,
+      "impression_count": 2772,
       "url": "https://x.com/TBifford/status/2109374728917901653"
     },
     {
       "id": "2109298980232290375",
       "text": "⚖️ In 1963, Perry Mason needed surgery. So CBS called Bette Davis.\n\nRaymond Burr went into the hospital that winter, and Perry Mason still had episodes to make. Instead of shutting down, the show brought in big-name guest stars to take over the courtroom.\n\nThe first was Bette https://t.co/Tp67Tz7wXH",
       "created_at": "2026-10-11T15:04:00.000Z",
-      "likes": 1211,
-      "retweets": 113,
-      "replies": 31,
+      "likes": 1219,
+      "retweets": 115,
+      "replies": 32,
       "quotes": 1,
-      "impression_count": 54362,
+      "impression_count": 54516,
       "url": "https://x.com/TBifford/status/2109298980232290375"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 359,
+      "impression_count": 366,
       "url": "https://x.com/TBifford/status/2109094059684053119"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 0,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 431,
+      "impression_count": 433,
       "url": "https://x.com/TBifford/status/2109028950080893235"
-    },
-    {
-      "id": "2109026434073137281",
-      "text": "👂 At the end of every Carol Burnett Show, she tugged her ear. Millions of viewers saw it. It was meant for one person.\n\nCarol Burnett was raised by her grandmother, whom she called Nanny, in a small Hollywood apartment. “Nanny was my rock,” she said.\n\nWhen Carol landed her first https://t.co/JUcvxb84Cb",
-      "created_at": "2026-10-10T21:01:00.000Z",
-      "likes": 34,
-      "retweets": 2,
-      "replies": 2,
-      "quotes": 0,
-      "impression_count": 3060,
-      "url": "https://x.com/TBifford/status/2109026434073137281"
     }
   ]
 }
