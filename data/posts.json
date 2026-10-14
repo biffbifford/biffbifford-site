@@ -1,21 +1,32 @@
 {
-  "updated_at": "2026-10-14T04:05:57.815Z",
+  "updated_at": "2026-10-14T16:47:14.980Z",
   "account": {
-    "followers": 79989,
-    "following": 28459,
-    "posts": 71558,
+    "followers": 79990,
+    "following": 28460,
+    "posts": 71562,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2110406024029163580",
+      "text": "🎩 Before he was the King of Late Night, Johnny Carson was “The Great Carsoni.”\n\nAt 12, growing up in Nebraska, he found a magic book at a friend’s house and sent away for a mail-order magician’s kit. He practiced card tricks on his family. His mother sewed him a cape.\n\nAt 14, https://t.co/EFL23iPcpf",
+      "created_at": "2026-10-14T16:23:00.000Z",
+      "likes": 0,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 113,
+      "url": "https://x.com/TBifford/status/2110406024029163580"
+    },
+    {
       "id": "2110190604655399342",
       "text": "🎨 Before he painted happy little trees, Bob Ross spent 20 years as the guy who yelled at people.\n\nHe served in the U.S. Air Force and rose to master sergeant, the man who made sure recruits did what they were told.\n\nStationed in Alaska, he started painting the mountains around https://t.co/YQuUfcbuFv",
       "created_at": "2026-10-14T02:07:00.000Z",
-      "likes": 6,
+      "likes": 7,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 493,
+      "impression_count": 866,
       "url": "https://x.com/TBifford/status/2110190604655399342"
     },
     {
@@ -26,40 +37,40 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 195,
+      "impression_count": 263,
       "url": "https://x.com/TBifford/status/2110189598072524937"
     },
     {
       "id": "2110143557038170139",
       "text": "🕺 Before he was Jed Clampett, Buddy Ebsen helped teach a robot to dance.\n\nIn 1951, Walt Disney called in Ebsen, one of Hollywood’s best song-and-dance men, for a secret experiment. Ebsen danced in front of two white walls covered in a grid while the cameras rolled.\n\nDisney’s https://t.co/N7aryGwAkA",
       "created_at": "2026-10-13T23:00:03.000Z",
-      "likes": 28,
+      "likes": 33,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0,
-      "impression_count": 2012,
+      "impression_count": 2478,
       "url": "https://x.com/TBifford/status/2110143557038170139"
     },
     {
       "id": "2110124779755675963",
       "text": "📺 After Gunsmoke, Weaver became a star in his own right as McCloud, the New Mexico marshal, loose in New York City. In 1971, he also starred in Duel, the TV movie that launched the career of young director Steven Spielberg.",
       "created_at": "2026-10-13T21:45:26.000Z",
-      "likes": 4,
+      "likes": 5,
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 250,
+      "impression_count": 307,
       "url": "https://x.com/TBifford/status/2110124779755675963"
     },
     {
       "id": "2110070060702167488",
       "text": "🏃 For nine years, Chester limped across Dodge City. The actor who played him was one of the best athletes in America.\n\nIn 1948, Dennis Weaver competed in the U.S. Olympic decathlon trials. He finished sixth, behind a 17-year-old high school track star named Bob Mathias, who went https://t.co/p8TIuRYzEw",
       "created_at": "2026-10-13T18:08:00.000Z",
-      "likes": 95,
-      "retweets": 11,
-      "replies": 4,
+      "likes": 168,
+      "retweets": 22,
+      "replies": 7,
       "quotes": 0,
-      "impression_count": 3936,
+      "impression_count": 6547,
       "url": "https://x.com/TBifford/status/2110070060702167488"
     },
     {
@@ -67,21 +78,21 @@
       "text": "📹In 1954, Walt Disney sat down to watch a giant-ant movie so he could size up James Arness.\n\nDisney was casting Davy Crockett for his new TV show. The director wanted Buddy Ebsen for the part. Disney also considered Arness, the tall star of the sci-fi film Them!, and screened it https://t.co/l8FHzsfJkt",
       "created_at": "2026-10-12T21:31:00.000Z",
       "likes": 228,
-      "retweets": 25,
+      "retweets": 26,
       "replies": 8,
       "quotes": 1,
-      "impression_count": 9379,
+      "impression_count": 9439,
       "url": "https://x.com/TBifford/status/2109758759279231222"
     },
     {
       "id": "2109705911489187991",
       "text": "Mary Tyler Moore’s first TV jobs kept her face off camera.\n\nShe started out as “Happy Hotpoint,” a tiny dancing elf in appliance commercials that aired during The Adventures of Ozzie and Harriet. The job ended when her pregnancy got too hard to hide under the costume.\n\nThen came https://t.co/a3FWdT7tIu",
       "created_at": "2026-10-12T18:01:00.000Z",
-      "likes": 39,
+      "likes": 38,
       "retweets": 4,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 2479,
+      "impression_count": 2505,
       "url": "https://x.com/TBifford/status/2109705911489187991"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 2,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 1553,
+      "impression_count": 1565,
       "url": "https://x.com/TBifford/status/2109656586528702733"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 16,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 8298,
+      "impression_count": 8311,
       "url": "https://x.com/TBifford/status/2109501817692606934"
-    },
-    {
-      "id": "2109433868189372896",
-      "text": "👻 Ghostbusters wasn’t just a comedy idea. For Dan Aykroyd, it was the family business.\n\nHis great-grandfather, Samuel Aykroyd, was a dentist in Ontario who held séances at his farmhouse. In 1921, he invited a medium to stay with the family. The medium stayed about 12 years. https://t.co/3y8A3e0Qvf",
-      "created_at": "2026-10-12T00:00:00.000Z",
-      "likes": 34,
-      "retweets": 6,
-      "replies": 0,
-      "quotes": 2,
-      "impression_count": 2516,
-      "url": "https://x.com/TBifford/status/2109433868189372896"
     }
   ]
 }
