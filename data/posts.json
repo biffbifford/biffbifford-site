@@ -1,21 +1,65 @@
 {
-  "updated_at": "2026-10-15T16:33:20.101Z",
+  "updated_at": "2026-10-16T03:44:06.637Z",
   "account": {
-    "followers": 79971,
-    "following": 28460,
-    "posts": 71578,
+    "followers": 79957,
+    "following": 28457,
+    "posts": 71591,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2110914374076674190",
+      "text": "🖖 The Vulcan salute was born in a Boston synagogue.\n\nLeonard Nimoy grew up in Boston’s West End, where his family attended an Orthodox Jewish synagogue. As a boy, he sang in the holiday choirs.\n\nDuring one service, the men stood to give a Hebrew blessing, roughly “May the Lord https://t.co/SvMkwD8EMu",
+      "created_at": "2026-10-16T02:03:00.000Z",
+      "likes": 4,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 593,
+      "url": "https://x.com/TBifford/status/2110914374076674190"
+    },
+    {
+      "id": "2110860774038221209",
+      "text": "🔨 Before Smokey and the Bandit, Burt Reynolds spent three years shoeing horses in Dodge City.\n\nFrom 1962 to 1965, he played Quint Asper on Gunsmoke, a half-Comanche blacksmith whom Marshal Dillon helped find a place in town.\n\nBut by 1965, Burt’s movie career was starting to https://t.co/hAGVgm1eMk",
+      "created_at": "2026-10-15T22:30:01.000Z",
+      "likes": 22,
+      "retweets": 1,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 1350,
+      "url": "https://x.com/TBifford/status/2110860774038221209"
+    },
+    {
+      "id": "2110792169438969890",
+      "text": "📸 That’s Frank Sutton as Gunnery Sgt. Vince Carter yelling in Gomer’s ear, a 1968 CBS publicity photo from Gomer Pyle, U.S.M.C.",
+      "created_at": "2026-10-15T17:57:24.000Z",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 279,
+      "url": "https://x.com/TBifford/status/2110792169438969890"
+    },
+    {
+      "id": "2110777730526544275",
+      "text": "🎤 Gomer Pyle had one of the most beautiful singing voices on television.\n\nJim Nabors was working as a film cutter at NBC in Los Angeles and performing at night at a Santa Monica nightclub called The Horn. One night Andy Griffith was in the audience.\n\nAndy brought him to Mayberry https://t.co/p8nDkobAZk",
+      "created_at": "2026-10-15T17:00:01.000Z",
+      "likes": 230,
+      "retweets": 22,
+      "replies": 7,
+      "quotes": 0,
+      "impression_count": 8894,
+      "url": "https://x.com/TBifford/status/2110777730526544275"
+    },
+    {
       "id": "2110498635368783984",
       "text": "🧐 Thurston Howell III and Mr. Magoo were the same man.\n\nJim Backus started voicing the nearsighted Mr. Magoo in 1949, in a cartoon called Ragtime Bear. He kept at it for decades, through the shorts, the TV series, and the 1962 classic Mister Magoo’s Christmas Carol, where Magoo https://t.co/AfLwdVnhFm",
       "created_at": "2026-10-14T22:31:00.000Z",
-      "likes": 37,
-      "retweets": 7,
+      "likes": 69,
+      "retweets": 11,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 2296,
+      "impression_count": 3078,
       "url": "https://x.com/TBifford/status/2110498635368783984"
     },
     {
@@ -26,29 +70,29 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 225,
+      "impression_count": 236,
       "url": "https://x.com/TBifford/status/2110464863889768939"
     },
     {
       "id": "2110453839187070989",
       "text": "🎸 Everybody “knows” David Bowie changed his name because of Davy Jones of the Monkees.\n\nNot quite. It happened in September 1965, a year before anyone had heard of the Monkees.\n\nDavid Bowie was born David Jones. In London, his manager knew another young singer named Davy Jones https://t.co/JM4D4jD3in",
       "created_at": "2026-10-14T19:33:00.000Z",
-      "likes": 18,
+      "likes": 26,
       "retweets": 6,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 3149,
+      "impression_count": 5133,
       "url": "https://x.com/TBifford/status/2110453839187070989"
     },
     {
       "id": "2110406024029163580",
       "text": "🎩 Before he was the King of Late Night, Johnny Carson was “The Great Carsoni.”\n\nAt 12, growing up in Nebraska, he found a magic book at a friend’s house and sent away for a mail-order magician’s kit. He practiced card tricks on his family. His mother sewed him a cape.\n\nAt 14, https://t.co/EFL23iPcpf",
       "created_at": "2026-10-14T16:23:00.000Z",
-      "likes": 14,
+      "likes": 15,
       "retweets": 4,
       "replies": 0,
       "quotes": 1,
-      "impression_count": 1659,
+      "impression_count": 1693,
       "url": "https://x.com/TBifford/status/2110406024029163580"
     },
     {
@@ -59,7 +103,7 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 1374,
+      "impression_count": 1394,
       "url": "https://x.com/TBifford/status/2110190604655399342"
     },
     {
@@ -70,52 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 287,
+      "impression_count": 292,
       "url": "https://x.com/TBifford/status/2110189598072524937"
-    },
-    {
-      "id": "2110143557038170139",
-      "text": "🕺 Before he was Jed Clampett, Buddy Ebsen helped teach a robot to dance.\n\nIn 1951, Walt Disney called in Ebsen, one of Hollywood’s best song-and-dance men, for a secret experiment. Ebsen danced in front of two white walls covered in a grid while the cameras rolled.\n\nDisney’s https://t.co/N7aryGwAkA",
-      "created_at": "2026-10-13T23:00:03.000Z",
-      "likes": 36,
-      "retweets": 1,
-      "replies": 2,
-      "quotes": 0,
-      "impression_count": 2700,
-      "url": "https://x.com/TBifford/status/2110143557038170139"
-    },
-    {
-      "id": "2110124779755675963",
-      "text": "📺 After Gunsmoke, Weaver became a star in his own right as McCloud, the New Mexico marshal, loose in New York City. In 1971, he also starred in Duel, the TV movie that launched the career of young director Steven Spielberg.",
-      "created_at": "2026-10-13T21:45:26.000Z",
-      "likes": 5,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 314,
-      "url": "https://x.com/TBifford/status/2110124779755675963"
-    },
-    {
-      "id": "2110070060702167488",
-      "text": "🏃 For nine years, Chester limped across Dodge City. The actor who played him was one of the best athletes in America.\n\nIn 1948, Dennis Weaver competed in the U.S. Olympic decathlon trials. He finished sixth, behind a 17-year-old high school track star named Bob Mathias, who went https://t.co/p8TIuRYzEw",
-      "created_at": "2026-10-13T18:08:00.000Z",
-      "likes": 173,
-      "retweets": 22,
-      "replies": 7,
-      "quotes": 0,
-      "impression_count": 6895,
-      "url": "https://x.com/TBifford/status/2110070060702167488"
-    },
-    {
-      "id": "2109758759279231222",
-      "text": "📹In 1954, Walt Disney sat down to watch a giant-ant movie so he could size up James Arness.\n\nDisney was casting Davy Crockett for his new TV show. The director wanted Buddy Ebsen for the part. Disney also considered Arness, the tall star of the sci-fi film Them!, and screened it https://t.co/l8FHzsfJkt",
-      "created_at": "2026-10-12T21:31:00.000Z",
-      "likes": 228,
-      "retweets": 26,
-      "replies": 8,
-      "quotes": 1,
-      "impression_count": 9469,
-      "url": "https://x.com/TBifford/status/2109758759279231222"
     }
   ]
 }
