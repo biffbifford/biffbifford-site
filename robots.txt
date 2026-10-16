@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /ops/
+Disallow: /scripts/
+
+Sitemap: https://biffbifford.com/sitemap.xml
