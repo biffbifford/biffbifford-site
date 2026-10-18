@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Arcade | BiffBifford</title>
+<meta name="description" content="Speed Round: 60 seconds, as many classic Hollywood and TV questions as you can. Sudden Death: one miss and you're out.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The BiffBifford Arcade">
+<meta property="og:description" content="Speed Round and Sudden Death. Classic film, TV and music questions. Can you beat my score?">
+<meta property="og:url" content="https://biffbifford.com/arcade.html">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#15120D;--soft:#1D1811;--cream:#EDE3CC;--gold:#C9A036;--gold-dim:#8A6F27;--rust:#8C3B2E;--rust-hi:#C4604D;--steel:#8F8878;--good:#7FBF8A;--line:rgba(237,227,204,.16)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a2116 0,var(--ink) 65%);color:var(--cream);font-family:"Work Sans",system-ui,sans-serif;line-height:1.55;min-height:100vh}
+a{color:var(--gold)}
+button:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px 56px}
+.top{display:flex;justify-content:space-between;align-items:baseline;padding:18px 0}
+.top a{color:var(--cream);text-decoration:none;font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:1.1rem}
+.top span{font-family:"Space Mono",monospace;font-size:.78rem;color:var(--steel)}
+.banner{background:var(--rust);color:#fff;padding:8px 12px;border-radius:4px;font-size:.9rem;margin-bottom:14px}
+h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2rem,6vw,3rem);line-height:1.08;margin:18px 0 8px}
+.lead{color:var(--steel);margin:0 0 28px;max-width:34em}
+.modes{display:grid;gap:18px;grid-template-columns:1fr 1fr}
+@media(max-width:620px){.modes{grid-template-columns:1fr}}
+.mode{display:flex;flex-direction:column;gap:10px;text-align:left;background:var(--soft);border:1px solid var(--line);border-left:4px solid var(--gold);padding:24px 22px;color:var(--cream);font:inherit;cursor:pointer}
+.mode:hover{background:#231d14;border-color:var(--gold-dim);border-left-color:var(--gold)}
+.mode h2{font-family:"Fraunces",Georgia,serif;font-size:1.4rem;margin:0}
+.mode p{margin:0;color:var(--steel);font-size:.95rem}
+.mode .go{margin-top:auto;font-weight:600;color:var(--gold)}
+.panel{background:var(--soft);border:1px solid var(--line);border-top:4px solid var(--gold);padding:26px 24px}
+.hud{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-family:"Space Mono",monospace;font-size:.85rem;color:var(--gold);margin-bottom:6px}
+.bar{height:8px;background:rgba(201,160,54,.18);border-radius:2px;overflow:hidden;margin-bottom:20px}
+.bar i{display:block;height:100%;width:100%;background:var(--gold);transform-origin:left}
+.q{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:clamp(1.25rem,3.4vw,1.6rem);line-height:1.3;margin:0 0 20px}
+.opts{display:grid;gap:10px;grid-template-columns:1fr 1fr;list-style:none;padding:0;margin:0}
+@media(max-width:620px){.opts{grid-template-columns:1fr}}
+.opt{width:100%;display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;font:inherit;font-weight:500;color:var(--cream);background:rgba(237,227,204,.05);border:1px solid var(--gold-dim);border-radius:4px;padding:12px 14px;min-height:48px}
+.opt:hover:not(:disabled){border-color:var(--gold);background:rgba(201,160,54,.14)}
+.opt .k{font-family:"Space Mono",monospace;font-weight:700;color:var(--gold)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--good);background:rgba(127,191,138,.18)}
+.opt.wrong{border-color:var(--rust-hi);background:rgba(196,96,77,.22)}
+.verdict{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:1.2rem;margin:18px 0 4px}
+.verdict.ok{color:var(--good)}.verdict.no{color:var(--rust-hi)}
+.fact{margin:0 0 16px;opacity:.92}
+.btn{display:inline-flex;align-items:center;cursor:pointer;font:inherit;font-weight:600;color:var(--ink);background:var(--gold);border:0;border-radius:4px;padding:12px 22px;min-height:46px;text-decoration:none}
+.btn:hover{background:#dcb64a}
+.btn.alt{background:transparent;color:var(--cream);border:1px solid var(--gold-dim)}
+.btn.alt:hover{border-color:var(--gold)}
+.row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.score{font-family:"Space Mono",monospace;font-weight:700;font-size:4rem;line-height:1;color:var(--gold);margin:6px 0}
+.small{color:var(--steel);font-size:.9rem}
+.fine{color:var(--steel);font-size:.85rem;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><a href="index.html">BiffBifford</a><span>@TBifford</span></div>
+  <div id="banner"></div>
+  <div id="app"><p class="lead">Loading…</p></div>
+  <p class="fine">Points are for bragging rights only. Nothing is saved or tracked on this page.</p>
+</div>
+<noscript><p style="max-width:640px;margin:24px auto;padding:0 20px">The arcade needs JavaScript. Turn it on and reload to play.</p></noscript>
+
+<script>
+(function(){
+"use strict";
+var PAGE_URL="https://biffbifford.com/arcade.html";
+var PREVIEW=new URLSearchParams(location.search).has("preview");
+var app=document.getElementById("app");
+var pool=[], awaiting=null, timer=null;
+
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+
+fetch("data/questions.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
+  pool=((d&&d.questions)||[]).filter(function(q){
+    return q&&q.q&&Array.isArray(q.options)&&q.options.length===4&&typeof q.answer==="number"&&(PREVIEW||q.verified===true);
+  });
+  if(PREVIEW)document.getElementById("banner").innerHTML='<div class="banner">Preview mode: unverified questions are included. Visitors will not see these.</div>';
+  if(pool.length<4)notReady();else menu();
+}).catch(function(){app.innerHTML='<h1>No signal</h1><p class="lead">The questions did not load. Reload the page to try again.</p>'});
+
+function notReady(){app.innerHTML='<h1>The Arcade</h1><p class="lead">The questions are still being checked. Come back soon.</p><a class="btn" href="index.html">Back to the home page</a>'}
+
+function menu(){
+  stop();awaiting=null;
+  app.innerHTML='<h1>The Arcade</h1><p class="lead">Two quick games from the same question deck as the quiz. Pick one.</p>'+
+   '<div class="modes">'+
+   '<button class="mode" id="m-speed"><h2>Speed Round</h2><p>60 seconds. Ten points for every right answer. A miss costs nothing but time.</p><span class="go">Start the clock</span></button>'+
+   '<button class="mode" id="m-sudden"><h2>Sudden Death</h2><p>Questions get harder as you go. Your first miss ends the run. How long is your streak?</p><span class="go">Start the streak</span></button>'+
+   '</div>';
+  document.getElementById("m-speed").onclick=speed;
+  document.getElementById("m-sudden").onclick=sudden;
+}
+function stop(){if(timer){clearInterval(timer);timer=null}}
+
+/* shared question renderer */
+function ask(q,opts){
+  // opts: {hudLeft, hudRight, onAnswer(ok,q), showBar}
+  var order=shuffle([0,1,2,3]),L=["A","B","C","D"];
+  var items=order.map(function(oi,p){return '<li><button class="opt"><span class="k">'+L[p]+'</span><span>'+esc(q.options[oi])+'</span></button></li>'}).join("");
+  app.innerHTML='<div class="panel"><div class="hud"><span id="hl">'+esc(opts.hudLeft)+'</span><span id="hr">'+esc(opts.hudRight)+'</span></div>'+
+    (opts.showBar?'<div class="bar"><i id="bar"></i></div>':'<div style="height:14px"></div>')+
+    '<p class="q" id="qt">'+esc(q.q)+'</p><ul class="opts" aria-labelledby="qt">'+items+'</ul><div id="after"></div></div>';
+  var btns=app.querySelectorAll(".opt"),done=false,correctPos=order.indexOf(q.answer);
+  function pickPos(p){
+    if(done)return;done=true;awaiting=null;
+    var ok=p===correctPos;
+    btns.forEach(function(b,i){b.disabled=true;if(i===correctPos)b.classList.add("right");else if(i===p)b.classList.add("wrong")});
+    opts.onAnswer(ok,q);
+  }
+  btns.forEach(function(b,i){b.onclick=function(){pickPos(i)}});
+  awaiting=pickPos;
+}
+document.addEventListener("keydown",function(e){
+  if(!awaiting||e.ctrlKey||e.metaKey||e.altKey||e.key.length!==1)return;
+  var k=e.key.toLowerCase(),i="abcd".indexOf(k);if(i<0)i="1234".indexOf(k);
+  if(i>-1){e.preventDefault();awaiting(i)}
+});
+
+function shareLink(text){return "https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent(PAGE_URL)+"&via=TBifford"}
+function results(title,big,line,shareText){
+  stop();awaiting=null;
+  var native=navigator.share?'<button class="btn alt" id="ns">Share another way</button>':'';
+  app.innerHTML='<div class="panel"><div class="hud"><span>'+esc(title)+'</span></div><div class="score">'+esc(big)+'</div><p class="q" style="margin:0 0 6px">'+esc(line)+'</p>'+
+   '<p class="small">Post your score and tag @TBifford.</p>'+
+   '<div class="row"><a class="btn" href="'+shareLink(shareText)+'" target="_blank" rel="noopener">Share on X</a>'+native+'<button class="btn alt" id="again">Play again</button><button class="btn alt" id="menu">Pick another game</button></div></div>';
+  document.getElementById("again").onclick=function(){title.indexOf("Speed")===0?speed():sudden()};
+  document.getElementById("menu").onclick=menu;
+  var n=document.getElementById("ns");if(n)n.onclick=function(){navigator.share({title:"The BiffBifford Arcade",text:shareText,url:PAGE_URL}).catch(function(){})};
+}
+
+/* ---- Speed Round ---- */
+function speed(){
+  stop();
+  var deck=shuffle(pool),idx=0,score=0,right=0,total=60000,end=Date.now()+total,over=false;
+  function finish(){
+    if(over)return;over=true;stop();
+    var msg=right===1?"1 right answer":right+" right answers";
+    results("Speed Round complete",String(score),msg+" in 60 seconds.","I scored "+score+" in the 60-second Speed Round on the BiffBifford classic film & TV quiz. Can you beat it?");
+  }
+  function next(){
+    if(over)return;
+    if(idx>=deck.length){finish();return}
+    var q=deck[idx++];
+    ask(q,{hudLeft:"Speed Round",hudRight:"Points "+score,showBar:true,onAnswer:function(ok){
+      if(ok){score+=10;right++}
+      var hr=document.getElementById("hr");if(hr)hr.textContent="Points "+score;
+      setTimeout(next,ok?450:900);
+    }});
+    tick();
+  }
+  function tick(){var left=Math.max(0,end-Date.now()),b=document.getElementById("bar");if(b)b.style.transform="scaleX("+(left/total)+")";var hl=document.getElementById("hl");if(hl)hl.textContent="Speed Round | "+Math.ceil(left/1000)+"s"}
+  timer=setInterval(function(){tick();if(end-Date.now()<=0)finish()},100);
+  next();
+}
+
+/* ---- Sudden Death ---- */
+function sudden(){
+  stop();
+  var byLevel=pool.slice().sort(function(a,b){return (a.level||0)-(b.level||0)||Math.random()-.5});
+  var idx=0,streak=0;
+  function next(){
+    if(idx>=byLevel.length){results("Sudden Death complete",String(streak),"You cleared the whole deck.","I cleared the whole Sudden Death deck ("+streak+" in a row) on the BiffBifford classic film & TV quiz. Can you?");return}
+    var q=byLevel[idx++];
+    ask(q,{hudLeft:"Sudden Death",hudRight:"Streak "+streak+" | Level "+(q.level||"?"),showBar:false,onAnswer:function(ok,q){
+      var after=document.getElementById("after");
+      if(ok){streak++;
+        after.innerHTML='<div class="verdict ok">Right. Streak: '+streak+'.</div>'+(q.fact?'<p class="fact">'+esc(q.fact)+'</p>':'')+'<button class="btn" id="nx">Next question</button>';
+        var nb=document.getElementById("nx");nb.onclick=next;nb.focus({preventScroll:true});
+      }else{
+        after.innerHTML='<div class="verdict no">That ends the run.</div>'+(q.fact?'<p class="fact">'+esc(q.fact)+'</p>':'')+'<button class="btn" id="nx">See your streak</button>';
+        var nb2=document.getElementById("nx");nb2.onclick=function(){results("Sudden Death over",String(streak),streak===1?"1 right answer in a row.":streak+" right answers in a row.","I got "+streak+" in a row in Sudden Death on the BiffBifford classic film & TV quiz. Can you beat it?")};nb2.focus({preventScroll:true});
+      }
+    }});
+  }
+  next();
+}
+})();
+</script>
+</body>
+</html>

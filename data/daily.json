@@ -1,0 +1,185 @@
+{
+ "_readme": "Daily Pick on the home page. The page shows one entry per day, rotating through this list. Edit freely: title, year, director, stars. Keep the facts accurate.",
+ "picks": [
+  {
+   "title": "Casablanca",
+   "year": 1942,
+   "director": "Michael Curtiz",
+   "stars": "Humphrey Bogart and Ingrid Bergman"
+  },
+  {
+   "title": "Some Like It Hot",
+   "year": 1959,
+   "director": "Billy Wilder",
+   "stars": "Marilyn Monroe, Tony Curtis and Jack Lemmon"
+  },
+  {
+   "title": "Sunset Boulevard",
+   "year": 1950,
+   "director": "Billy Wilder",
+   "stars": "Gloria Swanson and William Holden"
+  },
+  {
+   "title": "Singin' in the Rain",
+   "year": 1952,
+   "director": "Gene Kelly and Stanley Donen",
+   "stars": "Gene Kelly, Debbie Reynolds and Donald O'Connor"
+  },
+  {
+   "title": "The Maltese Falcon",
+   "year": 1941,
+   "director": "John Huston",
+   "stars": "Humphrey Bogart and Mary Astor"
+  },
+  {
+   "title": "Rear Window",
+   "year": 1954,
+   "director": "Alfred Hitchcock",
+   "stars": "James Stewart and Grace Kelly"
+  },
+  {
+   "title": "It's a Wonderful Life",
+   "year": 1946,
+   "director": "Frank Capra",
+   "stars": "James Stewart and Donna Reed"
+  },
+  {
+   "title": "Double Indemnity",
+   "year": 1944,
+   "director": "Billy Wilder",
+   "stars": "Fred MacMurray and Barbara Stanwyck"
+  },
+  {
+   "title": "North by Northwest",
+   "year": 1959,
+   "director": "Alfred Hitchcock",
+   "stars": "Cary Grant and Eva Marie Saint"
+  },
+  {
+   "title": "The Apartment",
+   "year": 1960,
+   "director": "Billy Wilder",
+   "stars": "Jack Lemmon and Shirley MacLaine"
+  },
+  {
+   "title": "Dr. Strangelove",
+   "year": 1964,
+   "director": "Stanley Kubrick",
+   "stars": "Peter Sellers and George C. Scott"
+  },
+  {
+   "title": "Butch Cassidy and the Sundance Kid",
+   "year": 1969,
+   "director": "George Roy Hill",
+   "stars": "Paul Newman and Robert Redford"
+  },
+  {
+   "title": "The Godfather",
+   "year": 1972,
+   "director": "Francis Ford Coppola",
+   "stars": "Marlon Brando and Al Pacino"
+  },
+  {
+   "title": "The Sting",
+   "year": 1973,
+   "director": "George Roy Hill",
+   "stars": "Paul Newman and Robert Redford"
+  },
+  {
+   "title": "Chinatown",
+   "year": 1974,
+   "director": "Roman Polanski",
+   "stars": "Jack Nicholson and Faye Dunaway"
+  },
+  {
+   "title": "Young Frankenstein",
+   "year": 1974,
+   "director": "Mel Brooks",
+   "stars": "Gene Wilder and Marty Feldman"
+  },
+  {
+   "title": "Jaws",
+   "year": 1975,
+   "director": "Steven Spielberg",
+   "stars": "Roy Scheider, Robert Shaw and Richard Dreyfuss"
+  },
+  {
+   "title": "Network",
+   "year": 1976,
+   "director": "Sidney Lumet",
+   "stars": "Peter Finch and Faye Dunaway"
+  },
+  {
+   "title": "Alien",
+   "year": 1979,
+   "director": "Ridley Scott",
+   "stars": "Sigourney Weaver and Tom Skerritt"
+  },
+  {
+   "title": "Raiders of the Lost Ark",
+   "year": 1981,
+   "director": "Steven Spielberg",
+   "stars": "Harrison Ford and Karen Allen"
+  },
+  {
+   "title": "Ghostbusters",
+   "year": 1984,
+   "director": "Ivan Reitman",
+   "stars": "Bill Murray, Dan Aykroyd and Harold Ramis"
+  },
+  {
+   "title": "The Breakfast Club",
+   "year": 1985,
+   "director": "John Hughes",
+   "stars": "Emilio Estevez and Molly Ringwald"
+  },
+  {
+   "title": "Ferris Bueller's Day Off",
+   "year": 1986,
+   "director": "John Hughes",
+   "stars": "Matthew Broderick, Alan Ruck and Mia Sara"
+  },
+  {
+   "title": "Stand by Me",
+   "year": 1986,
+   "director": "Rob Reiner",
+   "stars": "Wil Wheaton and River Phoenix"
+  },
+  {
+   "title": "Die Hard",
+   "year": 1988,
+   "director": "John McTiernan",
+   "stars": "Bruce Willis and Alan Rickman"
+  },
+  {
+   "title": "Rio Bravo",
+   "year": 1959,
+   "director": "Howard Hawks",
+   "stars": "John Wayne and Dean Martin"
+  },
+  {
+   "title": "Vertigo",
+   "year": 1958,
+   "director": "Alfred Hitchcock",
+   "stars": "James Stewart and Kim Novak"
+  },
+  {
+   "title": "Bringing Up Baby",
+   "year": 1938,
+   "director": "Howard Hawks",
+   "stars": "Cary Grant and Katharine Hepburn"
+  },
+  {
+   "title": "His Girl Friday",
+   "year": 1940,
+   "director": "Howard Hawks",
+   "stars": "Cary Grant and Rosalind Russell"
+  },
+  {
+   "title": "Caddyshack",
+   "year": 1980,
+   "director": "Harold Ramis",
+   "stars": "Chevy Chase, Rodney Dangerfield and Bill Murray"
+  }
+ ]
+}

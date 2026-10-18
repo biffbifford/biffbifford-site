@@ -1,0 +1,133 @@
+{
+ "_readme": "On This Day module. Matches today's month-day (MM-DD). Only entries with verified:true show. Confirm each date with a source, add it, then flip verified to true.",
+ "entries": [
+  {
+   "id": "d01",
+   "date": "05-01",
+   "year": 1941,
+   "text": "Citizen Kane premieres in New York City.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d02",
+   "date": "08-15",
+   "year": 1939,
+   "text": "The Wizard of Oz has its Hollywood premiere.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d03",
+   "date": "05-25",
+   "year": 1977,
+   "text": "Star Wars opens in theaters.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d04",
+   "date": "06-20",
+   "year": 1975,
+   "text": "Jaws is released.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d05",
+   "date": "06-16",
+   "year": 1960,
+   "text": "Psycho opens in New York City.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d06",
+   "date": "11-26",
+   "year": 1942,
+   "text": "Casablanca has its New York premiere.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d07",
+   "date": "10-06",
+   "year": 1927,
+   "text": "The Jazz Singer premieres, the first feature with synchronized dialogue.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d08",
+   "date": "11-18",
+   "year": 1928,
+   "text": "Steamboat Willie debuts, the first Mickey Mouse cartoon with synchronized sound released to the public.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d09",
+   "date": "02-09",
+   "year": 1964,
+   "text": "The Beatles make their first live appearance on The Ed Sullivan Show.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d10",
+   "date": "09-19",
+   "year": 1970,
+   "text": "The Mary Tyler Moore Show premieres on CBS.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d11",
+   "date": "01-15",
+   "year": 1974,
+   "text": "Happy Days premieres on ABC.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d12",
+   "date": "08-01",
+   "year": 1981,
+   "text": "MTV launches.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d13",
+   "date": "06-08",
+   "year": 1984,
+   "text": "Ghostbusters is released.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d14",
+   "date": "07-03",
+   "year": 1985,
+   "text": "Back to the Future is released.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d15",
+   "date": "07-05",
+   "year": 1989,
+   "text": "Seinfeld airs its first episode, titled The Seinfeld Chronicles.",
+   "source": "",
+   "verified": false
+  },
+  {
+   "id": "d16",
+   "date": "10-01",
+   "year": 1962,
+   "text": "Johnny Carson hosts his first Tonight Show.",
+   "source": "",
+   "verified": false
+  }
+ ]
+}
