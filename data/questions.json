@@ -1,47 +1,536 @@
 {
-  "_readme": "Quiz questions. A question only appears for visitors when \"verified\" is true. Check each fact against a source you trust, put the source in \"source\", then change verified to true. category is Music, Film or Television. level runs 1 (easy) to 10 (hard). \"final\": true marks a question that can be used for the last-round bet. answer is the position of the right option, counting from 0.",
-  "questions": [
-    {"id":"q01","category":"Film","level":1,"q":"Which actor played Marty McFly in Back to the Future (1985)?","options":["Michael J. Fox","Charlie Sheen","Emilio Estevez","Matthew Broderick"],"answer":0,"fact":"Eric Stoltz was originally cast in the role and filmed for several weeks before being replaced.","source":"","verified":false},
-    {"id":"q02","category":"Television","level":1,"q":"Which TV show starred Alan Alda as Captain Hawkeye Pierce?","options":["M*A*S*H","Taxi","Barney Miller","Cheers"],"answer":0,"fact":"The 1983 finale was watched by more than 100 million people in the US, a record for an American TV broadcast at the time.","source":"","verified":false},
-    {"id":"q03","category":"Music","level":1,"q":"Which band recorded Bohemian Rhapsody?","options":["Queen","Led Zeppelin","The Rolling Stones","Kiss"],"answer":0,"fact":"Released in 1975, the single ran nearly six minutes, far longer than radio usually played.","source":"","verified":false},
-
-    {"id":"q04","category":"Film","level":2,"q":"In Jaws (1975), what is the name of the beach town the shark terrorizes?","options":["Amity Island","Cape Fear","Salem's Cove","Orca Bay"],"answer":0,"fact":"The mechanical shark was nicknamed Bruce, reportedly after Steven Spielberg's lawyer.","source":"","verified":false},
-    {"id":"q05","category":"Television","level":2,"q":"In which city is the bar from Cheers located?","options":["Boston","Chicago","New York","Philadelphia"],"answer":0,"fact":"The show ran for 11 seasons, from 1982 to 1993.","source":"","verified":false},
-    {"id":"q06","category":"Music","level":2,"q":"Which artist released the 1982 album Thriller?","options":["Michael Jackson","Prince","Lionel Richie","Stevie Wonder"],"answer":0,"fact":"It is widely cited as the best-selling album of all time.","source":"","verified":false},
-
-    {"id":"q07","category":"Film","level":3,"q":"Who directed E.T. the Extra-Terrestrial (1982)?","options":["Steven Spielberg","George Lucas","Ron Howard","Robert Zemeckis"],"answer":0,"fact":"E.T. held the record as the highest-grossing film of all time until Spielberg's Jurassic Park passed it in 1993.","source":"","verified":false},
-    {"id":"q08","category":"Television","level":3,"q":"Which TV family lived at 4222 Clinton Way?","options":["The Bradys","The Partridges","The Waltons","The Ingalls"],"answer":0,"fact":"The house used for exterior shots is a real home in Studio City, California.","source":"","verified":false},
-    {"id":"q09","category":"Music","level":3,"q":"Which band was fronted by singer Debbie Harry?","options":["Blondie","The Go-Go's","The Pretenders","Heart"],"answer":0,"fact":"Their song Heart of Glass reached number one in the US in 1979.","source":"","verified":false},
-
-    {"id":"q10","category":"Film","level":4,"q":"Which 1980 comedy features the line \"Surely you can't be serious\"?","options":["Airplane!","Caddyshack","Stripes","The Blues Brothers"],"answer":0,"fact":"Leslie Nielsen had mostly played serious dramatic roles before this, and the film turned him into a comedy star.","source":"","verified":false},
-    {"id":"q11","category":"Television","level":4,"q":"Which 1970s sitcom was set in a diner called Mel's?","options":["Alice","Happy Days","Laverne & Shirley","Taxi"],"answer":0,"fact":"It was based on the 1974 film Alice Doesn't Live Here Anymore.","source":"","verified":false},
-    {"id":"q12","category":"Music","level":4,"q":"Which band released the 1977 album Rumours?","options":["Fleetwood Mac","Eagles","ABBA","Boston"],"answer":0,"fact":"It won the Grammy for Album of the Year in 1978.","source":"","verified":false},
-
-    {"id":"q13","category":"Film","level":5,"q":"In RoboCop (1987), which corporation runs the Detroit police?","options":["Omni Consumer Products","Cyberdyne Systems","Tyrell Corporation","Weyland-Yutani"],"answer":0,"fact":"Paul Verhoeven directed it, and the film was shot mostly in Dallas and Pittsburgh rather than Detroit.","source":"","verified":false},
-    {"id":"q14","category":"Television","level":5,"q":"Which actor played J.R. Ewing on Dallas?","options":["Larry Hagman","Patrick Duffy","Ken Kercheval","Howard Keel"],"answer":0,"fact":"The 1980 \"Who shot J.R.?\" cliffhanger drew one of the largest TV audiences of its era.","source":"","verified":false},
-    {"id":"q15","category":"Music","level":5,"q":"Which 1984 film starred Prince as \"The Kid\"?","options":["Purple Rain","Under the Cherry Moon","Graffiti Bridge","Sign o' the Times"],"answer":0,"fact":"Its music won the Oscar for Best Original Song Score.","source":"","verified":false},
-
-    {"id":"q16","category":"Film","level":6,"q":"Who composed the score for Jaws (1975)?","options":["John Williams","Jerry Goldsmith","Ennio Morricone","Bernard Herrmann"],"answer":0,"fact":"The two-note shark theme helped Williams win an Academy Award for the score.","source":"","verified":false},
-    {"id":"q17","category":"Television","level":6,"q":"On Magnum, P.I., whose Hawaiian estate does Magnum live on?","options":["Robin Masters","Jonathan Higgins","Rick Wright","T.C. Calvin"],"answer":0,"fact":"Robin Masters was never fully shown on screen, and his voice was provided by Orson Welles.","source":"","verified":false},
-    {"id":"q18","category":"Music","level":6,"q":"Who wrote White Christmas, made famous by Bing Crosby?","options":["Irving Berlin","Cole Porter","George Gershwin","Johnny Mercer"],"answer":0,"fact":"Berlin was Jewish, and the song first appeared in the 1942 film Holiday Inn.","source":"","verified":false},
-    {"id":"q19","category":"Music","level":6,"q":"Which band released the 1979 double album The Wall?","options":["Pink Floyd","Led Zeppelin","The Who","Genesis"],"answer":0,"fact":"Another Brick in the Wall (Part 2) was the UK Christmas number one in 1979.","source":"","verified":false},
-
-    {"id":"q20","category":"Film","level":7,"q":"Which film won Best Picture over Star Wars at the Oscars for 1977 films?","options":["Annie Hall","Julia","The Goodbye Girl","The Turning Point"],"answer":0,"fact":"Woody Allen did not attend the ceremony.","source":"","verified":false},
-    {"id":"q21","category":"Television","level":7,"q":"Which sitcom was a spin-off of Maude, itself a spin-off of All in the Family?","options":["Good Times","The Jeffersons","Sanford and Son","What's Happening!!"],"answer":0,"fact":"The Jeffersons was also a spin-off of All in the Family.","source":"","verified":false},
-    {"id":"q22","category":"Music","level":7,"q":"Which group sang Don't You (Forget About Me) for The Breakfast Club?","options":["Simple Minds","Duran Duran","Tears for Fears","The Psychedelic Furs"],"answer":0,"fact":"The band didn't write it. Keith Forsey and Steve Schiff did, and other artists reportedly turned it down first.","source":"","verified":false},
-
-    {"id":"q23","category":"Film","level":8,"q":"Which 1982 film was reportedly kept out of Oscar visual-effects consideration because computers were seen as cheating?","options":["Tron","Blade Runner","The Thing","Poltergeist"],"answer":0,"fact":"Tron's director, Steven Lisberger, has said the Academy considered using computers to be cheating.","source":"","verified":false},
-    {"id":"q24","category":"Television","level":8,"q":"Which network first aired Star Trek from 1966 to 1969?","options":["NBC","CBS","ABC","Fox"],"answer":0,"fact":"A fan letter-writing campaign is often credited with helping it win a third season.","source":"","verified":false},
-    {"id":"q25","category":"Music","level":8,"q":"Who organized the 1971 Concert for Bangladesh, an early major benefit concert?","options":["George Harrison","John Lennon","Eric Clapton","Bob Dylan"],"answer":0,"fact":"Ravi Shankar asked Harrison for help, and the concert was held at Madison Square Garden.","source":"","verified":false},
-
-    {"id":"q26","category":"Film","level":9,"q":"Who was the first Black performer to win an Academy Award, for Gone with the Wind?","options":["Hattie McDaniel","Butterfly McQueen","Ethel Waters","Dorothy Dandridge"],"answer":0,"fact":"At the 1940 ceremony she was seated at a separate table, away from the film's other nominees.","source":"","verified":false},
-    {"id":"q27","category":"Television","level":9,"q":"In which sitcom did Mork from Ork first appear, before getting his own series?","options":["Happy Days","Laverne & Shirley","Three's Company","Taxi"],"answer":0,"fact":"Robin Williams appeared in a 1978 Happy Days episode, and Mork & Mindy launched the same year.","source":"","verified":false},
-    {"id":"q28","category":"Music","level":9,"q":"Who co-wrote We Are the World with Michael Jackson?","options":["Lionel Richie","Quincy Jones","Stevie Wonder","Kenny Rogers"],"answer":0,"fact":"It was recorded in a single night in January 1985, right after the American Music Awards.","source":"","verified":false},
-    {"id":"q29","category":"Film","level":9,"final":true,"q":"Who is often called the first professional stuntwoman in American film?","options":["Helen Gibson","Mary Pickford","Lillian Gish","Gloria Swanson"],"answer":0,"fact":"Born Rose Wenger, she did her own stunts in Westerns and serials.","source":"","verified":false},
-    {"id":"q30","category":"Music","level":9,"final":true,"q":"Which international music hall star worked with the French Resistance during World War II?","options":["Josephine Baker","Ethel Waters","Lena Horne","Billie Holiday"],"answer":0,"fact":"She received the Croix de Guerre and the Legion of Honour for her wartime service.","source":"","verified":false},
-
-    {"id":"q31","category":"Film","level":10,"final":true,"q":"Which 1935 film was the first full-length feature shot in three-strip Technicolor?","options":["Becky Sharp","The Wizard of Oz","Gone with the Wind","Snow White and the Seven Dwarfs"],"answer":0,"fact":"It was adapted from Vanity Fair, the novel by William Makepeace Thackeray.","source":"","verified":false},
-    {"id":"q32","category":"Television","level":10,"q":"Which 1951 sitcom pioneered filming with multiple cameras in front of a live studio audience?","options":["I Love Lucy","Gunsmoke","Dragnet","Leave It to Beaver"],"answer":0,"fact":"Desi Arnaz and cinematographer Karl Freund developed the setup.","source":"","verified":false},
-    {"id":"q33","category":"Music","level":10,"q":"Who wrote I Will Always Love You, later a huge hit for Whitney Houston?","options":["Dolly Parton","Carole King","Linda Ronstadt","Stevie Nicks"],"answer":0,"fact":"Elvis Presley wanted to record it, but Parton turned down his manager's demand for half the publishing rights.","source":"","verified":false}
-  ]
+ "_readme": "Quiz questions. A question only appears for visitors when \"verified\" is true. Check each fact against a source you trust, put the source in \"source\", then change verified to true. category is Music, Film or Television. level runs 1 (easy) to 10 (hard). \"final\": true marks a question that can be used for the last-round bet. answer is the position of the right option, counting from 0.",
+ "questions": [
+  {
+   "id": "q01",
+   "category": "Film",
+   "level": 1,
+   "q": "Which actor played Marty McFly in Back to the Future (1985)?",
+   "options": [
+    "Michael J. Fox",
+    "Charlie Sheen",
+    "Emilio Estevez",
+    "Matthew Broderick"
+   ],
+   "answer": 0,
+   "fact": "Eric Stoltz was originally cast in the role and filmed for several weeks before being replaced.",
+   "source": "https://en.wikipedia.org/wiki/Back_to_the_Future",
+   "verified": true
+  },
+  {
+   "id": "q02",
+   "category": "Television",
+   "level": 1,
+   "q": "Which TV show starred Alan Alda as Captain Hawkeye Pierce?",
+   "options": [
+    "M*A*S*H",
+    "Taxi",
+    "Barney Miller",
+    "Cheers"
+   ],
+   "answer": 0,
+   "fact": "The 1983 finale was watched by more than 100 million people in the US, a record for an American TV broadcast at the time.",
+   "source": "https://en.wikipedia.org/wiki/M*A*S*H_(TV_series)",
+   "verified": true
+  },
+  {
+   "id": "q03",
+   "category": "Music",
+   "level": 1,
+   "q": "Which band recorded Bohemian Rhapsody?",
+   "options": [
+    "Queen",
+    "Led Zeppelin",
+    "The Rolling Stones",
+    "Kiss"
+   ],
+   "answer": 0,
+   "fact": "Released in 1975, the single ran 5:55. Record executives worried it was too long to be a hit.",
+   "source": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
+   "verified": true
+  },
+  {
+   "id": "q04",
+   "category": "Film",
+   "level": 2,
+   "q": "In Jaws (1975), what is the name of the beach town the shark terrorizes?",
+   "options": [
+    "Amity Island",
+    "Cape Fear",
+    "Salem's Cove",
+    "Orca Bay"
+   ],
+   "answer": 0,
+   "fact": "The three mechanical sharks were nicknamed Bruce, after Steven Spielberg's lawyer, Bruce Ramer.",
+   "source": "https://en.wikipedia.org/wiki/Jaws_(film)",
+   "verified": true
+  },
+  {
+   "id": "q05",
+   "category": "Television",
+   "level": 2,
+   "q": "In which city is the bar from Cheers located?",
+   "options": [
+    "Boston",
+    "Chicago",
+    "New York",
+    "Philadelphia"
+   ],
+   "answer": 0,
+   "fact": "The show ran for 11 seasons, from 1982 to 1993.",
+   "source": "https://en.wikipedia.org/wiki/Cheers",
+   "verified": true
+  },
+  {
+   "id": "q06",
+   "category": "Music",
+   "level": 2,
+   "q": "Which artist released the 1982 album Thriller?",
+   "options": [
+    "Michael Jackson",
+    "Prince",
+    "Lionel Richie",
+    "Stevie Wonder"
+   ],
+   "answer": 0,
+   "fact": "It is widely cited as the best-selling album of all time.",
+   "source": "https://en.wikipedia.org/wiki/Thriller_(album)",
+   "verified": true
+  },
+  {
+   "id": "q07",
+   "category": "Film",
+   "level": 3,
+   "q": "Who directed E.T. the Extra-Terrestrial (1982)?",
+   "options": [
+    "Steven Spielberg",
+    "George Lucas",
+    "Ron Howard",
+    "Robert Zemeckis"
+   ],
+   "answer": 0,
+   "fact": "E.T. held the record as the highest-grossing film of all time until Spielberg's Jurassic Park passed it in 1993.",
+   "source": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial",
+   "verified": true
+  },
+  {
+   "id": "q08",
+   "category": "Television",
+   "level": 3,
+   "q": "Which TV family lived at 4222 Clinton Way?",
+   "options": [
+    "The Bradys",
+    "The Partridges",
+    "The Waltons",
+    "The Ingalls"
+   ],
+   "answer": 0,
+   "fact": "The house used for exterior shots is a real home in Studio City, California.",
+   "source": "https://en.wikipedia.org/wiki/The_Brady_Bunch",
+   "verified": true
+  },
+  {
+   "id": "q09",
+   "category": "Music",
+   "level": 3,
+   "q": "Which band was fronted by singer Debbie Harry?",
+   "options": [
+    "Blondie",
+    "The Go-Go's",
+    "The Pretenders",
+    "Heart"
+   ],
+   "answer": 0,
+   "fact": "Their song Heart of Glass reached number one in the US in 1979.",
+   "source": "https://en.wikipedia.org/wiki/Heart_of_Glass_(song)",
+   "verified": true
+  },
+  {
+   "id": "q10",
+   "category": "Film",
+   "level": 4,
+   "q": "Which 1980 comedy features the line \"Surely you can't be serious\"?",
+   "options": [
+    "Airplane!",
+    "Caddyshack",
+    "Stripes",
+    "The Blues Brothers"
+   ],
+   "answer": 0,
+   "fact": "Leslie Nielsen had mostly played serious leading roles before this film.",
+   "source": "https://en.wikipedia.org/wiki/Airplane!",
+   "verified": true
+  },
+  {
+   "id": "q11",
+   "category": "Television",
+   "level": 4,
+   "q": "Which 1970s sitcom was set in a diner called Mel's?",
+   "options": [
+    "Alice",
+    "Happy Days",
+    "Laverne & Shirley",
+    "Taxi"
+   ],
+   "answer": 0,
+   "fact": "It was based on the 1974 film Alice Doesn't Live Here Anymore.",
+   "source": "https://en.wikipedia.org/wiki/Alice_(American_TV_series)",
+   "verified": true
+  },
+  {
+   "id": "q12",
+   "category": "Music",
+   "level": 4,
+   "q": "Which band released the 1977 album Rumours?",
+   "options": [
+    "Fleetwood Mac",
+    "Eagles",
+    "ABBA",
+    "Boston"
+   ],
+   "answer": 0,
+   "fact": "It won the Grammy for Album of the Year in 1978.",
+   "source": "https://en.wikipedia.org/wiki/Rumours_(album)",
+   "verified": true
+  },
+  {
+   "id": "q13",
+   "category": "Film",
+   "level": 5,
+   "q": "In RoboCop (1987), which corporation runs the Detroit police?",
+   "options": [
+    "Omni Consumer Products",
+    "Cyberdyne Systems",
+    "Tyrell Corporation",
+    "Weyland-Yutani"
+   ],
+   "answer": 0,
+   "fact": "Paul Verhoeven directed it, and it was shot mostly in Dallas, with some filming in Pittsburgh, rather than Detroit.",
+   "source": "https://en.wikipedia.org/wiki/RoboCop",
+   "verified": true
+  },
+  {
+   "id": "q14",
+   "category": "Television",
+   "level": 5,
+   "q": "Which actor played J.R. Ewing on Dallas?",
+   "options": [
+    "Larry Hagman",
+    "Patrick Duffy",
+    "Ken Kercheval",
+    "Howard Keel"
+   ],
+   "answer": 0,
+   "fact": "The 1980 \"Who shot J.R.?\" cliffhanger became a pop-culture phenomenon.",
+   "source": "https://en.wikipedia.org/wiki/J._R._Ewing",
+   "verified": true
+  },
+  {
+   "id": "q15",
+   "category": "Music",
+   "level": 5,
+   "q": "Which 1984 film starred Prince as \"The Kid\"?",
+   "options": [
+    "Purple Rain",
+    "Under the Cherry Moon",
+    "Graffiti Bridge",
+    "Sign o' the Times"
+   ],
+   "answer": 0,
+   "fact": "Its music won the Oscar for Best Original Song Score.",
+   "source": "https://en.wikipedia.org/wiki/Purple_Rain_(film)",
+   "verified": true
+  },
+  {
+   "id": "q16",
+   "category": "Film",
+   "level": 6,
+   "q": "Who composed the score for Jaws (1975)?",
+   "options": [
+    "John Williams",
+    "Jerry Goldsmith",
+    "Ennio Morricone",
+    "Bernard Herrmann"
+   ],
+   "answer": 0,
+   "fact": "The two-note shark theme helped Williams win an Academy Award for the score.",
+   "source": "https://en.wikipedia.org/wiki/Jaws_(film)",
+   "verified": true
+  },
+  {
+   "id": "q17",
+   "category": "Television",
+   "level": 6,
+   "q": "On Magnum, P.I., whose Hawaiian estate does Magnum live on?",
+   "options": [
+    "Robin Masters",
+    "Jonathan Higgins",
+    "Rick Wright",
+    "T.C. Calvin"
+   ],
+   "answer": 0,
+   "fact": "Robin Masters was rarely seen on screen. Orson Welles voiced him in seven episodes.",
+   "source": "https://en.wikipedia.org/wiki/Magnum,_P.I.",
+   "verified": true
+  },
+  {
+   "id": "q18",
+   "category": "Music",
+   "level": 6,
+   "q": "Who wrote White Christmas, made famous by Bing Crosby?",
+   "options": [
+    "Irving Berlin",
+    "Cole Porter",
+    "George Gershwin",
+    "Johnny Mercer"
+   ],
+   "answer": 0,
+   "fact": "Berlin wrote it for the 1942 film Holiday Inn.",
+   "source": "https://en.wikipedia.org/wiki/White_Christmas_(song)",
+   "verified": true
+  },
+  {
+   "id": "q19",
+   "category": "Music",
+   "level": 6,
+   "q": "Which band released the 1979 double album The Wall?",
+   "options": [
+    "Pink Floyd",
+    "Led Zeppelin",
+    "The Who",
+    "Genesis"
+   ],
+   "answer": 0,
+   "fact": "Another Brick in the Wall (Part 2) was the UK Christmas number one in 1979.",
+   "source": "https://en.wikipedia.org/wiki/The_Wall",
+   "verified": true
+  },
+  {
+   "id": "q20",
+   "category": "Film",
+   "level": 7,
+   "q": "Which film won Best Picture over Star Wars at the Oscars for 1977 films?",
+   "options": [
+    "Annie Hall",
+    "Julia",
+    "The Goodbye Girl",
+    "The Turning Point"
+   ],
+   "answer": 0,
+   "fact": "Woody Allen did not attend the ceremony.",
+   "source": "https://en.wikipedia.org/wiki/50th_Academy_Awards",
+   "verified": true
+  },
+  {
+   "id": "q21",
+   "category": "Television",
+   "level": 7,
+   "q": "Which sitcom was a spin-off of Maude, itself a spin-off of All in the Family?",
+   "options": [
+    "Good Times",
+    "The Jeffersons",
+    "Sanford and Son",
+    "What's Happening!!"
+   ],
+   "answer": 0,
+   "fact": "The Jeffersons was also a spin-off of All in the Family.",
+   "source": "https://en.wikipedia.org/wiki/Good_Times",
+   "verified": true
+  },
+  {
+   "id": "q22",
+   "category": "Music",
+   "level": 7,
+   "q": "Which group sang Don't You (Forget About Me) for The Breakfast Club?",
+   "options": [
+    "Simple Minds",
+    "Duran Duran",
+    "Tears for Fears",
+    "The Psychedelic Furs"
+   ],
+   "answer": 0,
+   "fact": "The band didn't write it. Keith Forsey and Steve Schiff did, and other artists reportedly turned it down first.",
+   "source": "https://en.wikipedia.org/wiki/Don%27t_You_(Forget_About_Me)",
+   "verified": true
+  },
+  {
+   "id": "q23",
+   "category": "Film",
+   "level": 8,
+   "q": "Which 1982 film was reportedly kept out of Oscar visual-effects consideration because computers were seen as cheating?",
+   "options": [
+    "Tron",
+    "Blade Runner",
+    "The Thing",
+    "Poltergeist"
+   ],
+   "answer": 0,
+   "fact": "Tron's director, Steven Lisberger, has said the Academy considered using computers to be cheating.",
+   "source": "https://en.wikipedia.org/wiki/Tron",
+   "verified": true
+  },
+  {
+   "id": "q24",
+   "category": "Television",
+   "level": 8,
+   "q": "Which network first aired Star Trek from 1966 to 1969?",
+   "options": [
+    "NBC",
+    "CBS",
+    "ABC",
+    "Fox"
+   ],
+   "answer": 0,
+   "fact": "In early 1968 a fan letter campaign sent NBC nearly 116,000 letters, shortly before the show's third season.",
+   "source": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series",
+   "verified": true
+  },
+  {
+   "id": "q25",
+   "category": "Music",
+   "level": 8,
+   "q": "Who organized the 1971 Concert for Bangladesh, an early major benefit concert?",
+   "options": [
+    "George Harrison",
+    "John Lennon",
+    "Eric Clapton",
+    "Bob Dylan"
+   ],
+   "answer": 0,
+   "fact": "Ravi Shankar asked Harrison for help, and the concert was held at Madison Square Garden.",
+   "source": "https://en.wikipedia.org/wiki/The_Concert_for_Bangladesh",
+   "verified": true
+  },
+  {
+   "id": "q26",
+   "category": "Film",
+   "level": 9,
+   "q": "Who was the first Black performer to win an Academy Award, for Gone with the Wind?",
+   "options": [
+    "Hattie McDaniel",
+    "Butterfly McQueen",
+    "Ethel Waters",
+    "Dorothy Dandridge"
+   ],
+   "answer": 0,
+   "fact": "At the 1940 ceremony she was seated at a segregated table at the far wall of the room.",
+   "source": "https://en.wikipedia.org/wiki/Hattie_McDaniel",
+   "verified": true
+  },
+  {
+   "id": "q27",
+   "category": "Television",
+   "level": 9,
+   "q": "In which sitcom did Mork from Ork first appear, before getting his own series?",
+   "options": [
+    "Happy Days",
+    "Laverne & Shirley",
+    "Three's Company",
+    "Taxi"
+   ],
+   "answer": 0,
+   "fact": "Robin Williams appeared in a 1978 Happy Days episode, and Mork & Mindy launched the same year.",
+   "source": "https://en.wikipedia.org/wiki/Mork_%26_Mindy",
+   "verified": true
+  },
+  {
+   "id": "q28",
+   "category": "Music",
+   "level": 9,
+   "q": "Who co-wrote We Are the World with Michael Jackson?",
+   "options": [
+    "Lionel Richie",
+    "Quincy Jones",
+    "Stevie Wonder",
+    "Kenny Rogers"
+   ],
+   "answer": 0,
+   "fact": "It was recorded over several nights in January 1985, and the last session was the night of the American Music Awards.",
+   "source": "https://en.wikipedia.org/wiki/We_Are_the_World",
+   "verified": true
+  },
+  {
+   "id": "q29",
+   "category": "Film",
+   "level": 9,
+   "final": true,
+   "q": "Who is often called the first professional stuntwoman in American film?",
+   "options": [
+    "Helen Gibson",
+    "Mary Pickford",
+    "Lillian Gish",
+    "Gloria Swanson"
+   ],
+   "answer": 0,
+   "fact": "Born Rose August Wenger, she performed her own stunts in serials such as The Hazards of Helen.",
+   "source": "https://en.wikipedia.org/wiki/Helen_Gibson",
+   "verified": true
+  },
+  {
+   "id": "q30",
+   "category": "Music",
+   "level": 9,
+   "final": true,
+   "q": "Which international music hall star worked with the French Resistance during World War II?",
+   "options": [
+    "Josephine Baker",
+    "Ethel Waters",
+    "Lena Horne",
+    "Billie Holiday"
+   ],
+   "answer": 0,
+   "fact": "She received the Croix de Guerre and was named a Chevalier of the Legion of Honour.",
+   "source": "https://en.wikipedia.org/wiki/Josephine_Baker",
+   "verified": true
+  },
+  {
+   "id": "q31",
+   "category": "Film",
+   "level": 10,
+   "final": true,
+   "q": "Which 1935 film was the first full-length feature shot in three-strip Technicolor?",
+   "options": [
+    "Becky Sharp",
+    "The Wizard of Oz",
+    "Gone with the Wind",
+    "Snow White and the Seven Dwarfs"
+   ],
+   "answer": 0,
+   "fact": "It was based on a play adapted from Thackeray's novel Vanity Fair.",
+   "source": "https://en.wikipedia.org/wiki/Becky_Sharp_(film)",
+   "verified": true
+  },
+  {
+   "id": "q32",
+   "category": "Television",
+   "level": 10,
+   "q": "Which 1951 sitcom popularized filming with multiple cameras in front of a live studio audience?",
+   "options": [
+    "I Love Lucy",
+    "Gunsmoke",
+    "Dragnet",
+    "Leave It to Beaver"
+   ],
+   "answer": 0,
+   "fact": "Cinematographer Karl Freund helped develop the lighting that made the three-camera setup work.",
+   "source": "https://en.wikipedia.org/wiki/I_Love_Lucy",
+   "verified": true
+  },
+  {
+   "id": "q33",
+   "category": "Music",
+   "level": 10,
+   "q": "Who wrote I Will Always Love You, later a huge hit for Whitney Houston?",
+   "options": [
+    "Dolly Parton",
+    "Carole King",
+    "Linda Ronstadt",
+    "Stevie Nicks"
+   ],
+   "answer": 0,
+   "fact": "Elvis Presley wanted to record it, but Parton turned down his manager's demand for half the publishing rights.",
+   "source": "https://en.wikipedia.org/wiki/I_Will_Always_Love_You",
+   "verified": true
+  }
+ ]
 }
