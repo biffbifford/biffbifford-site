@@ -1,32 +1,76 @@
 {
-  "updated_at": "2026-10-20T16:32:54.451Z",
+  "updated_at": "2026-10-21T03:50:59.410Z",
   "account": {
-    "followers": 79925,
-    "following": 28451,
-    "posts": 71646,
+    "followers": 79923,
+    "following": 28448,
+    "posts": 71655,
     "listed": 96
   },
   "tweets": [
+    {
+      "id": "2112686941158178983",
+      "text": "🌊 Meant to say: the swim made sure there’d be a Clint Eastwood to see it. Two miles in the cold Pacific, and the rest is history.",
+      "created_at": "2026-10-20T23:26:33.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 154,
+      "url": "https://x.com/TBifford/status/2112686941158178983"
+    },
+    {
+      "id": "2112673465044246982",
+      "text": "🎖️ Before he played Wyatt Earp, Hugh O’Brian was the youngest drill instructor in Marine Corps history. He was 17.\n\nHe was born Hugh Charles Krampe in Rochester, New York, in 1925.\n\nDuring World War II he left college after one semester, enlisted in the Marines, and soon was https://t.co/hAODqa8o77",
+      "created_at": "2026-10-20T22:33:00.000Z",
+      "likes": 33,
+      "retweets": 4,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 1132,
+      "url": "https://x.com/TBifford/status/2112673465044246982"
+    },
+    {
+      "id": "2112621371826254156",
+      "text": "🌊 Before Rawhide, Clint Eastwood survived a plane crash in the Pacific and swam two miles to shore.\n\nIt was 1951. Eastwood was a young Army draftee at Fort Ord, California, catching a ride home from Seattle on a Navy bomber.\n\nThe plane ran out of fuel and went down in the ocean https://t.co/J8PEpBapal",
+      "created_at": "2026-10-20T19:06:00.000Z",
+      "likes": 114,
+      "retweets": 10,
+      "replies": 4,
+      "quotes": 0,
+      "impression_count": 3821,
+      "url": "https://x.com/TBifford/status/2112621371826254156"
+    },
+    {
+      "id": "2112609082838315215",
+      "text": "If you haven't seen this movie, YOU ARE MISSING OUT. I hope you watch it, then come back and tell me what you thought.",
+      "created_at": "2026-10-20T18:17:10.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 146,
+      "url": "https://x.com/TBifford/status/2112609082838315215"
+    },
     {
       "id": "2112574564693668163",
       "text": "🥁 “The shot heard round the world” was fired in Concord, Massachusetts. For Disney’s movie, it was filmed in Chatsworth, California.\n\nIn 1957, Walt Disney turned Esther Forbes’s Newbery Medal-winning novel Johnny Tremain into one of his first live-action history films. It ended https://t.co/yF51iDzDHk",
       "created_at": "2026-10-20T16:00:00.000Z",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 2,
       "quotes": 0,
-      "impression_count": 120,
+      "impression_count": 437,
       "url": "https://x.com/TBifford/status/2112574564693668163"
     },
     {
       "id": "2112310324112355571",
       "text": "🎖️ Before he was Maverick, James Garner was wounded twice in Korea. He didn’t get his second Purple Heart until 32 years later.\n\nHe was born James Scott Bumgarner in Oklahoma in 1928.\n\nIn Korea, he served 14 months as a rifleman. Mortar fragments hit him in the face and hand, and https://t.co/KZEIB0waUa",
       "created_at": "2026-10-19T22:30:00.000Z",
-      "likes": 104,
-      "retweets": 9,
-      "replies": 6,
+      "likes": 120,
+      "retweets": 11,
+      "replies": 8,
       "quotes": 1,
-      "impression_count": 2417,
+      "impression_count": 2760,
       "url": "https://x.com/TBifford/status/2112310324112355571"
     },
     {
@@ -37,85 +81,41 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 846,
+      "impression_count": 938,
       "url": "https://x.com/TBifford/status/2112269655184122157"
     },
     {
       "id": "2112258229103403157",
       "text": "🐆 Miss Kitty ran the Long Branch Saloon for 19 years. At home, she was raising cheetahs.\n\nShe was born Beverly Louise Neill in Buffalo, New York, in 1929. Her first job was as a telephone operator. All those hours on the switchboard sharpened her voice, and that led to radio https://t.co/6ThNrSUHFO",
       "created_at": "2026-10-19T19:03:00.000Z",
-      "likes": 103,
-      "retweets": 17,
-      "replies": 3,
+      "likes": 118,
+      "retweets": 18,
+      "replies": 4,
       "quotes": 4,
-      "impression_count": 2684,
+      "impression_count": 2962,
       "url": "https://x.com/TBifford/status/2112258229103403157"
     },
     {
       "id": "2112212179139035539",
       "text": "🏀 Before he was The Rifleman, Chuck Connors shattered a backboard for the Boston Celtics.\n\nIt was 1946, before the Celtics’ very first home game. During warm-ups, the 6-foot-5 Connors took a shot, and the glass backboard exploded. No pro basketball player had ever broken one https://t.co/isHjJHiG14",
       "created_at": "2026-10-19T16:00:01.000Z",
-      "likes": 123,
+      "likes": 126,
       "retweets": 27,
-      "replies": 6,
+      "replies": 7,
       "quotes": 2,
-      "impression_count": 2933,
+      "impression_count": 3069,
       "url": "https://x.com/TBifford/status/2112212179139035539"
     },
     {
       "id": "2111941894666097103",
       "text": "🎙️ Before James Arness, there was another Matt Dillon, and millions of people never saw his face.\n\nHis name was William Conrad. In World War II, he flew fighters for the Army Air Forces and came home a captain.\n\nIn 1952 he became Marshal Matt Dillon on CBS Radio’s Gunsmoke. He https://t.co/ACHsLwh40X",
       "created_at": "2026-10-18T22:06:00.000Z",
-      "likes": 466,
+      "likes": 467,
       "retweets": 62,
       "replies": 24,
       "quotes": 7,
-      "impression_count": 12768,
+      "impression_count": 12812,
       "url": "https://x.com/TBifford/status/2111941894666097103"
-    },
-    {
-      "id": "2111892066644992290",
-      "text": "💐 George Burns spent most of his career as the straight man. He knew exactly who the star was.\n\nIn 1922, a young vaudeville comic named George Burns teamed up with a performer named Gracie Allen. The plan was simple: George would get the laughs, and Gracie would feed him his https://t.co/dpbeMMkOx0",
-      "created_at": "2026-10-18T18:48:00.000Z",
-      "likes": 34,
-      "retweets": 4,
-      "replies": 5,
-      "quotes": 1,
-      "impression_count": 2272,
-      "url": "https://x.com/TBifford/status/2111892066644992290"
-    },
-    {
-      "id": "2111844186089492622",
-      "text": "🏅 Before he was Little Joe Cartwright, Michael Landon was one of the best young javelin throwers in America.\n\nHe was born Eugene Orowitz in Queens, New York, in 1936. In 1954, as a high school senior, he threw the javelin 193 feet, 4 inches, the longest throw by any high https://t.co/cuJYiegOg8",
-      "created_at": "2026-10-18T15:37:44.000Z",
-      "likes": 165,
-      "retweets": 14,
-      "replies": 4,
-      "quotes": 1,
-      "impression_count": 5125,
-      "url": "https://x.com/TBifford/status/2111844186089492622"
-    },
-    {
-      "id": "2111827390783447099",
-      "text": "🎬 Fun connection: Leslie Nielsen, Lorne’s former student at the radio school, went on to become one of Hollywood’s great comedy stars in Airplane! and The Naked Gun.",
-      "created_at": "2026-10-18T14:31:00.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 255,
-      "url": "https://x.com/TBifford/status/2111827390783447099"
-    },
-    {
-      "id": "2111623302859170156",
-      "text": "🏖️ A reader reminded me: there’s a public beach in Malibu, Dan Blocker Beach, that still carries his name today.",
-      "created_at": "2026-10-18T01:00:02.000Z",
-      "likes": 8,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 660,
-      "url": "https://x.com/TBifford/status/2111623302859170156"
     }
   ]
 }
