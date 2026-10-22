@@ -1,21 +1,43 @@
 {
-  "updated_at": "2026-10-21T16:50:39.429Z",
+  "updated_at": "2026-10-22T03:51:02.066Z",
   "account": {
-    "followers": 79910,
-    "following": 28447,
-    "posts": 71660,
+    "followers": 79915,
+    "following": 28446,
+    "posts": 71681,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2113035101227434453",
+      "text": "🐎 At 50, Barbara Stanwyck pulled off a stunt a professional stuntman refused to do.\n\nShe was born Ruby Stevens in Brooklyn in 1907.\n\nIn 1911, when Ruby was a little girl, a drunk passenger pushed her pregnant mother off a streetcar. Her mother didn’t survive.\n\nHer father left https://t.co/jR5ADJ9zZq",
+      "created_at": "2026-10-21T22:30:01.000Z",
+      "likes": 102,
+      "retweets": 11,
+      "replies": 3,
+      "quotes": 1,
+      "impression_count": 2782,
+      "url": "https://x.com/TBifford/status/2113035101227434453"
+    },
+    {
+      "id": "2112982753050239150",
+      "text": "🏃 In 1967, almost three out of every four American homes watching TV were tuned to one show: the last episode of The Fugitive.\n\nIts star, David Janssen, was born David Harold Meyer in Naponee, Nebraska, in 1931.\n\nIn high school he was a basketball star and set a scoring record https://t.co/5e7eZBdvdh",
+      "created_at": "2026-10-21T19:02:00.000Z",
+      "likes": 52,
+      "retweets": 11,
+      "replies": 6,
+      "quotes": 1,
+      "impression_count": 1606,
+      "url": "https://x.com/TBifford/status/2112982753050239150"
+    },
+    {
       "id": "2112944500771577965",
       "text": "🧊 Before he was the King of Cool, Steve McQueen pulled five Marines out of a tank as it broke through the Arctic ice.\n\nAt 14, he was sent to a reform school, the California Junior Boys Republic in Chino. His stepfather had him declared “incorrigible.”\n\nAt 17, with his mother’s https://t.co/wMYOxNIH3H",
       "created_at": "2026-10-21T16:30:00.000Z",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 127,
+      "likes": 124,
+      "retweets": 20,
+      "replies": 17,
+      "quotes": 4,
+      "impression_count": 3599,
       "url": "https://x.com/TBifford/status/2112944500771577965"
     },
     {
@@ -26,29 +48,29 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 243,
+      "impression_count": 275,
       "url": "https://x.com/TBifford/status/2112686941158178983"
     },
     {
       "id": "2112673465044246982",
       "text": "🎖️ Before he played Wyatt Earp, Hugh O’Brian was the youngest drill instructor in Marine Corps history. He was 17.\n\nHe was born Hugh Charles Krampe in Rochester, New York, in 1925.\n\nDuring World War II he left college after one semester, enlisted in the Marines, and soon was https://t.co/hAODqa8o77",
       "created_at": "2026-10-20T22:33:00.000Z",
-      "likes": 49,
-      "retweets": 6,
-      "replies": 1,
+      "likes": 65,
+      "retweets": 12,
+      "replies": 4,
       "quotes": 0,
-      "impression_count": 2007,
+      "impression_count": 2532,
       "url": "https://x.com/TBifford/status/2112673465044246982"
     },
     {
       "id": "2112621371826254156",
       "text": "🌊 Before Rawhide, Clint Eastwood survived a plane crash in the Pacific and swam two miles to shore.\n\nIt was 1951. Eastwood was a young Army draftee at Fort Ord, California, catching a ride home from Seattle on a Navy bomber.\n\nThe plane ran out of fuel and went down in the ocean https://t.co/J8PEpBapal",
       "created_at": "2026-10-20T19:06:00.000Z",
-      "likes": 228,
-      "retweets": 34,
-      "replies": 9,
+      "likes": 243,
+      "retweets": 37,
+      "replies": 11,
       "quotes": 2,
-      "impression_count": 6671,
+      "impression_count": 7197,
       "url": "https://x.com/TBifford/status/2112621371826254156"
     },
     {
@@ -59,7 +81,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 153,
+      "impression_count": 156,
       "url": "https://x.com/TBifford/status/2112609082838315215"
     },
     {
@@ -70,7 +92,7 @@
       "retweets": 0,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 466,
+      "impression_count": 478,
       "url": "https://x.com/TBifford/status/2112574564693668163"
     },
     {
@@ -81,7 +103,7 @@
       "retweets": 11,
       "replies": 8,
       "quotes": 1,
-      "impression_count": 2799,
+      "impression_count": 2814,
       "url": "https://x.com/TBifford/status/2112310324112355571"
     },
     {
@@ -92,30 +114,8 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 954,
+      "impression_count": 970,
       "url": "https://x.com/TBifford/status/2112269655184122157"
-    },
-    {
-      "id": "2112258229103403157",
-      "text": "🐆 Miss Kitty ran the Long Branch Saloon for 19 years. At home, she was raising cheetahs.\n\nShe was born Beverly Louise Neill in Buffalo, New York, in 1929. Her first job was as a telephone operator. All those hours on the switchboard sharpened her voice, and that led to radio https://t.co/6ThNrSUHFO",
-      "created_at": "2026-10-19T19:03:00.000Z",
-      "likes": 119,
-      "retweets": 19,
-      "replies": 3,
-      "quotes": 4,
-      "impression_count": 2992,
-      "url": "https://x.com/TBifford/status/2112258229103403157"
-    },
-    {
-      "id": "2112212179139035539",
-      "text": "🏀 Before he was The Rifleman, Chuck Connors shattered a backboard for the Boston Celtics.\n\nIt was 1946, before the Celtics’ very first home game. During warm-ups, the 6-foot-5 Connors took a shot, and the glass backboard exploded. No pro basketball player had ever broken one https://t.co/isHjJHiG14",
-      "created_at": "2026-10-19T16:00:01.000Z",
-      "likes": 127,
-      "retweets": 27,
-      "replies": 7,
-      "quotes": 2,
-      "impression_count": 3089,
-      "url": "https://x.com/TBifford/status/2112212179139035539"
     }
   ]
 }
