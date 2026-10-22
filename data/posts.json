@@ -1,43 +1,65 @@
 {
-  "updated_at": "2026-10-22T03:51:02.066Z",
+  "updated_at": "2026-10-22T16:50:44.706Z",
   "account": {
-    "followers": 79915,
-    "following": 28446,
-    "posts": 71681,
+    "followers": 79900,
+    "following": 28441,
+    "posts": 71686,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2113303113872425077",
+      "text": "🦾 Before he was the Six Million Dollar Man, Lee Majors had lost both parents before he turned 2.\n\nHe was born Harvey Lee Yeary in Wyandotte, Michigan, in 1939. His father had died five months before he was born.\n\nWhen he was 17 months old, his mother was killed by a drunk driver https://t.co/XpNuxNBe65",
+      "created_at": "2026-10-22T16:15:00.000Z",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 203,
+      "url": "https://x.com/TBifford/status/2113303113872425077"
+    },
+    {
+      "id": "2113302421367640148",
+      "text": "✉️ During World War II, Donna Reed answered letters from soldiers. Years after she died, her daughter found more than 350 of them in the garage.\n\nShe was born Donna Belle Mullenger in Denison, Iowa, in 1921.\n\nDuring the war, her girl-next-door looks made her one of the most",
+      "created_at": "2026-10-22T16:12:15.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 159,
+      "url": "https://x.com/TBifford/status/2113302421367640148"
+    },
+    {
       "id": "2113035101227434453",
       "text": "🐎 At 50, Barbara Stanwyck pulled off a stunt a professional stuntman refused to do.\n\nShe was born Ruby Stevens in Brooklyn in 1907.\n\nIn 1911, when Ruby was a little girl, a drunk passenger pushed her pregnant mother off a streetcar. Her mother didn’t survive.\n\nHer father left https://t.co/jR5ADJ9zZq",
       "created_at": "2026-10-21T22:30:01.000Z",
-      "likes": 102,
-      "retweets": 11,
-      "replies": 3,
-      "quotes": 1,
-      "impression_count": 2782,
+      "likes": 287,
+      "retweets": 34,
+      "replies": 8,
+      "quotes": 4,
+      "impression_count": 7313,
       "url": "https://x.com/TBifford/status/2113035101227434453"
     },
     {
       "id": "2112982753050239150",
       "text": "🏃 In 1967, almost three out of every four American homes watching TV were tuned to one show: the last episode of The Fugitive.\n\nIts star, David Janssen, was born David Harold Meyer in Naponee, Nebraska, in 1931.\n\nIn high school he was a basketball star and set a scoring record https://t.co/5e7eZBdvdh",
       "created_at": "2026-10-21T19:02:00.000Z",
-      "likes": 52,
-      "retweets": 11,
-      "replies": 6,
-      "quotes": 1,
-      "impression_count": 1606,
+      "likes": 81,
+      "retweets": 15,
+      "replies": 8,
+      "quotes": 2,
+      "impression_count": 2211,
       "url": "https://x.com/TBifford/status/2112982753050239150"
     },
     {
       "id": "2112944500771577965",
       "text": "🧊 Before he was the King of Cool, Steve McQueen pulled five Marines out of a tank as it broke through the Arctic ice.\n\nAt 14, he was sent to a reform school, the California Junior Boys Republic in Chino. His stepfather had him declared “incorrigible.”\n\nAt 17, with his mother’s https://t.co/wMYOxNIH3H",
       "created_at": "2026-10-21T16:30:00.000Z",
-      "likes": 124,
-      "retweets": 20,
-      "replies": 17,
+      "likes": 212,
+      "retweets": 38,
+      "replies": 20,
       "quotes": 4,
-      "impression_count": 3599,
+      "impression_count": 6212,
       "url": "https://x.com/TBifford/status/2112944500771577965"
     },
     {
@@ -48,7 +70,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 275,
+      "impression_count": 280,
       "url": "https://x.com/TBifford/status/2112686941158178983"
     },
     {
@@ -59,7 +81,7 @@
       "retweets": 12,
       "replies": 4,
       "quotes": 0,
-      "impression_count": 2532,
+      "impression_count": 2565,
       "url": "https://x.com/TBifford/status/2112673465044246982"
     },
     {
@@ -70,7 +92,7 @@
       "retweets": 37,
       "replies": 11,
       "quotes": 2,
-      "impression_count": 7197,
+      "impression_count": 7230,
       "url": "https://x.com/TBifford/status/2112621371826254156"
     },
     {
@@ -81,7 +103,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 156,
+      "impression_count": 157,
       "url": "https://x.com/TBifford/status/2112609082838315215"
     },
     {
@@ -92,30 +114,8 @@
       "retweets": 0,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 478,
+      "impression_count": 485,
       "url": "https://x.com/TBifford/status/2112574564693668163"
-    },
-    {
-      "id": "2112310324112355571",
-      "text": "🎖️ Before he was Maverick, James Garner was wounded twice in Korea. He didn’t get his second Purple Heart until 32 years later.\n\nHe was born James Scott Bumgarner in Oklahoma in 1928.\n\nIn Korea, he served 14 months as a rifleman. Mortar fragments hit him in the face and hand, and https://t.co/KZEIB0waUa",
-      "created_at": "2026-10-19T22:30:00.000Z",
-      "likes": 120,
-      "retweets": 11,
-      "replies": 8,
-      "quotes": 1,
-      "impression_count": 2814,
-      "url": "https://x.com/TBifford/status/2112310324112355571"
-    },
-    {
-      "id": "2112269655184122157",
-      "text": "🌹🎬 Ann Hornaday spent more than 20 years teaching America how to watch movies. She died at 66. 😢🍿\n\nShe grew up in Des Moines, graduated from Smith College, and worked at Ms. magazine as a researcher and assistant to Gloria Steinem.\n\nThen she found her calling: film.\n\nShe https://t.co/yCRxHMXEQw",
-      "created_at": "2026-10-19T19:48:24.000Z",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "impression_count": 970,
-      "url": "https://x.com/TBifford/status/2112269655184122157"
     }
   ]
 }
