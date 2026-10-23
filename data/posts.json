@@ -1,65 +1,98 @@
 {
-  "updated_at": "2026-10-22T16:50:44.706Z",
+  "updated_at": "2026-10-23T03:55:10.489Z",
   "account": {
-    "followers": 79900,
-    "following": 28441,
-    "posts": 71686,
+    "followers": 79912,
+    "following": 28443,
+    "posts": 71712,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2113469313080606816",
+      "text": "✈️ One more thing: he didn’t stop at World War II. In 1966, during the Vietnam War, Brigadier General Stewart flew along as an observer on a bombing mission. He was 58.",
+      "created_at": "2026-10-23T03:15:25.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 106,
+      "url": "https://x.com/TBifford/status/2113469313080606816"
+    },
+    {
+      "id": "2113450585714270267",
+      "text": "🎖️ When Jimmy Stewart joined the Army in 1941, he had just won an Oscar. The Army almost turned him away for being too thin.\n\nHe was one of Hollywood’s biggest stars. He’d just won Best Actor for The Philadelphia Story.\n\nHe was also already a pilot. But the Army believed he was https://t.co/MvbCrqyiiD",
+      "created_at": "2026-10-23T02:01:00.000Z",
+      "likes": 25,
+      "retweets": 8,
+      "replies": 4,
+      "quotes": 0,
+      "impression_count": 770,
+      "url": "https://x.com/TBifford/status/2113450585714270267"
+    },
+    {
+      "id": "2113372705504321902",
+      "text": "✈️ Tom Skerritt died Wednesday at 93. Before he played Top Gun’s legendary flight instructor, “Viper,” he served four years in the U.S. Air Force.\n\nHe was born in Detroit in 1933, and he joined the Air Force in 1951, during the Korean War.\n\nAfter his service, he studied at Wayne https://t.co/TfkOk6gDFm",
+      "created_at": "2026-10-22T20:51:32.000Z",
+      "likes": 136,
+      "retweets": 16,
+      "replies": 4,
+      "quotes": 2,
+      "impression_count": 2454,
+      "url": "https://x.com/TBifford/status/2113372705504321902"
+    },
+    {
+      "id": "2113344889211814219",
+      "text": "✉️ During World War II, Donna Reed answered letters from soldiers. Years after she died, her daughter found more than 350 of them in the garage.\n\nShe was born Donna Belle Mullenger in Denison, Iowa, in 1921.\n\nDuring the war, her girl-next-door looks made her one of the most https://t.co/Pbb7TRdEaH",
+      "created_at": "2026-10-22T19:01:00.000Z",
+      "likes": 29,
+      "retweets": 2,
+      "replies": 3,
+      "quotes": 0,
+      "impression_count": 1425,
+      "url": "https://x.com/TBifford/status/2113344889211814219"
+    },
+    {
       "id": "2113303113872425077",
       "text": "🦾 Before he was the Six Million Dollar Man, Lee Majors had lost both parents before he turned 2.\n\nHe was born Harvey Lee Yeary in Wyandotte, Michigan, in 1939. His father had died five months before he was born.\n\nWhen he was 17 months old, his mother was killed by a drunk driver https://t.co/XpNuxNBe65",
       "created_at": "2026-10-22T16:15:00.000Z",
-      "likes": 5,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 203,
+      "likes": 276,
+      "retweets": 31,
+      "replies": 18,
+      "quotes": 1,
+      "impression_count": 13920,
       "url": "https://x.com/TBifford/status/2113303113872425077"
-    },
-    {
-      "id": "2113302421367640148",
-      "text": "✉️ During World War II, Donna Reed answered letters from soldiers. Years after she died, her daughter found more than 350 of them in the garage.\n\nShe was born Donna Belle Mullenger in Denison, Iowa, in 1921.\n\nDuring the war, her girl-next-door looks made her one of the most",
-      "created_at": "2026-10-22T16:12:15.000Z",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 159,
-      "url": "https://x.com/TBifford/status/2113302421367640148"
     },
     {
       "id": "2113035101227434453",
       "text": "🐎 At 50, Barbara Stanwyck pulled off a stunt a professional stuntman refused to do.\n\nShe was born Ruby Stevens in Brooklyn in 1907.\n\nIn 1911, when Ruby was a little girl, a drunk passenger pushed her pregnant mother off a streetcar. Her mother didn’t survive.\n\nHer father left https://t.co/jR5ADJ9zZq",
       "created_at": "2026-10-21T22:30:01.000Z",
-      "likes": 287,
-      "retweets": 34,
-      "replies": 8,
+      "likes": 480,
+      "retweets": 60,
+      "replies": 17,
       "quotes": 4,
-      "impression_count": 7313,
+      "impression_count": 11842,
       "url": "https://x.com/TBifford/status/2113035101227434453"
     },
     {
       "id": "2112982753050239150",
       "text": "🏃 In 1967, almost three out of every four American homes watching TV were tuned to one show: the last episode of The Fugitive.\n\nIts star, David Janssen, was born David Harold Meyer in Naponee, Nebraska, in 1931.\n\nIn high school he was a basketball star and set a scoring record https://t.co/5e7eZBdvdh",
       "created_at": "2026-10-21T19:02:00.000Z",
-      "likes": 81,
+      "likes": 83,
       "retweets": 15,
       "replies": 8,
       "quotes": 2,
-      "impression_count": 2211,
+      "impression_count": 2457,
       "url": "https://x.com/TBifford/status/2112982753050239150"
     },
     {
       "id": "2112944500771577965",
       "text": "🧊 Before he was the King of Cool, Steve McQueen pulled five Marines out of a tank as it broke through the Arctic ice.\n\nAt 14, he was sent to a reform school, the California Junior Boys Republic in Chino. His stepfather had him declared “incorrigible.”\n\nAt 17, with his mother’s https://t.co/wMYOxNIH3H",
       "created_at": "2026-10-21T16:30:00.000Z",
-      "likes": 212,
-      "retweets": 38,
-      "replies": 20,
+      "likes": 218,
+      "retweets": 39,
+      "replies": 21,
       "quotes": 4,
-      "impression_count": 6212,
+      "impression_count": 6424,
       "url": "https://x.com/TBifford/status/2112944500771577965"
     },
     {
@@ -70,7 +103,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 280,
+      "impression_count": 285,
       "url": "https://x.com/TBifford/status/2112686941158178983"
     },
     {
@@ -81,41 +114,8 @@
       "retweets": 12,
       "replies": 4,
       "quotes": 0,
-      "impression_count": 2565,
+      "impression_count": 2582,
       "url": "https://x.com/TBifford/status/2112673465044246982"
-    },
-    {
-      "id": "2112621371826254156",
-      "text": "🌊 Before Rawhide, Clint Eastwood survived a plane crash in the Pacific and swam two miles to shore.\n\nIt was 1951. Eastwood was a young Army draftee at Fort Ord, California, catching a ride home from Seattle on a Navy bomber.\n\nThe plane ran out of fuel and went down in the ocean https://t.co/J8PEpBapal",
-      "created_at": "2026-10-20T19:06:00.000Z",
-      "likes": 243,
-      "retweets": 37,
-      "replies": 11,
-      "quotes": 2,
-      "impression_count": 7230,
-      "url": "https://x.com/TBifford/status/2112621371826254156"
-    },
-    {
-      "id": "2112609082838315215",
-      "text": "If you haven't seen this movie, YOU ARE MISSING OUT. I hope you watch it, then come back and tell me what you thought.",
-      "created_at": "2026-10-20T18:17:10.000Z",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 157,
-      "url": "https://x.com/TBifford/status/2112609082838315215"
-    },
-    {
-      "id": "2112574564693668163",
-      "text": "🥁 “The shot heard round the world” was fired in Concord, Massachusetts. For Disney’s movie, it was filmed in Chatsworth, California.\n\nIn 1957, Walt Disney turned Esther Forbes’s Newbery Medal-winning novel Johnny Tremain into one of his first live-action history films. It ended https://t.co/yF51iDzDHk",
-      "created_at": "2026-10-20T16:00:00.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0,
-      "impression_count": 485,
-      "url": "https://x.com/TBifford/status/2112574564693668163"
     }
   ]
 }
