@@ -31,7 +31,7 @@ h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2rem,6vw,3rem);line-heig
 .tab{cursor:pointer;font:inherit;font-weight:600;color:var(--cream);background:transparent;border:1px solid var(--gold-dim);border-radius:4px;padding:10px 18px;min-height:44px}
 .tab[aria-selected=true]{background:var(--gold);color:var(--ink);border-color:var(--gold)}
 .stage{position:relative;width:min(88vw,380px);aspect-ratio:1;margin:8px auto 18px}
-.stage canvas{width:100%;height:100%;display:block}
+.stage canvas{width:100%;height:100%;display:block;will-change:transform;transform:rotate(0rad)}
 .pin{position:absolute;top:-6px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:28px solid var(--rust-hi);filter:drop-shadow(0 2px 2px rgba(0,0,0,.6));z-index:2}
 .center{text-align:center}
 .btn{display:inline-flex;align-items:center;cursor:pointer;font:inherit;font-weight:600;color:var(--ink);background:var(--gold);border:0;border-radius:4px;padding:12px 26px;min-height:46px;text-decoration:none}
@@ -87,7 +87,7 @@ var mode="quiz",labels=[],ang=0,spinning=false,Q=[],M=[],reduce=matchMedia("(pre
 var CATS=["Music","Film","Television","Mix"];
 function draw(){
  ctx.clearRect(0,0,S,S);var n=labels.length,a=2*Math.PI/n;
- ctx.save();ctx.translate(R,R);ctx.rotate(ang);
+ ctx.save();ctx.translate(R,R);
  for(var i=0;i<n;i++){
   ctx.beginPath();ctx.moveTo(0,0);ctx.arc(0,0,R-8,i*a-Math.PI/2-a/2,i*a-Math.PI/2+a/2);ctx.closePath();
   ctx.fillStyle=COL[i%COL.length];ctx.fill();ctx.strokeStyle="#15120D";ctx.lineWidth=4;ctx.stroke();
@@ -102,22 +102,21 @@ function setMode(m){
  if(spinning)return;mode=m;
  $("t-quiz").setAttribute("aria-selected",m==="quiz");$("t-movie").setAttribute("aria-selected",m==="movie");
  labels=m==="quiz"?CATS:["1930s","1940s","1950s","1960s","1970s","1980s"];
- $("out").hidden=true;$("spin").disabled=false;draw();
+ $("out").hidden=true;$("spin").disabled=false;ang=0;cv.style.transform='rotate(0rad)';draw();
 }
 $("t-quiz").onclick=function(){setMode("quiz")};$("t-movie").onclick=function(){setMode("movie")};
 function spin(){
  if(spinning)return;spinning=true;$("spin").disabled=true;$("out").hidden=true;
  var n=labels.length,a=2*Math.PI/n,idx=Math.floor(Math.random()*n);
- // pointer at top; slide idx centered at angle idx*a + ang => need ang ≡ -idx*a
  var target=-idx*a+(Math.random()-.5)*a*.7;
  var cur=((ang%(2*Math.PI))+2*Math.PI)%(2*Math.PI);
- var end=ang+((target-cur)%(2*Math.PI)-2*Math.PI)+ (reduce?0:2*Math.PI*(5+Math.floor(Math.random()*3)))*-1;
- // spin direction: clockwise = increasing angle; compute positive delta
- var delta=((target-cur)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)+(reduce?0:2*Math.PI*(5+Math.floor(Math.random()*3)));
- var start=ang,t0=performance.now(),dur=reduce?10:4600;
+ var turns=reduce?2:5+Math.floor(Math.random()*3);
+ var delta=((target-cur)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)+2*Math.PI*turns;
+ var start=ang,t0=0,dur=reduce?2200:5200;
  function step(t){
-  var p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,4);
-  ang=start+delta*e;draw();
+  if(!t0)t0=t;
+  var p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,3);
+  ang=start+delta*e;cv.style.transform='rotate('+ang+'rad)';
   if(p<1)requestAnimationFrame(step);else{spinning=false;$("spin").disabled=false;land(idx)}
  }
  requestAnimationFrame(step);
