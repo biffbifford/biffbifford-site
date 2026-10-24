@@ -115,7 +115,6 @@
 
   /* PLAY TILES */
   .play-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
-  #tile-wheel{grid-column:1/-1;}
   @media (max-width:700px){.play-grid{grid-template-columns:1fr;}}
   .tile{position:relative;display:flex;flex-direction:column;gap:12px;padding:28px 26px;background:var(--black-soft);border:1px solid var(--steel-line);border-left:4px solid var(--gold);text-decoration:none;transition:border-color .15s,background .15s;}
   a.tile:hover{border-color:var(--gold-dim);border-left-color:var(--gold);background:#231d14;}
@@ -266,6 +265,11 @@
       <p>Test your film and TV memory. Share your score on X and tag @TBifford.</p>
     </div>
     <div class="play-grid">
+      <a class="tile" id="tile-challenge" href="challenge.html">
+        <span class="state">New every day</span>
+        <h3>The Daily Challenge</h3>
+        <p>Five questions, the same for everyone, once a day. Build a streak, earn badges and share your result grid on X.</p>
+      </a>
       <a class="tile off" id="tile-quiz" href="quiz.html" aria-disabled="true">
         <span class="state" id="quiz-state">Opening soon</span>
         <h3>The Gen-X Hollywood &amp; TV Quiz</h3>
