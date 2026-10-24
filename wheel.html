@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Wheel | BiffBifford</title>
+<meta name="description" content="Spin the wheel: a classic film, TV or music question, or let the Movie Night wheel pick your next classic by decade.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The BiffBifford Wheel">
+<meta property="og:description" content="Spin for a trivia question or a movie night pick.">
+<meta property="og:url" content="https://biffbifford.com/wheel.html">
+<meta property="og:image" content="https://biffbifford.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://biffbifford.com/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#15120D;--soft:#1D1811;--cream:#EDE3CC;--gold:#C9A036;--gold-dim:#8A6F27;--rust:#8C3B2E;--rust-hi:#C4604D;--steel:#8F8878;--good:#7FBF8A;--line:rgba(237,227,204,.16)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a2116 0,var(--ink) 65%);color:var(--cream);font-family:"Work Sans",system-ui,sans-serif;line-height:1.55;min-height:100vh}
+a{color:var(--gold)}
+button:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px 56px}
+.top{display:flex;justify-content:space-between;align-items:baseline;padding:18px 0}
+.top a{color:var(--cream);text-decoration:none;font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:1.1rem}
+.top span{font-family:"Space Mono",monospace;font-size:.78rem;color:var(--steel)}
+h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2rem,6vw,3rem);line-height:1.08;margin:18px 0 8px}
+.lead{color:var(--steel);margin:0 0 22px;max-width:34em}
+.tabs{display:flex;gap:8px;margin-bottom:18px}
+.tab{cursor:pointer;font:inherit;font-weight:600;color:var(--cream);background:transparent;border:1px solid var(--gold-dim);border-radius:4px;padding:10px 18px;min-height:44px}
+.tab[aria-selected=true]{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.stage{position:relative;width:min(88vw,380px);aspect-ratio:1;margin:8px auto 18px}
+.stage canvas{width:100%;height:100%;display:block}
+.pin{position:absolute;top:-6px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:28px solid var(--rust-hi);filter:drop-shadow(0 2px 2px rgba(0,0,0,.6));z-index:2}
+.center{text-align:center}
+.btn{display:inline-flex;align-items:center;cursor:pointer;font:inherit;font-weight:600;color:var(--ink);background:var(--gold);border:0;border-radius:4px;padding:12px 26px;min-height:46px;text-decoration:none}
+.btn:hover{background:#dcb64a}.btn:disabled{opacity:.5;cursor:default}
+.btn.alt{background:transparent;color:var(--cream);border:1px solid var(--gold-dim)}
+.btn.alt:hover{border-color:var(--gold)}
+.row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.center .row{justify-content:center}
+.panel{background:var(--soft);border:1px solid var(--line);border-top:4px solid var(--gold);padding:24px;margin-top:22px}
+.panel[hidden]{display:none}
+.tag{font-family:"Space Mono",monospace;font-size:.8rem;color:var(--gold)}
+.q{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:clamp(1.25rem,3.4vw,1.55rem);line-height:1.3;margin:6px 0 18px}
+.opts{display:grid;gap:10px;grid-template-columns:1fr 1fr;list-style:none;padding:0;margin:0}
+@media(max-width:620px){.opts{grid-template-columns:1fr}}
+.opt{width:100%;display:flex;gap:12px;align-items:center;text-align:left;cursor:pointer;font:inherit;font-weight:500;color:var(--cream);background:rgba(237,227,204,.05);border:1px solid var(--gold-dim);border-radius:4px;padding:12px 14px;min-height:48px}
+.opt:hover:not(:disabled){border-color:var(--gold);background:rgba(201,160,54,.14)}
+.opt .k{font-family:"Space Mono",monospace;font-weight:700;color:var(--gold)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--good);background:rgba(127,191,138,.18)}
+.opt.wrong{border-color:var(--rust-hi);background:rgba(196,96,77,.22)}
+.verdict{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:1.2rem;margin:16px 0 4px}
+.verdict.ok{color:var(--good)}.verdict.no{color:var(--rust-hi)}
+.big{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.1;margin:6px 0}
+.small{color:var(--steel);font-size:.9rem}
+.fine{color:var(--steel);font-size:.85rem;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><a href="index.html">BiffBifford</a><span>The Wheel</span></div>
+<h1>Spin the wheel.</h1>
+<p class="lead">Land on a category and answer a question, or let the wheel pick tonight's classic movie.</p>
+<div class="tabs" role="tablist">
+ <button class="tab" role="tab" id="t-quiz" aria-selected="true">Trivia Wheel</button>
+ <button class="tab" role="tab" id="t-movie" aria-selected="false">Movie Night</button>
+</div>
+<div class="stage"><div class="pin" aria-hidden="true"></div><canvas id="cv" width="760" height="760" aria-hidden="true"></canvas></div>
+<div class="center"><button class="btn" id="spin">Spin</button></div>
+<div class="panel" id="out" hidden aria-live="polite"></div>
+<p class="fine">Questions are fact-checked, with sources. <a href="quiz.html">Play the full quiz</a> or the <a href="arcade.html">Arcade</a>.</p>
+</div>
+<script>
+(function(){
+var SEEN_KEY="bb_seen_v1";
+function seenLoad(){try{var a=JSON.parse(localStorage.getItem(SEEN_KEY)||"[]");return Array.isArray(a)?a:[]}catch(e){return[]}}
+function seenAdd(id){try{var a=seenLoad().filter(function(x){return x!==id});a.push(id);localStorage.setItem(SEEN_KEY,JSON.stringify(a.slice(-500)))}catch(e){}}
+function seenPenalty(id,s){var i=s.indexOf(id);return i<0?0:1.5+(i/Math.max(1,s.length))}
+var preview=/[?&]preview=1/.test(location.search);
+var $=function(i){return document.getElementById(i)};
+var cv=$("cv"),ctx=cv.getContext("2d"),S=cv.width,R=S/2;
+var COL=["#8C3B2E","#C9A036","#4a3a28","#7a5a2a","#6b2f25","#a88628","#3b2e20","#9a4a38"];
+var mode="quiz",labels=[],ang=0,spinning=false,Q=[],M=[],reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+var CATS=["Music","Film","Television","Mix"];
+function draw(){
+ ctx.clearRect(0,0,S,S);var n=labels.length,a=2*Math.PI/n;
+ ctx.save();ctx.translate(R,R);ctx.rotate(ang);
+ for(var i=0;i<n;i++){
+  ctx.beginPath();ctx.moveTo(0,0);ctx.arc(0,0,R-8,i*a-Math.PI/2-a/2,i*a-Math.PI/2+a/2);ctx.closePath();
+  ctx.fillStyle=COL[i%COL.length];ctx.fill();ctx.strokeStyle="#15120D";ctx.lineWidth=4;ctx.stroke();
+  ctx.save();ctx.rotate(i*a);ctx.fillStyle="#EDE3CC";ctx.font="700 "+(n>6?34:44)+"px Fraunces,Georgia,serif";ctx.textAlign="center";ctx.textBaseline="middle";
+  ctx.translate(0,-R*0.62);ctx.fillText(labels[i],0,0,R*0.5);ctx.restore();
+ }
+ ctx.restore();
+ ctx.beginPath();ctx.arc(R,R,R-6,0,7);ctx.lineWidth=8;ctx.strokeStyle="#C9A036";ctx.stroke();
+ ctx.beginPath();ctx.arc(R,R,34,0,7);ctx.fillStyle="#15120D";ctx.fill();ctx.lineWidth=5;ctx.stroke();
+}
+function setMode(m){
+ if(spinning)return;mode=m;
+ $("t-quiz").setAttribute("aria-selected",m==="quiz");$("t-movie").setAttribute("aria-selected",m==="movie");
+ labels=m==="quiz"?CATS:["1930s","1940s","1950s","1960s","1970s","1980s"];
+ $("out").hidden=true;$("spin").disabled=false;draw();
+}
+$("t-quiz").onclick=function(){setMode("quiz")};$("t-movie").onclick=function(){setMode("movie")};
+function spin(){
+ if(spinning)return;spinning=true;$("spin").disabled=true;$("out").hidden=true;
+ var n=labels.length,a=2*Math.PI/n,idx=Math.floor(Math.random()*n);
+ // pointer at top; slide idx centered at angle idx*a + ang => need ang ≡ -idx*a
+ var target=-idx*a+(Math.random()-.5)*a*.7;
+ var cur=((ang%(2*Math.PI))+2*Math.PI)%(2*Math.PI);
+ var end=ang+((target-cur)%(2*Math.PI)-2*Math.PI)+ (reduce?0:2*Math.PI*(5+Math.floor(Math.random()*3)))*-1;
+ // spin direction: clockwise = increasing angle; compute positive delta
+ var delta=((target-cur)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)+(reduce?0:2*Math.PI*(5+Math.floor(Math.random()*3)));
+ var start=ang,t0=performance.now(),dur=reduce?10:4600;
+ function step(t){
+  var p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,4);
+  ang=start+delta*e;draw();
+  if(p<1)requestAnimationFrame(step);else{spinning=false;$("spin").disabled=false;land(idx)}
+ }
+ requestAnimationFrame(step);
+}
+$("spin").onclick=spin;
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+function shareX(text){return "https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://biffbifford.com/wheel.html")}
+function land(i){
+ var out=$("out");out.hidden=false;
+ if(mode==="movie")return landMovie(i,out);
+ var cat=labels[i],seen=seenLoad();
+ var pool=Q.filter(function(q){return !q.final&&(cat==="Mix"||q.category===cat)});
+ if(!pool.length){out.innerHTML='<p class="small">No questions yet for this category.</p>';return}
+ pool=pool.map(function(q){return[q,seenPenalty(q.id,seen)+Math.random()*.9]}).sort(function(a,b){return a[1]-b[1]})
+ var q=pool[0][0];seenAdd(q.id);
+ var opts=shuffle(q.options.map(function(t,k){return{t:t,c:k===q.answer}}));
+ var h='<div class="tag">'+esc(cat==="Mix"?q.category+" (Mix)":cat)+'</div><p class="q">'+esc(q.q)+'</p><ul class="opts">';
+ opts.forEach(function(o,k){h+='<li><button class="opt" data-c="'+(o.c?1:0)+'"><span class="k">'+"ABCD"[k]+'</span><span>'+esc(o.t)+'</span></button></li>'});
+ out.innerHTML=h+'</ul><div id="res"></div>';
+ var btns=out.querySelectorAll(".opt");
+ btns.forEach(function(b){b.onclick=function(){
+  var ok=b.dataset.c==="1";
+  btns.forEach(function(x){x.disabled=true;if(x.dataset.c==="1")x.classList.add("right")});
+  if(!ok)b.classList.add("wrong");
+  var right=opts.filter(function(o){return o.c})[0].t;
+  $("res").innerHTML='<div class="verdict '+(ok?"ok":"no")+'">'+(ok?"Correct.":"Not quite. It's "+esc(right)+".")+'</div><p>'+esc(q.fact)+'</p><div class="row"><a class="btn alt" href="'+shareX((ok?"Got it":"Missed it")+" on the BiffBifford Wheel ("+cat+"). Can you do better?")+'" target="_blank" rel="noopener">Share to X</a></div>';
+ }});
+}
+function landMovie(i,out){
+ var dec=parseInt(labels[i],10);
+ var pool=M.filter(function(m){return m.year>=dec&&m.year<dec+10});
+ if(!pool.length){out.innerHTML='<p class="small">Nothing on the list from the '+labels[i]+' yet. Spin again.</p>';return}
+ var m=pool[Math.floor(Math.random()*pool.length)];
+ var who=[m.director?"Directed by "+m.director:"",m.stars&&m.stars.length?"Starring "+(Array.isArray(m.stars)?m.stars.join(", "):m.stars):""].filter(Boolean).join(". ");
+ var yt="https://www.youtube.com/results?search_query="+encodeURIComponent(m.title+" "+m.year+" trailer");
+ out.innerHTML='<div class="tag">Movie Night · '+esc(labels[i])+'</div><div class="big">'+esc(m.title)+' <span class="small">('+m.year+')</span></div><p>'+esc(who)+'</p><div class="row"><a class="btn" href="'+yt+'" target="_blank" rel="noopener">Find the trailer</a><a class="btn alt" href="'+shareX("🎬 The wheel picked "+m.title+" ("+m.year+") for movie night.")+'" target="_blank" rel="noopener">Share the pick</a></div>';
+}
+function get(u){return fetch(u,{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
+Promise.all([get("data/questions.json"),get("data/daily.json")]).then(function(r){
+ var qs=(r[0]&&(r[0].questions||r[0]))||[];Q=qs.filter(function(q){return preview||q.verified===true});
+ var d=r[1]&&(r[1].picks||r[1].films||r[1]);M=Array.isArray(d)?d:[];
+ if(!Q.length){$("t-quiz").disabled=true;if(M.length)setMode("movie")}
+ if(!M.length)$("t-movie").disabled=true;
+});
+setMode("quiz");
+})();
+</script>
+</body>
+</html>

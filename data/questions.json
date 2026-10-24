@@ -531,6 +531,568 @@
    "fact": "Elvis Presley wanted to record it, but Parton turned down his manager's demand for half the publishing rights.",
    "source": "https://en.wikipedia.org/wiki/I_Will_Always_Love_You",
    "verified": true
+  },
+  {
+   "id": "q34",
+   "category": "Film",
+   "level": 1,
+   "q": "Which 1993 film brings dinosaurs back to life in a theme park on an island?",
+   "options": [
+    "Jurassic Park",
+    "Back to the Future",
+    "Gremlins",
+    "Honey, I Shrunk the Kids"
+   ],
+   "answer": 0,
+   "fact": "It was based on Michael Crichton's 1990 novel.",
+   "source": "https://en.wikipedia.org/wiki/Jurassic_Park",
+   "verified": true
+  },
+  {
+   "id": "q35",
+   "category": "Film",
+   "level": 2,
+   "q": "Which 1977 film opens with the words \"A long time ago in a galaxy far, far away....\"?",
+   "options": [
+    "Star Wars",
+    "Close Encounters of the Third Kind",
+    "Alien",
+    "Superman"
+   ],
+   "answer": 0,
+   "fact": "The 1977 film was released simply as Star Wars. The Episode IV subtitle was added for a later release.",
+   "source": "https://en.wikipedia.org/wiki/Star_Wars_opening_crawl",
+   "verified": true
+  },
+  {
+   "id": "q36",
+   "category": "Film",
+   "level": 3,
+   "q": "Which actor played Indiana Jones in Raiders of the Lost Ark (1981)?",
+   "options": [
+    "Harrison Ford",
+    "Tom Selleck",
+    "Kurt Russell",
+    "Mel Gibson"
+   ],
+   "answer": 0,
+   "fact": "Tom Selleck was reportedly cast first, but his Magnum, P.I. commitment kept him from the role.",
+   "source": "https://www.movieguide.org/?p=580588",
+   "verified": true
+  },
+  {
+   "id": "q37",
+   "category": "Film",
+   "level": 4,
+   "q": "What color are Dorothy's magic slippers in the 1939 film The Wizard of Oz?",
+   "options": [
+    "Ruby red",
+    "Silver",
+    "Gold",
+    "Emerald green"
+   ],
+   "answer": 0,
+   "fact": "In L. Frank Baum's book they were silver. The film changed them to take advantage of Technicolor.",
+   "source": "https://oz.fandom.com/wiki/Silver_Shoes",
+   "verified": true
+  },
+  {
+   "id": "q38",
+   "category": "Film",
+   "level": 5,
+   "q": "Which famous line did Jack Nicholson ad-lib in The Shining (1980)?",
+   "options": [
+    "\"Here's Johnny!\"",
+    "\"Come play with us.\"",
+    "\"All work and no play.\"",
+    "\"You can't handle the truth.\""
+   ],
+   "answer": 0,
+   "fact": "The line was not in Kubrick's script. It echoes Ed McMahon's introduction of Johnny Carson on The Tonight Show.",
+   "source": "https://slashfilm.com/777419/the-improvised-line-in-the-shining-that-became-an-instant-classic",
+   "verified": true
+  },
+  {
+   "id": "q39",
+   "category": "Film",
+   "level": 6,
+   "q": "Who composed the screeching string score for Psycho (1960)?",
+   "options": [
+    "Bernard Herrmann",
+    "John Williams",
+    "Jerry Goldsmith",
+    "Max Steiner"
+   ],
+   "answer": 0,
+   "fact": "Hitchcock originally wanted no music for the shower scene, then agreed after hearing Herrmann's cue.",
+   "source": "https://en.wikipedia.org/wiki/Psycho_shower_scene",
+   "verified": true
+  },
+  {
+   "id": "q40",
+   "category": "Film",
+   "level": 8,
+   "q": "Which 1934 comedy was the first film to win all five major Academy Awards: Picture, Director, Actor, Actress and Screenplay?",
+   "options": [
+    "It Happened One Night",
+    "The Thin Man",
+    "Cleopatra",
+    "Imitation of Life"
+   ],
+   "answer": 0,
+   "fact": "Only two other films have done it: One Flew Over the Cuckoo's Nest (1975) and The Silence of the Lambs (1991).",
+   "source": "https://en.wikipedia.org/wiki/7th_Academy_Awards",
+   "verified": true
+  },
+  {
+   "id": "q41",
+   "category": "Film",
+   "level": 7,
+   "q": "Which 1927 film starring Al Jolson is usually called the first feature-length talkie?",
+   "options": [
+    "The Jazz Singer",
+    "Don Juan",
+    "Sunrise",
+    "Metropolis"
+   ],
+   "answer": 0,
+   "fact": "Only about a quarter of it had recorded sound. Lights of New York (1928) was the first all-talking feature.",
+   "source": "https://www.britannica.com/print/article/302090",
+   "verified": true
+  },
+  {
+   "id": "q42",
+   "category": "Film",
+   "level": 9,
+   "q": "Which cinematographer's deep-focus photography helped define the look of Citizen Kane?",
+   "options": [
+    "Gregg Toland",
+    "James Wong Howe",
+    "Karl Freund",
+    "Billy Bitzer"
+   ],
+   "answer": 0,
+   "fact": "Toland won the Oscar for Best Cinematography, black-and-white, for Wuthering Heights (1939).",
+   "source": "https://en.wikipedia.org/wiki/Gregg_Toland",
+   "verified": true
+  },
+  {
+   "id": "q43",
+   "category": "Film",
+   "level": 10,
+   "final": true,
+   "q": "Which 1925 Soviet silent film is famous for its Odessa Steps sequence?",
+   "options": [
+    "Battleship Potemkin",
+    "Strike",
+    "October: Ten Days That Shook the World",
+    "Mother"
+   ],
+   "answer": 0,
+   "fact": "Sergei Eisenstein directed it.",
+   "source": "https://en.wikipedia.org/wiki/Battleship_Potemkin",
+   "verified": true
+  },
+  {
+   "id": "q44",
+   "category": "Film",
+   "level": 3,
+   "q": "Who wrote and performed the theme song for Ghostbusters (1984)?",
+   "options": [
+    "Ray Parker Jr.",
+    "Huey Lewis",
+    "Lionel Richie",
+    "Stevie Wonder"
+   ],
+   "answer": 0,
+   "fact": "The song spent three weeks at number one on the Billboard Hot 100 in 1984.",
+   "source": "https://en.wikipedia.org/wiki/Ghostbusters_(song)",
+   "verified": true
+  },
+  {
+   "id": "q45",
+   "category": "Film",
+   "level": 4,
+   "q": "Which actor played the villain Hans Gruber in Die Hard (1988)?",
+   "options": [
+    "Alan Rickman",
+    "Gary Oldman",
+    "Jeremy Irons",
+    "Anthony Hopkins"
+   ],
+   "answer": 0,
+   "fact": "It was Rickman's first film role.",
+   "source": "https://en.wikipedia.org/wiki/Hans_Gruber",
+   "verified": true
+  },
+  {
+   "id": "q46",
+   "category": "Television",
+   "level": 1,
+   "q": "In which fictional town do The Simpsons live?",
+   "options": [
+    "Springfield",
+    "Shelbyville",
+    "Capital City",
+    "Quahog"
+   ],
+   "answer": 0,
+   "fact": "The series premiered on Fox on December 17, 1989.",
+   "source": "https://en.wikipedia.org/wiki/Simpsons_Roasting_on_an_Open_Fire",
+   "verified": true
+  },
+  {
+   "id": "q47",
+   "category": "Television",
+   "level": 2,
+   "q": "Which sitcom's six friends hang out at a coffeehouse called Central Perk?",
+   "options": [
+    "Friends",
+    "Seinfeld",
+    "Frasier",
+    "Mad About You"
+   ],
+   "answer": 0,
+   "fact": "It debuted on NBC in the 1994 to 1995 season.",
+   "source": "https://www.encyclopedia.com/media/encyclopedias-almanacs-transcripts-and-maps/friends",
+   "verified": true
+  },
+  {
+   "id": "q48",
+   "category": "Television",
+   "level": 3,
+   "q": "Which actor played Fonzie on Happy Days?",
+   "options": [
+    "Henry Winkler",
+    "Ron Howard",
+    "Scott Baio",
+    "Anson Williams"
+   ],
+   "answer": 0,
+   "fact": "The phrase \"jumping the shark\" comes from a 1977 episode in which Fonzie water-skis over a shark.",
+   "source": "https://en.wikipedia.org/wiki/Jumping_the_shark",
+   "verified": true
+  },
+  {
+   "id": "q49",
+   "category": "Television",
+   "level": 4,
+   "q": "Which actor played Arnold Jackson on Diff'rent Strokes?",
+   "options": [
+    "Gary Coleman",
+    "Emmanuel Lewis",
+    "Danny Cooksey",
+    "Todd Bridges"
+   ],
+   "answer": 0,
+   "fact": "The show aired from 1978 to 1986.",
+   "source": "https://kids.britannica.com/students/article/Gary-Coleman/626839",
+   "verified": true
+  },
+  {
+   "id": "q50",
+   "category": "Television",
+   "level": 5,
+   "q": "Who created and hosted The Twilight Zone?",
+   "options": [
+    "Rod Serling",
+    "Alfred Hitchcock",
+    "Gene Roddenberry",
+    "Norman Lear"
+   ],
+   "answer": 0,
+   "fact": "It premiered on CBS on October 2, 1959.",
+   "source": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)",
+   "verified": true
+  },
+  {
+   "id": "q51",
+   "category": "Television",
+   "level": 3,
+   "q": "Which 1960s sitcom's theme song begins with the story of \"a fateful trip\"?",
+   "options": [
+    "Gilligan's Island",
+    "The Beverly Hillbillies",
+    "Bewitched",
+    "Green Acres"
+   ],
+   "answer": 0,
+   "fact": "Sherwood Schwartz created it, and it aired on CBS from 1964 to 1967.",
+   "source": "https://en.wikipedia.org/wiki/Gilligan%27s_Island",
+   "verified": true
+  },
+  {
+   "id": "q52",
+   "category": "Television",
+   "level": 7,
+   "q": "Which sitcom spawned the spin-offs Rhoda and Phyllis, plus the drama Lou Grant?",
+   "options": [
+    "The Mary Tyler Moore Show",
+    "The Bob Newhart Show",
+    "Taxi",
+    "Barney Miller"
+   ],
+   "answer": 0,
+   "fact": "Lou Grant was a one-hour drama, unlike the two sitcom spin-offs.",
+   "source": "https://en.wikipedia.org/wiki/The_Mary_Tyler_Moore_Show",
+   "verified": true
+  },
+  {
+   "id": "q53",
+   "category": "Television",
+   "level": 8,
+   "q": "Who was the regular host of The Tonight Show right before Johnny Carson?",
+   "options": [
+    "Jack Paar",
+    "Steve Allen",
+    "Dick Cavett",
+    "Jay Leno"
+   ],
+   "answer": 0,
+   "fact": "Carson began hosting on October 1, 1962.",
+   "source": "https://en.wikipedia.org/wiki/The_Tonight_Show",
+   "verified": true
+  },
+  {
+   "id": "q54",
+   "category": "Television",
+   "level": 8,
+   "q": "Which presidential candidate appeared on Rowan & Martin's Laugh-In in 1968, asking \"Sock it to me?\"",
+   "options": [
+    "Richard Nixon",
+    "Hubert Humphrey",
+    "George Wallace",
+    "Eugene McCarthy"
+   ],
+   "answer": 0,
+   "fact": "His cameo was filmed for the show's broadcast on September 16, 1968.",
+   "source": "https://history.com/news/richard-nixon-laugh-in-cameo-1968",
+   "verified": true
+  },
+  {
+   "id": "q55",
+   "category": "Television",
+   "level": 5,
+   "q": "Which producer created All in the Family and Maude?",
+   "options": [
+    "Norman Lear",
+    "Garry Marshall",
+    "Aaron Spelling",
+    "Grant Tinker"
+   ],
+   "answer": 0,
+   "fact": "Maude was itself a spin-off of All in the Family.",
+   "source": "https://www.britannica.com:443/biography/Norman-Lear",
+   "verified": true
+  },
+  {
+   "id": "q56",
+   "category": "Music",
+   "level": 6,
+   "q": "What was the first music video MTV aired when it launched on August 1, 1981?",
+   "options": [
+    "\"Video Killed the Radio Star\"",
+    "\"Take On Me\"",
+    "\"Money for Nothing\"",
+    "\"Rio\""
+   ],
+   "answer": 0,
+   "fact": "It was by The Buggles.",
+   "source": "https://www.guinnessworldrecords.com/world-records/101515-first-video-shown-on-mtv",
+   "verified": true
+  },
+  {
+   "id": "q57",
+   "category": "Music",
+   "level": 1,
+   "q": "Which band recorded Don't Stop Believin'?",
+   "options": [
+    "Journey",
+    "Foreigner",
+    "Styx",
+    "REO Speedwagon"
+   ],
+   "answer": 0,
+   "fact": "It was the second single from the 1981 album Escape.",
+   "source": "https://en.wikipedia.org/wiki/Don%27t_Stop_Believin%27",
+   "verified": true
+  },
+  {
+   "id": "q58",
+   "category": "Music",
+   "level": 2,
+   "q": "Who sang Like a Virgin in 1984?",
+   "options": [
+    "Madonna",
+    "Cyndi Lauper",
+    "Pat Benatar",
+    "Tina Turner"
+   ],
+   "answer": 0,
+   "fact": "It spent six consecutive weeks at number one.",
+   "source": "https://en.wikipedia.org/wiki/Like_a_Virgin_(song)",
+   "verified": true
+  },
+  {
+   "id": "q59",
+   "category": "Music",
+   "level": 3,
+   "q": "Which band released the 1976 album Hotel California?",
+   "options": [
+    "Eagles",
+    "Fleetwood Mac",
+    "Boston",
+    "Steely Dan"
+   ],
+   "answer": 0,
+   "fact": "The title song won Record of the Year at the 1978 Grammys.",
+   "source": "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+   "verified": true
+  },
+  {
+   "id": "q60",
+   "category": "Music",
+   "level": 3,
+   "q": "Who is the lead singer of U2?",
+   "options": [
+    "Bono",
+    "Sting",
+    "Peter Gabriel",
+    "Michael Hutchence"
+   ],
+   "answer": 0,
+   "fact": "Bono was born Paul David Hewson.",
+   "source": "https://en.wikipedia.org/wiki/Bono",
+   "verified": true
+  },
+  {
+   "id": "q61",
+   "category": "Music",
+   "level": 4,
+   "q": "Which Nirvana album includes Smells Like Teen Spirit?",
+   "options": [
+    "Nevermind",
+    "In Utero",
+    "Bleach",
+    "Incesticide"
+   ],
+   "answer": 0,
+   "fact": "By January 1992 it had knocked Michael Jackson's Dangerous off the top of the album chart.",
+   "source": "https://www.history.co.uk/this-day-in-history/24-september/nirvanas-nevermind-is-first-released",
+   "verified": true
+  },
+  {
+   "id": "q62",
+   "category": "Music",
+   "level": 5,
+   "q": "Which 1981 hit paired Queen with David Bowie?",
+   "options": [
+    "\"Under Pressure\"",
+    "\"Another One Bites the Dust\"",
+    "\"Fat Bottomed Girls\"",
+    "\"Radio Ga Ga\""
+   ],
+   "answer": 0,
+   "fact": "It reached number one on the UK Singles Chart.",
+   "source": "https://en.wikipedia.org/wiki/Under_Pressure",
+   "verified": true
+  },
+  {
+   "id": "q63",
+   "category": "Music",
+   "level": 6,
+   "q": "Who wrote Nothing Compares 2 U, a 1990 hit for Sinéad O'Connor?",
+   "options": [
+    "Prince",
+    "Peter Gabriel",
+    "Annie Lennox",
+    "Bono"
+   ],
+   "answer": 0,
+   "fact": "O'Connor's version spent four weeks at number one on the Billboard Hot 100.",
+   "source": "https://en.wikipedia.org/wiki/Nothing_Compares_2_U",
+   "verified": true
+  },
+  {
+   "id": "q64",
+   "category": "Music",
+   "level": 5,
+   "q": "In which US state was the 1969 Woodstock festival held?",
+   "options": [
+    "New York",
+    "Vermont",
+    "Pennsylvania",
+    "New Jersey"
+   ],
+   "answer": 0,
+   "fact": "It took place on Max Yasgur's dairy farm in Bethel, New York, from August 15 to 18, 1969.",
+   "source": "https://en.wikipedia.org/wiki/Max_Yasgur",
+   "verified": true
+  },
+  {
+   "id": "q65",
+   "category": "Music",
+   "level": 5,
+   "q": "In which city did Berry Gordy start Motown Records in 1959?",
+   "options": [
+    "Detroit",
+    "Memphis",
+    "Chicago",
+    "Philadelphia"
+   ],
+   "answer": 0,
+   "fact": "Gordy founded it as Tamla Records on January 12, 1959.",
+   "source": "https://en.wikipedia.org/wiki/Motown",
+   "verified": true
+  },
+  {
+   "id": "q66",
+   "category": "Music",
+   "level": 4,
+   "q": "Which 1967 Beatles album ends with A Day in the Life?",
+   "options": [
+    "Sgt. Pepper's Lonely Hearts Club Band",
+    "Revolver",
+    "Abbey Road",
+    "Rubber Soul"
+   ],
+   "answer": 0,
+   "fact": "The song was released as the album's final track.",
+   "source": "https://en.wikipedia.org/wiki/A_Day_in_the_Life",
+   "verified": true
+  },
+  {
+   "id": "q67",
+   "category": "Music",
+   "level": 8,
+   "q": "Which Bill Haley & His Comets song was the first rock and roll recording to top Billboard's pop chart, in 1955?",
+   "options": [
+    "\"Rock Around the Clock\"",
+    "\"Shake, Rattle and Roll\"",
+    "\"See You Later, Alligator\"",
+    "\"Razzle-Dazzle\""
+   ],
+   "answer": 0,
+   "fact": "It reached number one on July 9, 1955.",
+   "source": "https://en.wikipedia.org/wiki/Rock_Around_the_Clock",
+   "verified": true
+  },
+  {
+   "id": "q68",
+   "category": "Music",
+   "level": 10,
+   "final": true,
+   "q": "Whose 1920 record Crazy Blues is often called the first significant hit in the blues genre?",
+   "options": [
+    "Mamie Smith",
+    "Bessie Smith",
+    "Ma Rainey",
+    "Ethel Waters"
+   ],
+   "answer": 0,
+   "fact": "Mamie Smith and Her Jazz Hounds recorded it on August 10, 1920.",
+   "source": "https://en.wikipedia.org/wiki/Crazy_Blues",
+   "verified": true
   }
  ]
 }

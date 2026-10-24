@@ -115,6 +115,7 @@
 
   /* PLAY TILES */
   .play-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
+  #tile-wheel{grid-column:1/-1;}
   @media (max-width:700px){.play-grid{grid-template-columns:1fr;}}
   .tile{position:relative;display:flex;flex-direction:column;gap:12px;padding:28px 26px;background:var(--black-soft);border:1px solid var(--steel-line);border-left:4px solid var(--gold);text-decoration:none;transition:border-color .15s,background .15s;}
   a.tile:hover{border-color:var(--gold-dim);border-left-color:var(--gold);background:#231d14;}
@@ -274,6 +275,11 @@
         <span class="state" id="arcade-state">Opening soon</span>
         <h3>The Arcade</h3>
         <p>Speed Round gives you 60 seconds to answer as many as you can. Sudden Death ends at your first miss.</p>
+      </a>
+      <a class="tile" id="tile-wheel" href="wheel.html">
+        <span class="state">Play now</span>
+        <h3>The Wheel</h3>
+        <p>Spin for a film, TV or music question, or let the Movie Night wheel pick a classic by decade.</p>
       </a>
     </div>
   </div>

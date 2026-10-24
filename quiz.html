@@ -263,6 +263,13 @@ function transition(fn){
   setTimeout(function(){fn();setTimeout(function(){canvas.classList.remove("on")},60)},140);
 }
 
+/* ---------- remember what this browser has seen (optional, per visitor) ---------- */
+var SEEN_KEY="bb_seen_v1";
+function seenLoad(){try{var a=JSON.parse(localStorage.getItem(SEEN_KEY)||"[]");return Array.isArray(a)?a:[]}catch(e){return[]}}
+function seenAdd(id){try{var a=seenLoad().filter(function(x){return x!==id});a.push(id);localStorage.setItem(SEEN_KEY,JSON.stringify(a.slice(-500)))}catch(e){}}
+// 0 = never seen; otherwise 1.5 to 2.5, older sightings score lower so they come back first
+function seenPenalty(id,seen){var i=seen.indexOf(id);return i<0?0:1.5+(i/Math.max(1,seen.length))}
+
 /* ---------- loading ---------- */
 function load(){
   fetch("data/questions.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})
@@ -275,12 +282,13 @@ function load(){
     finals=pool.filter(function(q){return q.final});
     var rest=pool.filter(function(q){return !q.final});
     var fin=null;
-    if(finals.length){fin=finals[Math.floor(Math.random()*finals.length)]}
-    else if(rest.length){
+    if(!finals.length&&rest.length){
       fin=rest.slice().sort(function(a,b){return b.level-a.level})[0];
       rest=rest.filter(function(q){return q!==fin});
+      finals=[fin];
     }
-    G0={pool:pool,main:rest,fin:fin};
+    fin=finals.length?finals[0]:null;
+    G0={pool:pool,main:rest,finals:finals,fin:fin};
     if(PREVIEW){document.getElementById("banner").innerHTML='<div class="banner">Preview mode: unverified questions are included. Visitors will not see these.</div>'}
     if(pool.length<4||rest.length<3||!fin){renderNotReady()}else{renderIdle()}
   }).catch(function(){renderError()});
@@ -304,18 +312,22 @@ function renderIdle(){
 
 function startGame(){
   var rounds=Math.min(10,G0.main.length);
-  G={score:0,level:1,round:0,rounds:rounds,used:{},fin:G0.fin};
+  var seen=seenLoad();
+  var fs=G0.finals.slice().sort(function(a,b){return seenPenalty(a.id,seen)-seenPenalty(b.id,seen)+(Math.random()-.5)*.02});
+  G={score:0,level:1,round:0,rounds:rounds,used:{},fin:fs[0]};
+  seenAdd(G.fin.id);
   nextRound();
 }
 function pick(){
+  var seen=seenLoad();
   var cands=G0.main.filter(function(q){return !G.used[q.id]});
-  var best=Infinity;cands.forEach(function(q){best=Math.min(best,Math.abs(q.level-G.level))});
-  var close=cands.filter(function(q){return Math.abs(q.level-G.level)===best});
-  return close[Math.floor(Math.random()*close.length)];
+  var best=null,bs=Infinity;
+  cands.forEach(function(q){var sc=Math.abs(q.level-G.level)+seenPenalty(q.id,seen)+Math.random()*.05;if(sc<bs){bs=sc;best=q}});
+  return best;
 }
 function nextRound(){
   if(G.round>=G.rounds){return renderBet()}
-  var q=pick();G.used[q.id]=true;G.round++;
+  var q=pick();G.used[q.id]=true;seenAdd(q.id);G.round++;
   showQuestion(q,false);
 }
 
