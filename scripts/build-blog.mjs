@@ -96,7 +96,7 @@ const FOOT = `<div class="foot">Follow along: <a href="https://x.com/TBifford" t
 const files = (await readdir("blog/posts")).filter((f) => f.endsWith(".md")).sort().reverse();
 const posts = [];
 for (const f of files) posts.push(parse(f, await readFile(`blog/posts/${f}`, "utf8")));
-posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
 
 for (const p of posts) {
   const url = `${SITE}/blog/${p.slug}.html`;
