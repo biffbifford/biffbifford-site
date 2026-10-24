@@ -211,6 +211,23 @@ body{font-size:18px}
 .foot-grid p{font-size:1.05rem !important}
 .navlinks .play{font-size:1.1rem}
 @media (max-width:700px){.navlinks a{padding:12px 4px}}
+.blog-grid{display:grid;grid-template-columns:1fr;gap:18px;}
+.blog-card{display:block;text-decoration:none;color:var(--cream);background:#1D1811;border:1px solid var(--steel-line);border-left:4px solid var(--gold);padding:24px 26px;}
+.blog-card:hover{border-color:var(--gold-dim);border-left-color:var(--gold);}
+.blog-card .bmeta{font-family:'Space Mono',monospace;font-size:1rem;color:var(--gold);}
+.blog-card h3{font-size:1.7rem;line-height:1.15;margin:6px 0 8px;}
+.blog-card p{margin:0;color:#cfc6af;font-size:1.1rem;}
+.sub{font-size:1.4rem;color:var(--gold);margin:30px 0 14px;}
+.poster-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+@media (max-width:900px){.poster-grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:480px){.poster-grid{grid-template-columns:1fr;}}
+.poster{display:flex;flex-direction:column;background:#1D1811;border:1px solid var(--steel-line);}
+.poster img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block;background:#000;}
+.poster .pb{padding:14px 16px 18px;display:flex;flex-direction:column;gap:6px;flex:1;}
+.poster h4{margin:0;font-family:'Fraunces',serif;font-size:1.25rem;line-height:1.2;color:var(--cream);}
+.poster .py{font-family:'Space Mono',monospace;font-size:1rem;color:var(--gold);}
+.poster p{margin:0;font-size:1rem;color:#cfc6af;line-height:1.5;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;}
+.poster a.tr{margin-top:auto;padding-top:8px;color:var(--gold);font-weight:600;min-height:44px;display:inline-flex;align-items:center;}
 </style>
 </head>
 <body>
@@ -224,6 +241,8 @@ body{font-size:18px}
     <div class="navlinks">
       <a href="#play" class="play">Play</a>
       <a href="#dispatches">Dispatches</a>
+      <a href="blog/">Blog</a>
+      <a href="#movies" id="nav-movies" hidden>At the Movies</a>
       <a href="#screening">Trailers</a>
       <a href="#wire">The Wire</a>
       <div class="icon-links">
@@ -326,6 +345,17 @@ body{font-size:18px}
   </div>
 </section>
 
+<section id="blog" hidden>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>From the blog</h2>
+      <p>The posts on X are short. These are the full stories behind them.</p>
+    </div>
+    <div class="blog-grid" id="blog-grid"></div>
+    <p class="wire-note"><a href="blog/" style="color:var(--gold);">Read all stories &rarr;</a></p>
+  </div>
+</section>
+
 <section id="dispatches">
   <div class="wrap">
     <div class="section-head">
@@ -357,6 +387,28 @@ body{font-size:18px}
         <div class="screening-body"><h3>Classic trailers load in here</h3><div class="meta">Via YouTube</div></div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="movies" hidden>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>At the movies</h2>
+      <p>What is in theaters right now, and the weekend box-office stories from the trade papers.</p>
+    </div>
+    <div id="bo-box" hidden>
+      <h3 class="sub">Weekend box office</h3>
+      <div class="wire-list" id="bo-list"></div>
+    </div>
+    <div id="np-box" hidden>
+      <h3 class="sub">Now playing</h3>
+      <div class="poster-grid" id="np-grid"></div>
+    </div>
+    <div id="tr-box" hidden>
+      <h3 class="sub">Trending this week</h3>
+      <div class="poster-grid" id="tr-grid"></div>
+    </div>
+    <p class="wire-note" id="tmdb-note" hidden>Movie data and posters from <a href="https://www.themoviedb.org/" target="_blank" rel="noopener" style="color:var(--gold);">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB. Headlines and links belong to their publishers.</p>
   </div>
 </section>
 
@@ -566,12 +618,53 @@ async function loadNews() {
   } catch (e) { console.log('Live headlines unavailable, showing placeholder.', e); }
 }
 
+async function loadBlog() {
+  try {
+    const data = await getJSON('data/blog.json');
+    const posts = (data.posts || []).slice(0, 2);
+    const grid = document.getElementById('blog-grid');
+    if (!posts.length || !grid) return;
+    grid.innerHTML = posts.map((p) => {
+      const d = new Date(p.date + 'T12:00:00Z').toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+      return `<a class="blog-card" href="blog/${esc(p.slug)}.html"><div class="bmeta">${esc(d)}${p.tags ? ' · ' + esc(p.tags) : ''}</div><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p></a>`;
+    }).join('');
+    document.getElementById('blog').hidden = false;
+  } catch (e) { console.log('Blog list unavailable.', e); }
+}
+
+async function loadMovies() {
+  try {
+    const data = await getJSON('data/movies.json');
+    const poster = (m) => `<div class="poster"><img src="https://image.tmdb.org/t/p/w342${esc(m.poster)}" alt="Poster for ${esc(m.title)}" loading="lazy"><div class="pb"><h4>${esc(m.title)}</h4><div class="py">${esc(m.year || '')}</div><p>${esc(m.overview)}</p><a class="tr" href="https://www.youtube.com/results?search_query=${encodeURIComponent(m.title + ' ' + (m.year || '') + ' trailer')}" target="_blank" rel="noopener">Find the trailer</a></div></div>`;
+    let any = false;
+    const bo = (data.boxoffice || []).filter((i) => i.title && safeUrl(i.url));
+    if (bo.length) {
+      document.getElementById('bo-list').innerHTML = bo.map((i) => {
+        const d = new Date(i.published);
+        const date = Number.isNaN(d.getTime()) ? '' : ' · ' + d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+        return `<a class="wire-row" href="${esc(safeUrl(i.url))}" target="_blank" rel="noopener noreferrer"><span class="wire-title">${esc(i.title)}</span><span class="wire-meta">${esc(i.source || '')}${date} ↗</span></a>`;
+      }).join('');
+      document.getElementById('bo-box').hidden = false; any = true;
+    }
+    [['np', data.now_playing], ['tr', data.trending]].forEach(([k, list]) => {
+      const L = (list || []).filter((m) => m.title && m.poster);
+      if (!L.length) return;
+      document.getElementById(k + '-grid').innerHTML = L.map(poster).join('');
+      document.getElementById(k + '-box').hidden = false;
+      document.getElementById('tmdb-note').hidden = false; any = true;
+    });
+    if (any) { document.getElementById('movies').hidden = false; document.getElementById('nav-movies').hidden = false; }
+  } catch (e) { console.log('Movies unavailable.', e); }
+}
+
 loadPick();
 loadOnThisDay();
 loadPlay();
 loadPosts();
 loadTrailers();
 loadNews();
+loadBlog();
+loadMovies();
 </script>
 </body>
 </html>
