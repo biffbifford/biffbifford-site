@@ -228,6 +228,14 @@ body{font-size:18px}
 .poster .py{font-family:'Space Mono',monospace;font-size:1rem;color:var(--gold);}
 .poster p{margin:0;font-size:1rem;color:#cfc6af;line-height:1.5;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;}
 .poster a.tr{margin-top:auto;padding-top:8px;color:var(--gold);font-weight:600;min-height:44px;display:inline-flex;align-items:center;}
+#feature{padding:26px 0 0;}
+.feature-card{display:flex;flex-direction:column;gap:10px;align-items:flex-start;text-decoration:none;color:var(--cream);background:linear-gradient(135deg,#2a2116,#1D1811);border:1px solid var(--gold-dim);border-left:6px solid var(--gold);padding:28px 30px;}
+.feature-card:hover{border-color:var(--gold);}
+.feature-kicker{font-family:'Space Mono',monospace;font-size:1rem;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;}
+.feature-title{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.9rem,5vw,2.9rem);line-height:1.1;}
+.feature-text{font-size:1.25rem;color:#cfc6af;max-width:40em;}
+.feature-meta{font-size:1rem;color:#cfc6af;}
+.feature-btn{margin-top:6px;}
 </style>
 </head>
 <body>
@@ -256,6 +264,18 @@ body{font-size:18px}
     </div>
   </div>
 </nav>
+
+<section id="feature" hidden aria-label="Latest story">
+  <div class="wrap">
+    <a class="feature-card" id="feature-card" href="blog/">
+      <span class="feature-kicker">Latest story</span>
+      <span class="feature-title" id="feature-title"></span>
+      <span class="feature-text" id="feature-text"></span>
+      <span class="feature-meta" id="feature-meta"></span>
+      <span class="btn btn-primary feature-btn">Read the story</span>
+    </a>
+  </div>
+</section>
 
 <header id="top" class="hero">
   <div class="wrap hero-grid">
@@ -314,6 +334,17 @@ body{font-size:18px}
   </div>
 </section>
 
+<section id="blog" hidden>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>More stories</h2>
+      <p>The posts on X are short. These are the full stories behind them.</p>
+    </div>
+    <div class="blog-grid" id="blog-grid"></div>
+    <p class="wire-note"><a href="blog/" style="color:var(--gold);">Read all stories &rarr;</a></p>
+  </div>
+</section>
+
 <section id="play">
   <div class="wrap">
     <div class="section-head">
@@ -342,17 +373,6 @@ body{font-size:18px}
         <p>Spin for a film, TV or music question, or let the Movie Night wheel pick a classic by decade.</p>
       </a>
     </div>
-  </div>
-</section>
-
-<section id="blog" hidden>
-  <div class="wrap">
-    <div class="section-head">
-      <h2>From the blog</h2>
-      <p>The posts on X are short. These are the full stories behind them.</p>
-    </div>
-    <div class="blog-grid" id="blog-grid"></div>
-    <p class="wire-note"><a href="blog/" style="color:var(--gold);">Read all stories &rarr;</a></p>
   </div>
 </section>
 
@@ -621,14 +641,20 @@ async function loadNews() {
 async function loadBlog() {
   try {
     const data = await getJSON('data/blog.json');
-    const posts = (data.posts || []).slice(0, 2);
-    const grid = document.getElementById('blog-grid');
-    if (!posts.length || !grid) return;
-    grid.innerHTML = posts.map((p) => {
-      const d = new Date(p.date + 'T12:00:00Z').toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
-      return `<a class="blog-card" href="blog/${esc(p.slug)}.html"><div class="bmeta">${esc(d)}${p.tags ? ' · ' + esc(p.tags) : ''}</div><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p></a>`;
-    }).join('');
-    document.getElementById('blog').hidden = false;
+    const all = data.posts || [];
+    if (!all.length) return;
+    const fmt = (p) => new Date(p.date + 'T12:00:00Z').toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+    const f = all[0];
+    document.getElementById('feature-card').href = 'blog/' + encodeURIComponent(f.slug) + '.html';
+    document.getElementById('feature-title').textContent = f.title;
+    document.getElementById('feature-text').textContent = f.summary;
+    document.getElementById('feature-meta').textContent = 'By Biff Bifford · ' + fmt(f) + ' · The full story behind a post on X';
+    document.getElementById('feature').hidden = false;
+    const rest = all.slice(1, 3), grid = document.getElementById('blog-grid');
+    if (rest.length && grid) {
+      grid.innerHTML = rest.map((p) => `<a class="blog-card" href="blog/${esc(p.slug)}.html"><div class="bmeta">${esc(fmt(p))}${p.tags ? ' · ' + esc(p.tags) : ''}</div><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p></a>`).join('');
+      document.getElementById('blog').hidden = false;
+    }
   } catch (e) { console.log('Blog list unavailable.', e); }
 }
 
