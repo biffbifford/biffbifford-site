@@ -178,6 +178,39 @@
   .foot-note a:hover{color:var(--gold);}
 
   @media (prefers-reduced-motion:reduce){.bulb,.ticker-track{animation:none !important;}html{scroll-behavior:auto;}}
+/* Readability pass for older eyes */
+body{font-size:18px}
+.brandmark small{font-size:.8rem}
+.navlinks a{font-size:1.1rem;opacity:1;padding:12px 6px;display:inline-block}
+.btn{font-size:1.1rem;min-height:54px}
+.ticket .btn{font-size:1rem;min-height:48px}
+.tagline{font-size:1.25rem;opacity:1;max-width:540px}
+.stat .lbl{font-size:.9rem;color:#cfc6af}
+.stat .num{font-size:1.8rem}
+.ticket-label{font-size:.95rem}
+.ticket .yr{font-size:1rem}
+.ticket p{font-size:1.15rem}
+.section-head p{font-size:1.15rem;color:#cfc6af;max-width:620px}
+.tile h3{font-size:1.65rem}
+.tile p{font-size:1.1rem;color:#cfc6af}
+.tile .state{font-size:.95rem}
+.title-card .tag{font-size:.9rem}
+.title-card p{font-size:1.05rem;color:#cfc6af}
+.title-card .post-text{font-size:1.25rem}
+.title-card .meta,.title-card .actions a{font-size:.95rem;color:#cfc6af;min-height:44px;display:inline-flex;align-items:center}
+.screening-body h3{font-size:1.15rem}
+.screening-body .meta{font-size:.95rem;color:#cfc6af}
+.wire-title{font-size:1.25rem}
+.wire-meta{font-size:.95rem;color:#cfc6af}
+.wire-note,.foot-note{font-size:1rem;color:#cfc6af}
+.foot-note a{display:inline-block;padding:10px 4px}
+.ticker-track{font-size:1rem}
+.ticker:hover .ticker-track,.ticker:focus-within .ticker-track{animation-play-state:paused}
+.otd-date{font-size:1.5rem}
+.stat .lbl,.title-card .tag,.ticket-label,.tile .state,.brandmark small{font-size:1rem}
+.foot-grid p{font-size:1.05rem !important}
+.navlinks .play{font-size:1.1rem}
+@media (max-width:700px){.navlinks a{padding:12px 4px}}
 </style>
 </head>
 <body>
@@ -460,7 +493,7 @@ async function loadPosts() {
         .map((text) => `<span>${esc(text.toUpperCase())}</span>`).join('');
       ticker.innerHTML = items + items;
       const singleSetWidth = ticker.scrollWidth / 2;
-      ticker.style.animationDuration = `${Math.max(20, singleSetWidth / 60)}s`;
+      ticker.style.animationDuration = `${Math.max(40, singleSetWidth / 35)}s`;
     }
 
     const grid = document.getElementById('dispatch-grid');

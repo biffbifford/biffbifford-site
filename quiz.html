@@ -21,7 +21,7 @@
 <style>
 :root{
   --ink:#15120D; --cream:#EDE3CC; --gold:#C9A036; --gold-dim:#8A6F27;
-  --rust:#8C3B2E; --rust-hi:#C4604D; --steel:#6E675C;
+  --rust:#8C3B2E; --rust-hi:#C4604D; --steel:#a39b88;
   --wood1:#5A3720; --wood2:#3E2414; --wood3:#2B190D; --glass:#0B100E;
   --good:#7FBF8A;
 }
@@ -75,7 +75,7 @@ a{color:var(--gold)}
 #view{
   position:relative; z-index:1; min-height:inherit; display:flex; flex-direction:column;
   padding:clamp(18px,5.5cqw,44px) clamp(18px,7cqw,56px);
-  font-size:clamp(14px,2.5cqw,19px);
+  font-size:clamp(17px,3cqw,22px);
   text-shadow:0 0 6px rgba(237,227,204,.28);
 }
 .glass{position:absolute;inset:0;z-index:4;pointer-events:none;border-radius:inherit;
@@ -186,6 +186,11 @@ input[type=range]{width:100%;accent-color:var(--gold);height:34px}
   .screen{animation:none}
   #static{transition:none}
 }
+.topbar a{font-size:1.35rem;padding:10px 0;display:inline-block}
+.topbar span{font-size:1rem;color:#cfc6af}
+.fine{font-size:1rem}
+.small{font-size:1rem;opacity:.95}
+.hud{font-size:.9em}
 </style>
 </head>
 <body>
