@@ -100,12 +100,12 @@ posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
 
 for (const p of posts) {
   const url = `${SITE}/blog/${p.slug}.html`;
-  const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: p.title, datePublished: p.date, description: p.summary, author: { "@type": "Person", name: "Johnny (BiffBifford)" }, mainEntityOfPage: url, image: `${SITE}/og-image.png` })}</script>`;
+  const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: p.title, datePublished: p.date, description: p.summary, author: { "@type": "Person", name: "Biff Bifford" }, mainEntityOfPage: url, image: `${SITE}/og-image.png` })}</script>`;
   const tweet = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const others = posts.filter((o) => o.slug !== p.slug).slice(0, 3);
   const more = others.length ? `<h2 style="font-family:Fraunces,Georgia,serif;font-size:1.5rem;margin-top:2em">More from the blog</h2>` + others.map((o) => `<a class="card" href="/blog/${o.slug}.html"><p class="meta">${prettyDate(o.date)}</p><h2>${esc(o.title)}</h2><p>${esc(o.summary)}</p></a>`).join("") : "";
   const html = HEAD(`${p.title} | BiffBifford`, p.summary, url, ld) +
-    `<p class="kicker">${esc(p.tags || "The Blog")}</p><article><h1>${esc(p.title)}</h1><p class="meta">By Johnny · ${prettyDate(p.date)}</p>\n${md(p.body)}</article>
+    `<p class="kicker">${esc(p.tags || "The Blog")}</p><article><h1>${esc(p.title)}</h1><p class="meta">By Biff Bifford · ${prettyDate(p.date)}</p>\n${md(p.body)}</article>
 <div class="row"><a class="btn" href="${tweet}" target="_blank" rel="noopener">Share on X</a><a class="btn alt" href="/challenge.html">Play the Daily Challenge</a></div>${more}` + FOOT;
   await writeFile(`blog/${p.slug}.html`, html);
 }
