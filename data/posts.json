@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-25T03:48:46.577Z",
+  "updated_at": "2026-10-25T15:46:19.237Z",
   "account": {
-    "followers": 79891,
-    "following": 28432,
-    "posts": 71749,
+    "followers": 79868,
+    "following": 28425,
+    "posts": 71750,
     "listed": 96
   },
   "tweets": [
@@ -11,33 +11,33 @@
       "id": "2114160017725092217",
       "text": "🎖️ Before he made 23 westerns, Audie Murphy was one of the most decorated American soldiers of World War II. He enlisted at 17.\n\nHe lied about his age to get in, a few months after Pearl Harbor.\n\nOn Jan. 26, 1945, near Holtzwihr, France, German tanks and infantry attacked his https://t.co/3XeY6j5ajK",
       "created_at": "2026-10-25T01:00:02.000Z",
-      "likes": 11,
-      "retweets": 5,
-      "replies": 2,
+      "likes": 23,
+      "retweets": 7,
+      "replies": 6,
       "quotes": 0,
-      "impression_count": 578,
+      "impression_count": 1265,
       "url": "https://x.com/TBifford/status/2114160017725092217"
     },
     {
       "id": "2114076962847367665",
       "text": "🌵 Dale Evans wrote \"Happy Trails.\" But the most important thing she ever wrote was a little book about her daughter.\n\nShe was born Frances Octavia Smith in Uvalde, Texas, in 1912.\n\nShe became Roy Rogers' co-star, then his wife, then TV's \"Queen of the West,\" riding her horse https://t.co/pt8WZ1J3ej",
       "created_at": "2026-10-24T19:30:00.000Z",
-      "likes": 24,
-      "retweets": 5,
-      "replies": 4,
+      "likes": 58,
+      "retweets": 10,
+      "replies": 6,
       "quotes": 0,
-      "impression_count": 898,
+      "impression_count": 1908,
       "url": "https://x.com/TBifford/status/2114076962847367665"
     },
     {
       "id": "2114024121721827734",
       "text": "🤠 During World War II, the most famous singing cowboy in America flew cargo planes over the Himalayas.\n\nGene Autry started out as a railroad telegraph operator in Chelsea, Oklahoma, singing and strumming his guitar on lonely night shifts.\n\nAs the story goes, one night a customer https://t.co/HdIB6D9i2Q",
       "created_at": "2026-10-24T16:00:01.000Z",
-      "likes": 23,
-      "retweets": 8,
+      "likes": 75,
+      "retweets": 13,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 1067,
+      "impression_count": 2709,
       "url": "https://x.com/TBifford/status/2114024121721827734"
     },
     {
@@ -48,7 +48,7 @@
       "retweets": 3,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 2136,
+      "impression_count": 2162,
       "url": "https://x.com/TBifford/status/2113790324241801277"
     },
     {
@@ -59,7 +59,7 @@
       "retweets": 5,
       "replies": 4,
       "quotes": 1,
-      "impression_count": 1397,
+      "impression_count": 1406,
       "url": "https://x.com/TBifford/status/2113712813310918722"
     },
     {
@@ -70,7 +70,7 @@
       "retweets": 53,
       "replies": 47,
       "quotes": 2,
-      "impression_count": 17092,
+      "impression_count": 17171,
       "url": "https://x.com/TBifford/status/2113669276934533202"
     },
     {
@@ -81,7 +81,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 313,
+      "impression_count": 317,
       "url": "https://x.com/TBifford/status/2113469313080606816"
     },
     {
@@ -92,7 +92,7 @@
       "retweets": 36,
       "replies": 12,
       "quotes": 1,
-      "impression_count": 4163,
+      "impression_count": 4184,
       "url": "https://x.com/TBifford/status/2113450585714270267"
     },
     {
@@ -103,7 +103,7 @@
       "retweets": 21,
       "replies": 7,
       "quotes": 3,
-      "impression_count": 3259,
+      "impression_count": 3266,
       "url": "https://x.com/TBifford/status/2113372705504321902"
     },
     {
@@ -114,7 +114,7 @@
       "retweets": 4,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 1888,
+      "impression_count": 1890,
       "url": "https://x.com/TBifford/status/2113344889211814219"
     }
   ]
