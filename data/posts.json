@@ -1,54 +1,65 @@
 {
-  "updated_at": "2026-10-26T03:52:19.013Z",
+  "updated_at": "2026-10-26T18:26:32.975Z",
   "account": {
-    "followers": 79859,
-    "following": 28422,
-    "posts": 71759,
+    "followers": 79844,
+    "following": 28423,
+    "posts": 71761,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2114756442746183809",
+      "text": "🥍 Before he was Tonto, he was one of Canada's best lacrosse players and a Golden Gloves boxer.\n\nHe was born Harold Jay Smith in 1912 on the Six Nations reserve in Ontario. He was Mohawk.\n\nIn 1931, he was one of the first players picked for the Toronto Tecumsehs lacrosse team. In https://t.co/ROeFteyKpB",
+      "created_at": "2026-10-26T16:30:00.000Z",
+      "likes": 22,
+      "retweets": 4,
+      "replies": 2,
+      "quotes": 0,
+      "impression_count": 668,
+      "url": "https://x.com/TBifford/status/2114756442746183809"
+    },
+    {
       "id": "2114522404357906754",
       "text": "🕊️ In 1930, Lew Ayres starred in the greatest anti-war film ever made. Twelve years later, he refused to carry a gun in World War II.\n\nHe was the young star of All Quiet on the Western Front, the story of a soldier's lost innocence.\n\nIn 1942, he declared himself a conscientious https://t.co/zXi3q8OhUB",
       "created_at": "2026-10-26T01:00:01.000Z",
-      "likes": 11,
-      "retweets": 0,
-      "replies": 0,
+      "likes": 23,
+      "retweets": 3,
+      "replies": 1,
       "quotes": 0,
-      "impression_count": 779,
+      "impression_count": 2164,
       "url": "https://x.com/TBifford/status/2114522404357906754"
     },
     {
       "id": "2114439602438123850",
       "text": "🤠 Before he was the King of the Cowboys, Roy Rogers was a Depression-era peach picker living in a labor camp.\n\nHe was born Leonard Slye in Cincinnati in 1911. He quit school to work alongside his father in a shoe factory.\n\nWhen times got hard, the family headed west to https://t.co/GwBYSTT2mL",
       "created_at": "2026-10-25T19:31:00.000Z",
-      "likes": 14,
+      "likes": 20,
       "retweets": 1,
-      "replies": 3,
+      "replies": 5,
       "quotes": 2,
-      "impression_count": 1441,
+      "impression_count": 1880,
       "url": "https://x.com/TBifford/status/2114439602438123850"
     },
     {
       "id": "2114386506605347104",
       "text": "🐎 In 1979, a court ordered the Lone Ranger to take off his mask. So he put on sunglasses instead. 😎\n\nClayton Moore was born Jack Carlton Moore in Chicago in 1914.\n\nBy age 8, he was a circus acrobat. At the 1934 Chicago World's Fair, he was flying through the air on a trapeze. https://t.co/UDCZbkkpp9",
       "created_at": "2026-10-25T16:00:01.000Z",
-      "likes": 129,
-      "retweets": 22,
-      "replies": 8,
-      "quotes": 0,
-      "impression_count": 2363,
+      "likes": 174,
+      "retweets": 32,
+      "replies": 9,
+      "quotes": 1,
+      "impression_count": 3062,
       "url": "https://x.com/TBifford/status/2114386506605347104"
     },
     {
       "id": "2114160017725092217",
       "text": "🎖️ Before he made 23 westerns, Audie Murphy was one of the most decorated American soldiers of World War II. He enlisted at 17.\n\nHe lied about his age to get in, a few months after Pearl Harbor.\n\nOn Jan. 26, 1945, near Holtzwihr, France, German tanks and infantry attacked his https://t.co/3XeY6j5ajK",
       "created_at": "2026-10-25T01:00:02.000Z",
-      "likes": 59,
+      "likes": 60,
       "retweets": 11,
       "replies": 11,
-      "quotes": 0,
-      "impression_count": 2442,
+      "quotes": 1,
+      "impression_count": 2503,
       "url": "https://x.com/TBifford/status/2114160017725092217"
     },
     {
@@ -59,7 +70,7 @@
       "retweets": 13,
       "replies": 6,
       "quotes": 0,
-      "impression_count": 2286,
+      "impression_count": 2303,
       "url": "https://x.com/TBifford/status/2114076962847367665"
     },
     {
@@ -70,7 +81,7 @@
       "retweets": 13,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 2893,
+      "impression_count": 2923,
       "url": "https://x.com/TBifford/status/2114024121721827734"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 3,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 2183,
+      "impression_count": 2192,
       "url": "https://x.com/TBifford/status/2113790324241801277"
     },
     {
@@ -92,30 +103,19 @@
       "retweets": 5,
       "replies": 4,
       "quotes": 1,
-      "impression_count": 1418,
+      "impression_count": 1422,
       "url": "https://x.com/TBifford/status/2113712813310918722"
     },
     {
       "id": "2113669276934533202",
       "text": "🎯 Before he was Paladin on Have Gun – Will Travel, Richard Boone was a tail gunner in the Pacific.\n\nHe was born in Los Angeles in 1917. He dropped out of Stanford and worked as an oil rigger, a bartender, and a painter.\n\nIn 1941, he joined the Navy. He served on three ships in https://t.co/G8rbAMsOcs",
       "created_at": "2026-10-23T16:30:00.000Z",
-      "likes": 439,
+      "likes": 440,
       "retweets": 53,
       "replies": 47,
       "quotes": 2,
-      "impression_count": 17210,
+      "impression_count": 17228,
       "url": "https://x.com/TBifford/status/2113669276934533202"
-    },
-    {
-      "id": "2113469313080606816",
-      "text": "✈️ One more thing: he didn’t stop at World War II. In 1966, during the Vietnam War, Brigadier General Stewart flew along as an observer on a bombing mission. He was 58.",
-      "created_at": "2026-10-23T03:15:25.000Z",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 319,
-      "url": "https://x.com/TBifford/status/2113469313080606816"
     }
   ]
 }
