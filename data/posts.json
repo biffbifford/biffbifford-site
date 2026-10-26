@@ -1,43 +1,76 @@
 {
-  "updated_at": "2026-10-25T15:46:19.237Z",
+  "updated_at": "2026-10-26T03:52:19.013Z",
   "account": {
-    "followers": 79868,
-    "following": 28425,
-    "posts": 71750,
+    "followers": 79859,
+    "following": 28422,
+    "posts": 71759,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2114522404357906754",
+      "text": "🕊️ In 1930, Lew Ayres starred in the greatest anti-war film ever made. Twelve years later, he refused to carry a gun in World War II.\n\nHe was the young star of All Quiet on the Western Front, the story of a soldier's lost innocence.\n\nIn 1942, he declared himself a conscientious https://t.co/zXi3q8OhUB",
+      "created_at": "2026-10-26T01:00:01.000Z",
+      "likes": 11,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 779,
+      "url": "https://x.com/TBifford/status/2114522404357906754"
+    },
+    {
+      "id": "2114439602438123850",
+      "text": "🤠 Before he was the King of the Cowboys, Roy Rogers was a Depression-era peach picker living in a labor camp.\n\nHe was born Leonard Slye in Cincinnati in 1911. He quit school to work alongside his father in a shoe factory.\n\nWhen times got hard, the family headed west to https://t.co/GwBYSTT2mL",
+      "created_at": "2026-10-25T19:31:00.000Z",
+      "likes": 14,
+      "retweets": 1,
+      "replies": 3,
+      "quotes": 2,
+      "impression_count": 1441,
+      "url": "https://x.com/TBifford/status/2114439602438123850"
+    },
+    {
+      "id": "2114386506605347104",
+      "text": "🐎 In 1979, a court ordered the Lone Ranger to take off his mask. So he put on sunglasses instead. 😎\n\nClayton Moore was born Jack Carlton Moore in Chicago in 1914.\n\nBy age 8, he was a circus acrobat. At the 1934 Chicago World's Fair, he was flying through the air on a trapeze. https://t.co/UDCZbkkpp9",
+      "created_at": "2026-10-25T16:00:01.000Z",
+      "likes": 129,
+      "retweets": 22,
+      "replies": 8,
+      "quotes": 0,
+      "impression_count": 2363,
+      "url": "https://x.com/TBifford/status/2114386506605347104"
+    },
+    {
       "id": "2114160017725092217",
       "text": "🎖️ Before he made 23 westerns, Audie Murphy was one of the most decorated American soldiers of World War II. He enlisted at 17.\n\nHe lied about his age to get in, a few months after Pearl Harbor.\n\nOn Jan. 26, 1945, near Holtzwihr, France, German tanks and infantry attacked his https://t.co/3XeY6j5ajK",
       "created_at": "2026-10-25T01:00:02.000Z",
-      "likes": 23,
-      "retweets": 7,
-      "replies": 6,
+      "likes": 59,
+      "retweets": 11,
+      "replies": 11,
       "quotes": 0,
-      "impression_count": 1265,
+      "impression_count": 2442,
       "url": "https://x.com/TBifford/status/2114160017725092217"
     },
     {
       "id": "2114076962847367665",
       "text": "🌵 Dale Evans wrote \"Happy Trails.\" But the most important thing she ever wrote was a little book about her daughter.\n\nShe was born Frances Octavia Smith in Uvalde, Texas, in 1912.\n\nShe became Roy Rogers' co-star, then his wife, then TV's \"Queen of the West,\" riding her horse https://t.co/pt8WZ1J3ej",
       "created_at": "2026-10-24T19:30:00.000Z",
-      "likes": 58,
-      "retweets": 10,
+      "likes": 71,
+      "retweets": 13,
       "replies": 6,
       "quotes": 0,
-      "impression_count": 1908,
+      "impression_count": 2286,
       "url": "https://x.com/TBifford/status/2114076962847367665"
     },
     {
       "id": "2114024121721827734",
       "text": "🤠 During World War II, the most famous singing cowboy in America flew cargo planes over the Himalayas.\n\nGene Autry started out as a railroad telegraph operator in Chelsea, Oklahoma, singing and strumming his guitar on lonely night shifts.\n\nAs the story goes, one night a customer https://t.co/HdIB6D9i2Q",
       "created_at": "2026-10-24T16:00:01.000Z",
-      "likes": 75,
+      "likes": 83,
       "retweets": 13,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 2709,
+      "impression_count": 2893,
       "url": "https://x.com/TBifford/status/2114024121721827734"
     },
     {
@@ -48,7 +81,7 @@
       "retweets": 3,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 2162,
+      "impression_count": 2183,
       "url": "https://x.com/TBifford/status/2113790324241801277"
     },
     {
@@ -59,7 +92,7 @@
       "retweets": 5,
       "replies": 4,
       "quotes": 1,
-      "impression_count": 1406,
+      "impression_count": 1418,
       "url": "https://x.com/TBifford/status/2113712813310918722"
     },
     {
@@ -70,7 +103,7 @@
       "retweets": 53,
       "replies": 47,
       "quotes": 2,
-      "impression_count": 17171,
+      "impression_count": 17210,
       "url": "https://x.com/TBifford/status/2113669276934533202"
     },
     {
@@ -81,41 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 317,
+      "impression_count": 319,
       "url": "https://x.com/TBifford/status/2113469313080606816"
-    },
-    {
-      "id": "2113450585714270267",
-      "text": "🎖️ When Jimmy Stewart joined the Army in 1941, he had just won an Oscar. The Army almost turned him away for being too thin.\n\nHe was one of Hollywood’s biggest stars. He’d just won Best Actor for The Philadelphia Story.\n\nHe was also already a pilot. But the Army believed he was https://t.co/MvbCrqyiiD",
-      "created_at": "2026-10-23T02:01:00.000Z",
-      "likes": 167,
-      "retweets": 36,
-      "replies": 12,
-      "quotes": 1,
-      "impression_count": 4184,
-      "url": "https://x.com/TBifford/status/2113450585714270267"
-    },
-    {
-      "id": "2113372705504321902",
-      "text": "✈️ Tom Skerritt died Wednesday at 93. Before he played Top Gun’s legendary flight instructor, “Viper,” he served four years in the U.S. Air Force.\n\nHe was born in Detroit in 1933, and he joined the Air Force in 1951, during the Korean War.\n\nAfter his service, he studied at Wayne https://t.co/TfkOk6gDFm",
-      "created_at": "2026-10-22T20:51:32.000Z",
-      "likes": 185,
-      "retweets": 21,
-      "replies": 7,
-      "quotes": 3,
-      "impression_count": 3266,
-      "url": "https://x.com/TBifford/status/2113372705504321902"
-    },
-    {
-      "id": "2113344889211814219",
-      "text": "✉️ During World War II, Donna Reed answered letters from soldiers. Years after she died, her daughter found more than 350 of them in the garage.\n\nShe was born Donna Belle Mullenger in Denison, Iowa, in 1921.\n\nDuring the war, her girl-next-door looks made her one of the most https://t.co/Pbb7TRdEaH",
-      "created_at": "2026-10-22T19:01:00.000Z",
-      "likes": 37,
-      "retweets": 4,
-      "replies": 3,
-      "quotes": 0,
-      "impression_count": 1890,
-      "url": "https://x.com/TBifford/status/2113344889211814219"
     }
   ]
 }
