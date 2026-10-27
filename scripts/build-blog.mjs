@@ -90,7 +90,7 @@ ${FONTS}
 </head><body><div class="wrap">
 <div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/challenge.html">Daily Challenge</a><a href="/quiz.html">Quiz</a></nav></div>`;
 
-const FOOT = `<div class="foot">Follow along: <a href="https://x.com/TBifford" target="_blank" rel="noopener">@TBifford on X</a> · <a href="https://www.tiktok.com/@biffbifford" target="_blank" rel="noopener">TikTok</a> · <a href="/index.html">Home</a></div>
+const FOOT = `<div class="foot">Follow along: <a href="https://x.com/TBifford" target="_blank" rel="noopener">@TBifford on X</a> · <a href="https://www.tiktok.com/@biffbifford" target="_blank" rel="noopener">TikTok</a> · <a href="https://t.me/biffbifford" target="_blank" rel="noopener">Telegram</a> · <a href="/index.html">Home</a></div>
 </div></body></html>`;
 
 const files = (await readdir("blog/posts")).filter((f) => f.endsWith(".md")).sort().reverse();

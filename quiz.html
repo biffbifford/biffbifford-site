@@ -421,7 +421,7 @@ function renderResult(){
     '<div style="margin:auto 0;padding:4% 0">'+
     '<div class="score">'+G.score+'</div><div class="rank">'+esc(rank)+'</div>'+
     '<p class="small">Each week I name the Most Knowledgeable from the replies. Post your score and tag me.</p>'+
-    '<div class="row"><a class="btn" id="xshare" href="'+xurl+'" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center" data-focus>Share on X</a>'+native+'<button class="btn alt" id="again">Play again</button></div></div>',"");
+    '<div class="row"><a class="btn" id="xshare" href="'+xurl+'" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center" data-focus>Share on X</a>'+native+'<button class="btn alt" id="again">Play again</button></div><p class="small" style="margin-top:14px">A new quiz question lands every morning on our <a href="https://t.me/biffbifford" target="_blank" rel="noopener">Telegram channel</a>.</p></div>',"");
   document.getElementById("again").onclick=function(){transition(renderIdle)};
   var n=document.getElementById("nshare");
   if(n)n.onclick=function(){navigator.share({title:"The Gen-X Hollywood & TV Quiz",text:shareText(),url:QUIZ_URL}).catch(function(){})};

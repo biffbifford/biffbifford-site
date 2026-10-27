@@ -47,7 +47,7 @@ if (mode === "quiz") {
     question: clip(`🎬 ${q.q}`, 300), options, type: "quiz", is_anonymous: true,
     correct_option_id: order.indexOf(q.answer), explanation: clip(q.fact, 200)
   });
-  await tg("sendMessage", { text: `Want five more? Play today's Daily Challenge and keep your streak: ${SITE}/challenge.html`, disable_web_page_preview: true });
+  await tg("sendMessage", { text: `Want five more? Play today's Daily Challenge and keep your streak: ${SITE}/challenge.html\nFollow the stories on X: https://x.com/TBifford`, disable_web_page_preview: true });
 } else if (mode === "pick") {
   const picks = (await readJSON("data/daily.json")).picks.filter((p) => p.title && p.year);
   const p = picks[(dayNum + Y) % picks.length];
