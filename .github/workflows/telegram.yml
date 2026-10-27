@@ -1,0 +1,50 @@
+name: Telegram channel posts
+
+on:
+  schedule:
+    - cron: "5 16 * * *"    # morning: quiz poll + new blog story (about 9 AM Pacific)
+    - cron: "35 1 * * *"    # evening: tonight's classic film (about 6:30 PM Pacific)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to post now: quiz, pick or blog"
+        required: true
+        default: quiz
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Manual post
+        if: github.event_name == 'workflow_dispatch'
+        run: node scripts/telegram-post.mjs "${{ github.event.inputs.mode }}"
+      - name: Morning posts
+        if: github.event.schedule == '5 16 * * *'
+        run: |
+          node scripts/telegram-post.mjs quiz
+          node scripts/telegram-post.mjs blog
+      - name: Evening post
+        if: github.event.schedule == '35 1 * * *'
+        run: node scripts/telegram-post.mjs pick
+      - name: Save the blog-announced note
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/telegram-state.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Telegram state"
+            git pull --rebase
+            git push
+          fi
