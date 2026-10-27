@@ -1,43 +1,76 @@
 {
-  "updated_at": "2026-10-26T18:26:32.975Z",
+  "updated_at": "2026-10-27T04:14:44.537Z",
   "account": {
-    "followers": 79844,
-    "following": 28423,
-    "posts": 71761,
+    "followers": 79839,
+    "following": 28420,
+    "posts": 71773,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2114892335691800941",
+      "text": "🤔 You've seen this face in a hundred westerns. Almost nobody can name him.\n\nThree clues:\n\n• He lost the sight in his left eye in a boyhood fight at a Boy Scout meeting.\n\n• Before Hollywood, he was an accountant. He kept the books for Hopalong Cassidy's production company and https://t.co/PWluIQzWPE",
+      "created_at": "2026-10-27T01:30:00.000Z",
+      "likes": 9,
+      "retweets": 1,
+      "replies": 14,
+      "quotes": 0,
+      "impression_count": 821,
+      "url": "https://x.com/TBifford/status/2114892335691800941"
+    },
+    {
+      "id": "2114847041453019584",
+      "text": "😂 In 1936, Curly took the witness stand. The court never recovered.\n\nDisorder in the Court was filmed in just six days. The swearing-in routine was borrowed almost word for word from a 1931 Buster Keaton film. And sitting in the courtroom audience was Sol Horwitz, the Stooges' https://t.co/1DgrWBja1Y",
+      "created_at": "2026-10-26T22:30:01.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 346,
+      "url": "https://x.com/TBifford/status/2114847041453019584"
+    },
+    {
+      "id": "2114794692424683606",
+      "text": "🥕 In January 1961, the voice of Bugs Bunny lay in a coma, and doctors didn't expect him to live.\n\nMel Blanc had crashed his car on a stretch of Sunset Boulevard known as \"Dead Man's Curve.\" Rescuers spent about half an hour cutting him out. One newspaper even printed his https://t.co/noMjKj5bGb",
+      "created_at": "2026-10-26T19:02:00.000Z",
+      "likes": 61,
+      "retweets": 8,
+      "replies": 5,
+      "quotes": 0,
+      "impression_count": 2328,
+      "url": "https://x.com/TBifford/status/2114794692424683606"
+    },
+    {
       "id": "2114756442746183809",
       "text": "🥍 Before he was Tonto, he was one of Canada's best lacrosse players and a Golden Gloves boxer.\n\nHe was born Harold Jay Smith in 1912 on the Six Nations reserve in Ontario. He was Mohawk.\n\nIn 1931, he was one of the first players picked for the Toronto Tecumsehs lacrosse team. In https://t.co/ROeFteyKpB",
       "created_at": "2026-10-26T16:30:00.000Z",
-      "likes": 22,
-      "retweets": 4,
-      "replies": 2,
+      "likes": 161,
+      "retweets": 38,
+      "replies": 9,
       "quotes": 0,
-      "impression_count": 668,
+      "impression_count": 3323,
       "url": "https://x.com/TBifford/status/2114756442746183809"
     },
     {
       "id": "2114522404357906754",
       "text": "🕊️ In 1930, Lew Ayres starred in the greatest anti-war film ever made. Twelve years later, he refused to carry a gun in World War II.\n\nHe was the young star of All Quiet on the Western Front, the story of a soldier's lost innocence.\n\nIn 1942, he declared himself a conscientious https://t.co/zXi3q8OhUB",
       "created_at": "2026-10-26T01:00:01.000Z",
-      "likes": 23,
-      "retweets": 3,
-      "replies": 1,
+      "likes": 31,
+      "retweets": 4,
+      "replies": 2,
       "quotes": 0,
-      "impression_count": 2164,
+      "impression_count": 2498,
       "url": "https://x.com/TBifford/status/2114522404357906754"
     },
     {
       "id": "2114439602438123850",
       "text": "🤠 Before he was the King of the Cowboys, Roy Rogers was a Depression-era peach picker living in a labor camp.\n\nHe was born Leonard Slye in Cincinnati in 1911. He quit school to work alongside his father in a shoe factory.\n\nWhen times got hard, the family headed west to https://t.co/GwBYSTT2mL",
       "created_at": "2026-10-25T19:31:00.000Z",
-      "likes": 20,
+      "likes": 21,
       "retweets": 1,
       "replies": 5,
       "quotes": 2,
-      "impression_count": 1880,
+      "impression_count": 1960,
       "url": "https://x.com/TBifford/status/2114439602438123850"
     },
     {
@@ -48,7 +81,7 @@
       "retweets": 32,
       "replies": 9,
       "quotes": 1,
-      "impression_count": 3062,
+      "impression_count": 3106,
       "url": "https://x.com/TBifford/status/2114386506605347104"
     },
     {
@@ -59,7 +92,7 @@
       "retweets": 11,
       "replies": 11,
       "quotes": 1,
-      "impression_count": 2503,
+      "impression_count": 2521,
       "url": "https://x.com/TBifford/status/2114160017725092217"
     },
     {
@@ -70,7 +103,7 @@
       "retweets": 13,
       "replies": 6,
       "quotes": 0,
-      "impression_count": 2303,
+      "impression_count": 2308,
       "url": "https://x.com/TBifford/status/2114076962847367665"
     },
     {
@@ -81,41 +114,8 @@
       "retweets": 13,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 2923,
+      "impression_count": 2933,
       "url": "https://x.com/TBifford/status/2114024121721827734"
-    },
-    {
-      "id": "2113790324241801277",
-      "text": "🦾 The Bionic Woman was supposed to die after one episode. The fans wouldn’t let her.\n\nIn 1975, Lindsay Wagner was a young Universal contract player, signed four years earlier at $162 a week. Universal had just dropped her.\n\nHer last job for them was a two-part episode of The Six https://t.co/QWMBeiSSsh",
-      "created_at": "2026-10-24T00:31:00.000Z",
-      "likes": 24,
-      "retweets": 3,
-      "replies": 3,
-      "quotes": 0,
-      "impression_count": 2192,
-      "url": "https://x.com/TBifford/status/2113790324241801277"
-    },
-    {
-      "id": "2113712813310918722",
-      "text": "🎯 Before any woman starred in her own TV western, Gail Davis did it. She also did many of her own stunts.\n\nShe was born Betty Jeanne Grayson in Arkansas in 1925.\n\nAn agent got her a screen test at MGM. Then she met Gene Autry, who made about 14 films with her. He changed her https://t.co/wfcC2x1jEE",
-      "created_at": "2026-10-23T19:23:00.000Z",
-      "likes": 19,
-      "retweets": 5,
-      "replies": 4,
-      "quotes": 1,
-      "impression_count": 1422,
-      "url": "https://x.com/TBifford/status/2113712813310918722"
-    },
-    {
-      "id": "2113669276934533202",
-      "text": "🎯 Before he was Paladin on Have Gun – Will Travel, Richard Boone was a tail gunner in the Pacific.\n\nHe was born in Los Angeles in 1917. He dropped out of Stanford and worked as an oil rigger, a bartender, and a painter.\n\nIn 1941, he joined the Navy. He served on three ships in https://t.co/G8rbAMsOcs",
-      "created_at": "2026-10-23T16:30:00.000Z",
-      "likes": 440,
-      "retweets": 53,
-      "replies": 47,
-      "quotes": 2,
-      "impression_count": 17228,
-      "url": "https://x.com/TBifford/status/2113669276934533202"
     }
   ]
 }
