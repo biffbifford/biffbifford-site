@@ -1,21 +1,43 @@
 {
-  "updated_at": "2026-10-27T04:14:44.537Z",
+  "updated_at": "2026-10-27T17:41:44.636Z",
   "account": {
-    "followers": 79839,
-    "following": 28420,
-    "posts": 71773,
+    "followers": 79826,
+    "following": 28418,
+    "posts": 71783,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2115118829038714940",
+      "text": "🎃 The scariest face in movie history belonged to one of Hollywood's gentlest men.\n\nHe was born William Henry Pratt in London in 1887, the youngest of nine children. His family expected a respectable career. One brother became a British consul-general in China.\n\nInstead, in 1909, https://t.co/DAGKhpx58U",
+      "created_at": "2026-10-27T16:30:00.000Z",
+      "likes": 12,
+      "retweets": 3,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 505,
+      "url": "https://x.com/TBifford/status/2115118829038714940"
+    },
+    {
+      "id": "2115098979922829505",
+      "text": "🤠 It's JACK ELAM!\n\nCongrats to everyone who guessed him. You know your westerns!\n\nA Navy supply officer in WWII, he went on to 73 movies and more than 40 TV series. He rode with John Wayne in Rio Lobo, faced Charles Bronson at the train station in Once Upon a Time in the West, https://t.co/4Gr8GGzGah",
+      "created_at": "2026-10-27T15:11:08.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 341,
+      "url": "https://x.com/TBifford/status/2115098979922829505"
+    },
+    {
       "id": "2114892335691800941",
       "text": "🤔 You've seen this face in a hundred westerns. Almost nobody can name him.\n\nThree clues:\n\n• He lost the sight in his left eye in a boyhood fight at a Boy Scout meeting.\n\n• Before Hollywood, he was an accountant. He kept the books for Hopalong Cassidy's production company and https://t.co/PWluIQzWPE",
       "created_at": "2026-10-27T01:30:00.000Z",
-      "likes": 9,
-      "retweets": 1,
-      "replies": 14,
-      "quotes": 0,
-      "impression_count": 821,
+      "likes": 65,
+      "retweets": 6,
+      "replies": 99,
+      "quotes": 4,
+      "impression_count": 7949,
       "url": "https://x.com/TBifford/status/2114892335691800941"
     },
     {
@@ -26,29 +48,29 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 346,
+      "impression_count": 441,
       "url": "https://x.com/TBifford/status/2114847041453019584"
     },
     {
       "id": "2114794692424683606",
       "text": "🥕 In January 1961, the voice of Bugs Bunny lay in a coma, and doctors didn't expect him to live.\n\nMel Blanc had crashed his car on a stretch of Sunset Boulevard known as \"Dead Man's Curve.\" Rescuers spent about half an hour cutting him out. One newspaper even printed his https://t.co/noMjKj5bGb",
       "created_at": "2026-10-26T19:02:00.000Z",
-      "likes": 61,
-      "retweets": 8,
-      "replies": 5,
+      "likes": 93,
+      "retweets": 13,
+      "replies": 9,
       "quotes": 0,
-      "impression_count": 2328,
+      "impression_count": 2958,
       "url": "https://x.com/TBifford/status/2114794692424683606"
     },
     {
       "id": "2114756442746183809",
       "text": "🥍 Before he was Tonto, he was one of Canada's best lacrosse players and a Golden Gloves boxer.\n\nHe was born Harold Jay Smith in 1912 on the Six Nations reserve in Ontario. He was Mohawk.\n\nIn 1931, he was one of the first players picked for the Toronto Tecumsehs lacrosse team. In https://t.co/ROeFteyKpB",
       "created_at": "2026-10-26T16:30:00.000Z",
-      "likes": 161,
-      "retweets": 38,
+      "likes": 203,
+      "retweets": 44,
       "replies": 9,
-      "quotes": 0,
-      "impression_count": 3323,
+      "quotes": 1,
+      "impression_count": 4122,
       "url": "https://x.com/TBifford/status/2114756442746183809"
     },
     {
@@ -59,7 +81,7 @@
       "retweets": 4,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 2498,
+      "impression_count": 2523,
       "url": "https://x.com/TBifford/status/2114522404357906754"
     },
     {
@@ -70,7 +92,7 @@
       "retweets": 1,
       "replies": 5,
       "quotes": 2,
-      "impression_count": 1960,
+      "impression_count": 1974,
       "url": "https://x.com/TBifford/status/2114439602438123850"
     },
     {
@@ -81,7 +103,7 @@
       "retweets": 32,
       "replies": 9,
       "quotes": 1,
-      "impression_count": 3106,
+      "impression_count": 3145,
       "url": "https://x.com/TBifford/status/2114386506605347104"
     },
     {
@@ -92,30 +114,8 @@
       "retweets": 11,
       "replies": 11,
       "quotes": 1,
-      "impression_count": 2521,
+      "impression_count": 2542,
       "url": "https://x.com/TBifford/status/2114160017725092217"
-    },
-    {
-      "id": "2114076962847367665",
-      "text": "🌵 Dale Evans wrote \"Happy Trails.\" But the most important thing she ever wrote was a little book about her daughter.\n\nShe was born Frances Octavia Smith in Uvalde, Texas, in 1912.\n\nShe became Roy Rogers' co-star, then his wife, then TV's \"Queen of the West,\" riding her horse https://t.co/pt8WZ1J3ej",
-      "created_at": "2026-10-24T19:30:00.000Z",
-      "likes": 71,
-      "retweets": 13,
-      "replies": 6,
-      "quotes": 0,
-      "impression_count": 2308,
-      "url": "https://x.com/TBifford/status/2114076962847367665"
-    },
-    {
-      "id": "2114024121721827734",
-      "text": "🤠 During World War II, the most famous singing cowboy in America flew cargo planes over the Himalayas.\n\nGene Autry started out as a railroad telegraph operator in Chelsea, Oklahoma, singing and strumming his guitar on lonely night shifts.\n\nAs the story goes, one night a customer https://t.co/HdIB6D9i2Q",
-      "created_at": "2026-10-24T16:00:01.000Z",
-      "likes": 83,
-      "retweets": 13,
-      "replies": 3,
-      "quotes": 1,
-      "impression_count": 2933,
-      "url": "https://x.com/TBifford/status/2114024121721827734"
     }
   ]
 }
