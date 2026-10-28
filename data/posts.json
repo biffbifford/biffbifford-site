@@ -1,43 +1,65 @@
 {
-  "updated_at": "2026-10-27T17:41:44.636Z",
+  "updated_at": "2026-10-28T04:43:31.077Z",
   "account": {
-    "followers": 79826,
-    "following": 28418,
-    "posts": 71783,
+    "followers": 79812,
+    "following": 28413,
+    "posts": 71790,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2115247182781747652",
+      "text": "🧛‍♀️ Before she was Lily Munster, she was Moses' wife.\n\nShe was born Margaret Middleton in Vancouver in 1922. Her father walked out when she was 3 and was never heard from again. Her mother waited tables to keep them going.\n\nIn 1945, a producer launched a search for \"the most https://t.co/OuEluNmSRp",
+      "created_at": "2026-10-28T01:00:02.000Z",
+      "likes": 10,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 805,
+      "url": "https://x.com/TBifford/status/2115247182781747652"
+    },
+    {
+      "id": "2115156828707590214",
+      "text": "👻 The master of horror sold Rembrandts at Sears.\n\nVincent Price earned a Yale degree in art history and English in 1933, then studied at the Courtauld Institute of Art in London. Art was his first love. Horror movies just paid the bills.\n\nIn the 1950s, he and his wife Mary https://t.co/eToiM9RQKv",
+      "created_at": "2026-10-27T19:01:00.000Z",
+      "likes": 13,
+      "retweets": 3,
+      "replies": 4,
+      "quotes": 0,
+      "impression_count": 781,
+      "url": "https://x.com/TBifford/status/2115156828707590214"
+    },
+    {
       "id": "2115118829038714940",
       "text": "🎃 The scariest face in movie history belonged to one of Hollywood's gentlest men.\n\nHe was born William Henry Pratt in London in 1887, the youngest of nine children. His family expected a respectable career. One brother became a British consul-general in China.\n\nInstead, in 1909, https://t.co/DAGKhpx58U",
       "created_at": "2026-10-27T16:30:00.000Z",
-      "likes": 12,
-      "retweets": 3,
-      "replies": 1,
-      "quotes": 0,
-      "impression_count": 505,
+      "likes": 89,
+      "retweets": 21,
+      "replies": 6,
+      "quotes": 1,
+      "impression_count": 5849,
       "url": "https://x.com/TBifford/status/2115118829038714940"
     },
     {
       "id": "2115098979922829505",
       "text": "🤠 It's JACK ELAM!\n\nCongrats to everyone who guessed him. You know your westerns!\n\nA Navy supply officer in WWII, he went on to 73 movies and more than 40 TV series. He rode with John Wayne in Rio Lobo, faced Charles Bronson at the train station in Once Upon a Time in the West, https://t.co/4Gr8GGzGah",
       "created_at": "2026-10-27T15:11:08.000Z",
-      "likes": 2,
+      "likes": 6,
       "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "impression_count": 341,
+      "replies": 3,
+      "quotes": 1,
+      "impression_count": 649,
       "url": "https://x.com/TBifford/status/2115098979922829505"
     },
     {
       "id": "2114892335691800941",
       "text": "🤔 You've seen this face in a hundred westerns. Almost nobody can name him.\n\nThree clues:\n\n• He lost the sight in his left eye in a boyhood fight at a Boy Scout meeting.\n\n• Before Hollywood, he was an accountant. He kept the books for Hopalong Cassidy's production company and https://t.co/PWluIQzWPE",
       "created_at": "2026-10-27T01:30:00.000Z",
-      "likes": 65,
-      "retweets": 6,
-      "replies": 99,
-      "quotes": 4,
-      "impression_count": 7949,
+      "likes": 102,
+      "retweets": 11,
+      "replies": 147,
+      "quotes": 7,
+      "impression_count": 11259,
       "url": "https://x.com/TBifford/status/2114892335691800941"
     },
     {
@@ -48,18 +70,18 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 441,
+      "impression_count": 492,
       "url": "https://x.com/TBifford/status/2114847041453019584"
     },
     {
       "id": "2114794692424683606",
       "text": "🥕 In January 1961, the voice of Bugs Bunny lay in a coma, and doctors didn't expect him to live.\n\nMel Blanc had crashed his car on a stretch of Sunset Boulevard known as \"Dead Man's Curve.\" Rescuers spent about half an hour cutting him out. One newspaper even printed his https://t.co/noMjKj5bGb",
       "created_at": "2026-10-26T19:02:00.000Z",
-      "likes": 93,
-      "retweets": 13,
-      "replies": 9,
+      "likes": 101,
+      "retweets": 15,
+      "replies": 10,
       "quotes": 0,
-      "impression_count": 2958,
+      "impression_count": 3297,
       "url": "https://x.com/TBifford/status/2114794692424683606"
     },
     {
@@ -70,7 +92,7 @@
       "retweets": 44,
       "replies": 9,
       "quotes": 1,
-      "impression_count": 4122,
+      "impression_count": 4194,
       "url": "https://x.com/TBifford/status/2114756442746183809"
     },
     {
@@ -81,7 +103,7 @@
       "retweets": 4,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 2523,
+      "impression_count": 2553,
       "url": "https://x.com/TBifford/status/2114522404357906754"
     },
     {
@@ -92,30 +114,8 @@
       "retweets": 1,
       "replies": 5,
       "quotes": 2,
-      "impression_count": 1974,
+      "impression_count": 1993,
       "url": "https://x.com/TBifford/status/2114439602438123850"
-    },
-    {
-      "id": "2114386506605347104",
-      "text": "🐎 In 1979, a court ordered the Lone Ranger to take off his mask. So he put on sunglasses instead. 😎\n\nClayton Moore was born Jack Carlton Moore in Chicago in 1914.\n\nBy age 8, he was a circus acrobat. At the 1934 Chicago World's Fair, he was flying through the air on a trapeze. https://t.co/UDCZbkkpp9",
-      "created_at": "2026-10-25T16:00:01.000Z",
-      "likes": 174,
-      "retweets": 32,
-      "replies": 9,
-      "quotes": 1,
-      "impression_count": 3145,
-      "url": "https://x.com/TBifford/status/2114386506605347104"
-    },
-    {
-      "id": "2114160017725092217",
-      "text": "🎖️ Before he made 23 westerns, Audie Murphy was one of the most decorated American soldiers of World War II. He enlisted at 17.\n\nHe lied about his age to get in, a few months after Pearl Harbor.\n\nOn Jan. 26, 1945, near Holtzwihr, France, German tanks and infantry attacked his https://t.co/3XeY6j5ajK",
-      "created_at": "2026-10-25T01:00:02.000Z",
-      "likes": 60,
-      "retweets": 11,
-      "replies": 11,
-      "quotes": 1,
-      "impression_count": 2542,
-      "url": "https://x.com/TBifford/status/2114160017725092217"
     }
   ]
 }
