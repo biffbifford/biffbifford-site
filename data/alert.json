@@ -1,0 +1,8 @@
+{
+  "_readme": "Controls the Breaking bar across the top of every page. Set active to false, or let the 'until' time pass, to hide it.",
+  "active": true,
+  "text": "Remembering Sir Patrick Stewart, 1940 to 2026.",
+  "link_text": "Read our tribute",
+  "link": "/blog/patrick-stewart.html",
+  "until": "2026-11-02T08:00:00-07:00"
+}

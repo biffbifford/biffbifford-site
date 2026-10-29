@@ -87,9 +87,9 @@ const HEAD = (title, desc, url, extra = "") => `<!doctype html>
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}">
 <meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${SITE}/og-image.png">
 ${FONTS}
-<style>${CSS}</style>${extra}
+<style>${CSS}</style><script src="/alert.js" defer></script>${extra}
 </head><body><div class="wrap">
-<div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/challenge.html">Daily Challenge</a><a href="/quiz.html">Quiz</a></nav></div>`;
+<div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/challenge.html">Daily Challenge</a><a href="/quiz.html">Quiz</a></nav></div>`;
 
 const FOOT = `<div class="foot">Follow along: <a href="https://x.com/TBifford" target="_blank" rel="noopener">@TBifford on X</a> · <a href="https://www.tiktok.com/@biffbifford" target="_blank" rel="noopener">TikTok</a> · <a href="https://t.me/biffbifford" target="_blank" rel="noopener">Telegram</a> · <a href="/index.html">Home</a></div>
 </div></body></html>`;
@@ -116,11 +116,18 @@ const idx = HEAD("The Blog | BiffBifford", "Longer stories behind the classic TV
   (posts.length ? posts.map((p) => `<a class="card" href="/blog/${p.slug}.html"><p class="meta">${p.memorial ? "In memoriam · " : ""}${prettyDate(p.date)}${p.tags ? " · " + esc(p.tags) : ""}</p><h2>${esc(p.title)}</h2><p>${esc(p.summary)}</p></a>`).join("") : `<p>The first story is on its way.</p>`) + FOOT;
 await writeFile("blog/index.html", idx);
 
+// In Memoriam page: every blog story marked with "memorial:" in its front matter.
+const mem = posts.filter((p) => p.memorial);
+const memHtml = HEAD("In Memoriam | BiffBifford", "Tributes to the performers who made classic film, television and music.", `${SITE}/memoriam.html`) +
+  `<p class="kicker">In Memoriam</p><h1>Remembering them</h1><p class="lede">Tributes to the performers who brought us the movies, shows and music we grew up with.</p>` +
+  (mem.length ? mem.map((p) => `<a class="card" href="/blog/${p.slug}.html"><p class="meta">${esc(p.memorial)}</p><h2>${esc(p.title)}</h2><p>${esc(p.summary)}</p></a>`).join("") : `<p>No tributes yet.</p>`) + FOOT;
+await writeFile("memoriam.html", memHtml);
+
 await writeFile("data/blog.json", JSON.stringify({ posts: posts.map((p) => ({ title: p.title, slug: p.slug, date: p.date, summary: p.summary, tags: p.tags || "", memorial: p.memorial || "" })) }, null, 1) + "\n");
 
 let sm = await readFile("sitemap.xml", "utf8");
-sm = sm.replace(/\s*<url>\s*<loc>https:\/\/biffbifford\.com\/blog\/[^<]*<\/loc>[\s\S]*?<\/url>/g, "");
-const urls = [`${SITE}/blog/`, ...posts.map((p) => `${SITE}/blog/${p.slug}.html`)];
+sm = sm.replace(/\s*<url>\s*<loc>https:\/\/biffbifford\.com\/(blog\/|memoriam\.html)[^<]*<\/loc>[\s\S]*?<\/url>/g, "");
+const urls = [`${SITE}/blog/`, ...(mem.length ? [`${SITE}/memoriam.html`] : []), ...posts.map((p) => `${SITE}/blog/${p.slug}.html`)];
 sm = sm.replace("</urlset>", urls.map((u) => `  <url>\n    <loc>${u}</loc>\n  </url>\n`).join("") + "</urlset>");
 await writeFile("sitemap.xml", sm);
 console.log(`Built ${posts.length} post(s).`);
