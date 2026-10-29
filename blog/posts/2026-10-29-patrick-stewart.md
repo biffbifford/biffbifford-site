@@ -4,6 +4,7 @@ slug: patrick-stewart
 date: 2026-10-29
 summary: Sir Patrick Stewart, who has died at 86, left school at 15, spent 16 years on the Shakespeare stage, and almost didn't sign on to the show that made him Captain Picard.
 tags: Tributes, Television, Star Trek
+memorial: Sir Patrick Stewart, 1940 to 2026
 xpost: https://x.com/TBifford
 ---
 

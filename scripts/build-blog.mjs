@@ -74,6 +74,7 @@ article li{margin-bottom:.8em}
 .card h2{font-family:"Fraunces",Georgia,serif;font-size:1.6rem;line-height:1.2;margin:4px 0 8px;color:var(--cream)}
 .card p{margin:0;color:var(--steel);font-size:1.05rem;line-height:1.55}
 .card .meta{margin:0}
+.memorial{margin:22px 0 0;padding:12px 16px;border:1px solid var(--gold-dim);border-left:6px solid #000;background:#0b0907;color:var(--cream);font-family:"Space Mono",monospace;font-size:1rem;letter-spacing:.04em}
 .foot{border-top:1px solid var(--line);margin-top:48px;padding-top:20px;color:var(--steel);font-size:1rem}
 .foot a{display:inline-block;padding:8px 4px}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}`;
@@ -105,17 +106,17 @@ for (const p of posts) {
   const others = posts.filter((o) => o.slug !== p.slug).slice(0, 3);
   const more = others.length ? `<h2 style="font-family:Fraunces,Georgia,serif;font-size:1.5rem;margin-top:2em">More from the blog</h2>` + others.map((o) => `<a class="card" href="/blog/${o.slug}.html"><p class="meta">${prettyDate(o.date)}</p><h2>${esc(o.title)}</h2><p>${esc(o.summary)}</p></a>`).join("") : "";
   const html = HEAD(`${p.title} | BiffBifford`, p.summary, url, ld) +
-    `<p class="kicker">${esc(p.tags || "The Blog")}</p><article><h1>${esc(p.title)}</h1><p class="meta">By Biff Bifford · ${prettyDate(p.date)}</p>\n${md(p.body)}</article>
+    `${p.memorial ? `<p class="memorial">In memoriam · ${esc(p.memorial)}</p>` : ""}<p class="kicker">${esc(p.tags || "The Blog")}</p><article><h1>${esc(p.title)}</h1><p class="meta">By Biff Bifford · ${prettyDate(p.date)}</p>\n${md(p.body)}</article>
 <div class="row"><a class="btn" href="${tweet}" target="_blank" rel="noopener">Share on X</a><a class="btn alt" href="/challenge.html">Play the Daily Challenge</a></div>${more}` + FOOT;
   await writeFile(`blog/${p.slug}.html`, html);
 }
 
 const idx = HEAD("The Blog | BiffBifford", "Longer stories behind the classic TV, movies and music on @TBifford.", `${SITE}/blog/`) +
   `<p class="kicker">The Blog</p><h1>The longer story</h1><p class="lede">The posts on X are short. These are the full stories behind them.</p>` +
-  (posts.length ? posts.map((p) => `<a class="card" href="/blog/${p.slug}.html"><p class="meta">${prettyDate(p.date)}${p.tags ? " · " + esc(p.tags) : ""}</p><h2>${esc(p.title)}</h2><p>${esc(p.summary)}</p></a>`).join("") : `<p>The first story is on its way.</p>`) + FOOT;
+  (posts.length ? posts.map((p) => `<a class="card" href="/blog/${p.slug}.html"><p class="meta">${p.memorial ? "In memoriam · " : ""}${prettyDate(p.date)}${p.tags ? " · " + esc(p.tags) : ""}</p><h2>${esc(p.title)}</h2><p>${esc(p.summary)}</p></a>`).join("") : `<p>The first story is on its way.</p>`) + FOOT;
 await writeFile("blog/index.html", idx);
 
-await writeFile("data/blog.json", JSON.stringify({ posts: posts.map((p) => ({ title: p.title, slug: p.slug, date: p.date, summary: p.summary, tags: p.tags || "" })) }, null, 1) + "\n");
+await writeFile("data/blog.json", JSON.stringify({ posts: posts.map((p) => ({ title: p.title, slug: p.slug, date: p.date, summary: p.summary, tags: p.tags || "", memorial: p.memorial || "" })) }, null, 1) + "\n");
 
 let sm = await readFile("sitemap.xml", "utf8");
 sm = sm.replace(/\s*<url>\s*<loc>https:\/\/biffbifford\.com\/blog\/[^<]*<\/loc>[\s\S]*?<\/url>/g, "");
