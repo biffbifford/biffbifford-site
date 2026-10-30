@@ -1,32 +1,43 @@
 {
-  "updated_at": "2026-10-30T04:55:30.572Z",
+  "updated_at": "2026-10-30T17:50:03.217Z",
   "account": {
-    "followers": 79777,
-    "following": 28406,
-    "posts": 71825,
+    "followers": 79772,
+    "following": 28402,
+    "posts": 71833,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2116205993076142125",
+      "text": "🪄 One season, Darrin looked like this. The next season he was a different man, and nobody on Bewitched said a word.\n\nHere's what happened.\n\nIn 1959, years before Bewitched, Dick York was filming a western with Gary Cooper. During a scene with a heavy railroad handcar, another https://t.co/gHJ5xkB5Lj",
+      "created_at": "2026-10-30T16:30:00.000Z",
+      "likes": 10,
+      "retweets": 1,
+      "replies": 5,
+      "quotes": 0,
+      "impression_count": 444,
+      "url": "https://x.com/TBifford/status/2116205993076142125"
+    },
+    {
       "id": "2115979500508889103",
       "text": "🎂 Dick Van Dyke didn't know his own birthday until he was almost 18.\n\nHe grew up believing he was born in March. Then his mother told him the truth: it was December 13. His parents had moved the date to hide that he was conceived before they married.\n\nThat wasn't the only https://t.co/4c3Wao1NA3",
       "created_at": "2026-10-30T01:30:00.000Z",
-      "likes": 14,
-      "retweets": 5,
-      "replies": 0,
+      "likes": 115,
+      "retweets": 20,
+      "replies": 4,
       "quotes": 0,
-      "impression_count": 1519,
+      "impression_count": 6233,
       "url": "https://x.com/TBifford/status/2115979500508889103"
     },
     {
       "id": "2115898050447290722",
       "text": "🖖 Sir Patrick Stewart has died at 86.\n\nBefore he was Captain Picard, he was a boy from a working-class Yorkshire home who left school at 15 and took a job writing for a local newspaper.\n\nHe spent 16 years with the Royal Shakespeare Company. Then a Star Trek producer saw him at a https://t.co/NMWUqYbxce",
       "created_at": "2026-10-29T20:06:21.000Z",
-      "likes": 12,
+      "likes": 13,
       "retweets": 0,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 639,
+      "impression_count": 763,
       "url": "https://x.com/TBifford/status/2115898050447290722"
     },
     {
@@ -37,7 +48,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 444,
+      "impression_count": 514,
       "url": "https://x.com/TBifford/status/2115883168129519889"
     },
     {
@@ -48,7 +59,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 186,
+      "impression_count": 191,
       "url": "https://x.com/TBifford/status/2115855023989006393"
     },
     {
@@ -59,18 +70,18 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 28,
+      "impression_count": 29,
       "url": "https://x.com/TBifford/status/2115854848604135537"
     },
     {
       "id": "2115844359077916827",
       "text": "🚁 M*A*S*H ran for 11 years. The Korean War it was set in lasted just over three.\n\nAnd the cast knew military life firsthand. Alan Alda served in the Army Reserve in Korea. Wayne Rogers (Trapper) was a Navy ship navigator. Mike Farrell (B.J.) was a Marine. Jamie Farr (Klinger) https://t.co/usjnaMtl5d",
       "created_at": "2026-10-29T16:33:00.000Z",
-      "likes": 205,
-      "retweets": 19,
-      "replies": 16,
-      "quotes": 3,
-      "impression_count": 8566,
+      "likes": 411,
+      "retweets": 44,
+      "replies": 18,
+      "quotes": 6,
+      "impression_count": 15887,
       "url": "https://x.com/TBifford/status/2115844359077916827"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 144,
+      "impression_count": 145,
       "url": "https://x.com/TBifford/status/2115826563803722125"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 32,
+      "impression_count": 36,
       "url": "https://x.com/TBifford/status/2115826169954402373"
     },
     {
@@ -105,17 +116,6 @@
       "quotes": 0,
       "impression_count": 21,
       "url": "https://x.com/TBifford/status/2115825965376864729"
-    },
-    {
-      "id": "2115672080620405032",
-      "text": "https://t.co/A4QIGCzgdN",
-      "created_at": "2026-10-29T05:08:25.000Z",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 214,
-      "url": "https://x.com/TBifford/status/2115672080620405032"
     }
   ]
 }
