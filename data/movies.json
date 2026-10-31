@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-30T19:40:39.605Z",
+  "updated_at": "2026-10-31T18:44:13.678Z",
   "boxoffice": [
+    {
+      "title": "Box Office: ‘You Can See Everything’ Fends Off ‘Clayface’ for Top Spot on Friday With $3.56 Million",
+      "url": "https://variety.com/2026/film/box-office/box-office-you-can-see-everything-clayface-1236936071/",
+      "source": "Variety",
+      "published": "2026-10-31T15:49:12.000Z"
+    },
+    {
+      "title": "‘Clayface,’ ‘You Can See Everything’ in Tight Box Office Race on Halloween",
+      "url": "https://www.thewrap.com/creative-content/movies/clayface-you-can-see-everything-halloween-box-office/",
+      "source": "TheWrap",
+      "published": "2026-10-31T15:31:03.000Z"
+    },
     {
       "title": "‘You Can See Everything’ Will Be A Treat Over Slow Halloween Frame; Documentary’s U.S. Cume At $52M+ & Rising – Box Office",
       "url": "https://deadline.com/2026/10/box-office-you-can-see-everything-clayface-halloween-1237209579/",
@@ -24,18 +36,6 @@
       "url": "https://www.thewrap.com/creative-content/movies/you-can-see-everything-box-office-second-weekend-increase-explained/",
       "source": "TheWrap",
       "published": "2026-10-26T20:02:00.000Z"
-    },
-    {
-      "title": "DC’s First Horror Movie Officially Breaks Franchise's Box Office Slump",
-      "url": "https://collider.com/clayface-box-office-opening-25-million-dc-studios/",
-      "source": "Collider",
-      "published": "2026-10-25T16:00:15.000Z"
-    },
-    {
-      "title": "‘Clayface’ Earns $43 Million Global Box Office Launch As ‘You Can See Everything’ Rises 23% in Second Weekend",
-      "url": "https://www.thewrap.com/creative-content/movies/clayface-you-can-see-everything-box-office/",
-      "source": "TheWrap",
-      "published": "2026-10-25T15:22:37.000Z"
     }
   ],
   "now_playing": [],
