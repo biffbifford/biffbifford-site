@@ -1,43 +1,54 @@
 {
-  "updated_at": "2026-10-31T04:41:40.055Z",
+  "updated_at": "2026-10-31T16:59:42.653Z",
   "account": {
-    "followers": 79764,
-    "following": 28403,
-    "posts": 71840,
+    "followers": 79758,
+    "following": 28405,
+    "posts": 71843,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2116554379339673908",
+      "text": "🎃 Happy Halloween! Settle this once and for all:\n\nWhich classic movie monster scared you most as a kid?\n\nFun fact: only one actor ever played all four. Lon Chaney Jr. was the Wolf Man, the Mummy, Frankenstein's monster, and Dracula.\n\nVote below, and tell me which monster gave",
+      "created_at": "2026-10-31T15:34:22.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 202,
+      "url": "https://x.com/TBifford/status/2116554379339673908"
+    },
+    {
       "id": "2116341889276514633",
       "text": "🎃 After this Halloween special aired, kids across America mailed candy to Charlie Brown.\n\nOn October 27, 1966, CBS aired \"It's the Great Pumpkin, Charlie Brown\" for the first time. While his friends trick-or-treat, poor Charlie Brown keeps opening his bag and saying four words: https://t.co/rN63TzEvcD",
       "created_at": "2026-10-31T01:30:00.000Z",
-      "likes": 10,
-      "retweets": 1,
-      "replies": 1,
+      "likes": 50,
+      "retweets": 6,
+      "replies": 3,
       "quotes": 0,
-      "impression_count": 680,
+      "impression_count": 3164,
       "url": "https://x.com/TBifford/status/2116341889276514633"
     },
     {
       "id": "2116243746849165679",
       "text": "🎃 The scariest mask in horror movie history is actually Captain Kirk.\n\nIn 1978, John Carpenter was making a low-budget horror film called Halloween. The whole movie cost about $300,000, and there was no money for a custom mask.\n\nSo the art director, Tommy Lee Wallace, went to a https://t.co/pv0MmmhBYu",
       "created_at": "2026-10-30T19:00:01.000Z",
-      "likes": 20,
-      "retweets": 3,
-      "replies": 3,
+      "likes": 42,
+      "retweets": 10,
+      "replies": 4,
       "quotes": 0,
-      "impression_count": 1622,
+      "impression_count": 3052,
       "url": "https://x.com/TBifford/status/2116243746849165679"
     },
     {
       "id": "2116205993076142125",
       "text": "🪄 One season, Darrin looked like this. The next season he was a different man, and nobody on Bewitched said a word.\n\nHere's what happened.\n\nIn 1959, years before Bewitched, Dick York was filming a western with Gary Cooper. During a scene with a heavy railroad handcar, another https://t.co/gHJ5xkB5Lj",
       "created_at": "2026-10-30T16:30:00.000Z",
-      "likes": 71,
-      "retweets": 12,
-      "replies": 18,
+      "likes": 100,
+      "retweets": 13,
+      "replies": 21,
       "quotes": 0,
-      "impression_count": 12905,
+      "impression_count": 20168,
       "url": "https://x.com/TBifford/status/2116205993076142125"
     },
     {
@@ -48,7 +59,7 @@
       "retweets": 27,
       "replies": 7,
       "quotes": 0,
-      "impression_count": 9183,
+      "impression_count": 9274,
       "url": "https://x.com/TBifford/status/2115979500508889103"
     },
     {
@@ -59,7 +70,7 @@
       "retweets": 0,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 806,
+      "impression_count": 818,
       "url": "https://x.com/TBifford/status/2115898050447290722"
     },
     {
@@ -70,7 +81,7 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 529,
+      "impression_count": 537,
       "url": "https://x.com/TBifford/status/2115883168129519889"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 194,
+      "impression_count": 195,
       "url": "https://x.com/TBifford/status/2115855023989006393"
     },
     {
@@ -99,23 +110,12 @@
       "id": "2115844359077916827",
       "text": "🚁 M*A*S*H ran for 11 years. The Korean War it was set in lasted just over three.\n\nAnd the cast knew military life firsthand. Alan Alda served in the Army Reserve in Korea. Wayne Rogers (Trapper) was a Navy ship navigator. Mike Farrell (B.J.) was a Marine. Jamie Farr (Klinger) https://t.co/usjnaMtl5d",
       "created_at": "2026-10-29T16:33:00.000Z",
-      "likes": 436,
-      "retweets": 44,
-      "replies": 18,
-      "quotes": 6,
-      "impression_count": 16518,
+      "likes": 463,
+      "retweets": 46,
+      "replies": 20,
+      "quotes": 7,
+      "impression_count": 16864,
       "url": "https://x.com/TBifford/status/2115844359077916827"
-    },
-    {
-      "id": "2115826563803722125",
-      "text": "https://t.co/4xMNFq9Nx6",
-      "created_at": "2026-10-29T15:22:17.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 145,
-      "url": "https://x.com/TBifford/status/2115826563803722125"
     }
   ]
 }
