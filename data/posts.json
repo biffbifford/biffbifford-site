@@ -1,21 +1,32 @@
 {
-  "updated_at": "2026-11-01T05:01:56.552Z",
+  "updated_at": "2026-11-01T17:45:09.620Z",
   "account": {
-    "followers": 79752,
-    "following": 28408,
-    "posts": 71847,
+    "followers": 79747,
+    "following": 28405,
+    "posts": 71849,
     "listed": 96
   },
   "tweets": [
     {
-      "id": "2116704274818412989",
-      "text": "🧟 The most famous zombie movie ever made was given away by accident.\n\nIn 1968, a group of Pittsburgh filmmakers raised about $114,000 to make a horror movie at a farmhouse in the Pennsylvania countryside.\n\nThe director, George Romero, had been making TV commercials and short https://t.co/MYuGuosDDV",
-      "created_at": "2026-11-01T01:30:00.000Z",
-      "likes": 2,
+      "id": "2116945866716291109",
+      "text": "📋 Radar O'Reilly was the only one who came along from the movie.\n\nWhen M*A*S*H jumped from the big screen to TV in 1972, the whole cast was replaced except one man: Gary Burghoff. He played Radar in both.\n\nAnd before that? He was Broadway's very first Charlie Brown, in \"You're a https://t.co/MjtVLZqzhR",
+      "created_at": "2026-11-01T17:30:00.000Z",
+      "likes": 0,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 493,
+      "impression_count": 130,
+      "url": "https://x.com/TBifford/status/2116945866716291109"
+    },
+    {
+      "id": "2116704274818412989",
+      "text": "🧟 The most famous zombie movie ever made was given away by accident.\n\nIn 1968, a group of Pittsburgh filmmakers raised about $114,000 to make a horror movie at a farmhouse in the Pennsylvania countryside.\n\nThe director, George Romero, had been making TV commercials and short https://t.co/MYuGuosDDV",
+      "created_at": "2026-11-01T01:30:00.000Z",
+      "likes": 6,
+      "retweets": 2,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 976,
       "url": "https://x.com/TBifford/status/2116704274818412989"
     },
     {
@@ -24,31 +35,31 @@
       "created_at": "2026-10-31T21:06:14.000Z",
       "likes": 0,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0,
-      "impression_count": 754,
+      "impression_count": 887,
       "url": "https://x.com/TBifford/status/2116637897290052048"
     },
     {
       "id": "2116606135486812646",
       "text": "💡 Uncle Fester was once the most famous child in the world, and his own family spent every penny he earned.\n\nIn 1919, Charlie Chaplin spotted a little boy doing a dance in a Los Angeles vaudeville theater. He cast him in \"The Kid\" (1921), and Jackie Coogan became one of https://t.co/bSqpgsphy1",
       "created_at": "2026-10-31T19:00:01.000Z",
-      "likes": 180,
-      "retweets": 29,
-      "replies": 4,
-      "quotes": 2,
-      "impression_count": 6178,
+      "likes": 313,
+      "retweets": 49,
+      "replies": 7,
+      "quotes": 3,
+      "impression_count": 10083,
       "url": "https://x.com/TBifford/status/2116606135486812646"
     },
     {
       "id": "2116341889276514633",
       "text": "🎃 After this Halloween special aired, kids across America mailed candy to Charlie Brown.\n\nOn October 27, 1966, CBS aired \"It's the Great Pumpkin, Charlie Brown\" for the first time. While his friends trick-or-treat, poor Charlie Brown keeps opening his bag and saying four words: https://t.co/rN63TzEvcD",
       "created_at": "2026-10-31T01:30:00.000Z",
-      "likes": 74,
+      "likes": 73,
       "retweets": 9,
       "replies": 4,
       "quotes": 1,
-      "impression_count": 4789,
+      "impression_count": 4864,
       "url": "https://x.com/TBifford/status/2116341889276514633"
     },
     {
@@ -59,7 +70,7 @@
       "retweets": 15,
       "replies": 5,
       "quotes": 1,
-      "impression_count": 4550,
+      "impression_count": 4605,
       "url": "https://x.com/TBifford/status/2116243746849165679"
     },
     {
@@ -70,7 +81,7 @@
       "retweets": 13,
       "replies": 21,
       "quotes": 0,
-      "impression_count": 20436,
+      "impression_count": 20504,
       "url": "https://x.com/TBifford/status/2116205993076142125"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 27,
       "replies": 7,
       "quotes": 0,
-      "impression_count": 9309,
+      "impression_count": 9317,
       "url": "https://x.com/TBifford/status/2115979500508889103"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 0,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 826,
+      "impression_count": 831,
       "url": "https://x.com/TBifford/status/2115898050447290722"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 540,
+      "impression_count": 544,
       "url": "https://x.com/TBifford/status/2115883168129519889"
-    },
-    {
-      "id": "2115855023989006393",
-      "text": "https://t.co/HVREwB7cnh",
-      "created_at": "2026-10-29T17:15:23.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 195,
-      "url": "https://x.com/TBifford/status/2115855023989006393"
     }
   ]
 }
