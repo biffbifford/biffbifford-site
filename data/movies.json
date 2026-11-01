@@ -1,11 +1,29 @@
 {
-  "updated_at": "2026-10-31T18:44:13.678Z",
+  "updated_at": "2026-11-01T19:11:32.990Z",
   "boxoffice": [
     {
-      "title": "Box Office: ‘You Can See Everything’ Fends Off ‘Clayface’ for Top Spot on Friday With $3.56 Million",
-      "url": "https://variety.com/2026/film/box-office/box-office-you-can-see-everything-clayface-1236936071/",
+      "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Reboot Hits $400 Million Globally",
+      "url": "https://variety.com/2026/film/box-office/resident-evil-box-office-milestone-highest-grossing-zach-cregger-reboot-1236936847/",
       "source": "Variety",
-      "published": "2026-10-31T15:49:12.000Z"
+      "published": "2026-11-01T18:54:37.000Z"
+    },
+    {
+      "title": "‘Clayface’ Still Boss With Near $23M WW; ‘Resident Evil’ Racks Up $400M WW Poised To Scare Away ‘Backrooms’ – Global Box Office Update",
+      "url": "https://deadline.com/2026/11/box-office-global-clayface-resident-evil-1237210872/",
+      "source": "Deadline",
+      "published": "2026-11-01T18:14:45.000Z"
+    },
+    {
+      "title": "Box Office: ‘You Can See Everything’ and ‘Clayface’ Battle for No. 1 With $10.5 Million in Sleepy Halloween Weekend",
+      "url": "https://variety.com/2026/film/box-office/you-can-see-everything-clayface-battle-for-no-1-box-office-1236936664/",
+      "source": "Variety",
+      "published": "2026-11-01T15:58:23.000Z"
+    },
+    {
+      "title": "‘You Can See Everything’ Narrowly Leads ‘Clayface’ for First No. 1 at Box Office",
+      "url": "https://www.thewrap.com/creative-content/movies/you-can-see-everything-narrowly-leads-clayface-for-first-no-1-at-box-office/",
+      "source": "TheWrap",
+      "published": "2026-11-01T15:57:23.000Z"
     },
     {
       "title": "‘Clayface,’ ‘You Can See Everything’ in Tight Box Office Race on Halloween",
@@ -18,24 +36,6 @@
       "url": "https://deadline.com/2026/10/box-office-you-can-see-everything-clayface-halloween-1237209579/",
       "source": "Deadline",
       "published": "2026-10-30T18:18:17.000Z"
-    },
-    {
-      "title": "China’s First Fully AI-Generated Movie Flops at the Box Office",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/sanxingdui-future-past-ai-movie-box-office-flop-1236742696/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-29T17:11:34.000Z"
-    },
-    {
-      "title": "Broadway Box Office: Billy Crystal’s ‘860’ Sees Strong Opening, As ‘Downstate’ and More Start Previews",
-      "url": "https://www.hollywoodreporter.com/lifestyle/arts/broadway-billy-crystal-box-office-top-shows-1236741142/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-10-27T19:31:24.000Z"
-    },
-    {
-      "title": "‘You Can See Everything’ Box Office Rose 23% in Its Second Weekend. Its Ceiling Is Still Unknown | Analysis",
-      "url": "https://www.thewrap.com/creative-content/movies/you-can-see-everything-box-office-second-weekend-increase-explained/",
-      "source": "TheWrap",
-      "published": "2026-10-26T20:02:00.000Z"
     }
   ],
   "now_playing": [],
