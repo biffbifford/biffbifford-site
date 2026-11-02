@@ -1,32 +1,65 @@
 {
-  "updated_at": "2026-11-01T17:45:09.620Z",
+  "updated_at": "2026-11-02T05:02:17.643Z",
   "account": {
-    "followers": 79747,
-    "following": 28405,
-    "posts": 71849,
+    "followers": 79753,
+    "following": 28406,
+    "posts": 71870,
     "listed": 96
   },
   "tweets": [
     {
-      "id": "2116945866716291109",
-      "text": "📋 Radar O'Reilly was the only one who came along from the movie.\n\nWhen M*A*S*H jumped from the big screen to TV in 1972, the whole cast was replaced except one man: Gary Burghoff. He played Radar in both.\n\nAnd before that? He was Broadway's very first Charlie Brown, in \"You're a https://t.co/MjtVLZqzhR",
-      "created_at": "2026-11-01T17:30:00.000Z",
+      "id": "2117074212494151872",
+      "text": "👓 It's the cruelest ending in TV history, and Rod Serling counted it among his two favorite episodes.\n\nOn November 20, 1959, The Twilight Zone aired \"Time Enough at Last.\"\n\nBurgess Meredith played Henry Bemis, a bank teller who just wants time to read. His boss won't let him. https://t.co/X3nwogIsM2",
+      "created_at": "2026-11-02T02:00:00.000Z",
+      "likes": 39,
+      "retweets": 3,
+      "replies": 12,
+      "quotes": 0,
+      "impression_count": 3698,
+      "url": "https://x.com/TBifford/status/2117074212494151872"
+    },
+    {
+      "id": "2117001788523995427",
+      "text": "🧛 The votes are in! Dracula wins it with 61%. Bela Lugosi would be proud. The Mummy took second, and poor Frankenstein's monster finished last with just 4%. Thanks for voting!",
+      "created_at": "2026-11-01T21:12:13.000Z",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 130,
+      "impression_count": 220,
+      "url": "https://x.com/TBifford/status/2117001788523995427"
+    },
+    {
+      "id": "2116983621898871163",
+      "text": "🎻 Before he was Buddy Sorrell on The Dick Van Dyke Show, Morey Amsterdam was telling jokes in Al Capone's speakeasy.\n\nHis father was a concert violinist. Morey learned the cello, but by about 13 he was on the vaudeville stage, playing straight man to his older brother.\n\nBy 1924, https://t.co/xS0eSslPKR",
+      "created_at": "2026-11-01T20:00:01.000Z",
+      "likes": 43,
+      "retweets": 4,
+      "replies": 2,
+      "quotes": 0,
+      "impression_count": 2534,
+      "url": "https://x.com/TBifford/status/2116983621898871163"
+    },
+    {
+      "id": "2116945866716291109",
+      "text": "📋 Radar O'Reilly was the only one who came along from the movie.\n\nWhen M*A*S*H jumped from the big screen to TV in 1972, the whole cast was replaced except one man: Gary Burghoff. He played Radar in both.\n\nAnd before that? He was Broadway's very first Charlie Brown, in \"You're a https://t.co/MjtVLZqzhR",
+      "created_at": "2026-11-01T17:30:00.000Z",
+      "likes": 169,
+      "retweets": 21,
+      "replies": 8,
+      "quotes": 0,
+      "impression_count": 8322,
       "url": "https://x.com/TBifford/status/2116945866716291109"
     },
     {
       "id": "2116704274818412989",
       "text": "🧟 The most famous zombie movie ever made was given away by accident.\n\nIn 1968, a group of Pittsburgh filmmakers raised about $114,000 to make a horror movie at a farmhouse in the Pennsylvania countryside.\n\nThe director, George Romero, had been making TV commercials and short https://t.co/MYuGuosDDV",
       "created_at": "2026-11-01T01:30:00.000Z",
-      "likes": 6,
-      "retweets": 2,
-      "replies": 0,
+      "likes": 9,
+      "retweets": 4,
+      "replies": 1,
       "quotes": 0,
-      "impression_count": 976,
+      "impression_count": 1462,
       "url": "https://x.com/TBifford/status/2116704274818412989"
     },
     {
@@ -35,20 +68,20 @@
       "created_at": "2026-10-31T21:06:14.000Z",
       "likes": 0,
       "retweets": 0,
-      "replies": 1,
+      "replies": 2,
       "quotes": 0,
-      "impression_count": 887,
+      "impression_count": 1166,
       "url": "https://x.com/TBifford/status/2116637897290052048"
     },
     {
       "id": "2116606135486812646",
       "text": "💡 Uncle Fester was once the most famous child in the world, and his own family spent every penny he earned.\n\nIn 1919, Charlie Chaplin spotted a little boy doing a dance in a Los Angeles vaudeville theater. He cast him in \"The Kid\" (1921), and Jackie Coogan became one of https://t.co/bSqpgsphy1",
       "created_at": "2026-10-31T19:00:01.000Z",
-      "likes": 313,
-      "retweets": 49,
-      "replies": 7,
+      "likes": 336,
+      "retweets": 53,
+      "replies": 9,
       "quotes": 3,
-      "impression_count": 10083,
+      "impression_count": 10868,
       "url": "https://x.com/TBifford/status/2116606135486812646"
     },
     {
@@ -59,7 +92,7 @@
       "retweets": 9,
       "replies": 4,
       "quotes": 1,
-      "impression_count": 4864,
+      "impression_count": 4906,
       "url": "https://x.com/TBifford/status/2116341889276514633"
     },
     {
@@ -70,52 +103,19 @@
       "retweets": 15,
       "replies": 5,
       "quotes": 1,
-      "impression_count": 4605,
+      "impression_count": 4629,
       "url": "https://x.com/TBifford/status/2116243746849165679"
     },
     {
       "id": "2116205993076142125",
       "text": "🪄 One season, Darrin looked like this. The next season he was a different man, and nobody on Bewitched said a word.\n\nHere's what happened.\n\nIn 1959, years before Bewitched, Dick York was filming a western with Gary Cooper. During a scene with a heavy railroad handcar, another https://t.co/gHJ5xkB5Lj",
       "created_at": "2026-10-30T16:30:00.000Z",
-      "likes": 102,
+      "likes": 103,
       "retweets": 13,
-      "replies": 21,
+      "replies": 20,
       "quotes": 0,
-      "impression_count": 20504,
+      "impression_count": 20533,
       "url": "https://x.com/TBifford/status/2116205993076142125"
-    },
-    {
-      "id": "2115979500508889103",
-      "text": "🎂 Dick Van Dyke didn't know his own birthday until he was almost 18.\n\nHe grew up believing he was born in March. Then his mother told him the truth: it was December 13. His parents had moved the date to hide that he was conceived before they married.\n\nThat wasn't the only https://t.co/4c3Wao1NA3",
-      "created_at": "2026-10-30T01:30:00.000Z",
-      "likes": 182,
-      "retweets": 27,
-      "replies": 7,
-      "quotes": 0,
-      "impression_count": 9317,
-      "url": "https://x.com/TBifford/status/2115979500508889103"
-    },
-    {
-      "id": "2115898050447290722",
-      "text": "🖖 Sir Patrick Stewart has died at 86.\n\nBefore he was Captain Picard, he was a boy from a working-class Yorkshire home who left school at 15 and took a job writing for a local newspaper.\n\nHe spent 16 years with the Royal Shakespeare Company. Then a Star Trek producer saw him at a https://t.co/NMWUqYbxce",
-      "created_at": "2026-10-29T20:06:21.000Z",
-      "likes": 14,
-      "retweets": 0,
-      "replies": 3,
-      "quotes": 1,
-      "impression_count": 831,
-      "url": "https://x.com/TBifford/status/2115898050447290722"
-    },
-    {
-      "id": "2115883168129519889",
-      "text": "📺 Settle this once and for all: which TV theme song is the greatest of all time?\n\nFun fact: the lyrics to the M*A*S*H theme were written by director Robert Altman's 14-year-old son. Altman later joked that the kid earned more from that song than he did for directing the movie.",
-      "created_at": "2026-10-29T19:07:13.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "impression_count": 544,
-      "url": "https://x.com/TBifford/status/2115883168129519889"
     }
   ]
 }
