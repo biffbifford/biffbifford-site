@@ -1,43 +1,54 @@
 {
-  "updated_at": "2026-11-02T21:30:42.161Z",
+  "updated_at": "2026-11-03T05:51:05.802Z",
   "account": {
-    "followers": 79734,
-    "following": 28396,
-    "posts": 71874,
+    "followers": 79736,
+    "following": 28398,
+    "posts": 71910,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2117436603777822972",
+      "text": "🤔 Name This Face #2\n\nYou've seen him alongside John Wayne, Paul Newman, and even on Gilligan's Island. Almost nobody can name him.\n\nThree clues:\n\n• At 17, he was a national junior diving champion and hoped to make the U.S. Olympic team.\n\n• In World War II, he taught swimming https://t.co/3wG3lc5B84",
+      "created_at": "2026-11-03T02:00:01.000Z",
+      "likes": 44,
+      "retweets": 5,
+      "replies": 58,
+      "quotes": 4,
+      "impression_count": 6176,
+      "url": "https://x.com/TBifford/status/2117436603777822972"
+    },
+    {
       "id": "2117346004605559042",
       "text": "🕵️ TV's most bumbling secret agent was a real-life Marine who survived Guadalcanal.\n\nDon Adams was born Donald James Yarmy in New York City. In 1941, he left school to join the Marines.\n\nOn Guadalcanal, he came down with blackwater fever, a deadly complication of malaria. He https://t.co/rptSa9sCjk",
       "created_at": "2026-11-02T20:00:00.000Z",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 377,
+      "likes": 35,
+      "retweets": 5,
+      "replies": 2,
+      "quotes": 1,
+      "impression_count": 1498,
       "url": "https://x.com/TBifford/status/2117346004605559042"
     },
     {
       "id": "2117308254850023660",
       "text": "😢 In 1968, America was told the Beaver had been killed in Vietnam.\n\nJerry Mathers had played Beaver Cleaver on Leave It to Beaver for six years. Millions of kids grew up with him.\n\nThen, in October 1968, a 21-year-old soldier named Sgt. Steven Mathers was killed in Vietnam. The https://t.co/ZFvuWJGQbf",
       "created_at": "2026-11-02T17:30:00.000Z",
-      "likes": 7,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 1572,
+      "likes": 32,
+      "retweets": 3,
+      "replies": 1,
+      "quotes": 1,
+      "impression_count": 7816,
       "url": "https://x.com/TBifford/status/2117308254850023660"
     },
     {
       "id": "2117074212494151872",
       "text": "👓 It's the cruelest ending in TV history, and Rod Serling counted it among his two favorite episodes.\n\nOn November 20, 1959, The Twilight Zone aired \"Time Enough at Last.\"\n\nBurgess Meredith played Henry Bemis, a bank teller who just wants time to read. His boss won't let him. https://t.co/X3nwogIsM2",
       "created_at": "2026-11-02T02:00:00.000Z",
-      "likes": 111,
+      "likes": 121,
       "retweets": 18,
-      "replies": 29,
+      "replies": 30,
       "quotes": 0,
-      "impression_count": 7412,
+      "impression_count": 8328,
       "url": "https://x.com/TBifford/status/2117074212494151872"
     },
     {
@@ -48,29 +59,29 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 266,
+      "impression_count": 275,
       "url": "https://x.com/TBifford/status/2117001788523995427"
     },
     {
       "id": "2116983621898871163",
       "text": "🎻 Before he was Buddy Sorrell on The Dick Van Dyke Show, Morey Amsterdam was telling jokes in Al Capone's speakeasy.\n\nHis father was a concert violinist. Morey learned the cello, but by about 13 he was on the vaudeville stage, playing straight man to his older brother.\n\nBy 1924, https://t.co/xS0eSslPKR",
       "created_at": "2026-11-01T20:00:01.000Z",
-      "likes": 60,
+      "likes": 61,
       "retweets": 6,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 3457,
+      "impression_count": 3503,
       "url": "https://x.com/TBifford/status/2116983621898871163"
     },
     {
       "id": "2116945866716291109",
       "text": "📋 Radar O'Reilly was the only one who came along from the movie.\n\nWhen M*A*S*H jumped from the big screen to TV in 1972, the whole cast was replaced except one man: Gary Burghoff. He played Radar in both.\n\nAnd before that? He was Broadway's very first Charlie Brown, in \"You're a https://t.co/MjtVLZqzhR",
       "created_at": "2026-11-01T17:30:00.000Z",
-      "likes": 245,
+      "likes": 253,
       "retweets": 27,
       "replies": 8,
       "quotes": 0,
-      "impression_count": 11048,
+      "impression_count": 11162,
       "url": "https://x.com/TBifford/status/2116945866716291109"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 4,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 1496,
+      "impression_count": 1511,
       "url": "https://x.com/TBifford/status/2116704274818412989"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 0,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 1222,
+      "impression_count": 1233,
       "url": "https://x.com/TBifford/status/2116637897290052048"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 53,
       "replies": 9,
       "quotes": 3,
-      "impression_count": 10943,
+      "impression_count": 10963,
       "url": "https://x.com/TBifford/status/2116606135486812646"
-    },
-    {
-      "id": "2116341889276514633",
-      "text": "🎃 After this Halloween special aired, kids across America mailed candy to Charlie Brown.\n\nOn October 27, 1966, CBS aired \"It's the Great Pumpkin, Charlie Brown\" for the first time. While his friends trick-or-treat, poor Charlie Brown keeps opening his bag and saying four words: https://t.co/rN63TzEvcD",
-      "created_at": "2026-10-31T01:30:00.000Z",
-      "likes": 73,
-      "retweets": 9,
-      "replies": 4,
-      "quotes": 1,
-      "impression_count": 4922,
-      "url": "https://x.com/TBifford/status/2116341889276514633"
     }
   ]
 }
