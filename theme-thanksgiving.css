@@ -1,0 +1,25 @@
+/* Thanksgiving theme. Loaded by theme.js during November only. */
+:root{
+  --black:#17100A; --black-soft:#21170F; --ink:#17100A; --soft:#21170F;
+  --gold:#E4A23C; --gold-dim:#A9712A; --rust:#A8481F; --rust-hi:#E27A3F;
+  --paper:#F7EBD2; --cream:#F1E5CB;
+}
+body{background:radial-gradient(ellipse at 50% -10%,#3b2410 0,#17100A 62%) fixed !important;}
+::selection{background:#E4A23C;color:#17100A;}
+
+/* Leaf garland under the top bar */
+.bb-garland{height:30px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='30' viewBox='0 0 160 30'%3E%3Cpath d='M0 6 Q40 20 80 6 T160 6' fill='none' stroke='%238a5a26' stroke-width='2'/%3E%3Cg%3E%3Cpath d='M20 14c6-10 16-8 18 0-6 10-16 8-18 0z' fill='%23B5471F'/%3E%3Cpath d='M58 17c7-9 16-6 17 2-7 9-16 6-17-2z' fill='%23E4A23C'/%3E%3Cpath d='M100 15c6-10 16-8 18 0-6 10-16 8-18 0z' fill='%23C8602A'/%3E%3Cpath d='M138 17c7-9 16-6 17 2-7 9-16 6-17-2z' fill='%238A4B1C'/%3E%3C/g%3E%3C/svg%3E");background-repeat:repeat-x;background-size:160px 30px;border-bottom:1px solid rgba(228,162,60,.25)}
+
+/* Seasonal ribbon */
+.bb-ribbon{background:linear-gradient(90deg,#6b2f12,#a8481f,#6b2f12);color:#F7EBD2;text-align:center;font-family:'Work Sans',system-ui,sans-serif;font-size:18px;line-height:1.4;padding:10px 16px;font-weight:600}
+.bb-ribbon span{display:inline-block;padding:2px 0}
+
+/* Gentle falling leaves (hidden for reduced motion) */
+.bb-leaves{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden}
+.bb-leaf{position:absolute;top:-40px;width:26px;height:26px;opacity:.35;background-size:contain;background-repeat:no-repeat;animation:bb-fall linear infinite}
+@keyframes bb-fall{0%{transform:translate3d(0,-40px,0) rotate(0)}50%{transform:translate3d(40px,55vh,0) rotate(180deg)}100%{transform:translate3d(-20px,110vh,0) rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.bb-leaves{display:none}}
+
+/* Warmer hero marquee and cards */
+.feature-card,.blog-card,.tile,.card{border-color:rgba(228,162,60,.45)}
+.bulb{background:#A9712A}
