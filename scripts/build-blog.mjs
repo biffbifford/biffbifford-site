@@ -88,7 +88,7 @@ const HEAD = (title, desc, url, extra = "") => `<!doctype html>
 <meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${SITE}/og-image.png">
 ${FONTS}
 <style>${CSS}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script>${extra}
-</head><body><div class="wrap">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7809888324609473" crossorigin="anonymous"></script></head><body><div class="wrap">
 <div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/challenge.html">Daily Challenge</a><a href="/quiz.html">Quiz</a></nav></div>`;
 
 const FOOT = `<div class="foot"><a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a><br>Follow along: <a href="https://x.com/TBifford" target="_blank" rel="noopener">@TBifford on X</a> · <a href="https://www.tiktok.com/@biffbifford" target="_blank" rel="noopener">TikTok</a> · <a href="https://t.me/biffbifford" target="_blank" rel="noopener">Telegram</a> · <a href="/index.html">Home</a></div>
