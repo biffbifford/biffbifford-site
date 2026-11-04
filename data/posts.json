@@ -1,54 +1,65 @@
 {
-  "updated_at": "2026-11-04T05:25:58.760Z",
+  "updated_at": "2026-11-04T19:31:09.757Z",
   "account": {
-    "followers": 79724,
-    "following": 28384,
-    "posts": 71930,
+    "followers": 79696,
+    "following": 28368,
+    "posts": 71931,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2118033031114244564",
+      "text": "😂 Tim Conway wasn't supposed to be \"Tim.\"\n\nHe was born Thomas Conway in Ohio in 1933. After two years in the Army (1956–58), he landed a job writing promos at a Cleveland TV station.\n\nThen actress Rose Marie, Sally from The Dick Van Dyke Show, saw him in Cleveland and told Steve https://t.co/dJRQgefK0O",
+      "created_at": "2026-11-04T17:30:00.000Z",
+      "likes": 17,
+      "retweets": 4,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 732,
+      "url": "https://x.com/TBifford/status/2118033031114244564"
+    },
+    {
       "id": "2117807936097358178",
       "text": "The spooky mansion you see from the outside was Frank Lloyd Wright's Ennis House in Los Angeles. The same house later showed up in Blade Runner. 🏚️\n\nAnd the whole movie is now in the public domain, so you can watch it free tonight if you dare. 👻",
       "created_at": "2026-11-04T02:35:33.000Z",
-      "likes": 0,
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 218,
+      "impression_count": 280,
       "url": "https://x.com/TBifford/status/2117807936097358178"
     },
     {
       "id": "2117806540048756881",
       "text": "💀 Be honest: what movie scared you so badly as a kid that you couldn't hang your feet off the edge of the bed?\n\nFor a lot of us, it was Vincent Price in House on Haunted Hill (1959).\n\nDirector William Castle didn't just want you scared on screen. He invented \"EMERGO\": at the big https://t.co/7LrtrrEsaq",
       "created_at": "2026-11-04T02:30:00.000Z",
-      "likes": 3,
+      "likes": 6,
       "retweets": 0,
-      "replies": 3,
+      "replies": 4,
       "quotes": 0,
-      "impression_count": 625,
+      "impression_count": 934,
       "url": "https://x.com/TBifford/status/2117806540048756881"
     },
     {
       "id": "2117708394974900383",
       "text": "⚓ Before he was Lt. Commander McHale, Ernest Borgnine spent 10 real years in the U.S. Navy.\n\nHe joined in 1935 after seeing a recruiting sign: \"JOIN THE NAVY — SEE THE WORLD.\"\n\nHe finished his six-year hitch in September 1941. A few weeks after Pearl Harbor, he signed right back https://t.co/QoXNTsK6iQ",
       "created_at": "2026-11-03T20:00:01.000Z",
-      "likes": 76,
-      "retweets": 8,
-      "replies": 4,
-      "quotes": 0,
-      "impression_count": 2777,
+      "likes": 276,
+      "retweets": 36,
+      "replies": 6,
+      "quotes": 1,
+      "impression_count": 8620,
       "url": "https://x.com/TBifford/status/2117708394974900383"
     },
     {
       "id": "2117670644922146997",
       "text": "👶 On January 19, 1953, 44 million Americans tuned in to watch Lucy Ricardo have a baby.\n\nThat was nearly 74% of every home with a TV, and far more people than watched Eisenhower's inauguration the next day.\n\nThe timing wasn't luck. Lucille Ball really was pregnant, and the https://t.co/nFtFCdGhDY",
       "created_at": "2026-11-03T17:30:00.000Z",
-      "likes": 11,
-      "retweets": 2,
+      "likes": 12,
+      "retweets": 3,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 1270,
+      "impression_count": 1508,
       "url": "https://x.com/TBifford/status/2117670644922146997"
     },
     {
@@ -59,7 +70,7 @@
       "retweets": 0,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 565,
+      "impression_count": 576,
       "url": "https://x.com/TBifford/status/2117648420701614213"
     },
     {
@@ -70,7 +81,7 @@
       "retweets": 11,
       "replies": 160,
       "quotes": 7,
-      "impression_count": 17268,
+      "impression_count": 17382,
       "url": "https://x.com/TBifford/status/2117436603777822972"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 11,
       "replies": 5,
       "quotes": 1,
-      "impression_count": 2373,
+      "impression_count": 2397,
       "url": "https://x.com/TBifford/status/2117346004605559042"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 4,
       "replies": 2,
       "quotes": 1,
-      "impression_count": 13676,
+      "impression_count": 13729,
       "url": "https://x.com/TBifford/status/2117308254850023660"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 19,
       "replies": 31,
       "quotes": 0,
-      "impression_count": 8430,
+      "impression_count": 8446,
       "url": "https://x.com/TBifford/status/2117074212494151872"
-    },
-    {
-      "id": "2117001788523995427",
-      "text": "🧛 The votes are in! Dracula wins it with 61%. Bela Lugosi would be proud. The Mummy took second, and poor Frankenstein's monster finished last with just 4%. Thanks for voting!",
-      "created_at": "2026-11-01T21:12:13.000Z",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 289,
-      "url": "https://x.com/TBifford/status/2117001788523995427"
     }
   ]
 }
