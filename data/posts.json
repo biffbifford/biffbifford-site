@@ -1,21 +1,54 @@
 {
-  "updated_at": "2026-11-03T19:14:49.104Z",
+  "updated_at": "2026-11-04T05:25:58.760Z",
   "account": {
-    "followers": 79735,
-    "following": 28394,
-    "posts": 71925,
+    "followers": 79724,
+    "following": 28384,
+    "posts": 71930,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2117807936097358178",
+      "text": "The spooky mansion you see from the outside was Frank Lloyd Wright's Ennis House in Los Angeles. The same house later showed up in Blade Runner. 🏚️\n\nAnd the whole movie is now in the public domain, so you can watch it free tonight if you dare. 👻",
+      "created_at": "2026-11-04T02:35:33.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 218,
+      "url": "https://x.com/TBifford/status/2117807936097358178"
+    },
+    {
+      "id": "2117806540048756881",
+      "text": "💀 Be honest: what movie scared you so badly as a kid that you couldn't hang your feet off the edge of the bed?\n\nFor a lot of us, it was Vincent Price in House on Haunted Hill (1959).\n\nDirector William Castle didn't just want you scared on screen. He invented \"EMERGO\": at the big https://t.co/7LrtrrEsaq",
+      "created_at": "2026-11-04T02:30:00.000Z",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 3,
+      "quotes": 0,
+      "impression_count": 625,
+      "url": "https://x.com/TBifford/status/2117806540048756881"
+    },
+    {
+      "id": "2117708394974900383",
+      "text": "⚓ Before he was Lt. Commander McHale, Ernest Borgnine spent 10 real years in the U.S. Navy.\n\nHe joined in 1935 after seeing a recruiting sign: \"JOIN THE NAVY — SEE THE WORLD.\"\n\nHe finished his six-year hitch in September 1941. A few weeks after Pearl Harbor, he signed right back https://t.co/QoXNTsK6iQ",
+      "created_at": "2026-11-03T20:00:01.000Z",
+      "likes": 76,
+      "retweets": 8,
+      "replies": 4,
+      "quotes": 0,
+      "impression_count": 2777,
+      "url": "https://x.com/TBifford/status/2117708394974900383"
+    },
+    {
       "id": "2117670644922146997",
       "text": "👶 On January 19, 1953, 44 million Americans tuned in to watch Lucy Ricardo have a baby.\n\nThat was nearly 74% of every home with a TV, and far more people than watched Eisenhower's inauguration the next day.\n\nThe timing wasn't luck. Lucille Ball really was pregnant, and the https://t.co/nFtFCdGhDY",
       "created_at": "2026-11-03T17:30:00.000Z",
-      "likes": 5,
-      "retweets": 1,
+      "likes": 11,
+      "retweets": 2,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 461,
+      "impression_count": 1270,
       "url": "https://x.com/TBifford/status/2117670644922146997"
     },
     {
@@ -24,31 +57,31 @@
       "created_at": "2026-11-03T16:01:42.000Z",
       "likes": 3,
       "retweets": 0,
-      "replies": 2,
+      "replies": 3,
       "quotes": 1,
-      "impression_count": 332,
+      "impression_count": 565,
       "url": "https://x.com/TBifford/status/2117648420701614213"
     },
     {
       "id": "2117436603777822972",
       "text": "🤔 Name This Face #2\n\nYou've seen him alongside John Wayne, Paul Newman, and even on Gilligan's Island. Almost nobody can name him.\n\nThree clues:\n\n• At 17, he was a national junior diving champion and hoped to make the U.S. Olympic team.\n\n• In World War II, he taught swimming https://t.co/3wG3lc5B84",
       "created_at": "2026-11-03T02:00:01.000Z",
-      "likes": 108,
-      "retweets": 7,
-      "replies": 129,
-      "quotes": 5,
-      "impression_count": 14225,
+      "likes": 136,
+      "retweets": 11,
+      "replies": 160,
+      "quotes": 7,
+      "impression_count": 17268,
       "url": "https://x.com/TBifford/status/2117436603777822972"
     },
     {
       "id": "2117346004605559042",
       "text": "🕵️ TV's most bumbling secret agent was a real-life Marine who survived Guadalcanal.\n\nDon Adams was born Donald James Yarmy in New York City. In 1941, he left school to join the Marines.\n\nOn Guadalcanal, he came down with blackwater fever, a deadly complication of malaria. He https://t.co/rptSa9sCjk",
       "created_at": "2026-11-02T20:00:00.000Z",
-      "likes": 56,
+      "likes": 59,
       "retweets": 11,
-      "replies": 4,
+      "replies": 5,
       "quotes": 1,
-      "impression_count": 2288,
+      "impression_count": 2373,
       "url": "https://x.com/TBifford/status/2117346004605559042"
     },
     {
@@ -59,7 +92,7 @@
       "retweets": 4,
       "replies": 2,
       "quotes": 1,
-      "impression_count": 13537,
+      "impression_count": 13676,
       "url": "https://x.com/TBifford/status/2117308254850023660"
     },
     {
@@ -70,7 +103,7 @@
       "retweets": 19,
       "replies": 31,
       "quotes": 0,
-      "impression_count": 8392,
+      "impression_count": 8430,
       "url": "https://x.com/TBifford/status/2117074212494151872"
     },
     {
@@ -81,41 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 282,
+      "impression_count": 289,
       "url": "https://x.com/TBifford/status/2117001788523995427"
-    },
-    {
-      "id": "2116983621898871163",
-      "text": "🎻 Before he was Buddy Sorrell on The Dick Van Dyke Show, Morey Amsterdam was telling jokes in Al Capone's speakeasy.\n\nHis father was a concert violinist. Morey learned the cello, but by about 13 he was on the vaudeville stage, playing straight man to his older brother.\n\nBy 1924, https://t.co/xS0eSslPKR",
-      "created_at": "2026-11-01T20:00:01.000Z",
-      "likes": 62,
-      "retweets": 6,
-      "replies": 2,
-      "quotes": 0,
-      "impression_count": 3534,
-      "url": "https://x.com/TBifford/status/2116983621898871163"
-    },
-    {
-      "id": "2116945866716291109",
-      "text": "📋 Radar O'Reilly was the only one who came along from the movie.\n\nWhen M*A*S*H jumped from the big screen to TV in 1972, the whole cast was replaced except one man: Gary Burghoff. He played Radar in both.\n\nAnd before that? He was Broadway's very first Charlie Brown, in \"You're a https://t.co/MjtVLZqzhR",
-      "created_at": "2026-11-01T17:30:00.000Z",
-      "likes": 255,
-      "retweets": 27,
-      "replies": 8,
-      "quotes": 0,
-      "impression_count": 11270,
-      "url": "https://x.com/TBifford/status/2116945866716291109"
-    },
-    {
-      "id": "2116704274818412989",
-      "text": "🧟 The most famous zombie movie ever made was given away by accident.\n\nIn 1968, a group of Pittsburgh filmmakers raised about $114,000 to make a horror movie at a farmhouse in the Pennsylvania countryside.\n\nThe director, George Romero, had been making TV commercials and short https://t.co/MYuGuosDDV",
-      "created_at": "2026-11-01T01:30:00.000Z",
-      "likes": 10,
-      "retweets": 4,
-      "replies": 1,
-      "quotes": 0,
-      "impression_count": 1524,
-      "url": "https://x.com/TBifford/status/2116704274818412989"
     }
   ]
 }
