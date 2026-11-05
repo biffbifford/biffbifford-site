@@ -87,7 +87,7 @@ const HEAD = (title, desc, url, extra = "") => `<!doctype html>
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}">
 <meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${SITE}/og-image.png">
 ${FONTS}
-<style>${CSS}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script>${extra}
+<style>${CSS}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script><script src="/newsletter.js" defer></script>${extra}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7809888324609473" crossorigin="anonymous"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-C83YWVSKPR"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-C83YWVSKPR");</script></head><body><div class="wrap">
 <div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/challenge.html">Daily Challenge</a><a href="/quiz.html">Quiz</a></nav></div>`;
 
