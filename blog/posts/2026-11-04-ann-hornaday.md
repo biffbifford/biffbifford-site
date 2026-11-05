@@ -34,4 +34,4 @@ She is survived by her husband of 26 years, Dennis Greenia, her daughter Victori
 
 ## The last word
 
-I never met her, but I read her for years, and I think that is the point. A good critic makes you want to go back to the movies. She did that for a lot of us.
+A good critic makes you want to go back to the movies. She did that for a lot of us.
