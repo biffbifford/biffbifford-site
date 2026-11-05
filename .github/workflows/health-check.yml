@@ -1,0 +1,20 @@
+name: Site health check
+
+on:
+  schedule:
+    - cron: "15 15 * * *"   # once a day, about 8 AM Pacific
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run health check
+        run: node scripts/health-check.mjs
