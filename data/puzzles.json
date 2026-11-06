@@ -1,0 +1,443 @@
+{
+ "_readme": "Movie Puzzle bank. category, clue, answer (uppercase; punctuation allowed).",
+ "puzzles": [
+  {
+   "id": "p001",
+   "category": "Movie Title",
+   "clue": "A Kansas farm girl is swept away by a tornado, 1939",
+   "answer": "THE WIZARD OF OZ"
+  },
+  {
+   "id": "p002",
+   "category": "Movie Title",
+   "clue": "Humphrey Bogart runs a cafe in Morocco during World War II",
+   "answer": "CASABLANCA"
+  },
+  {
+   "id": "p003",
+   "category": "Movie Title",
+   "clue": "Gene Kelly splashes through puddles in this 1952 musical",
+   "answer": "SINGIN' IN THE RAIN"
+  },
+  {
+   "id": "p004",
+   "category": "Movie Title",
+   "clue": "Seven gunmen defend a Mexican village, 1960",
+   "answer": "THE MAGNIFICENT SEVEN"
+  },
+  {
+   "id": "p005",
+   "category": "Movie Title",
+   "clue": "Gary Cooper waits for the noon train to face outlaws",
+   "answer": "HIGH NOON"
+  },
+  {
+   "id": "p006",
+   "category": "Movie Title",
+   "clue": "Allied prisoners tunnel out of a German camp, and Steve McQueen jumps a fence on a motorcycle",
+   "answer": "THE GREAT ESCAPE"
+  },
+  {
+   "id": "p007",
+   "category": "Movie Title",
+   "clue": "Two musicians dress as women to hide from gangsters",
+   "answer": "SOME LIKE IT HOT"
+  },
+  {
+   "id": "p008",
+   "category": "Movie Title",
+   "clue": "A Philadelphia boxer gets a shot at the heavyweight title, 1976",
+   "answer": "ROCKY"
+  },
+  {
+   "id": "p009",
+   "category": "Movie Title",
+   "clue": "A great white shark terrorizes Amity Island",
+   "answer": "JAWS"
+  },
+  {
+   "id": "p010",
+   "category": "Movie Title",
+   "clue": "A farm boy joins a rebellion against the Empire, 1977",
+   "answer": "STAR WARS"
+  },
+  {
+   "id": "p011",
+   "category": "Movie Title",
+   "clue": "Indiana Jones races the Nazis to find a biblical relic",
+   "answer": "RAIDERS OF THE LOST ARK"
+  },
+  {
+   "id": "p012",
+   "category": "Movie Title",
+   "clue": "Marty McFly travels in a DeLorean time machine",
+   "answer": "BACK TO THE FUTURE"
+  },
+  {
+   "id": "p013",
+   "category": "Movie Title",
+   "clue": "Scientists start a ghost-catching business in New York City, 1984",
+   "answer": "GHOSTBUSTERS"
+  },
+  {
+   "id": "p014",
+   "category": "Movie Title",
+   "clue": "Marlon Brando heads the Corleone crime family",
+   "answer": "THE GODFATHER"
+  },
+  {
+   "id": "p015",
+   "category": "Movie Title",
+   "clue": "Alfred Hitchcock's 1960 thriller set at the Bates Motel",
+   "answer": "PSYCHO"
+  },
+  {
+   "id": "p016",
+   "category": "Movie Title",
+   "clue": "A photographer with a broken leg spies on his neighbors",
+   "answer": "REAR WINDOW"
+  },
+  {
+   "id": "p017",
+   "category": "Movie Title",
+   "clue": "John Wayne spends years hunting for his kidnapped niece",
+   "answer": "THE SEARCHERS"
+  },
+  {
+   "id": "p018",
+   "category": "Movie Title",
+   "clue": "A teenage girl hires a one-eyed marshal to find her father's killer",
+   "answer": "TRUE GRIT"
+  },
+  {
+   "id": "p019",
+   "category": "Movie Title",
+   "clue": "Paul Newman and Robert Redford ride as outlaws, 1969",
+   "answer": "BUTCH CASSIDY AND THE SUNDANCE KID"
+  },
+  {
+   "id": "p020",
+   "category": "Movie Title",
+   "clue": "Clint Eastwood stars in Sergio Leone's Civil War western",
+   "answer": "THE GOOD, THE BAD AND THE UGLY"
+  },
+  {
+   "id": "p021",
+   "category": "Movie Title",
+   "clue": "A chariot race is the highlight of this 1959 epic that won 11 Oscars",
+   "answer": "BEN-HUR"
+  },
+  {
+   "id": "p022",
+   "category": "Movie Title",
+   "clue": "Scarlett O'Hara survives the Civil War, 1939",
+   "answer": "GONE WITH THE WIND"
+  },
+  {
+   "id": "p023",
+   "category": "Movie Title",
+   "clue": "A guardian angel shows George Bailey what Bedford Falls would be like without him",
+   "answer": "IT'S A WONDERFUL LIFE"
+  },
+  {
+   "id": "p024",
+   "category": "Movie Title",
+   "clue": "Navy pilots compete at fighter school, with Maverick and Goose",
+   "answer": "TOP GUN"
+  },
+  {
+   "id": "p025",
+   "category": "Movie Title",
+   "clue": "A New York cop battles terrorists at Nakatomi Plaza on Christmas Eve",
+   "answer": "DIE HARD"
+  },
+  {
+   "id": "p026",
+   "category": "Movie Title",
+   "clue": "A cyborg assassin is sent back in time from 2029",
+   "answer": "THE TERMINATOR"
+  },
+  {
+   "id": "p027",
+   "category": "Movie Title",
+   "clue": "Five students spend a Saturday in detention, 1985",
+   "answer": "THE BREAKFAST CLUB"
+  },
+  {
+   "id": "p028",
+   "category": "Movie Title",
+   "clue": "A teenager skips school in Chicago, 1986",
+   "answer": "FERRIS BUELLER'S DAY OFF"
+  },
+  {
+   "id": "p029",
+   "category": "Movie Title",
+   "clue": "Dustin Hoffman is seduced by Mrs. Robinson",
+   "answer": "THE GRADUATE"
+  },
+  {
+   "id": "p030",
+   "category": "Movie Title",
+   "clue": "Burt Reynolds outruns Sheriff Buford T. Justice with a truckload of beer",
+   "answer": "SMOKEY AND THE BANDIT"
+  },
+  {
+   "id": "p031",
+   "category": "Movie Title",
+   "clue": "Twelve convicts train for a World War II mission, 1967",
+   "answer": "THE DIRTY DOZEN"
+  },
+  {
+   "id": "p032",
+   "category": "Movie Title",
+   "clue": "Kirk Douglas leads a slave revolt against Rome",
+   "answer": "SPARTACUS"
+  },
+  {
+   "id": "p033",
+   "category": "Movie Title",
+   "clue": "Marlon Brando plays a dockworker who could have been a contender",
+   "answer": "ON THE WATERFRONT"
+  },
+  {
+   "id": "p034",
+   "category": "Movie Title",
+   "clue": "Woody and Buzz Lightyear come to life when no one is looking",
+   "answer": "TOY STORY"
+  },
+  {
+   "id": "p035",
+   "category": "Movie Title",
+   "clue": "A young cub named Simba is exiled after his father's death",
+   "answer": "THE LION KING"
+  },
+  {
+   "id": "p036",
+   "category": "Movie Title",
+   "clue": "A luxury liner hits an iceberg in 1912",
+   "answer": "TITANIC"
+  },
+  {
+   "id": "p037",
+   "category": "Movie Title",
+   "clue": "Tom Hanks sits on a bench and tells his life story",
+   "answer": "FORREST GUMP"
+  },
+  {
+   "id": "p038",
+   "category": "Movie Title",
+   "clue": "Clint Eastwood plays a rogue San Francisco cop named Harry Callahan",
+   "answer": "DIRTY HARRY"
+  },
+  {
+   "id": "p039",
+   "category": "Movie Title",
+   "clue": "Audrey Hepburn eats breakfast outside a famous New York jewelry store",
+   "answer": "BREAKFAST AT TIFFANY'S"
+  },
+  {
+   "id": "p040",
+   "category": "Movie Title",
+   "clue": "A hobbit is chosen to carry a ring to Mordor",
+   "answer": "THE LORD OF THE RINGS"
+  },
+  {
+   "id": "p041",
+   "category": "Actor",
+   "clue": "Known as The Duke, he won an Oscar for True Grit",
+   "answer": "JOHN WAYNE"
+  },
+  {
+   "id": "p042",
+   "category": "Actor",
+   "clue": "The Man with No Name in Sergio Leone's westerns",
+   "answer": "CLINT EASTWOOD"
+  },
+  {
+   "id": "p043",
+   "category": "Actor",
+   "clue": "Starred in It's a Wonderful Life and Rear Window",
+   "answer": "JIMMY STEWART"
+  },
+  {
+   "id": "p044",
+   "category": "Actor",
+   "clue": "Breakfast at Tiffany's star who wore the famous little black dress",
+   "answer": "AUDREY HEPBURN"
+  },
+  {
+   "id": "p045",
+   "category": "Actor",
+   "clue": "Played Rick Blaine in Casablanca",
+   "answer": "HUMPHREY BOGART"
+  },
+  {
+   "id": "p046",
+   "category": "Actor",
+   "clue": "Blonde star of Some Like It Hot",
+   "answer": "MARILYN MONROE"
+  },
+  {
+   "id": "p047",
+   "category": "Actor",
+   "clue": "Called The King of Cool, he starred in The Great Escape and Bullitt",
+   "answer": "STEVE MCQUEEN"
+  },
+  {
+   "id": "p048",
+   "category": "Actor",
+   "clue": "Played Moses in The Ten Commandments and the hero of Ben-Hur",
+   "answer": "CHARLTON HESTON"
+  },
+  {
+   "id": "p049",
+   "category": "Actor",
+   "clue": "Spartacus star with a famous dimpled chin",
+   "answer": "KIRK DOUGLAS"
+  },
+  {
+   "id": "p050",
+   "category": "Actor",
+   "clue": "Danced on screen with Ginger Rogers",
+   "answer": "FRED ASTAIRE"
+  },
+  {
+   "id": "p051",
+   "category": "Actor",
+   "clue": "Starred in All About Eve and Whatever Happened to Baby Jane?",
+   "answer": "BETTE DAVIS"
+  },
+  {
+   "id": "p052",
+   "category": "Actor",
+   "clue": "Played the Sundance Kid and founded the Sundance Institute",
+   "answer": "ROBERT REDFORD"
+  },
+  {
+   "id": "p053",
+   "category": "Actor",
+   "clue": "Starred in Cool Hand Luke and The Sting",
+   "answer": "PAUL NEWMAN"
+  },
+  {
+   "id": "p054",
+   "category": "Actor",
+   "clue": "Played Captain Dallas in Alien and Viper in Top Gun",
+   "answer": "TOM SKERRITT"
+  },
+  {
+   "id": "p055",
+   "category": "Actor",
+   "clue": "Played Captain Jean-Luc Picard on Star Trek: The Next Generation",
+   "answer": "PATRICK STEWART"
+  },
+  {
+   "id": "p056",
+   "category": "Actor",
+   "clue": "Played Indiana Jones and Han Solo",
+   "answer": "HARRISON FORD"
+  },
+  {
+   "id": "p057",
+   "category": "Actor",
+   "clue": "Starred in Rocky and Rambo",
+   "answer": "SYLVESTER STALLONE"
+  },
+  {
+   "id": "p058",
+   "category": "Actor",
+   "clue": "Played the one-eyed Rooster Cogburn in True Grit, 1969",
+   "answer": "JOHN WAYNE"
+  },
+  {
+   "id": "p059",
+   "category": "Actor",
+   "clue": "Starred in Dirty Harry and directed himself in Unforgiven",
+   "answer": "CLINT EASTWOOD"
+  },
+  {
+   "id": "p060",
+   "category": "Actor",
+   "clue": "Starred as Dorothy in The Wizard of Oz",
+   "answer": "JUDY GARLAND"
+  },
+  {
+   "id": "p061",
+   "category": "Famous Quote",
+   "clue": "Casablanca, 1942",
+   "answer": "HERE'S LOOKING AT YOU, KID"
+  },
+  {
+   "id": "p062",
+   "category": "Famous Quote",
+   "clue": "The Terminator, 1984",
+   "answer": "I'LL BE BACK"
+  },
+  {
+   "id": "p063",
+   "category": "Famous Quote",
+   "clue": "Gone with the Wind, 1939",
+   "answer": "FRANKLY, MY DEAR, I DON'T GIVE A DAMN"
+  },
+  {
+   "id": "p064",
+   "category": "Famous Quote",
+   "clue": "The Wizard of Oz, 1939",
+   "answer": "THERE'S NO PLACE LIKE HOME"
+  },
+  {
+   "id": "p065",
+   "category": "Famous Quote",
+   "clue": "Jerry Maguire, 1996",
+   "answer": "SHOW ME THE MONEY"
+  },
+  {
+   "id": "p066",
+   "category": "Famous Quote",
+   "clue": "The Godfather, 1972",
+   "answer": "I'M GONNA MAKE HIM AN OFFER HE CAN'T REFUSE"
+  },
+  {
+   "id": "p067",
+   "category": "Famous Quote",
+   "clue": "Sudden Impact, 1983",
+   "answer": "GO AHEAD, MAKE MY DAY"
+  },
+  {
+   "id": "p068",
+   "category": "Famous Quote",
+   "clue": "The Shining, 1980",
+   "answer": "HERE'S JOHNNY"
+  },
+  {
+   "id": "p069",
+   "category": "Famous Quote",
+   "clue": "Dirty Dancing, 1987",
+   "answer": "NOBODY PUTS BABY IN A CORNER"
+  },
+  {
+   "id": "p070",
+   "category": "Famous Quote",
+   "clue": "A Few Good Men, 1992",
+   "answer": "YOU CAN'T HANDLE THE TRUTH"
+  },
+  {
+   "id": "p071",
+   "category": "Famous Quote",
+   "clue": "Casablanca, 1942, spoken by Captain Renault",
+   "answer": "ROUND UP THE USUAL SUSPECTS"
+  },
+  {
+   "id": "p072",
+   "category": "Famous Quote",
+   "clue": "Star Wars, 1977",
+   "answer": "MAY THE FORCE BE WITH YOU"
+  },
+  {
+   "id": "p073",
+   "category": "Famous Quote",
+   "clue": "Taxi Driver, 1976",
+   "answer": "YOU TALKING TO ME"
+  }
+ ]
+}

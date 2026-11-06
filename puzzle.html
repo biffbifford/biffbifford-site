@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movie Puzzle | BiffBifford</title>
+<meta name="description" content="Spin the wheel, pick a letter and solve the movie puzzle. A Wheel-of-Fortune-style game for classic film fans.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BiffBifford Movie Puzzle">
+<meta property="og:description" content="Spin, pick a letter, solve the movie puzzle.">
+<meta property="og:url" content="https://biffbifford.com/puzzle.html">
+<meta property="og:image" content="https://biffbifford.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://biffbifford.com/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#15120D;--soft:#1D1811;--cream:#EDE3CC;--gold:#C9A036;--gold-dim:#8A6F27;--rust:#8C3B2E;--rust-hi:#C4604D;--steel:#cfc6af;--good:#7FBF8A;--line:rgba(237,227,204,.16)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a2116 0,var(--ink) 65%);color:var(--cream);font-family:"Work Sans",system-ui,sans-serif;font-size:18px;line-height:1.55;min-height:100vh;-webkit-tap-highlight-color:transparent}
+a{color:var(--gold)}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:baseline;padding:14px 0}
+.top a{color:var(--cream);text-decoration:none;font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:1.35rem;padding:10px 0;display:inline-block}
+.top span{font-family:"Space Mono",monospace;font-size:1rem;color:var(--steel)}
+h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2rem,7vw,3rem);line-height:1.08;margin:10px 0 6px}
+.lead{color:var(--steel);font-size:1.15rem;margin:0 0 18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;font:inherit;font-weight:600;font-size:1.1rem;color:var(--ink);background:var(--gold);border:0;border-radius:6px;padding:12px 24px;min-height:54px;text-decoration:none}
+.btn:hover:not(:disabled){background:#dcb64a}
+.btn:disabled{opacity:.4;cursor:default}
+.btn.alt{background:transparent;color:var(--cream);border:1px solid var(--gold-dim)}
+.btn.alt:hover:not(:disabled){border-color:var(--gold)}
+.row{display:flex;flex-wrap:wrap;gap:10px}
+.center{text-align:center}.center .row{justify-content:center}
+.panel{background:var(--soft);border:1px solid var(--line);border-top:4px solid var(--gold);padding:22px;margin-top:18px;border-radius:2px}
+.panel h2{font-family:"Fraunces",Georgia,serif;margin:0 0 8px;font-size:1.5rem}
+.panel ol{margin:8px 0 18px;padding-left:1.3em}.panel li{margin:6px 0}
+[hidden]{display:none!important}
+/* scoreboard */
+.hud{display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:"Space Mono",monospace;font-size:1rem;margin:4px 0 12px;flex-wrap:wrap}
+.hud b{color:var(--gold)}
+.hearts{font-size:1.4rem;letter-spacing:2px;min-width:7.5em}
+.hearts .gone{opacity:.25;filter:grayscale(1)}
+/* board */
+.board-wrap{background:#0d2b1d;border:6px solid var(--gold-dim);border-radius:10px;padding:14px 8px;box-shadow:inset 0 0 40px rgba(0,0,0,.55),0 8px 28px rgba(0,0,0,.45)}
+.board{--g:4px;display:flex;flex-direction:column;gap:var(--g);align-items:center;min-height:60px}
+.brow{display:flex;gap:var(--g);justify-content:center;width:100%}
+.t{flex:0 0 auto;width:var(--tw);height:calc(var(--tw)*1.3);display:flex;align-items:center;justify-content:center;font-family:"Fraunces",Georgia,serif;font-weight:700;border-radius:3px;font-size:var(--fs)}
+.t.slot{background:#f4f1e6;color:transparent;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18);border:1px solid #c8c3ae;transition:transform .35s}
+.t.slot.on{color:var(--ink);background:#fff;animation:flip .5s}
+.t.slot.reveal{color:#8C3B2E}
+.t.punc{color:#f4f1e6}
+.t.gap{visibility:hidden}
+@keyframes flip{0%{transform:rotateX(90deg)}100%{transform:rotateX(0)}}
+@media (prefers-reduced-motion:reduce){.t.slot.on{animation:none}}
+.cat{font-family:"Space Mono",monospace;color:var(--gold);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;margin:10px 0 0}
+.clue{font-family:"Fraunces",Georgia,serif;font-size:clamp(1.1rem,4vw,1.45rem);line-height:1.25;margin:0}
+.sticky{position:sticky;top:0;z-index:5;background:linear-gradient(#15120D 94%,rgba(21,18,13,0));padding:6px 0 8px;margin:0 -16px;padding-left:16px;padding-right:16px}
+@media(max-height:620px){.sticky{position:static}}
+.cat{margin-top:10px}
+.msg{min-height:2.7em;font-size:1.1rem;font-weight:500;margin:6px 0 0;line-height:1.35}
+.msg.good{color:var(--good)}.msg.bad{color:var(--rust-hi)}
+/* wheel */
+.stage{position:relative;width:min(72vw,300px);aspect-ratio:1;margin:10px auto 14px}
+.stage canvas{width:100%;height:100%;display:block;will-change:transform;transform:rotate(0rad)}
+.pin{position:absolute;top:-8px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:28px solid var(--rust-hi);filter:drop-shadow(0 2px 2px rgba(0,0,0,.6));z-index:2}
+/* keyboard */
+.kb{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin:14px 0}
+.k{font:inherit;font-weight:700;font-size:1.25rem;min-height:50px;border-radius:6px;cursor:pointer;color:var(--cream);background:rgba(237,227,204,.07);border:1px solid var(--gold-dim)}
+.k:disabled{cursor:default;opacity:.28}
+.k:hover:not(:disabled){background:rgba(201,160,54,.2);border-color:var(--gold)}
+.k.hit{background:rgba(127,191,138,.3);border-color:var(--good);opacity:1}
+.k.miss{background:rgba(196,96,77,.3);border-color:var(--rust-hi);opacity:.7}
+.k.v{font-style:italic}
+.k.live{border-color:var(--gold);box-shadow:0 0 0 2px rgba(201,160,54,.45)}
+.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.actions .btn{padding:10px 8px;font-size:1rem;line-height:1.2;flex-direction:column}
+.actions small{font-weight:400;font-size:.85rem}
+.solve{display:flex;gap:8px;margin-top:10px}
+.solve input{flex:1;min-width:0;font:inherit;font-size:1.1rem;padding:12px;min-height:54px;color:var(--ink);background:#fff;border:2px solid var(--gold);border-radius:6px;text-transform:uppercase}
+.snd{cursor:pointer;font:inherit;font-size:1.05rem;color:var(--steel);background:none;border:0;padding:12px 8px;min-height:54px;text-decoration:underline}
+.final{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,9vw,3.4rem);color:var(--gold);line-height:1}
+.fine{color:var(--steel);font-size:1rem;margin-top:26px}
+.fine a{display:inline-block;padding:10px 4px}
+</style>
+<script src="/alert.js" defer></script>
+<script src="/theme.js" defer></script>
+<script src="/newsletter.js" defer></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7809888324609473" crossorigin="anonymous"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-C83YWVSKPR"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-C83YWVSKPR");</script>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><a href="index.html">BiffBifford</a><span>Movie Puzzle</span></div>
+
+<section id="intro">
+ <h1>Movie Puzzle</h1>
+ <p class="lead">Spin the wheel, pick a letter, and solve the movie puzzle. Five puzzles a game.</p>
+ <div class="panel">
+  <h2>How to play</h2>
+  <ol>
+   <li><b>Spin</b> the wheel. Pick a consonant to earn that dollar amount for every time it appears.</li>
+   <li><b>Buy a vowel</b> for $250 when you need one.</li>
+   <li>When you know the answer, press <b>Solve</b> and type it in.</li>
+   <li>You have six hearts. A letter that is not in the puzzle costs one. <b>Bankrupt</b> wipes out that puzzle's cash.</li>
+  </ol>
+  <button class="btn" id="start">Start the game</button>
+ </div>
+</section>
+
+<section id="game" hidden>
+<div class="sticky">
+ <div class="hud"><span>Puzzle <b id="pn">1</b> of 5</span><span class="hearts" id="hearts" aria-label="Hearts left"></span></div>
+ <div class="hud"><span>This puzzle <b id="rc">$0</b></span><span>Total <b id="tot">$0</b></span></div>
+ <div class="board-wrap"><div class="board" id="board" role="img" aria-label="Puzzle board"></div></div>
+ <div class="cat" id="cat"></div>
+ <p class="clue" id="clue"></p>
+ <div class="msg" id="msg" role="status" aria-live="polite"></div>
+</div>
+
+ <div class="stage"><div class="pin" aria-hidden="true"></div><canvas id="cv" width="640" height="640" aria-hidden="true"></canvas></div>
+
+ <div class="actions">
+  <button class="btn" id="spin">Spin</button>
+  <button class="btn alt" id="buy">Buy a vowel<small>$250</small></button>
+  <button class="btn alt" id="solve">Solve</button>
+ </div>
+ <form class="solve" id="sf" hidden autocomplete="off">
+  <input id="guess" type="text" inputmode="text" autocapitalize="characters" autocomplete="off" spellcheck="false" aria-label="Type your answer" placeholder="Type the answer">
+  <button class="btn" type="submit">Submit</button>
+ </form>
+
+ <div class="kb" id="kb" aria-label="Letters"></div>
+ <div class="center"><button class="snd" id="snd" aria-pressed="true">Sound: on</button></div>
+
+ <div class="panel center" id="next" hidden>
+  <h2 id="nt"></h2><p id="nm"></p>
+  <div class="row"><button class="btn" id="go">Next puzzle</button></div>
+ </div>
+</section>
+
+<section id="end" class="panel center" hidden>
+ <h2>Game over</h2>
+ <div class="final" id="fs">$0</div>
+ <p id="fm"></p>
+ <div class="row"><a class="btn" id="fx" target="_blank" rel="noopener" href="#">Share to X</a><button class="btn alt" id="again">Play again</button></div>
+</section>
+
+<p class="fine">Hungry for more? <a href="challenge.html">Daily Challenge</a> · <a href="wheel.html">Trivia Wheel</a> · <a href="quiz.html">Quiz</a> · <a href="arcade.html">Arcade</a></p>
+</div>
+
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+var VOW="AEIOU",ALPHA="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var WEDGES=[{t:"$300",v:300},{t:"$500",v:500},{t:"BANKRUPT",bk:1},{t:"$250",v:250},{t:"$700",v:700},{t:"$400",v:400},{t:"FREE VOWEL",fv:1},{t:"$600",v:600},{t:"$350",v:350},{t:"$900",v:900},{t:"$200",v:200},{t:"$450",v:450}];
+var COL=["#8C3B2E","#C9A036","#4a3a28","#7a5a2a","#000","#a88628","#3b2e20","#9a4a38","#6b2f25","#b8932f","#34281b","#8a4030"];
+var ROUNDS=5,LIVES=6,VOWEL_COST=250,SOLVE_BONUS=500;
+var BEST_KEY="bb_puzzle_best_v1",SEEN_KEY="bb_seen_puzzles_v1";
+
+/* ---------- sound ---------- */
+var AC=null,soundOn=true;
+try{soundOn=localStorage.getItem("bb_wheel_sound")!=="off"}catch(e){}
+function audioInit(){try{if(!AC){var C=window.AudioContext||window.webkitAudioContext;if(C)AC=new C()}if(AC&&AC.state==="suspended")AC.resume()}catch(e){}}
+function tone(type,f0,f1,vol,dur,delay){
+ if(!soundOn||!AC)return;
+ try{var t=AC.currentTime+(delay||0),o=AC.createOscillator(),g=AC.createGain();
+  o.type=type;o.frequency.setValueAtTime(f0,t);if(f1!==f0)o.frequency.exponentialRampToValueAtTime(f1,t+dur*.8);
+  g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(vol,t+.01);g.gain.exponentialRampToValueAtTime(0.0001,t+dur);
+  o.connect(g);g.connect(AC.destination);o.start(t);o.stop(t+dur+.02)}catch(e){}
+}
+function tick(p){tone("triangle",230+90*(1-p),(230+90*(1-p))*.55,.22+.2*(1-p),.09)}
+function ding(){tone("sine",880,880,.3,.35);tone("sine",1320,1320,.22,.4,.12)}
+function buzz(){tone("sawtooth",150,90,.2,.4)}
+function fanfare(){[523,659,784,1047].forEach(function(f,i){tone("triangle",f,f,.28,.3,i*.13)})}
+function sndLabel(){var b=$("snd");b.textContent="Sound: "+(soundOn?"on":"off");b.setAttribute("aria-pressed",soundOn)}
+$("snd").onclick=function(){soundOn=!soundOn;try{localStorage.setItem("bb_wheel_sound",soundOn?"on":"off")}catch(e){}if(soundOn){audioInit();ding()}sndLabel()};
+sndLabel();
+
+/* ---------- helpers ---------- */
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function money(n){return "$"+n.toLocaleString("en-US")}
+function seenLoad(){try{var a=JSON.parse(localStorage.getItem(SEEN_KEY)||"[]");return Array.isArray(a)?a:[]}catch(e){return[]}}
+function seenAdd(id){try{var a=seenLoad().filter(function(x){return x!==id});a.push(id);localStorage.setItem(SEEN_KEY,JSON.stringify(a.slice(-300)))}catch(e){}}
+function bestGet(){try{return parseInt(localStorage.getItem(BEST_KEY)||"0",10)||0}catch(e){return 0}}
+function bestSet(n){try{localStorage.setItem(BEST_KEY,String(n))}catch(e){}}
+function norm(s){s=String(s).toUpperCase().replace(/&/g,"AND").replace(/[^A-Z0-9]/g,"");return s.replace(/^THE/,"")}
+
+/* ---------- state ---------- */
+var P=[],G=null;
+function pickPuzzles(){
+ var seen=seenLoad(),cnt={};
+ var pool=P.map(function(p){var i=seen.indexOf(p.id);return[p,(i<0?0:1.5+i/Math.max(1,seen.length))+Math.random()*1.1]}).sort(function(a,b){return a[1]-b[1]});
+ var out=[],used={};
+ pool.forEach(function(x){var p=x[0];if(out.length>=ROUNDS)return;if((cnt[p.category]||0)>=2)return;if(used[p.answer])return;cnt[p.category]=(cnt[p.category]||0)+1;used[p.answer]=1;out.push(p)});
+ pool.forEach(function(x){if(out.length<ROUNDS&&out.indexOf(x[0])<0&&!used[x[0].answer]){out.push(x[0]);used[x[0].answer]=1}});
+ return out;
+}
+function newGame(){
+ G={puzzles:pickPuzzles(),round:0,total:0,cash:0,lives:LIVES,guessed:{},phase:"idle",val:0,free:false,over:false,wins:0};
+ $("intro").hidden=true;$("end").hidden=true;$("game").hidden=false;
+ startRound();
+}
+function layout(ans){
+ /* returns {cols, rows:[ [chars] ]} choosing the narrowest layout that fits in 5 rows */
+ var words=ans.split(" "),longest=Math.max.apply(null,words.map(function(w){return w.length}));
+ var minC=matchMedia("(max-width:560px)").matches?10:12;
+ for(var c=Math.max(longest,minC);c<=16;c++){
+  var rows=[],cur="";
+  words.forEach(function(w){if(!cur)cur=w;else if((cur+" "+w).length<=c)cur+=" "+w;else{rows.push(cur);cur=w}});
+  if(cur)rows.push(cur);
+  if(rows.length<=5||c===16)return{cols:c,rows:rows};
+ }
+}
+function startRound(){
+ var p=G.puzzles[G.round];seenAdd(p.id);
+ G.puz=p;G.cash=0;G.lives=LIVES;G.guessed={};G.phase="idle";G.free=false;
+ G.lay=layout(p.answer);
+ $("next").hidden=true;$("sf").hidden=true;
+ $("cat").textContent=p.category;$("clue").textContent=p.clue;
+ buildBoard();buildKb();hud();
+ say("Spin the wheel to begin.","");setPhase("idle");
+}
+function buildBoard(){
+ var b=$("board"),L=G.lay,W=b.parentNode.clientWidth-16||320,gap=4;
+ var tw=Math.min(54,Math.floor((W-(L.cols-1)*gap)/L.cols));
+ b.style.setProperty("--tw",tw+"px");b.style.setProperty("--fs",Math.round(tw*.7)+"px");
+ b.innerHTML="";
+ L.rows.forEach(function(r){
+  var d=document.createElement("div");d.className="brow";
+  for(var i=0;i<r.length;i++){
+   var ch=r[i],s=document.createElement("span");
+   if(ch===" "){s.className="t gap"}
+   else if(/[A-Z]/.test(ch)){s.className="t slot";s.dataset.l=ch;s.textContent=ch}
+   else{s.className="t punc";s.textContent=ch}
+   d.appendChild(s);
+  }
+  b.appendChild(d);
+ });
+ aria();
+}
+function aria(){
+ var out=G.puz.answer.split("").map(function(c){return /[A-Z]/.test(c)?(G.guessed[c]?c:"blank"):c}).join(" ");
+ $("board").setAttribute("aria-label","Puzzle: "+out);
+}
+function buildKb(){
+ var k=$("kb");k.innerHTML="";
+ ALPHA.split("").forEach(function(l){
+  var b=document.createElement("button");b.type="button";b.className="k"+(VOW.indexOf(l)>=0?" v":"");b.textContent=l;b.dataset.l=l;
+  b.onclick=function(){pick(l)};k.appendChild(b);
+ });
+}
+function hud(){
+ $("pn").textContent=G.round+1;$("rc").textContent=money(G.cash);$("tot").textContent=money(G.total);
+ var h="";for(var i=0;i<LIVES;i++)h+='<span'+(i>=G.lives?' class="gone"':'')+'>❤</span>';
+ $("hearts").innerHTML=h;$("hearts").setAttribute("aria-label",G.lives+" hearts left");
+}
+function say(t,cls){var m=$("msg");m.textContent=t;m.className="msg "+(cls||"")}
+function unguessed(isV){return ALPHA.split("").filter(function(l){return (VOW.indexOf(l)>=0)===isV&&!G.guessed[l]})}
+function inPuzzle(l){return G.puz.answer.indexOf(l)>=0}
+function setPhase(p){
+ G.phase=p;
+ var idle=p==="idle";
+ $("spin").disabled=!idle||unguessed(false).filter(inPuzzle).length===0;
+ $("buy").disabled=!idle||G.cash<VOWEL_COST||unguessed(true).filter(inPuzzle).length===0;
+ $("solve").disabled=!(idle||p==="solve")||G.over;
+ var keys=$("kb").children;
+ for(var i=0;i<keys.length;i++){
+  var b=keys[i],l=b.dataset.l,isV=VOW.indexOf(l)>=0,g=G.guessed[l];
+  b.classList.toggle("hit",!!g&&inPuzzle(l));b.classList.toggle("miss",!!g&&!inPuzzle(l));
+  var live=!g&&((p==="consonant"&&!isV)||(p==="vowel"&&isV));
+  b.disabled=!live;b.classList.toggle("live",live);
+ }
+}
+
+/* ---------- wheel ---------- */
+var cv=$("cv"),ctx=cv.getContext("2d"),S=cv.width,R=S/2,ang=0,spinning=false;
+function drawWheel(){
+ ctx.clearRect(0,0,S,S);var n=WEDGES.length,a=2*Math.PI/n;
+ ctx.save();ctx.translate(R,R);
+ for(var i=0;i<n;i++){
+  ctx.beginPath();ctx.moveTo(0,0);ctx.arc(0,0,R-8,i*a-Math.PI/2-a/2,i*a-Math.PI/2+a/2);ctx.closePath();
+  ctx.fillStyle=WEDGES[i].fv?"#3f7a4b":COL[i%COL.length];ctx.fill();ctx.strokeStyle="#15120D";ctx.lineWidth=4;ctx.stroke();
+  ctx.save();ctx.rotate(i*a);ctx.fillStyle="#EDE3CC";ctx.textAlign="center";ctx.textBaseline="middle";
+  var lines=WEDGES[i].t.split(" "),fs=lines.length>1||WEDGES[i].bk?30:40;
+  ctx.font="700 "+fs+"px Fraunces,Georgia,serif";
+  var y=-R*0.66;
+  lines.forEach(function(ln,k){ctx.fillText(ln,0,y+k*(fs+2)-(lines.length-1)*(fs+2)/2,R*0.34)});
+  ctx.restore();
+ }
+ ctx.restore();
+ ctx.beginPath();ctx.arc(R,R,R-6,0,7);ctx.lineWidth=8;ctx.strokeStyle="#C9A036";ctx.stroke();
+ ctx.beginPath();ctx.arc(R,R,30,0,7);ctx.fillStyle="#15120D";ctx.fill();ctx.lineWidth=5;ctx.stroke();
+}
+function spin(){
+ if(spinning||G.phase!=="idle")return;audioInit();spinning=true;
+ ["spin","buy","solve"].forEach(function(i){$(i).disabled=true});
+ say("Spinning…","");
+ var n=WEDGES.length,a=2*Math.PI/n,idx=Math.floor(Math.random()*n);
+ var target=-idx*a+(Math.random()-.5)*a*.7;
+ var cur=((ang%(2*Math.PI))+2*Math.PI)%(2*Math.PI);
+ var turns=reduce?2:5+Math.floor(Math.random()*3);
+ var delta=((target-cur)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)+2*Math.PI*turns;
+ var start=ang,t0=0,dur=reduce?2000:5000,lastK=Math.floor((ang+a/2)/a);
+ function step(t){
+  if(!t0)t0=t;
+  var p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,3);
+  ang=start+delta*e;cv.style.transform="rotate("+ang+"rad)";
+  var k=Math.floor((ang+a/2)/a);if(k!==lastK){lastK=k;tick(p)}
+  if(p<1)requestAnimationFrame(step);else{spinning=false;tone("triangle",120,120,.4,.15);land(WEDGES[idx])}
+ }
+ requestAnimationFrame(step);
+}
+function land(w){
+ if(w.bk){
+  buzz();G.cash=0;hud();say("BANKRUPT! You lose the cash for this puzzle.","bad");setPhase("idle");return;
+ }
+ if(w.fv){
+  if(unguessed(true).filter(inPuzzle).length===0){say("FREE VOWEL, but every vowel is already showing. Spin again!","");ding();setPhase("idle");return}
+  ding();G.free=true;G.val=0;say("FREE VOWEL! Pick any vowel. It costs nothing.","good");setPhase("vowel");return;
+ }
+ ding();G.val=w.v;G.free=false;say("You landed on "+money(w.v)+". Pick a consonant.","good");setPhase("consonant");
+}
+
+/* ---------- letters ---------- */
+function pick(l){
+ if(G.phase!=="consonant"&&G.phase!=="vowel")return;
+ var wasV=G.phase==="vowel",n=0;
+ G.guessed[l]=1;
+ G.puz.answer.split("").forEach(function(c){if(c===l)n++});
+ if(n>0){
+  var tiles=$("board").querySelectorAll('.slot[data-l="'+l+'"]');
+  tiles.forEach(function(t,i){setTimeout(function(){t.classList.add("on");ding()},reduce?0:i*220)});
+  if(wasV){say(n>1?"Yes! There are "+n+" "+l+"s.":"Yes! There is one "+l+".","good")}
+  else{var gain=G.val*n;G.cash+=gain;say(n>1?"Yes! "+n+" "+l+"s. You earn "+money(gain)+".":"Yes! One "+l+". You earn "+money(gain)+".","good")}
+ }else{
+  buzz();G.lives--;
+  say("Sorry, no "+l+". You lose a heart.","bad");
+ }
+ G.free=false;aria();hud();
+ var done=G.puz.answer.split("").every(function(c){return !/[A-Z]/.test(c)||G.guessed[c]});
+ if(done){setTimeout(function(){win(false)},reduce?100:(n*220+400));setPhase("idle");lockAll();return}
+ if(G.lives<=0){lose();return}
+ setPhase("idle");
+}
+function lockAll(){["spin","buy","solve"].forEach(function(i){$(i).disabled=true});var k=$("kb").children;for(var i=0;i<k.length;i++)k[i].disabled=true}
+$("spin").onclick=spin;
+$("buy").onclick=function(){
+ if(G.phase!=="idle"||G.cash<VOWEL_COST)return;audioInit();
+ G.cash-=VOWEL_COST;hud();say("Vowel bought for "+money(VOWEL_COST)+". Pick a vowel.","");setPhase("vowel");
+};
+$("solve").onclick=function(){
+ if($("sf").hidden){$("sf").hidden=false;$("guess").value="";$("guess").focus();setPhase("solve");say("Type the answer and press Submit.","");lockKb()}
+ else{$("sf").hidden=true;say("Back to the board.","");setPhase("idle")}
+};
+function lockKb(){$("spin").disabled=true;$("buy").disabled=true;var k=$("kb").children;for(var i=0;i<k.length;i++){k[i].disabled=true;k[i].classList.remove("live")}}
+$("sf").onsubmit=function(e){
+ e.preventDefault();
+ var v=$("guess").value;if(!v.trim())return;
+ if(norm(v)===norm(G.puz.answer)){$("sf").hidden=true;win(true)}
+ else{
+  buzz();G.lives--;hud();$("guess").value="";
+  if(G.lives<=0){$("sf").hidden=true;lose();return}
+  say("Not quite. You lose a heart. Try again or go back to the board.","bad");
+ }
+};
+
+/* ---------- round end ---------- */
+function reveal(){
+ $("board").querySelectorAll(".slot").forEach(function(t){if(!t.classList.contains("on")){t.classList.add("on","reveal")}});
+ G.guessed={};ALPHA.split("").forEach(function(l){G.guessed[l]=1});aria();
+}
+function win(solved){
+ G.over=true;lockAll();reveal();fanfare();
+ var gain=G.cash+SOLVE_BONUS;G.total+=gain;G.wins++;hud();
+ say("","");
+ endRound("You solved it!","The answer: "+G.puz.answer+". You bank "+money(G.cash)+" plus a "+money(SOLVE_BONUS)+" bonus.");
+}
+function lose(){
+ G.over=true;lockAll();reveal();buzz();hud();
+ endRound("Out of hearts.","The answer was: "+G.puz.answer+". No cash banked on this one.");
+}
+function endRound(t,m){
+ $("nt").textContent=t;$("nm").textContent=m;
+ var last=G.round>=ROUNDS-1;
+ $("go").textContent=last?"See my score":"Next puzzle";
+ $("next").hidden=false;$("sf").hidden=true;
+ $("next").scrollIntoView({behavior:reduce?"auto":"smooth",block:"nearest"});
+}
+$("go").onclick=function(){
+ G.over=false;
+ if(G.round>=ROUNDS-1){finish();return}
+ G.round++;startRound();
+ window.scrollTo({top:0,behavior:reduce?"auto":"smooth"});
+};
+function finish(){
+ $("game").hidden=true;$("end").hidden=false;
+ var best=bestGet(),isBest=G.total>best;if(isBest)bestSet(G.total);
+ $("fs").textContent=money(G.total);
+ $("fm").textContent=G.wins+" of "+ROUNDS+" puzzles solved. "+(isBest&&G.total>0?"That's a new personal best!":"Your best is "+money(Math.max(best,G.total))+".");
+ var text="🎬 I scored "+money(G.total)+" on the BiffBifford Movie Puzzle ("+G.wins+" of "+ROUNDS+" solved). Can you beat it?";
+ $("fx").href="https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://biffbifford.com/puzzle.html");
+ window.scrollTo(0,0);
+}
+$("again").onclick=function(){newGame()};
+$("start").onclick=function(){audioInit();newGame()};
+
+/* ---------- boot ---------- */
+drawWheel();
+$("start").disabled=true;
+fetch("data/puzzles.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).then(function(d){
+ P=(d&&d.puzzles)||[];
+ if(P.length>=ROUNDS)$("start").disabled=false;else $("start").textContent="Puzzles are loading… try again soon";
+}).catch(function(){$("start").textContent="Couldn't load the puzzles. Refresh the page."});
+var rz;window.addEventListener("resize",function(){clearTimeout(rz);rz=setTimeout(function(){if(G&&!$("game").hidden){var on={};$("board").querySelectorAll(".slot.on").forEach(function(t){on[t.dataset.l]=1});G.lay=layout(G.puz.answer);buildBoard();$("board").querySelectorAll(".slot").forEach(function(t){if(G.over||on[t.dataset.l])t.classList.add("on")})}},200)});
+})();
+</script>
+</body>
+</html>
