@@ -12,9 +12,12 @@ body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a2116 0,var(--ink) 6
 a{color:var(--gold)}
 a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .wrap{max-width:42rem;margin:0 auto;padding:0 20px 64px}
-.top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;flex-wrap:wrap;gap:6px}
+.top{display:flex;flex-direction:column;padding:10px 0 0}
 .top a{color:var(--cream);text-decoration:none;font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:1.35rem;padding:10px 0;display:inline-block}
-.top nav a{font-family:"Work Sans",sans-serif;font-weight:500;font-size:1.05rem;margin-left:18px;color:var(--steel)}
+.top nav{display:flex;overflow-x:auto;gap:2px;margin:2px -20px 0;padding:0 14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{flex:0 0 auto;display:inline-flex;align-items:center;min-height:50px;padding:0 14px;font-family:"Work Sans",sans-serif;font-weight:500;font-size:1.05rem;color:var(--steel)}
+.top nav a:hover{color:var(--gold)}
 .kicker{font-family:"Space Mono",monospace;font-size:1rem;color:var(--gold);margin:26px 0 0}
 h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2.1rem,6.5vw,3.2rem);line-height:1.1;margin:8px 0 12px}
 article h2{font-family:"Fraunces",Georgia,serif;font-size:1.7rem;line-height:1.2;margin:2.2em 0 .4em;color:var(--gold)}
@@ -27,17 +30,19 @@ article li{margin-bottom:.8em}
 .btn:hover{background:#dcb64a}
 .btn.alt{background:transparent;color:var(--cream);border:1px solid var(--gold-dim)}
 .row{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}
-.card{display:block;background:var(--soft);border:1px solid var(--line);border-left:4px solid var(--gold);padding:22px 24px;margin:0 0 18px;text-decoration:none;color:var(--cream)}
-.card:hover{border-color:var(--gold-dim);border-left-color:var(--gold)}
+.card{position:relative;display:block;background:linear-gradient(180deg,#241d13,#1b1610);border:1px solid var(--gold-dim);border-radius:6px;padding:22px 26px;margin:0 0 18px;text-decoration:none;color:var(--cream);overflow:hidden;transition:transform .15s,border-color .15s}
+.card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.card:before,.card:after{content:"";position:absolute;top:50%;width:20px;height:20px;margin-top:-10px;border-radius:50%;background:var(--ink);border:1px solid var(--gold-dim)}
+.card:before{left:-11px}.card:after{right:-11px}
 .card h2{font-family:"Fraunces",Georgia,serif;font-size:1.6rem;line-height:1.2;margin:4px 0 8px;color:var(--cream)}
 .card p{margin:0;color:var(--steel);font-size:1.05rem;line-height:1.55}
 .card .meta{margin:0}
 .memorial{margin:22px 0 0;padding:12px 16px;border:1px solid var(--gold-dim);border-left:6px solid #000;background:#0b0907;color:var(--cream);font-family:"Space Mono",monospace;font-size:1rem;letter-spacing:.04em}
 .foot{border-top:1px solid var(--line);margin-top:48px;padding-top:20px;color:var(--steel);font-size:1rem}
 .foot a{display:inline-block;padding:8px 4px}
-@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script><script src="/newsletter.js" defer></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Critic Who Wrote Like a Friend Who Knew More Than You","datePublished":"2026-11-04","description":"Ann Hornaday, the longtime Washington Post film critic and Pulitzer finalist, has died at 66. She spent her career helping ordinary moviegoers see more in the films they loved.","author":{"@type":"Person","name":"Biff Bifford"},"mainEntityOfPage":"https://biffbifford.com/blog/ann-hornaday.html","image":"https://biffbifford.com/og-image.png"}</script>
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script><script src="/newsletter.js" defer></script><script src="/morenav.js" defer></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Critic Who Wrote Like a Friend Who Knew More Than You","datePublished":"2026-11-04","description":"Ann Hornaday, the longtime Washington Post film critic and Pulitzer finalist, has died at 66. She spent her career helping ordinary moviegoers see more in the films they loved.","author":{"@type":"Person","name":"Biff Bifford"},"mainEntityOfPage":"https://biffbifford.com/blog/ann-hornaday.html","image":"https://biffbifford.com/og-image.png"}</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7809888324609473" crossorigin="anonymous"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-C83YWVSKPR"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-C83YWVSKPR");</script></head><body><div class="wrap">
-<div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/challenge.html">Daily Challenge</a><a href="/quiz.html">Quiz</a></nav></div><p class="memorial">In memoriam · Ann Hornaday, 1960 to 2026</p><p class="kicker">Critics, Tributes</p><article><h1>The Critic Who Wrote Like a Friend Who Knew More Than You</h1><p class="meta">By Biff Bifford · November 4, 2026</p>
+<div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/puzzle.html">Movie Puzzle</a><a href="/challenge.html">Daily Challenge</a><a href="/wheel.html">Wheel</a><a href="/quiz.html">Quiz</a></nav></div><p class="memorial">In memoriam · Ann Hornaday, 1960 to 2026</p><p class="kicker">Critics, Tributes</p><article><h1>The Critic Who Wrote Like a Friend Who Knew More Than You</h1><p class="meta">By Biff Bifford · November 4, 2026</p>
 <p>Not everyone who shaped how we watch movies stood in front of a camera. Ann Hornaday spent her career telling us what she saw in them, and she never made us feel small for asking.</p>
 <p>She has died at 66. The Washington Post reported that she had glioblastoma, a form of brain cancer, according to her husband, Dennis Greenia.</p>
 <h2>A critic's road</h2>

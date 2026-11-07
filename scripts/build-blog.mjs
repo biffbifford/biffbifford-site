@@ -54,9 +54,12 @@ body{margin:0;background:radial-gradient(ellipse at 50% 0,#2a2116 0,var(--ink) 6
 a{color:var(--gold)}
 a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .wrap{max-width:42rem;margin:0 auto;padding:0 20px 64px}
-.top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;flex-wrap:wrap;gap:6px}
+.top{display:flex;flex-direction:column;padding:10px 0 0}
 .top a{color:var(--cream);text-decoration:none;font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:1.35rem;padding:10px 0;display:inline-block}
-.top nav a{font-family:"Work Sans",sans-serif;font-weight:500;font-size:1.05rem;margin-left:18px;color:var(--steel)}
+.top nav{display:flex;overflow-x:auto;gap:2px;margin:2px -20px 0;padding:0 14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.top nav::-webkit-scrollbar{display:none}
+.top nav a{flex:0 0 auto;display:inline-flex;align-items:center;min-height:50px;padding:0 14px;font-family:"Work Sans",sans-serif;font-weight:500;font-size:1.05rem;color:var(--steel)}
+.top nav a:hover{color:var(--gold)}
 .kicker{font-family:"Space Mono",monospace;font-size:1rem;color:var(--gold);margin:26px 0 0}
 h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2.1rem,6.5vw,3.2rem);line-height:1.1;margin:8px 0 12px}
 article h2{font-family:"Fraunces",Georgia,serif;font-size:1.7rem;line-height:1.2;margin:2.2em 0 .4em;color:var(--gold)}
@@ -69,8 +72,10 @@ article li{margin-bottom:.8em}
 .btn:hover{background:#dcb64a}
 .btn.alt{background:transparent;color:var(--cream);border:1px solid var(--gold-dim)}
 .row{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}
-.card{display:block;background:var(--soft);border:1px solid var(--line);border-left:4px solid var(--gold);padding:22px 24px;margin:0 0 18px;text-decoration:none;color:var(--cream)}
-.card:hover{border-color:var(--gold-dim);border-left-color:var(--gold)}
+.card{position:relative;display:block;background:linear-gradient(180deg,#241d13,#1b1610);border:1px solid var(--gold-dim);border-radius:6px;padding:22px 26px;margin:0 0 18px;text-decoration:none;color:var(--cream);overflow:hidden;transition:transform .15s,border-color .15s}
+.card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.card:before,.card:after{content:"";position:absolute;top:50%;width:20px;height:20px;margin-top:-10px;border-radius:50%;background:var(--ink);border:1px solid var(--gold-dim)}
+.card:before{left:-11px}.card:after{right:-11px}
 .card h2{font-family:"Fraunces",Georgia,serif;font-size:1.6rem;line-height:1.2;margin:4px 0 8px;color:var(--cream)}
 .card p{margin:0;color:var(--steel);font-size:1.05rem;line-height:1.55}
 .card .meta{margin:0}
@@ -87,9 +92,9 @@ const HEAD = (title, desc, url, extra = "") => `<!doctype html>
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}">
 <meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${SITE}/og-image.png">
 ${FONTS}
-<style>${CSS}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script><script src="/newsletter.js" defer></script>${extra}
+<style>${CSS}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script><script src="/newsletter.js" defer></script><script src="/morenav.js" defer></script>${extra}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7809888324609473" crossorigin="anonymous"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-C83YWVSKPR"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-C83YWVSKPR");</script></head><body><div class="wrap">
-<div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/challenge.html">Daily Challenge</a><a href="/quiz.html">Quiz</a></nav></div>`;
+<div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/puzzle.html">Movie Puzzle</a><a href="/challenge.html">Daily Challenge</a><a href="/wheel.html">Wheel</a><a href="/quiz.html">Quiz</a></nav></div>`;
 
 const FOOT = `<div class="foot"><a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a><br>Follow along: <a href="https://x.com/TBifford" target="_blank" rel="noopener">@TBifford on X</a> · <a href="https://www.tiktok.com/@biffbifford" target="_blank" rel="noopener">TikTok</a> · <a href="https://t.me/biffbifford" target="_blank" rel="noopener">Telegram</a> · <a href="/index.html">Home</a></div>
 </div></body></html>`;
