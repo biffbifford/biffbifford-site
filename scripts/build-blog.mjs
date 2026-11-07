@@ -2,8 +2,8 @@
 //
 // Turns the markdown files in blog/posts/ into web pages.
 //   node scripts/build-blog.mjs
-// Writes: blog/index.html, blog/<slug>.html, data/blog.json, and the blog
-// entries in sitemap.xml. No dependencies.
+// Writes: blog/index.html, blog/<slug>.html, data/blog.json, and sitemap.xml.
+// No dependencies.
 
 import { readFile, writeFile, readdir } from "fs/promises";
 
@@ -125,9 +125,42 @@ await writeFile("memoriam.html", memHtml);
 
 await writeFile("data/blog.json", JSON.stringify({ posts: posts.map((p) => ({ title: p.title, slug: p.slug, date: p.date, summary: p.summary, tags: p.tags || "", memorial: p.memorial || "" })) }, null, 1) + "\n");
 
-let sm = await readFile("sitemap.xml", "utf8");
-sm = sm.replace(/\s*<url>\s*<loc>https:\/\/biffbifford\.com\/(blog\/|memoriam\.html)[^<]*<\/loc>[\s\S]*?<\/url>/g, "");
-const urls = [`${SITE}/blog/`, ...(mem.length ? [`${SITE}/memoriam.html`] : []), ...posts.map((p) => `${SITE}/blog/${p.slug}.html`)];
-sm = sm.replace("</urlset>", urls.map((u) => `  <url>\n    <loc>${u}</loc>\n  </url>\n`).join("") + "</urlset>");
-await writeFile("sitemap.xml", sm);
-console.log(`Built ${posts.length} post(s).`);
+// Rewrite the whole sitemap from the HTML pages on disk, so a new home,
+// quiz, arcade, or story page is listed the next time this build runs.
+const SKIP_DIRS = new Set([".git", ".github", "data", "node_modules", "ops", "scripts"]);
+async function htmlPages(dir = ".") {
+  const out = [];
+  for (const e of await readdir(dir, { withFileTypes: true })) {
+    if (e.name.startsWith(".")) continue;
+    const rel = dir === "." ? e.name : `${dir}/${e.name}`;
+    if (e.isDirectory()) {
+      if (SKIP_DIRS.has(e.name) || rel === "blog/posts") continue;
+      out.push(...await htmlPages(rel));
+    } else if (e.name.endsWith(".html")) out.push(rel);
+  }
+  return out;
+}
+function pageUrl(rel) {
+  if (rel === "index.html") return `${SITE}/`;
+  if (rel.endsWith("/index.html")) return `${SITE}/${rel.slice(0, -"index.html".length)}`;
+  return `${SITE}/${rel}`;
+}
+function sitemapXml(files, posts) {
+  const preferred = ["index.html", "quiz.html", "arcade.html", "wheel.html", "challenge.html", "puzzle.html", "about.html", "contact.html", "privacy.html", "blog/index.html", "memoriam.html"];
+  const have = new Set(files);
+  const ordered = preferred.filter((f) => have.has(f));
+  const rest = files.filter((f) => !ordered.includes(f));
+  const dated = new Map(posts.map((p) => [`blog/${p.slug}.html`, p.date]));
+  const stories = rest.filter((f) => f.startsWith("blog/")).sort((a, b) => {
+    const da = dated.get(a) || "", db = dated.get(b) || "";
+    if (da !== db) return da < db ? 1 : -1;
+    return a < b ? -1 : 1;
+  });
+  const other = rest.filter((f) => !f.startsWith("blog/")).sort();
+  const urls = [...ordered, ...other, ...stories].map((f) => pageUrl(f));
+  const body = urls.map((u) => `  <url>\n    <loc>${esc(u)}</loc>\n  </url>`).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+}
+const pages = await htmlPages();
+await writeFile("sitemap.xml", sitemapXml(pages, posts));
+console.log(`Built ${posts.length} post(s); ${pages.length} pages in sitemap.xml.`);
