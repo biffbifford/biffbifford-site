@@ -238,6 +238,49 @@ body{font-size:18px}
 .feature-btn{margin-top:6px;}
 .feature-card.memorial{background:linear-gradient(135deg,#050403,#15120D);border-left-color:#000;border-color:var(--gold-dim);box-shadow:inset 0 6px 0 #000;}
 .feature-card.memorial .feature-kicker{color:var(--cream);}
+
+/* ---------- Home redesign: lobby with ticket stubs, phone nav ---------- */
+section,header.hero{scroll-margin-top:124px}
+#play{padding:40px 0 48px;background:radial-gradient(ellipse at 50% 0,rgba(201,160,54,.10),transparent 65%)}
+.play-grid{grid-template-columns:1fr 1fr;gap:18px}
+.tile{--n:var(--black);border:1px solid var(--gold-dim);border-left:1px solid var(--gold-dim);border-radius:6px;padding:24px 28px 22px;gap:8px;background:linear-gradient(180deg,#241d13,#1b1610);overflow:hidden;transition:transform .15s,border-color .15s}
+a.tile:hover{border-color:var(--gold);border-left-color:var(--gold);transform:translateY(-2px)}
+.tile::before,.tile::after{content:"";position:absolute;top:50%;width:22px;height:22px;margin-top:-11px;border-radius:50%;background:var(--n);border:1px solid var(--gold-dim)}
+.tile::before{left:-12px}.tile::after{right:-12px}
+.tile h3{font-size:1.55rem}
+.tile p{margin:0 0 4px}
+.tile .state{border-radius:20px;padding:4px 12px}
+.tile .go{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:4px;background:var(--gold);color:var(--black);font-weight:700;font-size:1.05rem}
+.tile.off .go{background:transparent;color:var(--gold);border:1px solid var(--gold-dim)}
+#tile-challenge{grid-column:1/-1;border-color:var(--gold);background:linear-gradient(135deg,#33270f,#1b1610 70%)}
+#tile-challenge h3{font-size:clamp(1.8rem,4.6vw,2.4rem)}
+#tile-challenge p{font-size:1.2rem;max-width:36em}
+.card-grid>*,.screening-grid>*,.play-grid>*{min-width:0}
+.title-card .post-text,.title-card h3,.title-card p{overflow-wrap:anywhere}
+#tile-wheel .state,#tile-quiz .state,#tile-arcade .state{display:none}
+.hero{padding:48px 0 52px}
+@media (max-width:1040px){
+ nav .wrap{height:auto;flex-wrap:wrap;position:relative;padding-top:10px;padding-bottom:0}
+ .navlinks{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;gap:2px;margin-top:6px;border-top:1px solid var(--steel-line);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+ .navlinks::-webkit-scrollbar{display:none}
+ .navlinks>a{display:inline-flex!important;flex:0 0 auto;align-items:center;min-height:48px;padding:0 14px;white-space:nowrap}
+ .navlinks>a[hidden]{display:none!important}
+ .navlinks .icon-links{position:absolute;right:20px;top:10px;margin:0;padding:0;border:0;gap:2px}
+ .navlinks .icon-links a{display:inline-flex!important;align-items:center;justify-content:center;width:44px;height:44px;padding:0}
+}
+@media (max-width:700px){
+ .play-grid{grid-template-columns:1fr}
+ #play{padding:28px 0 36px}
+ #play .section-head{margin-bottom:18px}
+ .tile{padding:20px 22px 18px}
+ section{padding:44px 0}
+ .hero{padding:34px 0 40px}
+ #feature{padding:16px 0 0}
+ .feature-card{padding:20px 20px 22px}
+ .feature-text{display:none}
+ .feature-title{font-size:clamp(1.6rem,7vw,2.1rem)}
+}
+@media (max-width:420px){.wrap{padding:0 18px}.navlinks .icon-links{right:12px}}
 </style>
 <script src="/alert.js" defer></script>
 <script src="/theme.js" defer></script><script src="/newsletter.js" defer></script>
@@ -282,6 +325,47 @@ body{font-size:18px}
       <span class="feature-meta" id="feature-meta"></span>
       <span class="btn btn-primary feature-btn">Read the story</span>
     </a>
+  </div>
+</section>
+
+<section id="play">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Play today</h2>
+      <p>Five games, and a new Daily Challenge every morning. Share your score on X and tag @TBifford.</p>
+    </div>
+    <div class="play-grid">
+      <a class="tile" id="tile-challenge" href="challenge.html">
+        <span class="state">New every day</span>
+        <h3>The Daily Challenge</h3>
+        <p>Five questions, the same for everyone, once a day. Build a streak, earn badges and share your result grid on X.</p>
+        <span class="go">Play today's challenge</span>
+      </a>
+      <a class="tile" id="tile-puzzle" href="puzzle.html">
+        <span class="state">New</span>
+        <h3>Movie Puzzle</h3>
+        <p>Spin the wheel, pick a letter and solve the movie puzzle. Titles, stars and famous quotes, with a clue.</p>
+        <span class="go">Play Movie Puzzle</span>
+      </a>
+      <a class="tile" id="tile-wheel" href="wheel.html">
+        <span class="state">Play now</span>
+        <h3>The Wheel</h3>
+        <p>Spin for a film, TV or music question, or let the Movie Night wheel pick a classic by decade.</p>
+        <span class="go">Spin the wheel</span>
+      </a>
+      <a class="tile off" id="tile-quiz" href="quiz.html" aria-disabled="true">
+        <span class="state" id="quiz-state">Opening soon</span>
+        <h3>The Gen-X Hollywood &amp; TV Quiz</h3>
+        <p>Ten questions in an old wood-grain TV. Get one right and the next gets harder. Bet your points on the last one.</p>
+        <span class="go">Take the quiz</span>
+      </a>
+      <a class="tile off" id="tile-arcade" href="arcade.html" aria-disabled="true">
+        <span class="state" id="arcade-state">Opening soon</span>
+        <h3>The Arcade</h3>
+        <p>Speed Round gives you 60 seconds to answer as many as you can. Sudden Death ends at your first miss.</p>
+        <span class="go">Enter the arcade</span>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -370,42 +454,6 @@ body{font-size:18px}
 <!--STORIES-END-->
     </div>
     <p style="margin-top:22px"><a class="btn btn-primary" href="blog/">All stories</a></p>
-  </div>
-</section>
-
-<section id="play">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Play</h2>
-      <p>Test your film and TV memory. Share your score on X and tag @TBifford.</p>
-    </div>
-    <div class="play-grid">
-      <a class="tile" id="tile-challenge" href="challenge.html">
-        <span class="state">New every day</span>
-        <h3>The Daily Challenge</h3>
-        <p>Five questions, the same for everyone, once a day. Build a streak, earn badges and share your result grid on X.</p>
-      </a>
-      <a class="tile off" id="tile-quiz" href="quiz.html" aria-disabled="true">
-        <span class="state" id="quiz-state">Opening soon</span>
-        <h3>The Gen-X Hollywood &amp; TV Quiz</h3>
-        <p>Ten questions in an old wood-grain TV. Get one right and the next gets harder. Bet your points on the last one.</p>
-      </a>
-      <a class="tile off" id="tile-arcade" href="arcade.html" aria-disabled="true">
-        <span class="state" id="arcade-state">Opening soon</span>
-        <h3>The Arcade</h3>
-        <p>Speed Round gives you 60 seconds to answer as many as you can. Sudden Death ends at your first miss.</p>
-      </a>
-      <a class="tile" id="tile-puzzle" href="puzzle.html">
-        <span class="state">New</span>
-        <h3>Movie Puzzle</h3>
-        <p>Spin the wheel, pick a letter and solve the movie puzzle. Titles, stars and famous quotes, with a clue.</p>
-      </a>
-      <a class="tile" id="tile-wheel" href="wheel.html">
-        <span class="state">Play now</span>
-        <h3>The Wheel</h3>
-        <p>Spin for a film, TV or music question, or let the Movie Night wheel pick a classic by decade.</p>
-      </a>
-    </div>
   </div>
 </section>
 
