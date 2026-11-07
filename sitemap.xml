@@ -15,10 +15,18 @@
   <url>
     <loc>https://biffbifford.com/challenge.html</loc>
   </url>
-<url><loc>https://biffbifford.com/puzzle.html</loc></url>
-<url><loc>https://biffbifford.com/about.html</loc></url>
-<url><loc>https://biffbifford.com/contact.html</loc></url>
-<url><loc>https://biffbifford.com/privacy.html</loc></url>
+  <url>
+    <loc>https://biffbifford.com/puzzle.html</loc>
+  </url>
+  <url>
+    <loc>https://biffbifford.com/about.html</loc>
+  </url>
+  <url>
+    <loc>https://biffbifford.com/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://biffbifford.com/privacy.html</loc>
+  </url>
   <url>
     <loc>https://biffbifford.com/blog/</loc>
   </url>
