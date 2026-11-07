@@ -196,6 +196,8 @@ function pickPuzzles(){
  var out=[],used={};
  pool.forEach(function(x){var p=x[0];if(out.length>=ROUNDS)return;if((cnt[p.category]||0)>=2)return;if(used[p.answer])return;cnt[p.category]=(cnt[p.category]||0)+1;used[p.answer]=1;out.push(p)});
  pool.forEach(function(x){if(out.length<ROUNDS&&out.indexOf(x[0])<0&&!used[x[0].answer]){out.push(x[0]);used[x[0].answer]=1}});
+ var want=(location.search.match(/[?&]p=(p\d+)/)||[])[1];
+ if(want){var w=P.filter(function(p){return p.id===want})[0];if(w){out=out.filter(function(p){return p!==w});out.unshift(w);out=out.slice(0,ROUNDS)}}
  return out;
 }
 function newGame(){

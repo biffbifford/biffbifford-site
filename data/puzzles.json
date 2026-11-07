@@ -22,7 +22,7 @@
   {
    "id": "p004",
    "category": "Movie Title",
-   "clue": "Seven gunmen defend a Mexican village, 1960",
+   "clue": "A band of gunmen defend a Mexican village, 1960",
    "answer": "THE MAGNIFICENT SEVEN"
   },
   {
@@ -226,13 +226,13 @@
   {
    "id": "p038",
    "category": "Movie Title",
-   "clue": "Clint Eastwood plays a rogue San Francisco cop named Harry Callahan",
+   "clue": "Clint Eastwood plays a rogue San Francisco cop with a .44 Magnum",
    "answer": "DIRTY HARRY"
   },
   {
    "id": "p039",
    "category": "Movie Title",
-   "clue": "Audrey Hepburn eats breakfast outside a famous New York jewelry store",
+   "clue": "Audrey Hepburn gazes into a famous New York jewelry store window at dawn",
    "answer": "BREAKFAST AT TIFFANY'S"
   },
   {
@@ -438,6 +438,696 @@
    "category": "Famous Quote",
    "clue": "Taxi Driver, 1976",
    "answer": "YOU TALKING TO ME"
+  },
+  {
+   "id": "p074",
+   "category": "Western Movie",
+   "clue": "A mysterious gunfighter helps a homesteader family in this 1953 classic",
+   "answer": "SHANE"
+  },
+  {
+   "id": "p075",
+   "category": "Western Movie",
+   "clue": "John Wayne, Dean Martin and Ricky Nelson defend a sheriff's jail, 1959",
+   "answer": "RIO BRAVO"
+  },
+  {
+   "id": "p076",
+   "category": "Western Movie",
+   "clue": "John Ford's 1939 film that made John Wayne a star, set aboard a coach through Apache country",
+   "answer": "STAGECOACH"
+  },
+  {
+   "id": "p077",
+   "category": "Western Movie",
+   "clue": "Clint Eastwood's 1992 Best Picture winner about a retired gunman",
+   "answer": "UNFORGIVEN"
+  },
+  {
+   "id": "p078",
+   "category": "Western Movie",
+   "clue": "A Missouri farmer hunts the soldiers who killed his family, 1976",
+   "answer": "THE OUTLAW JOSEY WALES"
+  },
+  {
+   "id": "p079",
+   "category": "Western Movie",
+   "clue": "Clint Eastwood and Lee Van Cleef both hunt bounties, 1965",
+   "answer": "FOR A FEW DOLLARS MORE"
+  },
+  {
+   "id": "p080",
+   "category": "Western Movie",
+   "clue": "Clint Eastwood's first Sergio Leone western, 1964",
+   "answer": "A FISTFUL OF DOLLARS"
+  },
+  {
+   "id": "p081",
+   "category": "Western Movie",
+   "clue": "Sergio Leone's 1968 epic with Henry Fonda as a villain and Charles Bronson playing a harmonica",
+   "answer": "ONCE UPON A TIME IN THE WEST"
+  },
+  {
+   "id": "p082",
+   "category": "Western Movie",
+   "clue": "Sam Peckinpah's violent 1969 tale of aging outlaws",
+   "answer": "THE WILD BUNCH"
+  },
+  {
+   "id": "p083",
+   "category": "Western Movie",
+   "clue": "Dustin Hoffman plays a 121-year-old who survived Custer's last stand, 1970",
+   "answer": "LITTLE BIG MAN"
+  },
+  {
+   "id": "p084",
+   "category": "Western Movie",
+   "clue": "Mel Brooks' 1974 western spoof with a Black sheriff",
+   "answer": "BLAZING SADDLES"
+  },
+  {
+   "id": "p085",
+   "category": "Western Movie",
+   "clue": "Emilio Estevez plays Billy the Kid, 1988",
+   "answer": "YOUNG GUNS"
+  },
+  {
+   "id": "p086",
+   "category": "Western Movie",
+   "clue": "Kurt Russell as Wyatt Earp and Val Kilmer as Doc Holliday, 1993",
+   "answer": "TOMBSTONE"
+  },
+  {
+   "id": "p087",
+   "category": "Western Movie",
+   "clue": "Kevin Costner befriends the Lakota Sioux, 1990 Best Picture winner",
+   "answer": "DANCES WITH WOLVES"
+  },
+  {
+   "id": "p088",
+   "category": "Western Movie",
+   "clue": "John Wayne's final film, about a dying gunfighter, 1976",
+   "answer": "THE SHOOTIST"
+  },
+  {
+   "id": "p089",
+   "category": "Western Movie",
+   "clue": "John Wayne and Montgomery Clift drive cattle on the Chisholm Trail, 1948",
+   "answer": "RED RIVER"
+  },
+  {
+   "id": "p090",
+   "category": "Western Movie",
+   "clue": "John Ford's 1946 telling of the O.K. Corral story with Henry Fonda as Wyatt Earp",
+   "answer": "MY DARLING CLEMENTINE"
+  },
+  {
+   "id": "p091",
+   "category": "Western Movie",
+   "clue": "Burt Lancaster and Kirk Douglas play Wyatt Earp and Doc Holliday, 1957",
+   "answer": "GUNFIGHT AT THE O.K. CORRAL"
+  },
+  {
+   "id": "p092",
+   "category": "Western Movie",
+   "clue": "James Stewart and John Wayne in John Ford's 1962 tale of a feared outlaw",
+   "answer": "THE MAN WHO SHOT LIBERTY VALANCE"
+  },
+  {
+   "id": "p093",
+   "category": "Western Movie",
+   "clue": "John Wayne and Robert Mitchum, directed by Howard Hawks, 1966",
+   "answer": "EL DORADO"
+  },
+  {
+   "id": "p094",
+   "category": "Western Movie",
+   "clue": "Clint Eastwood survives a lynching and becomes a lawman, 1968",
+   "answer": "HANG 'EM HIGH"
+  },
+  {
+   "id": "p095",
+   "category": "Western Movie",
+   "clue": "Clint Eastwood plays a mysterious preacher who rides into a mining camp, 1985",
+   "answer": "PALE RIDER"
+  },
+  {
+   "id": "p096",
+   "category": "Western Movie",
+   "clue": "James Stewart hunts for a prized rifle, 1950",
+   "answer": "WINCHESTER 73"
+  },
+  {
+   "id": "p097",
+   "category": "Western Movie",
+   "clue": "Lee Marvin won an Oscar for playing two roles in this 1965 comedy with Jane Fonda",
+   "answer": "CAT BALLOU"
+  },
+  {
+   "id": "p098",
+   "category": "Western Movie",
+   "clue": "John Wayne leads a cattle drive with schoolboys, 1972",
+   "answer": "THE COWBOYS"
+  },
+  {
+   "id": "p099",
+   "category": "Western Movie",
+   "clue": "John Wayne searches for his kidnapped grandson, 1971",
+   "answer": "BIG JAKE"
+  },
+  {
+   "id": "p100",
+   "category": "Western Movie",
+   "clue": "John Wayne and Maureen O'Hara star in a 1963 comedy with a famous mud fight",
+   "answer": "MCLINTOCK!"
+  },
+  {
+   "id": "p101",
+   "category": "Western Movie",
+   "clue": "A 1962 epic that follows one family across generations, shot in Cinerama",
+   "answer": "HOW THE WEST WAS WON"
+  },
+  {
+   "id": "p102",
+   "category": "Western Movie",
+   "clue": "Sharon Stone enters a deadly shooting tournament, 1995",
+   "answer": "THE QUICK AND THE DEAD"
+  },
+  {
+   "id": "p103",
+   "category": "Western Movie",
+   "clue": "Four men ride into a troubled town, 1985, with Kevin Kline and Scott Glenn",
+   "answer": "SILVERADO"
+  },
+  {
+   "id": "p104",
+   "category": "Western Movie",
+   "clue": "James Stewart seeks revenge in New Mexico, 1955",
+   "answer": "THE MAN FROM LARAMIE"
+  },
+  {
+   "id": "p105",
+   "category": "Western Movie",
+   "clue": "Robert Duvall and Kevin Costner play cattlemen who graze their herds on public land, 2003",
+   "answer": "OPEN RANGE"
+  },
+  {
+   "id": "p106",
+   "category": "Western Movie",
+   "clue": "James Stewart plays a Virginia farmer trying to keep his sons out of the Civil War, 1965",
+   "answer": "SHENANDOAH"
+  },
+  {
+   "id": "p107",
+   "category": "Western Movie",
+   "clue": "John Wayne directed and starred as Davy Crockett, 1960",
+   "answer": "THE ALAMO"
+  },
+  {
+   "id": "p108",
+   "category": "Western Movie",
+   "clue": "John Ford cavalry film with Henry Fonda and John Wayne, 1948",
+   "answer": "FORT APACHE"
+  },
+  {
+   "id": "p109",
+   "category": "Western Movie",
+   "clue": "John Wayne plays a retiring cavalry captain, 1949",
+   "answer": "SHE WORE A YELLOW RIBBON"
+  },
+  {
+   "id": "p110",
+   "category": "Western Movie",
+   "clue": "Gregory Peck plays a sea captain who heads west, 1958",
+   "answer": "THE BIG COUNTRY"
+  },
+  {
+   "id": "p111",
+   "category": "Western Movie",
+   "clue": "Robert Redford plays a mountain man, 1972",
+   "answer": "JEREMIAH JOHNSON"
+  },
+  {
+   "id": "p112",
+   "category": "Western Movie",
+   "clue": "Steve Martin, Chevy Chase and Martin Short play silent-film heroes in Mexico, 1986",
+   "answer": "THREE AMIGOS"
+  },
+  {
+   "id": "p113",
+   "category": "Western Movie",
+   "clue": "Billy Crystal and friends join a cattle drive; Jack Palance won an Oscar, 1991",
+   "answer": "CITY SLICKERS"
+  },
+  {
+   "id": "p114",
+   "category": "Western Movie",
+   "clue": "James Stewart and Marlene Dietrich star in this 1939 comedy western",
+   "answer": "DESTRY RIDES AGAIN"
+  },
+  {
+   "id": "p115",
+   "category": "Western Movie",
+   "clue": "Betty Hutton plays a sharpshooter in this 1950 musical",
+   "answer": "ANNIE GET YOUR GUN"
+  },
+  {
+   "id": "p116",
+   "category": "Western Movie",
+   "clue": "Doris Day plays a frontier woman in this 1953 musical",
+   "answer": "CALAMITY JANE"
+  },
+  {
+   "id": "p117",
+   "category": "Western Movie",
+   "clue": "Rodgers and Hammerstein musical about farmers and cowboys, 1955",
+   "answer": "OKLAHOMA!"
+  },
+  {
+   "id": "p118",
+   "category": "Western Movie",
+   "clue": "A band of backwoodsmen go looking for wives, 1954",
+   "answer": "SEVEN BRIDES FOR SEVEN BROTHERS"
+  },
+  {
+   "id": "p119",
+   "category": "Western Movie",
+   "clue": "Lee Marvin and Clint Eastwood sing in this gold rush musical, 1969",
+   "answer": "PAINT YOUR WAGON"
+  },
+  {
+   "id": "p120",
+   "category": "Western TV",
+   "clue": "Marshal Matt Dillon keeps the peace in Dodge City; it ran 20 seasons",
+   "answer": "GUNSMOKE"
+  },
+  {
+   "id": "p121",
+   "category": "Western TV",
+   "clue": "The Cartwrights ride the Ponderosa",
+   "answer": "BONANZA"
+  },
+  {
+   "id": "p122",
+   "category": "Western TV",
+   "clue": "A masked lawman and his friend Tonto ride a white horse",
+   "answer": "THE LONE RANGER"
+  },
+  {
+   "id": "p123",
+   "category": "Western TV",
+   "clue": "Paladin is a gunfighter for hire, 1957 to 1963",
+   "answer": "HAVE GUN WILL TRAVEL"
+  },
+  {
+   "id": "p124",
+   "category": "Western TV",
+   "clue": "Ward Bond leads a group of settlers heading west, 1957",
+   "answer": "WAGON TRAIN"
+  },
+  {
+   "id": "p125",
+   "category": "Western TV",
+   "clue": "Chuck Connors plays a widowed rancher with a fast-firing rifle",
+   "answer": "THE RIFLEMAN"
+  },
+  {
+   "id": "p126",
+   "category": "Western TV",
+   "clue": "James Garner plays a poker-playing gambler, 1957",
+   "answer": "MAVERICK"
+  },
+  {
+   "id": "p127",
+   "category": "Western TV",
+   "clue": "Clint Eastwood plays Rowdy Yates on a cattle drive, 1959",
+   "answer": "RAWHIDE"
+  },
+  {
+   "id": "p128",
+   "category": "Western TV",
+   "clue": "A ranch foreman works at Shiloh in this 90-minute series, 1962",
+   "answer": "THE VIRGINIAN"
+  },
+  {
+   "id": "p129",
+   "category": "Western TV",
+   "clue": "Barbara Stanwyck plays matriarch Victoria Barkley",
+   "answer": "THE BIG VALLEY"
+  },
+  {
+   "id": "p130",
+   "category": "Western TV",
+   "clue": "Secret agents James West and Artemus Gordon, 1965",
+   "answer": "THE WILD WILD WEST"
+  },
+  {
+   "id": "p131",
+   "category": "Western TV",
+   "clue": "A masked swordsman in Spanish California, Disney series, 1957",
+   "answer": "ZORRO"
+  },
+  {
+   "id": "p132",
+   "category": "Western TV",
+   "clue": "William Boyd wore a black hat as a hero of films and early television",
+   "answer": "HOPALONG CASSIDY"
+  },
+  {
+   "id": "p133",
+   "category": "Western TV",
+   "clue": "The King of the Cowboys and Dale Evans ride with Trigger on TV",
+   "answer": "THE ROY ROGERS SHOW"
+  },
+  {
+   "id": "p134",
+   "category": "Western TV",
+   "clue": "Michael Landon plays Charles Ingalls",
+   "answer": "LITTLE HOUSE ON THE PRAIRIE"
+  },
+  {
+   "id": "p135",
+   "category": "Western TV",
+   "clue": "Robert Duvall and Tommy Lee Jones play retired Texas Rangers on a cattle drive, 1989",
+   "answer": "LONESOME DOVE"
+  },
+  {
+   "id": "p136",
+   "category": "Western TV",
+   "clue": "Chuck Connors plays a cavalry officer who is cast out of the Army",
+   "answer": "BRANDED"
+  },
+  {
+   "id": "p137",
+   "category": "Western Star",
+   "clue": "The Singing Cowboy, with his horse Champion",
+   "answer": "GENE AUTRY"
+  },
+  {
+   "id": "p138",
+   "category": "Western Star",
+   "clue": "King of the Cowboys, married to Dale Evans",
+   "answer": "ROY ROGERS"
+  },
+  {
+   "id": "p139",
+   "category": "Western Star",
+   "clue": "Queen of the West and wife of Roy Rogers",
+   "answer": "DALE EVANS"
+  },
+  {
+   "id": "p140",
+   "category": "Western Star",
+   "clue": "Starred in seven Budd Boetticher westerns",
+   "answer": "RANDOLPH SCOTT"
+  },
+  {
+   "id": "p141",
+   "category": "Western Star",
+   "clue": "Most decorated U.S. soldier of World War II who became a western star",
+   "answer": "AUDIE MURPHY"
+  },
+  {
+   "id": "p142",
+   "category": "Western Star",
+   "clue": "Played Wyatt Earp in My Darling Clementine and the villain in Once Upon a Time in the West",
+   "answer": "HENRY FONDA"
+  },
+  {
+   "id": "p143",
+   "category": "Western Star",
+   "clue": "Won an Oscar for High Noon",
+   "answer": "GARY COOPER"
+  },
+  {
+   "id": "p144",
+   "category": "Western Star",
+   "clue": "Starred as Bret Maverick and later as Jim Rockford",
+   "answer": "JAMES GARNER"
+  },
+  {
+   "id": "p145",
+   "category": "Western Star",
+   "clue": "Played Matt Dillon for twenty years",
+   "answer": "JAMES ARNESS"
+  },
+  {
+   "id": "p146",
+   "category": "Western Star",
+   "clue": "Played Chester on Gunsmoke and later starred in McCloud",
+   "answer": "DENNIS WEAVER"
+  },
+  {
+   "id": "p147",
+   "category": "Western Star",
+   "clue": "Played Hoss Cartwright",
+   "answer": "DAN BLOCKER"
+  },
+  {
+   "id": "p148",
+   "category": "Western Star",
+   "clue": "Played Ben Cartwright on Bonanza",
+   "answer": "LORNE GREENE"
+  },
+  {
+   "id": "p149",
+   "category": "Western Star",
+   "clue": "Played Little Joe Cartwright and later Charles Ingalls",
+   "answer": "MICHAEL LANDON"
+  },
+  {
+   "id": "p150",
+   "category": "Western Star",
+   "clue": "The Rifleman star who also played pro baseball and basketball",
+   "answer": "CHUCK CONNORS"
+  },
+  {
+   "id": "p151",
+   "category": "Western Star",
+   "clue": "Played the Bad in The Good, the Bad and the Ugly",
+   "answer": "LEE VAN CLEEF"
+  },
+  {
+   "id": "p152",
+   "category": "Western Star",
+   "clue": "Played Tuco in The Good, the Bad and the Ugly",
+   "answer": "ELI WALLACH"
+  },
+  {
+   "id": "p153",
+   "category": "Western Star",
+   "clue": "Won an Oscar for City Slickers and played the gunfighter Jack Wilson in Shane",
+   "answer": "JACK PALANCE"
+  },
+  {
+   "id": "p154",
+   "category": "Western Star",
+   "clue": "Starred with John Wayne in The Quiet Man and McLintock!",
+   "answer": "MAUREEN O'HARA"
+  },
+  {
+   "id": "p155",
+   "category": "Western Star",
+   "clue": "Played Doc Holliday in Tombstone",
+   "answer": "VAL KILMER"
+  },
+  {
+   "id": "p156",
+   "category": "Western Star",
+   "clue": "Played Wyatt Earp in Tombstone",
+   "answer": "KURT RUSSELL"
+  },
+  {
+   "id": "p157",
+   "category": "Western Star",
+   "clue": "Won an Oscar for Cat Ballou",
+   "answer": "LEE MARVIN"
+  },
+  {
+   "id": "p158",
+   "category": "Western Star",
+   "clue": "Rode a bomb in Dr. Strangelove and appeared in Blazing Saddles",
+   "answer": "SLIM PICKENS"
+  },
+  {
+   "id": "p159",
+   "category": "Western Star",
+   "clue": "Won three Oscars, often playing grizzled sidekicks",
+   "answer": "WALTER BRENNAN"
+  },
+  {
+   "id": "p160",
+   "category": "Western Star",
+   "clue": "Real-life rodeo champion who won an Oscar for The Last Picture Show",
+   "answer": "BEN JOHNSON"
+  },
+  {
+   "id": "p161",
+   "category": "Western Star",
+   "clue": "Directed Stagecoach and The Searchers",
+   "answer": "JOHN FORD"
+  },
+  {
+   "id": "p162",
+   "category": "Western Star",
+   "clue": "Italian director of the Dollars trilogy",
+   "answer": "SERGIO LEONE"
+  },
+  {
+   "id": "p163",
+   "category": "Western Star",
+   "clue": "Director of The Wild Bunch",
+   "answer": "SAM PECKINPAH"
+  },
+  {
+   "id": "p164",
+   "category": "Western Star",
+   "clue": "Starred in Gunfight at the O.K. Corral and Birdman of Alcatraz",
+   "answer": "BURT LANCASTER"
+  },
+  {
+   "id": "p165",
+   "category": "Western Star",
+   "clue": "Starred in El Dorado and Out of the Past",
+   "answer": "ROBERT MITCHUM"
+  },
+  {
+   "id": "p166",
+   "category": "Western Character",
+   "clue": "Roy Rogers' golden palomino",
+   "answer": "TRIGGER"
+  },
+  {
+   "id": "p167",
+   "category": "Western Character",
+   "clue": "Gene Autry's horse, billed as the Wonder Horse",
+   "answer": "CHAMPION"
+  },
+  {
+   "id": "p168",
+   "category": "Western Character",
+   "clue": "The Lone Ranger's white horse",
+   "answer": "SILVER"
+  },
+  {
+   "id": "p169",
+   "category": "Western Character",
+   "clue": "The Lone Ranger's loyal companion",
+   "answer": "TONTO"
+  },
+  {
+   "id": "p170",
+   "category": "Western Character",
+   "clue": "Marshal of Dodge City",
+   "answer": "MATT DILLON"
+  },
+  {
+   "id": "p171",
+   "category": "Western Character",
+   "clue": "Saloon owner on Gunsmoke, played by Amanda Blake",
+   "answer": "MISS KITTY"
+  },
+  {
+   "id": "p172",
+   "category": "Western Character",
+   "clue": "The biggest son on the Ponderosa, known for his big heart",
+   "answer": "HOSS CARTWRIGHT"
+  },
+  {
+   "id": "p173",
+   "category": "Western Character",
+   "clue": "Dentist and gambler who stood with Wyatt Earp",
+   "answer": "DOC HOLLIDAY"
+  },
+  {
+   "id": "p174",
+   "category": "Western Character",
+   "clue": "Lawman at the O.K. Corral",
+   "answer": "WYATT EARP"
+  },
+  {
+   "id": "p175",
+   "category": "Western Character",
+   "clue": "Outlaw whose real name was Henry McCarty",
+   "answer": "BILLY THE KID"
+  },
+  {
+   "id": "p176",
+   "category": "Western Character",
+   "clue": "Sharpshooter who starred in Buffalo Bill's Wild West show",
+   "answer": "ANNIE OAKLEY"
+  },
+  {
+   "id": "p177",
+   "category": "Western Character",
+   "clue": "Gunfighter shot while holding aces and eights",
+   "answer": "WILD BILL HICKOK"
+  },
+  {
+   "id": "p178",
+   "category": "Western Character",
+   "clue": "Tennessee frontiersman who died at the Alamo",
+   "answer": "DAVY CROCKETT"
+  },
+  {
+   "id": "p179",
+   "category": "Western Character",
+   "clue": "Outlaw killed by Robert Ford in 1882",
+   "answer": "JESSE JAMES"
+  },
+  {
+   "id": "p180",
+   "category": "Western Character",
+   "clue": "Clint Eastwood's nameless gunman in Sergio Leone's films",
+   "answer": "THE MAN WITH NO NAME"
+  },
+  {
+   "id": "p181",
+   "category": "Western Character",
+   "clue": "Gunfighter for hire on Have Gun Will Travel",
+   "answer": "PALADIN"
+  },
+  {
+   "id": "p182",
+   "category": "Western Character",
+   "clue": "Widowed rancher played by Chuck Connors",
+   "answer": "LUCAS MCCAIN"
+  },
+  {
+   "id": "p183",
+   "category": "Western Character",
+   "clue": "Cattle drive hand played by Clint Eastwood on television",
+   "answer": "ROWDY YATES"
+  },
+  {
+   "id": "p184",
+   "category": "Western Character",
+   "clue": "One-eyed marshal in True Grit",
+   "answer": "ROOSTER COGBURN"
+  },
+  {
+   "id": "p185",
+   "category": "Famous Quote",
+   "clue": "The Searchers, 1956, said by John Wayne",
+   "answer": "THAT'LL BE THE DAY"
+  },
+  {
+   "id": "p186",
+   "category": "Famous Quote",
+   "clue": "Tombstone, 1993, said by Doc Holliday",
+   "answer": "I'M YOUR HUCKLEBERRY"
+  },
+  {
+   "id": "p187",
+   "category": "Famous Quote",
+   "clue": "The Good, the Bad and the Ugly, 1966, said by Tuco",
+   "answer": "WHEN YOU HAVE TO SHOOT, SHOOT, DON'T TALK"
+  },
+  {
+   "id": "p188",
+   "category": "Famous Quote",
+   "clue": "The Outlaw Josey Wales, 1976",
+   "answer": "DYING AIN'T MUCH OF A LIVIN', BOY"
   }
  ]
 }
