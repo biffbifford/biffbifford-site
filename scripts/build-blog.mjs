@@ -125,6 +125,16 @@ await writeFile("memoriam.html", memHtml);
 
 await writeFile("data/blog.json", JSON.stringify({ posts: posts.map((p) => ({ title: p.title, slug: p.slug, date: p.date, summary: p.summary, tags: p.tags || "", memorial: p.memorial || "" })) }, null, 1) + "\n");
 
+
+// Fill the home page "Latest stories" cards (static HTML so search engines see real links).
+{
+  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const cards = posts.slice(0, 6).map((p) => `      <a class="title-card" href="blog/${p.slug}.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">${esc(p.memorial ? "IN MEMORIAM" : (p.tags || "STORY").split(",")[0].trim().toUpperCase())}</span><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p></a>`).join("\n");
+  let home = await readFile("index.html", "utf8");
+  home = home.replace(/<!--STORIES-START-->[\s\S]*?<!--STORIES-END-->/, `<!--STORIES-START-->\n${cards}\n<!--STORIES-END-->`);
+  await writeFile("index.html", home);
+}
+
 // Rewrite the whole sitemap from the HTML pages on disk, so a new home,
 // quiz, arcade, or story page is listed the next time this build runs.
 const SKIP_DIRS = new Set([".git", ".github", "data", "node_modules", "ops", "scripts"]);
