@@ -1,54 +1,65 @@
 {
-  "updated_at": "2026-11-07T05:13:21.756Z",
+  "updated_at": "2026-11-07T17:35:51.892Z",
   "account": {
-    "followers": 79629,
-    "following": 28356,
-    "posts": 72010,
+    "followers": 79623,
+    "following": 28354,
+    "posts": 72017,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2119120195696669009",
+      "text": "🤠 John Wayne wasn't born John Wayne. And \"Duke\" was the name of his dog first.\n\nHe was born Marion Robert Morrison in Winterset, Iowa, in 1907.\n\nGrowing up in Glendale, California, he never went anywhere without his big Airedale terrier, named Duke. A local fireman on his walk https://t.co/6sumAgWgAc",
+      "created_at": "2026-11-07T17:30:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 46,
+      "url": "https://x.com/TBifford/status/2119120195696669009"
+    },
+    {
       "id": "2118886157299708244",
       "text": "🎸 Elvis Presley played more than 1,600 concerts. Every single one was in North America.\n\nPromoters around the world begged. South America, Saudi Arabia… offers worth millions. The answer was always no.\n\nWhy? Not Elvis. His manager.\n\n\"Colonel\" Tom Parker told everyone he was https://t.co/bix6pda4l3",
       "created_at": "2026-11-07T02:00:01.000Z",
-      "likes": 18,
-      "retweets": 0,
-      "replies": 2,
+      "likes": 55,
+      "retweets": 7,
+      "replies": 5,
       "quotes": 0,
-      "impression_count": 4372,
+      "impression_count": 10308,
       "url": "https://x.com/TBifford/status/2118886157299708244"
     },
     {
       "id": "2118859727983747130",
       "text": "🎂 Sally Field turns 80 today. And the most famous thing she ever said… she never actually said.\n\nShe went from surfer girl Gidget (1965) to The Flying Nun (1967) to an Emmy for Sybil.\n\nThen she won two Best Actress Oscars: Norma Rae (1979) and Places in the Heart (1984).\n\nAt https://t.co/YTCvVQIYoZ",
       "created_at": "2026-11-07T00:15:00.000Z",
-      "likes": 35,
-      "retweets": 3,
-      "replies": 2,
+      "likes": 43,
+      "retweets": 6,
+      "replies": 3,
       "quotes": 1,
-      "impression_count": 1157,
+      "impression_count": 1709,
       "url": "https://x.com/TBifford/status/2118859727983747130"
     },
     {
       "id": "2118795560714940771",
       "text": "⛵ The S.S. Minnow on Gilligan's Island was named as a jab at one of the most powerful men in Washington.\n\nIn 1961, FCC Chairman Newton Minow, President Kennedy's top TV regulator, stood before a room full of network executives and told them their programming was \"a vast https://t.co/ry55HeGsbD",
       "created_at": "2026-11-06T20:00:01.000Z",
-      "likes": 13,
-      "retweets": 2,
-      "replies": 1,
+      "likes": 20,
+      "retweets": 4,
+      "replies": 3,
       "quotes": 0,
-      "impression_count": 1581,
+      "impression_count": 2376,
       "url": "https://x.com/TBifford/status/2118795560714940771"
     },
     {
       "id": "2118757807340360135",
       "text": "🎺 On December 15, 1944, the most famous bandleader in America got on a small plane over England… and vanished.\n\nGlenn Miller was the biggest name in music. \"In the Mood.\" \"Moonlight Serenade.\" \"Chattanooga Choo Choo.\"\n\nIn 1942, at 38, he walked away from all of it and joined https://t.co/80QTkBlRlG",
       "created_at": "2026-11-06T17:30:00.000Z",
-      "likes": 32,
-      "retweets": 4,
-      "replies": 7,
+      "likes": 56,
+      "retweets": 10,
+      "replies": 10,
       "quotes": 0,
-      "impression_count": 1915,
+      "impression_count": 4063,
       "url": "https://x.com/TBifford/status/2118757807340360135"
     },
     {
@@ -59,7 +70,7 @@
       "retweets": 1,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 1251,
+      "impression_count": 1269,
       "url": "https://x.com/TBifford/status/2118745346402668628"
     },
     {
@@ -70,7 +81,7 @@
       "retweets": 6,
       "replies": 29,
       "quotes": 1,
-      "impression_count": 11447,
+      "impression_count": 11660,
       "url": "https://x.com/TBifford/status/2118523770306535747"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 195,
+      "impression_count": 197,
       "url": "https://x.com/TBifford/status/2118479818119418301"
     },
     {
@@ -90,9 +101,9 @@
       "created_at": "2026-11-05T20:00:01.000Z",
       "likes": 405,
       "retweets": 76,
-      "replies": 17,
+      "replies": 18,
       "quotes": 3,
-      "impression_count": 5882,
+      "impression_count": 5926,
       "url": "https://x.com/TBifford/status/2118433170555130194"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 7,
       "replies": 15,
       "quotes": 1,
-      "impression_count": 2763,
+      "impression_count": 2772,
       "url": "https://x.com/TBifford/status/2118395420615287088"
-    },
-    {
-      "id": "2118163716361634123",
-      "text": "Fun fact: The Brady house is real. It's in Studio City, California, and HGTV bought it in 2018 for $3.5 million so the Brady kids could help restore it. 🏠\n\nTell me who I left out 👇",
-      "created_at": "2026-11-05T02:09:18.000Z",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 301,
-      "url": "https://x.com/TBifford/status/2118163716361634123"
     }
   ]
 }
