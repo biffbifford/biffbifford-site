@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-07T19:01:50.100Z",
+  "updated_at": "2026-11-08T19:05:47.564Z",
   "boxoffice": [
+    {
+      "title": "Box Office: ‘You Can See Everything’ Becomes Second-Biggest Doc Ever in North America With $80 Million",
+      "url": "https://variety.com/2026/film/box-office/you-can-see-everything-second-highest-grossing-documentary-north-america-box-office-1236942385/",
+      "source": "Variety",
+      "published": "2026-11-08T17:52:33.000Z"
+    },
+    {
+      "title": "‘Godzilla Minus Zero’ Is King Of The Global Weekend Box Office With $63M, Towers Over ‘Ramayana’s $55M+ WW Opening",
+      "url": "https://deadline.com/2026/11/box-office-global-godzilla-minus-zero-ramayana-rise-of-a-legend-1237216698/",
+      "source": "Deadline",
+      "published": "2026-11-08T16:37:33.000Z"
+    },
+    {
+      "title": "‘Godzilla Minus Zero’ Sets GKids Box Office Record With $31 Million Opening",
+      "url": "https://www.thewrap.com/creative-content/movies/godzilla-minus-zero-sets-gkids-box-office-record-with-31-million-openign/",
+      "source": "TheWrap",
+      "published": "2026-11-08T16:03:04.000Z"
+    },
+    {
+      "title": "Box Office: ‘Godzilla Minus Zero’ Roars With $31 Million Debut, ‘Cat in the Hat’ Fizzles With $20 Million",
+      "url": "https://variety.com/2026/film/box-office/godzilla-minus-zero-box-office-opening-weekend-cat-in-the-hat-fizzles-1236942363/",
+      "source": "Variety",
+      "published": "2026-11-08T16:01:33.000Z"
+    },
     {
       "title": "‘Godzilla Minus Zero’ Officially Smashes a Box Office Record on Day 1",
       "url": "https://collider.com/godzilla-minus-zero-box-office-opening-33-million/",
@@ -12,30 +36,6 @@
       "url": "https://www.hollywoodreporter.com/movies/movie-news/godzilla-minus-zero-box-office-opening-the-cat-in-the-hat-1236750019/",
       "source": "The Hollywood Reporter",
       "published": "2026-11-07T16:43:46.000Z"
-    },
-    {
-      "title": "Box Office: ‘Godzilla Minus Zero’ Dominates With $14.5 Million on Friday as ‘Cat in the Hat’ Follows With $6 Million",
-      "url": "https://variety.com/2026/film/box-office/box-office-godzilla-minus-zero-cat-in-the-hat-1236942032/",
-      "source": "Variety",
-      "published": "2026-11-07T16:42:52.000Z"
-    },
-    {
-      "title": "‘Godzilla Minus Zero’ Kicks Off November Box Office With $31 Million Opening",
-      "url": "https://www.thewrap.com/creative-content/movies/godzilla-minus-zero-saturday-box-office/",
-      "source": "TheWrap",
-      "published": "2026-11-07T16:15:12.000Z"
-    },
-    {
-      "title": "‘Godzilla Minus Zero’ Is A Box Office Hero With $32M Live-Action Foreign-Language Opening Record – Saturday AM Update",
-      "url": "https://deadline.com/2026/11/box-office-godzilla-minus-zero-cat-in-the-hat-1237215161/",
-      "source": "Deadline",
-      "published": "2026-11-07T16:10:00.000Z"
-    },
-    {
-      "title": "‘Godzilla Minus Zero’ Roars With $6.7M in Box Office Previews Ahead of Face-Off With ‘Cat in the Hat’",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/godzilla-minus-zero-box-office-previews-the-cat-in-the-hat-1236749470/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-06T19:06:30.000Z"
     }
   ],
   "now_playing": [],
