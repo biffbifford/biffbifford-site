@@ -90,7 +90,8 @@ const HEAD = (title, desc, url, extra = "") => `<!doctype html>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}">
-<meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${SITE}/og-image.png">
+<meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TBifford"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${SITE}/og-image.png">
+<link rel="alternate" type="application/rss+xml" title="BiffBifford stories" href="${SITE}/feed.xml">
 ${FONTS}
 <style>${CSS}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script><script src="/newsletter.js" defer></script><script src="/morenav.js" defer></script>${extra}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7809888324609473" crossorigin="anonymous"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-C83YWVSKPR"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-C83YWVSKPR");</script></head><body><div class="wrap">
@@ -173,9 +174,15 @@ function sitemapXml(files, posts) {
   });
   const other = rest.filter((f) => !f.startsWith("blog/")).sort();
   const urls = [...ordered, ...other, ...stories].map((f) => pageUrl(f));
-  const body = urls.map((u) => `  <url>\n    <loc>${esc(u)}</loc>\n  </url>`).join("\n");
+  const lastmod = new Map(posts.map((p) => [pageUrl(`blog/${p.slug}.html`), p.date]));
+  const body = urls.map((u) => `  <url>\n    <loc>${esc(u)}</loc>${lastmod.has(u) ? `\n    <lastmod>${lastmod.get(u)}</lastmod>` : ""}\n  </url>`).join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
 }
 const pages = await htmlPages();
 await writeFile("sitemap.xml", sitemapXml(pages, posts));
+
+// RSS feed of the stories (helps search engines, readers and a future email tool find new posts).
+const rssItems = [...posts].sort((a, b) => (a.date < b.date ? 1 : -1)).map((p) =>
+  `    <item>\n      <title>${esc(p.title)}</title>\n      <link>${SITE}/blog/${p.slug}.html</link>\n      <guid>${SITE}/blog/${p.slug}.html</guid>\n      <pubDate>${new Date(p.date + "T12:00:00Z").toUTCString()}</pubDate>\n      <description>${esc(p.summary)}</description>\n    </item>`).join("\n");
+await writeFile("feed.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>BiffBifford: stories behind classic TV, movies and music</title>\n    <link>${SITE}/blog/</link>\n    <description>Longer stories behind the classic TV, movies and music on @TBifford.</description>\n    <language>en-us</language>\n${rssItems}\n  </channel>\n</rss>\n`);
 console.log(`Built ${posts.length} post(s); ${pages.length} pages in sitemap.xml.`);
