@@ -1,138 +1,152 @@
 # Weekly X report for @TBifford
 
-This covers the 64 original posts in the archive, from October 3 through October 14, 2026, and the follower readings from September 14 through October 15. Replies and reposts are not in the post file. Times below are US Pacific, taken from each post’s `created_at`.
+Week ending November 10, 2026. The goal is more followers. Views matter only when they come with likes and reposts, because those are the people who might stay.
 
-Two limits on the numbers. Posts older than about a week keep the last saved view count, and the posts from October 13 and 14 are still new, so those counts can still rise. The date on each follower row is the day the stats were collected, not the day a post went up. A drop recorded on a Tuesday is the change since the last collection, not a verdict on Tuesday’s posts.
+A fan, in this report, is a like or a repost. Like rate is likes divided by views. The pinned “📌 Welcome! Start here” post from October 28 is left out of every like-rate number below. It has been seen 1,921 times, with 9 likes and 0 reposts, and it is not ranked against the other posts.
 
-Like rate means likes divided by views. Across all 64 posts the middle like rate is 1.26%. The middle post got 2,832 views. The 64 posts together got 611,677 views.
+Posts from late Sunday morning, November 8, through Monday, November 9, are still collecting views. They are listed on their own and left out of the rankings. Follower dates are the day the stats were collected, not the day a post went up.
+
+The archive has 173 original posts from October 3 through November 9. Replies and reposts of other people are not in the file. The rankings below use the 166 finished posts, not the pin and not the six posts that are still collecting. Those 166 posts have been seen 1,110,393 times. A typical one gets 1.3 likes per 100 views.
 
 ## 1. Top 5 and bottom 5 by views
 
-### Top 5
+### Top 5 by views
 
-| Views | Likes | Like rate | When (Pacific) | Post |
+| Views | Likes | Reposts | Like rate | When (Pacific) | Post |
+| ---: | ---: | ---: | ---: | --- | --- |
+| 77,026 | 1,443 | 120 | 1.87% | Thu Oct 8, 5:02 pm | [Andy Griffith’s name for Don Knotts](https://x.com/TBifford/status/2108347208462708843) |
+| 76,602 | 2,689 | 408 | 3.51% | Tue Oct 6, 3:03 pm | [Hogan’s Heroes and the actors who escaped the Nazis](https://x.com/TBifford/status/2107592485677441487) |
+| 57,627 | 1,548 | 160 | 2.69% | Sat Oct 17, 9:00 am | [Dan Blocker before Hoss Cartwright](https://x.com/TBifford/status/2111487583192842526) |
+| 54,822 | 1,219 | 115 | 2.22% | Sun Oct 11, 8:04 am | [Bette Davis fills in for Perry Mason](https://x.com/TBifford/status/2109298980232290375) |
+| 53,769 | 1,902 | 213 | 3.54% | Sun Oct 4, 9:52 am | [Nichelle Nichols and Dr. King](https://x.com/TBifford/status/2106789457646993748) |
+
+All five earned fans, not just views. Each one has more than 100 reposts, and each like rate is above the usual 1.3%. They are the posts a person would send to a friend.
+
+They share a shape. A show people already love. A person they can picture. A true turn in the first lines: a last name spoken at a hospital bed, actors who had lived the war they were joking about, a gentle giant who had been a combat sergeant and a schoolteacher, a movie star taking the courtroom, Dr. King asking Nichols to stay.
+
+If the goal is followers, Hogan’s Heroes is the one to copy, even though it is second in views. It has 2,689 likes and 408 reposts. The Knotts post has more views and about half the likes (1,443) and less than a third of the reposts (120). Nichols is the same kind of win: 1,902 likes and 213 reposts. Those reposts put the account in front of people who do not follow it yet.
+
+Two more posts made fans without winning the view race. They are the model for a normal day:
+
+- [Lucille Ball saves Star Trek](https://x.com/TBifford/status/2107495344842195336), Tuesday Oct 6, 8:37 am. 13,025 views, 776 likes, 127 reposts. Like rate 5.96%.
+- [Ben Johnson, rodeo champion and Oscar winner](https://x.com/TBifford/status/2118433170555130194), Thursday Nov 5, noon. 6,066 views, 405 likes, 76 reposts. Like rate 6.68%. About five times the usual post.
+
+### Big views that did not earn fans
+
+These were seen by a lot of people and barely got passed on. A viewer who does not like or repost has no path to becoming a follower.
+
+| Views | Likes | Reposts | Like rate | Post |
+| ---: | ---: | ---: | ---: | --- |
+| 43,638 | 165 | 7 | 0.38% | [Suzanne Somers asks to be paid like John Ritter](https://x.com/TBifford/status/2106758737805328387) |
+| 22,971 | 187 | 32 | 0.81% | [Elvis never played a concert overseas](https://x.com/TBifford/status/2118886157299708244) |
+| 20,607 | 102 | 13 | 0.49% | [Darrin was a different man the next season](https://x.com/TBifford/status/2116205993076142125) |
+| 17,674 | 137 | 11 | 0.78% | [Name This Face #2](https://x.com/TBifford/status/2117436603777822972) |
+| 13,787 | 47 | 4 | 0.34% | [The rumor that the Beaver died in Vietnam](https://x.com/TBifford/status/2117308254850023660) |
+| 11,750 | 29 | 6 | 0.25% | [Which star never served in World War II](https://x.com/TBifford/status/2118523770306535747) |
+
+What they share: a trick, a rumor, a pay fight, or a guessing game. People stop. They answer. They move on. The WWII quiz was seen 11,750 times and reposted 6 times. Ben Johnson, posted the same day at noon, was seen 6,066 times and reposted 76 times.
+
+### Bottom 5 by views
+
+| Views | Likes | Reposts | Like rate | When (Pacific) | Post |
+| ---: | ---: | ---: | ---: | --- | --- |
+| 22 | 0 | 0 | 0% | Thu Oct 29, 8:19 am | [A link on its own](https://x.com/TBifford/status/2115825965376864729) |
+| 32 | 0 | 0 | 0% | Thu Oct 29, 10:14 am | [A link on its own](https://x.com/TBifford/status/2115854848604135537) |
+| 37 | 0 | 0 | 0% | Thu Oct 29, 8:20 am | [A link on its own](https://x.com/TBifford/status/2115826169954402373) |
+| 152 | 1 | 0 | 0.66% | Thu Oct 29, 8:22 am | [A link on its own](https://x.com/TBifford/status/2115826563803722125) |
+| 159 | 0 | 0 | 0% | Thu Oct 22, 9:12 am | [Donna Reed’s wartime letters](https://x.com/TBifford/status/2113302421367640148) |
+
+Four of the five are a link with no sentence, all posted on the morning of October 29. There is nothing for a stranger to like or pass on. The fifth is the Donna Reed letter story sent once with no link. The same words went up again three hours later, with the link, and that copy got 1,931 views and 37 likes. The first copy got 159 views and 0 likes. An unfinished post does not make fans.
+
+### Still collecting (left out of the rankings)
+
+| Views so far | Likes | Reposts | When (Pacific) | Post |
 | ---: | ---: | ---: | --- | --- |
-| 77,026 | 1,443 | 1.87% | Thu Oct 8, 5:02 pm | [Andy Griffith’s last name for Don Knotts](https://x.com/TBifford/status/2108347208462708843) |
-| 76,602 | 2,689 | 3.51% | Tue Oct 6, 3:03 pm | [The Hogan’s Heroes cast and the real war](https://x.com/TBifford/status/2107592485677441487) |
-| 54,679 | 1,220 | 2.23% | Sun Oct 11, 8:04 am | [Bette Davis fills in for Perry Mason](https://x.com/TBifford/status/2109298980232290375) |
-| 53,769 | 1,902 | 3.54% | Sun Oct 4, 9:52 am | [Nichelle Nichols meets Martin Luther King Jr.](https://x.com/TBifford/status/2106789457646993748) |
-| 43,638 | 165 | 0.38% | Sun Oct 4, 7:49 am | [Suzanne Somers asks to be paid like John Ritter](https://x.com/TBifford/status/2106758737805328387) |
+| 16,955 | 165 | 14 | Mon Nov 9, 9:30 am | [The M\*A\*S\*H cast and the last page](https://x.com/TBifford/status/2119844970974654711) |
+| 7,739 | 32 | 5 | Mon Nov 9, 6:30 pm | [Name This Face #3](https://x.com/TBifford/status/2119980868441625034) |
+| 1,717 | 37 | 5 | Sun Nov 8, 6:01 pm | [Lassie was played by a male collie](https://x.com/TBifford/status/2119611179761070199) |
+| 1,227 | 15 | 5 | Sun Nov 8, 12:02 pm | [John Wayne and The Conqueror](https://x.com/TBifford/status/2119520834238746758) |
+| 887 | 9 | 2 | Mon Nov 9, noon | [The ruby slippers were supposed to be silver](https://x.com/TBifford/status/2119882725570011165) |
+| 198 | 0 | 0 | Sun Nov 8, 10:39 am | [A sources note under an earlier story](https://x.com/TBifford/status/2119500081313530329) |
 
-These five posts got 305,714 views. That is half of every view in the archive, from 5 posts out of 64.
+The M\*A\*S\*H post is already widely seen, with 30 replies, and the views are still climbing. Name This Face #3 already has 33 replies and only 5 reposts. Same split as the finished quiz: people play, they do not pass it on. Treat both numbers as early.
 
-What they share:
+## 2. Which days and times make fans
 
-- Each one is about a show people already love: The Andy Griffith Show, Hogan’s Heroes, Perry Mason, Star Trek, Three’s Company.
-- The first line is a surprise about a person the reader can picture.
-- Each one is the opening post of the story. The two times a second tweet was added later, it barely traveled: the Andy Griffith friendship note got 1,051 views, and the Robert Clary quote under the Hogan’s Heroes post got 1,505.
-- Four of the five leave a feeling, not just a fact. A last visit to a friend. Actors who had lived the war they were joking about. A movie star stepping into the courtroom. Dr. King asking Nichols to stay on the show. Those four also have like rates from 1.87% to 3.54%, above the usual post.
+“Typical” means the middle post, so one giant post cannot carry the day. Fans means likes plus reposts.
 
-The Somers post is the odd one in the group. It was seen 43,638 times and liked 165 times. The like rate is 0.38%, far under the other four and under the usual post. It still drew 24 replies. People stopped. A lot of them did not tap like. A pay fight can travel a long way and still not make anyone want more of the account.
+| Day | Posts | Typical views | Typical fans | Posts over 10,000 views |
+| --- | ---: | ---: | ---: | ---: |
+| Sunday | 22 | 3,395 | 120 | 6 |
+| Monday | 20 | 3,276 | 106 | 3 |
+| Friday | 18 | 4,493 | 75 | 5 |
+| Wednesday | 25 | 2,554 | 36 | 4 |
+| Thursday | 29 | 1,931 | 33 | 6 |
+| Tuesday | 27 | 1,577 | 30 | 3 |
+| Saturday | 25 | 1,988 | 20 | 4 |
 
-The Hogan’s Heroes post is the one to copy. It is in the top two for views and near the top for like rate (3.51%), with 408 reposts and 92 replies. People did more than look.
+Sunday is the best day for fans. A typical Sunday post picks up 120 likes and reposts. Saturday is the weak day for fans, with a typical post at 20, even though Saturday sometimes gets a lot of views (Dan Blocker’s post was a Saturday).
 
-### Bottom 5
+| Time (Pacific) | Posts | Typical views | Typical fans | Typical like-and-repost rate |
+| --- | ---: | ---: | ---: | ---: |
+| 9 am–noon | 41 | 3,215 | 115 | 1.93% |
+| 3–6 pm | 24 | 2,752 | 53 | 1.68% |
+| noon–3 pm | 46 | 2,581 | 39 | 1.61% |
+| 6–9 pm | 29 | 2,595 | 31 | 1.01% |
+| 6–9 am | 21 | 1,566 | 10 | 0.72% |
 
-| Views | Likes | Like rate | When (Pacific) | Post |
-| ---: | ---: | ---: | --- | --- |
-| 225 | 1 | 0.44% | Wed Oct 14, 1:16 pm | [Bob Ross painted fast](https://x.com/TBifford/status/2110464863889768939) |
-| 228 | 0 | 0.00% | Thu Oct 8, 12:34 pm | [Lorne Greene at a 1942 microphone](https://x.com/TBifford/status/2108279920757735544) |
-| 234 | 1 | 0.43% | Wed Oct 7, 2:16 pm | [James Doohan flew spotter planes](https://x.com/TBifford/status/2107943124660101554) |
-| 287 | 0 | 0.00% | Tue Oct 13, 7:03 pm | [Buddy Ebsen named a Disney Legend](https://x.com/TBifford/status/2110189598072524937) |
-| 314 | 5 | 1.59% | Tue Oct 13, 2:45 pm | [Dennis Weaver after Gunsmoke](https://x.com/TBifford/status/2110124779755675963) |
+The hour that makes fans is 9 am. Twenty-five posts went up then. The middle one got 131 likes and reposts, about 2.3 likes and reposts per 100 views. Noon is the other working slot: Ben Johnson and Ernest Borgnine, the two strongest fan posts of this past week, both went up at noon. Borgnine’s Navy story got 9,195 views, 301 likes, and 40 reposts.
 
-All five together got 1,288 views. The Andy Griffith post got about 60 times that on its own.
+Early morning, 6–9 am, is where a post gets looked at and not kept. The middle post in that window got 10 likes and reposts combined. Evening is the same pattern, with a weaker fan rate.
 
-What they share:
+Put the best story up Sunday between 9 and 10 am Pacific. On other days, use 9:30 am or noon. Leave the quiz out of the 6 pm slot. That is when the WWII guessing game went up, and it was the weakest fan post of the week among anything widely seen.
 
-- Each one is a second post on a story that already went up. The Bob Ross line and the Lorne Greene note each came the next day. The Doohan line continues the Scotty story from that morning, and it went up 13 minutes after a different post. The Ebsen and Weaver lines continue posts from earlier the same day.
-- The first sentence only makes sense if you already read the other post. “That’s Greene at the CBC microphone.” “Buddy Ebsen was named a Disney Legend in 1993.” There is no new show, no new person, and no reason for a stranger to stop.
-- Likes are 0 to 5. Two of them have zero likes.
+## 3. Why followers are still slipping
 
-The main posts on those same subjects did fine. Lorne Greene’s war-radio story got 15,707 views. Dennis Weaver’s decathlon story got 6,895. The extra tweet is what failed. The youngest of these, the Bob Ross add-on, can still pick up views, but the week-old ones (Greene, Doohan) already had their chance and stayed under 250.
-
-## 2. Which days and times get the most views
-
-A typical post, not the average. One giant post can make a weak day look strong. “Typical” here is the middle post that day (the median).
-
-| Day | Posts | Total views | Typical post | Biggest | Posts over 10,000 views |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Sunday | 9 | 192,918 | 8,880 | 54,679 | 4 |
-| Friday | 5 | 36,492 | 5,588 | 12,515 | 2 |
-| Tuesday | 13 | 139,320 | 4,335 | 76,602 | 3 |
-| Wednesday | 12 | 58,775 | 2,548 | 15,707 | 3 |
-| Monday | 9 | 33,204 | 2,523 | 9,469 | 0 |
-| Saturday | 10 | 42,752 | 2,306 | 16,222 | 2 |
-| Thursday | 6 | 108,216 | 2,146 | 77,026 | 2 |
-
-Sunday is the best day. The total is the highest, the typical post is the highest, and 4 of the 9 posts cleared 10,000 views. Three of the top five posts went up on Sunday morning.
-
-Thursday’s total looks huge because of the Andy Griffith post. A typical Thursday post got about 2,100 views. Monday is the light day: 9 posts, and none of them reached 10,000 views.
-
-| Time (Pacific) | Posts | Typical views | Posts over 10,000 |
-| --- | ---: | ---: | ---: |
-| 6–9 am | 11 | 5,067 | 5 |
-| 9 am–12 pm | 12 | 3,594 | 3 |
-| 12–3 pm | 20 | 2,918 | 4 |
-| 3–6 pm | 11 | 2,700 | 3 |
-| 6–9 pm | 6 | 1,212 | 1 |
-| 9 pm–midnight | 3 | 6,515 | 0 |
-
-The best window is 6–9 am Pacific. The typical post there got about 5,100 views, and 5 of the 11 posts cleared 10,000. Sunday from 7 am to 10 am is the single best pocket: three of the five biggest posts went up then, at 7:49 am (43,638), 8:04 am (54,679), and 9:52 am (53,769).
-
-The two single biggest posts went up in the afternoon, at 3:03 pm and 5:02 pm. Afternoon can still hit when the story is strong. A typical 3–6 pm post, though, got 2,700 views. The 12–3 pm window is where the most posts went up (20 of them), and the typical one there is ordinary.
-
-After 6 pm the views thin out. The 9 pm row is only three posts, and none of them cleared 10,000, so that higher middle number is not a reason to post late.
-
-This is about two weeks of posts, and each weekday shows up only twice. It is a strong hint, not a law. The practical read: put the best story up Sunday between 7 and 10 am Pacific. On other days, use 6–9 am. Save a second strong story for early afternoon if you have one. Leave the evening alone.
-
-## 3. Why followers keep slipping
-
-Followers on the collection dates:
+Readings from the stats file:
 
 - September 14: 80,328
 - High point, September 17: 80,382
-- October 15: 79,971
+- October 22, the day political posts stopped: 79,900
+- November 10: 79,600
 
-That is a loss of 357 from the first reading, and 411 from the high point. After September 17, 26 of the next 28 readings were lower than the one before. One was flat (September 20). One went up: October 7, by 13 people. The slide was already underway before this post archive starts, so it is not one bad week of stories.
+From the high point to October 22, the count fell by 482 people in 35 days, about 14 a day. That slide was already going, on classic TV posts, before the politics change.
 
-Over those same 31 days the profile’s post count rose by 459, about 15 posts a day. That count includes replies. The original posts in this archive run about 5 a day, and 8 on the busiest day.
+Since October 22 the count has fallen by another 300, about 16 a day. Some of that is expected. People who followed for the political posts are leaving, and the account stopped those posts on purpose. The Hollywood stories have not yet brought in enough new people to cover those exits. The daily loss did not slow down after the change. This past week it was a bit faster: 79,735 on November 3, 79,600 on November 10, a loss of 135 in seven days.
 
-The views did not stop the slide. The archive’s posts were seen 611,677 times, and the readings through that stretch still mostly fell. October 4’s posts (the Nichols post, the Somers post, and the others that day) add up to 124,568 views. October 6’s posts, led by Hogan’s Heroes, add up to 127,750 views. The follower readings around those days still went down, except for that one gain of 13.
+Two readings this week dropped hard, November 4 (down 39) and November 5 (down 40). Two readings were flat, November 3 and November 8, each up 1. A good story can hold the line for a day. It is not yet replacing the people who leave.
 
-October 7 is the useful clue. That reading had the highest recent engagement in the whole file: 4,361. Recent engagement is the likes, reposts, replies, and quotes on the latest 10 posts at the moment of collection. Hogan’s Heroes alone had 2,689 likes, 408 reposts, and 92 replies. Followers rose by 13. Then the next reading fell by 18, and the one after that fell by 40, the worst drop in the file. Across those three readings the profile added 59 posts, then 40, then 32. The talking stopped being special, the posting got heavier, and the count went back to sliding.
+The accounts you follow also fell, from 28,529 on September 14 to 28,348 on November 10. That is 181 fewer. The follower loss is 728. Unfollowing other people does not explain it.
 
-The accounts you follow also dropped, from 28,529 to 28,460, a loss of 69. That is too small to explain 357 fewer followers.
+What the posts show:
 
-What the numbers point to:
+- The posts that earn likes and reposts are the ones a follower would hand to a friend. Hogan’s Heroes, Nichols and Dr. King, Dan Blocker, Lucille Ball and Star Trek, Ben Johnson. Those reposts are how a new person meets the account.
+- The posts that only earn views are quizzes, rumors, and pay fights. They add reach and almost no fans. Name This Face #3 is doing it again while its views are still coming in: 7,739 views, 5 reposts.
+- Empty posts and “sources” notes add nothing. Four of the five least-seen posts are a bare link. A sources note this Sunday has 198 views and 0 likes.
+- About four or five original posts still go up on a busy day. Each extra post is another chance for a current follower to get tired, and the extra posts are the ones with no fans.
 
-- A view is a person passing by. On the biggest post, about 2 people out of 100 liked it. Following is a bigger step than liking, and most of those viewers never even liked it. The big posts are reaching people who watch one story and leave.
-- The Somers post shows the gap in a single number. Fifth in views, near the bottom in like rate. Wide reach from a fight did not turn into affection.
-- Five original stories a day, plus a lot of replies, gives current followers many chances to get tired. Losing about 15 people a day is a small slice of 80,000. New follows are not covering that slice.
-- The second tweets, the bottom of this list, add posts without adding an audience. A stranger who loved the main story never gets a reason to stay for the next one.
+One change, for the next seven days. Do not post a quiz, a poll, or a “name this face.” Post one story a day, at 9:30 am or noon Pacific, in the Ben Johnson shape: a person this audience already loves, and a true fact they will want to tell someone. End that post with this line: “Follow for one true story like this every morning.”
 
-One idea to try. For the next two weeks, post one story a day, and spend the rest of that day’s time answering the replies on it.
-
-Put it up Sunday between 7 and 10 am Pacific, and on the other days between 6 and 9 am. Make it a show people already love, with a first line that leaves them warm or stunned, in the vein of Don Knotts and Hogan’s Heroes. Skip the pay-fight story this stretch. Fold any extra fact into the first post, or save it for another day. The only reading that rose in the last four weeks was the one where people were actually talking back. Give them one post worth answering, and answer them.
+That line has to sit on a post people repost. Ben Johnson was reposted 76 times. The WWII quiz, the same day, was reposted 6 times. The pinned welcome was reposted 0 times. A follow line on a post that gets passed around is how a viewer becomes a follower. Start with the M\*A\*S\*H post that is live now: it already has 30 replies, and the views are still climbing. Answer those people, and put the follow line in the first reply. Then keep the one-story pattern through next Sunday.
 
 ## 4. Three posts for next week
 
-Same shape as the posts that got both views and likes: a show this audience already knows, a first line with a turn in it, and a person at the center. Times match the windows above. Next week is October 19–25.
+Same shape as the posts that earned likes and reposts. A person people love. A true turn in the first line. No guessing game. Next week is November 11–17. Each one ends with: “Follow for one true story like this every morning.”
 
-### 1. Sunday, October 19, around 8:00 am Pacific — M\*A\*S\*H
+### 1. Sunday, November 15, 9:30 am Pacific — Audrey Hepburn
 
-McLean Stevenson was leaving, so Colonel Blake spent the episode going home. The cast filmed the goodbye party on that story. Larry Gelbart kept the last page in his desk. Alan Alda was the only actor who knew. The operating-room scene was shot last. Just before it, the others learned that Radar would walk in and say Blake’s plane had been shot down over the Sea of Japan, with no survivors. They filmed it on that first look at the page. Stevenson was still on the set and watched his own character die. The season wrap party was called off.
+During the war she was a teenager in Arnhem. She danced at secret gatherings to raise money for the Dutch resistance, and she carried messages. In the Hunger Winter of 1944–45 the family ate tulip bulbs. She came out of the war badly malnourished. The woman audiences later knew as effortless had lived through that.
 
-This is the Don Knotts post in another uniform. A show people love, a friend leaving, and a last scene that was real for the people in the room. Open on Radar in the doorway.
+This is the Nichols post in another key. A beloved person, and a true story that changes how you see her. Sunday at 9:30 am is the slot where a typical post picks up the most fans. Open on the tulip bulbs, then the dancing.
 
-### 2. Tuesday, October 21, around 8:00 am Pacific — Bewitched
+### 2. Tuesday, November 17, noon Pacific — Paul Newman and Joanne Woodward
 
-In 1959, on the Gary Cooper film *They Came to Cordura*, Dick York and Cooper were pumping a railroad handcar. The director yelled cut. An extra grabbed the handle York was lifting. York said he was suddenly lifting the man’s whole weight, about 180 pounds, and the muscles along the right side of his back tore. He kept working. A decade later he was Darrin on Bewitched, in and out of pain, and in February 1969 he collapsed on the set and was taken to the hospital. He left the show that spring. He called it the worst day of his life, because it was the one job he did not finish. Dick Sargent took over, and the show never stopped to explain where Darrin had gone.
+They met in 1953 on the play *Picnic*. They married in 1958 and stayed married until his death in 2008, fifty years. Asked why he never strayed, Newman said he had steak at home, so why go out for hamburger.
 
-Household show, a hidden injury, a man who felt he had let people down. That is closer to the Nichols post than to the Somers post. Lead with the handcar, then the collapse.
+This is the Don Knotts shape: a friendship people are glad to be reminded of, told in one line they can pass on. Noon is when Ben Johnson and Ernest Borgnine earned the most fans this past week. Open on the steak line.
 
-### 3. Thursday, October 23, around 1:30 pm Pacific — All in the Family
+### 3. Thursday, November 12, 9:30 am Pacific — Buster Keaton
 
-On February 19, 1972, Sammy Davis Jr. played himself. He had left a briefcase in Archie Bunker’s cab. He came to the house on Hauser Street to get it back. Archie wanted a picture. On the count of three, Sammy kissed him on the cheek and left. It became one of the biggest laughs the show ever got. The director, John Rich, later said he added the kiss because the written ending felt weak. The writer, Bill Dana, said the kiss was already in his draft.
+In *Steamboat Bill, Jr.* (1928), a real house front falls on Keaton. An open window is the only reason it misses him. They shot it once. If he had stood off his mark, the wall would have killed him.
 
-This is the Hogan’s Heroes shape: a comedy moment that is also about something true, on a show this audience can quote. Thursday afternoon is when the Andy Griffith post and the Captain Kangaroo post went up. Use 1:30 pm, and keep this as the only post that day. Open on the kiss, then the briefcase.
+This is the Barbara Stanwyck shape. Her stunt post earned 482 likes and 61 reposts from 12,343 views, a like rate of 3.91%. A stunt that was really dangerous is something people send to a friend. Open on the falling wall.
