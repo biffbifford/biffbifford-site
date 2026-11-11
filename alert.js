@@ -19,7 +19,7 @@
       var bar = document.createElement("div");
       bar.className = "bb-alert"; bar.setAttribute("role", "region"); bar.setAttribute("aria-label", "Announcement");
       var inner = document.createElement("div"); inner.className = "in";
-      var tag = document.createElement("b"); tag.textContent = "In memoriam";
+      var tag = document.createElement("b"); tag.textContent = a.label || "In memoriam";
       var txt = document.createElement("span"); txt.textContent = a.text;
       inner.appendChild(tag); inner.appendChild(txt);
       if (a.link) {

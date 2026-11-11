@@ -97,7 +97,7 @@ ${FONTS}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7809888324609473" crossorigin="anonymous"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-C83YWVSKPR"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-C83YWVSKPR");</script></head><body><div class="wrap">
 <div class="top"><a href="/index.html">BiffBifford</a><nav><a href="/blog/">Blog</a><a href="/memoriam.html">In Memoriam</a><a href="/puzzle.html">Movie Puzzle</a><a href="/challenge.html">Daily Challenge</a><a href="/wheel.html">Wheel</a><a href="/quiz.html">Quiz</a></nav></div>`;
 
-const FOOT = `<div class="foot"><a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a><br>Follow along: <a href="https://x.com/TBifford" target="_blank" rel="noopener">@TBifford on X</a> · <a href="https://www.tiktok.com/@biffbifford" target="_blank" rel="noopener">TikTok</a> · <a href="https://t.me/biffbifford" target="_blank" rel="noopener">Telegram</a> · <a href="/index.html">Home</a></div>
+const FOOT = `<div class="foot"><a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/photo-credits/">Photo Credits</a><br>Follow along: <a href="https://x.com/TBifford" target="_blank" rel="noopener">@TBifford on X</a> · <a href="https://www.tiktok.com/@biffbifford" target="_blank" rel="noopener">TikTok</a> · <a href="https://t.me/biffbifford" target="_blank" rel="noopener">Telegram</a> · <a href="/index.html">Home</a></div>
 </div></body></html>`;
 
 const files = (await readdir("blog/posts")).filter((f) => f.endsWith(".md")).sort().reverse();
