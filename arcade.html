@@ -166,7 +166,7 @@ document.addEventListener("keydown",function(e){
   if(i>-1){e.preventDefault();awaiting(i)}
 });
 
-function shareLink(text){return "https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent(PAGE_URL)+"&via=TBifford"}
+function shareLink(text){return "https://x.com/intent/post?text="+encodeURIComponent(text)+"&url="+encodeURIComponent(PAGE_URL)+"&via=TBifford"}
 function results(title,big,line,shareText){
   stop();awaiting=null;
   var native=navigator.share?'<button class="btn alt" id="ns">Share another way</button>':'';

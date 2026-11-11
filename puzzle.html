@@ -406,7 +406,7 @@ function finish(){
  $("fs").textContent=money(G.total);
  $("fm").textContent=G.wins+" of "+ROUNDS+" puzzles solved. "+(isBest&&G.total>0?"That's a new personal best!":"Your best is "+money(Math.max(best,G.total))+".");
  var text="🎬 I scored "+money(G.total)+" on the BiffBifford Movie Puzzle ("+G.wins+" of "+ROUNDS+" solved). Can you beat it?";
- $("fx").href="https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://biffbifford.com/puzzle.html");
+ $("fx").href="https://x.com/intent/post?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://biffbifford.com/puzzle.html");
  window.scrollTo(0,0);
 }
 $("again").onclick=function(){newGame()};

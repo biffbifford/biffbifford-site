@@ -167,7 +167,7 @@ $("snd").onclick=function(){soundOn=!soundOn;try{localStorage.setItem("bb_wheel_
 sndLabel();
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
-function shareX(text){return "https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://biffbifford.com/wheel.html")}
+function shareX(text){return "https://x.com/intent/post?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://biffbifford.com/wheel.html")}
 function land(i){
  var out=$("out");out.hidden=false;
  if(mode==="movie")return landMovie(i,out);

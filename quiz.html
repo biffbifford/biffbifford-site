@@ -420,7 +420,7 @@ function shareText(){return "I scored "+G.score+" on the Gen-X Hollywood & TV qu
 function renderResult(){
   awaiting=null;
   var rank=rankFor(G.score);
-  var xurl="https://twitter.com/intent/tweet?text="+encodeURIComponent(shareText())+"&url="+encodeURIComponent(QUIZ_URL)+"&via=TBifford";
+  var xurl="https://x.com/intent/post?text="+encodeURIComponent(shareText())+"&url="+encodeURIComponent(QUIZ_URL)+"&via=TBifford";
   var native=navigator.share?'<button class="btn alt" id="nshare">Share another way</button>':'';
   set('<div class="hud"><span>Final score</span><span>LEVEL '+G.level+' OF 10</span><span class="cat">Rank</span></div>'+
     '<div style="margin:auto 0;padding:4% 0">'+
