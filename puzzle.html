@@ -139,7 +139,7 @@ h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2rem,7vw,3rem);line-heig
 
  <div class="panel center" id="next" hidden>
   <h2 id="nt"></h2><p id="nm"></p>
-  <div class="row"><button class="btn" id="go">Next puzzle</button></div>
+  <div class="row"><button class="btn" id="go">Next puzzle</button><a class="btn alt" id="rx" target="_blank" rel="noopener" href="#">Share to X</a></div>
  </div>
 </section>
 
@@ -147,7 +147,7 @@ h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2rem,7vw,3rem);line-heig
  <h2>Game over</h2>
  <div class="final" id="fs">$0</div>
  <p id="fm"></p>
- <div class="row"><a class="btn" id="fx" target="_blank" rel="noopener" href="#">Share to X</a><button class="btn alt" id="again">Play again</button></div>
+ <div class="row"><a class="btn" id="fx" target="_blank" rel="noopener" href="#">Share to X</a><button class="btn alt" id="cp">Copy result</button><button class="btn alt" id="ns" hidden>Share another way</button><button class="btn alt" id="again">Play again</button></div>
 </section>
 
 <p class="fine">Hungry for more? <a href="challenge.html">Daily Challenge</a> · <a href="wheel.html">Trivia Wheel</a> · <a href="quiz.html">Quiz</a> · <a href="arcade.html">Arcade</a> · <a href="/photo-credits/">Photo Credits</a></p>
@@ -387,10 +387,13 @@ function lose(){
  G.over=true;lockAll();reveal();buzz();hud();
  endRound("Out of hearts.","The answer was: "+G.puz.answer+". No cash banked on this one.");
 }
+var PUZ_URL="https://biffbifford.com/puzzle.html";
+function xurl(text){return "https://x.com/intent/post?text="+encodeURIComponent(text)+"&url="+encodeURIComponent(PUZ_URL)}
 function endRound(t,m){
  $("nt").textContent=t;$("nm").textContent=m;
  var last=G.round>=ROUNDS-1;
  $("go").textContent=last?"See my score":"Next puzzle";
+ $("rx").href=xurl("🎬 I'm at "+money(G.total)+" after "+(G.round+1)+" of "+ROUNDS+" puzzles on the BiffBifford Movie Puzzle. Can you beat it?");
  $("next").hidden=false;$("sf").hidden=true;
  $("next").scrollIntoView({behavior:reduce?"auto":"smooth",block:"nearest"});
 }
@@ -406,7 +409,12 @@ function finish(){
  $("fs").textContent=money(G.total);
  $("fm").textContent=G.wins+" of "+ROUNDS+" puzzles solved. "+(isBest&&G.total>0?"That's a new personal best!":"Your best is "+money(Math.max(best,G.total))+".");
  var text="🎬 I scored "+money(G.total)+" on the BiffBifford Movie Puzzle ("+G.wins+" of "+ROUNDS+" solved). Can you beat it?";
- $("fx").href="https://x.com/intent/post?text="+encodeURIComponent(text)+"&url="+encodeURIComponent("https://biffbifford.com/puzzle.html");
+ $("fx").href=xurl(text);
+ var full=text+" "+PUZ_URL;
+ $("cp").textContent="Copy result";
+ $("cp").onclick=function(){var b=$("cp");function ok(){b.textContent="Copied!";setTimeout(function(){b.textContent="Copy result"},2000)}
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(full).then(ok,function(){window.prompt("Copy your result:",full)});else window.prompt("Copy your result:",full)};
+ if(navigator.share){$("ns").hidden=false;$("ns").onclick=function(){navigator.share({title:"BiffBifford Movie Puzzle",text:text,url:PUZ_URL}).catch(function(){})}}
  window.scrollTo(0,0);
 }
 $("again").onclick=function(){newGame()};
