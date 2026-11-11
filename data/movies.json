@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-10T20:59:15.240Z",
+  "updated_at": "2026-11-11T21:31:29.789Z",
   "boxoffice": [
+    {
+      "title": "Can ‘Ebenezer’ Resurrect Johnny Depp’s Box Office Drawing Power?",
+      "url": "https://www.thewrap.com/creative-content/movies/johnny-depp-ebenezer-box-office-tracking/",
+      "source": "TheWrap",
+      "published": "2026-11-11T19:06:55.000Z"
+    },
     {
       "title": "Box Office: ‘You Can See Everything’ Becomes Second-Biggest Doc Ever in North America With $80 Million",
       "url": "https://variety.com/2026/film/box-office/you-can-see-everything-second-highest-grossing-documentary-north-america-box-office-1236942385/",
@@ -30,12 +36,6 @@
       "url": "https://collider.com/godzilla-minus-zero-box-office-opening-33-million/",
       "source": "Collider",
       "published": "2026-11-07T17:00:13.000Z"
-    },
-    {
-      "title": "‘Godzilla Minus Zero’ Barrels Toward Historic $32M Box Office Launch With ‘Cat in the Hat’ at No. 2",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/godzilla-minus-zero-box-office-opening-the-cat-in-the-hat-1236750019/",
-      "source": "The Hollywood Reporter",
-      "published": "2026-11-07T16:43:46.000Z"
     }
   ],
   "now_playing": [],
