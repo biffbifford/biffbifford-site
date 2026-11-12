@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-11T21:31:29.789Z",
+  "updated_at": "2026-11-12T21:34:37.579Z",
   "boxoffice": [
+    {
+      "title": "‘Ramayana: Rise Of A Legend’ Powers Past $100M+ At Global Box Office",
+      "url": "https://deadline.com/2026/11/box-office-ramayana-rise-of-a-legend-1237222031/",
+      "source": "Deadline",
+      "published": "2026-11-12T20:03:22.000Z"
+    },
     {
       "title": "Can ‘Ebenezer’ Resurrect Johnny Depp’s Box Office Drawing Power?",
       "url": "https://www.thewrap.com/creative-content/movies/johnny-depp-ebenezer-box-office-tracking/",
@@ -30,12 +36,6 @@
       "url": "https://variety.com/2026/film/box-office/godzilla-minus-zero-box-office-opening-weekend-cat-in-the-hat-fizzles-1236942363/",
       "source": "Variety",
       "published": "2026-11-08T16:01:33.000Z"
-    },
-    {
-      "title": "‘Godzilla Minus Zero’ Officially Smashes a Box Office Record on Day 1",
-      "url": "https://collider.com/godzilla-minus-zero-box-office-opening-33-million/",
-      "source": "Collider",
-      "published": "2026-11-07T17:00:13.000Z"
     }
   ],
   "now_playing": [],
