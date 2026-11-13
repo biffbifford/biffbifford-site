@@ -1,43 +1,98 @@
 {
-  "updated_at": "2026-11-12T19:40:38.285Z",
+  "updated_at": "2026-11-13T05:42:44.852Z",
   "account": {
-    "followers": 79577,
-    "following": 28333,
-    "posts": 72171,
+    "followers": 79576,
+    "following": 28328,
+    "posts": 72184,
     "listed": 96
   },
   "tweets": [
     {
-      "id": "2120963087205552267",
-      "text": "🎬 Alan Alda also told Dan Rather he had no idea how to play Hawkeye until his very first shot. A nurse walked by, he hugged her, she hugged him back, and he thought: \"I'm the guy.\"",
-      "created_at": "2026-11-12T19:33:00.000Z",
+      "id": "2121060480680665252",
+      "text": "🎙️ Mel Brooks and Carl Reiner were best friends for more than 70 years. It started with a party joke.\n\nIn the 1950s, Reiner would play a reporter interviewing \"a 2,000-year-old man.\" Brooks would answer, making it all up on the spot.\n\nThey did it at parties just to make their https://t.co/bQjXbimOus",
+      "created_at": "2026-11-13T02:00:00.000Z",
+      "likes": 14,
+      "retweets": 2,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 824,
+      "url": "https://x.com/TBifford/status/2121060480680665252"
+    },
+    {
+      "id": "2121027958689222666",
+      "text": "😳 Stacy Keach was the first choice to play Father Karras in The Exorcist, and he turned it down! https://t.co/Xq8AtXj9DQ",
+      "created_at": "2026-11-12T23:50:46.000Z",
       "likes": 0,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 38,
+      "impression_count": 301,
+      "url": "https://x.com/TBifford/status/2121027958689222666"
+    },
+    {
+      "id": "2121022237104836669",
+      "text": "🏆 So who do YOU believe named it: the librarian, Bette Davis, or the columnist?",
+      "created_at": "2026-11-12T23:28:02.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 210,
+      "url": "https://x.com/TBifford/status/2121022237104836669"
+    },
+    {
+      "id": "2121021425699959021",
+      "text": "🎖️ Over 100 million of us watched the goodbye in 1983. Who were you watching with that night?",
+      "created_at": "2026-11-12T23:24:49.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 179,
+      "url": "https://x.com/TBifford/status/2121021425699959021"
+    },
+    {
+      "id": "2120969883005411465",
+      "text": "🏆 The most famous trophy in the world has a nickname, and nobody can prove who gave it.\n\nIts official name is the \"Academy Award of Merit.\" But by 1934, everyone was calling it \"Oscar.\"\n\nWho started it? Three famous suspects:\n\n📚 Margaret Herrick, the Academy librarian, https://t.co/O7BmFQv8w5",
+      "created_at": "2026-11-12T20:00:00.000Z",
+      "likes": 5,
+      "retweets": 1,
+      "replies": 3,
+      "quotes": 0,
+      "impression_count": 1154,
+      "url": "https://x.com/TBifford/status/2120969883005411465"
+    },
+    {
+      "id": "2120963087205552267",
+      "text": "🎬 Alan Alda also told Dan Rather he had no idea how to play Hawkeye until his very first shot. A nurse walked by, he hugged her, she hugged him back, and he thought: \"I'm the guy.\"",
+      "created_at": "2026-11-12T19:33:00.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 198,
       "url": "https://x.com/TBifford/status/2120963087205552267"
     },
     {
       "id": "2120932134122582068",
       "text": "📺 M*A*S*H ended with the most-watched finale in TV history. But after its first season, it was almost canceled.\n\nWhen the show premiered in 1972, CBS put it on Sunday nights against The Wonderful World of Disney. It finished the season ranked 46th.\n\nAlan Alda later joked to Dan https://t.co/UjMPPjhEI4",
       "created_at": "2026-11-12T17:30:00.000Z",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 2,
+      "likes": 43,
+      "retweets": 8,
+      "replies": 7,
       "quotes": 0,
-      "impression_count": 585,
+      "impression_count": 2088,
       "url": "https://x.com/TBifford/status/2120932134122582068"
     },
     {
       "id": "2120700348901753172",
       "text": "🎞️ Rare footage: Annette Kellermann swimming underwater in Venus of the South Seas (1924), filmed more than 100 years ago! https://t.co/hwhuyWWX0W",
       "created_at": "2026-11-12T02:08:58.000Z",
-      "likes": 1,
+      "likes": 2,
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 341,
+      "impression_count": 356,
       "url": "https://x.com/TBifford/status/2120700348901753172"
     },
     {
@@ -48,74 +103,19 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 27,
+      "impression_count": 32,
       "url": "https://x.com/TBifford/status/2120700151736258898"
     },
     {
       "id": "2120698097319780523",
       "text": "🧜‍♀️ As a little girl, she wore steel braces on her legs. She grew up to become Hollywood's first million-dollar mermaid.\n\nAnnette Kellermann was born in Sydney, Australia, in 1886. Doctors put her in leg braces, likely from polio, and she started swimming to make her legs https://t.co/IHrxh4Vhrz",
       "created_at": "2026-11-12T02:00:01.000Z",
-      "likes": 15,
+      "likes": 16,
       "retweets": 3,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 1142,
+      "impression_count": 1244,
       "url": "https://x.com/TBifford/status/2120698097319780523"
-    },
-    {
-      "id": "2120698091049259502",
-      "text": "⭐ In 1938, theater owners called Katharine Hepburn \"box office poison.\" She went on to win more acting Oscars than anyone in history.\n\nAfter a run of flops, a group of theater owners took out an ad naming the stars they said were driving audiences away. Hepburn was on the list. https://t.co/dTa8m4QghG",
-      "created_at": "2026-11-12T02:00:00.000Z",
-      "likes": 12,
-      "retweets": 2,
-      "replies": 2,
-      "quotes": 1,
-      "impression_count": 1080,
-      "url": "https://x.com/TBifford/status/2120698091049259502"
-    },
-    {
-      "id": "2120660344939192450",
-      "text": "🕊️ Stacy Keach was born with a cleft lip. He grew up to become one of the great voices of stage and screen.\n\nAs a boy, he went through surgery after surgery. Later, he grew his famous mustache partly to hide the scars.\n\nHe didn't let it stop him. Berkeley, Yale Drama, a Fulbright https://t.co/MEaZoUL0ka",
-      "created_at": "2026-11-11T23:30:00.000Z",
-      "likes": 44,
-      "retweets": 9,
-      "replies": 4,
-      "quotes": 0,
-      "impression_count": 1245,
-      "url": "https://x.com/TBifford/status/2120660344939192450"
-    },
-    {
-      "id": "2120659844239958037",
-      "text": "🇬🇧 Bonus twist: Bob Hope wasn't even born in America. He was born in England in 1903 and came to Ohio as a boy. He lived to be 100! https://t.co/Wb7bkuqRQ4",
-      "created_at": "2026-11-11T23:28:01.000Z",
-      "likes": 3,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 207,
-      "url": "https://x.com/TBifford/status/2120659844239958037"
-    },
-    {
-      "id": "2120607496964325460",
-      "text": "🎺 Mel Brooks didn't just make fun of the Nazis in the movies. He did it to their faces.\n\nIn 1944, 18-year-old Melvin Kaminsky of Brooklyn was drafted and shipped to Europe. He became a combat engineer, crawling ahead of the troops to find and defuse land mines, sometimes by https://t.co/9wF966ED2h",
-      "created_at": "2026-11-11T20:00:00.000Z",
-      "likes": 1415,
-      "retweets": 275,
-      "replies": 33,
-      "quotes": 6,
-      "impression_count": 17998,
-      "url": "https://x.com/TBifford/status/2120607496964325460"
-    },
-    {
-      "id": "2120569746974507118",
-      "text": "🎖️ He never wore a uniform. Yet Congress made Bob Hope the ONLY honorary veteran in American history.\n\nStarting in World War II, Hope spent more than 50 years entertaining troops, through Korea, Vietnam and all the way to the Gulf War.\n\nAbout 45 USO tours. More than 40 countries. https://t.co/gqS7QbeuhX",
-      "created_at": "2026-11-11T17:30:00.000Z",
-      "likes": 20,
-      "retweets": 8,
-      "replies": 3,
-      "quotes": 1,
-      "impression_count": 940,
-      "url": "https://x.com/TBifford/status/2120569746974507118"
     }
   ]
 }
