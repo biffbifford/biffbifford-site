@@ -6,7 +6,9 @@ A fan, in this report, is a like or a repost. Like rate is likes divided by view
 
 Posts from late Sunday morning, November 8, through Monday, November 9, are still collecting views. They are listed on their own and left out of the rankings. Follower dates are the day the stats were collected, not the day a post went up.
 
-The archive has 173 original posts from October 3 through November 9. Replies and reposts of other people are not in the file. The rankings below use the 166 finished posts, not the pin and not the six posts that are still collecting. Those 166 posts have been seen 1,110,393 times. A typical one gets 1.3 likes per 100 views.
+The archive has 173 original posts from October 3 through November 9. Replies are not in the file. The line “Follow for one true story like this every morning” goes in the first reply under each story. This report judges that reply only by whether the follower count improves.
+
+The rankings below use the 166 finished posts, not the pin and not the six posts that are still collecting. Those 166 posts have been seen 1,110,393 times. A typical one gets 1.3 likes per 100 views.
 
 ## 1. Top 5 and bottom 5 by views
 
@@ -114,7 +116,7 @@ From the high point to October 22, the count fell by 482 people in 35 days, abou
 
 Since October 22 the count has fallen by another 300, about 16 a day. Some of that is expected. People who followed for the political posts are leaving, and the account stopped those posts on purpose. The Hollywood stories have not yet brought in enough new people to cover those exits. The daily loss did not slow down after the change. This past week it was a bit faster: 79,735 on November 3, 79,600 on November 10, a loss of 135 in seven days.
 
-Two readings this week dropped hard, November 4 (down 39) and November 5 (down 40). Two readings were flat, November 3 and November 8, each up 1. A good story can hold the line for a day. It is not yet replacing the people who leave.
+That is also the verdict on the follow reply. The first reply under each story already asks people to follow for one true story every morning. Followers are the test, and they are still falling. Two readings this week were up by 1 (November 3 and November 8). Two dropped hard, November 4 (down 39) and November 5 (down 40). A good story can hold the line for a day. The reply under it is not yet replacing the people who leave.
 
 The accounts you follow also fell, from 28,529 on September 14 to 28,348 on November 10. That is 181 fewer. The follower loss is 728. Unfollowing other people does not explain it.
 
@@ -125,13 +127,13 @@ What the posts show:
 - Empty posts and “sources” notes add nothing. Four of the five least-seen posts are a bare link. A sources note this Sunday has 198 views and 0 likes.
 - About four or five original posts still go up on a busy day. Each extra post is another chance for a current follower to get tired, and the extra posts are the ones with no fans.
 
-One change, for the next seven days. Do not post a quiz, a poll, or a “name this face.” Post one story a day, at 9:30 am or noon Pacific, in the Ben Johnson shape: a person this audience already loves, and a true fact they will want to tell someone. End that post with this line: “Follow for one true story like this every morning.”
+One change, for the next seven days. Keep the follow line where it already is, in the first reply. Do not post a quiz, a poll, or a “name this face.” Post one story a day, at 9:30 am or noon Pacific, in the Ben Johnson shape: a person this audience already loves, and a true fact they will want to tell someone.
 
-That line has to sit on a post people repost. Ben Johnson was reposted 76 times. The WWII quiz, the same day, was reposted 6 times. The pinned welcome was reposted 0 times. A follow line on a post that gets passed around is how a viewer becomes a follower. Start with the M\*A\*S\*H post that is live now: it already has 30 replies, and the views are still climbing. Answer those people, and put the follow line in the first reply. Then keep the one-story pattern through next Sunday.
+The reply is already asking people to follow, and the count is still falling, so the next test is the post the reply sits under. Ben Johnson was reposted 76 times. The WWII quiz, the same day, was reposted 6 times. A follow reply under a post that people pass on has a chance. A follow reply under a guessing game reaches people who came to play. Next week’s report should judge this by the follower readings alone.
 
 ## 4. Three posts for next week
 
-Same shape as the posts that earned likes and reposts. A person people love. A true turn in the first line. No guessing game. Next week is November 11–17. Each one ends with: “Follow for one true story like this every morning.”
+Same shape as the posts that earned likes and reposts. A person people love. A true turn in the first line. No guessing game. Next week is November 11–17. The story is the post. The usual follow line stays in the first reply, where the archive cannot see it.
 
 ### 1. Sunday, November 15, 9:30 am Pacific — Audrey Hepburn
 
