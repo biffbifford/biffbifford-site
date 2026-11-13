@@ -1,21 +1,32 @@
 {
-  "updated_at": "2026-11-13T05:42:44.852Z",
+  "updated_at": "2026-11-13T19:22:30.708Z",
   "account": {
-    "followers": 79576,
-    "following": 28328,
-    "posts": 72184,
+    "followers": 79571,
+    "following": 28330,
+    "posts": 72185,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2121294523988836482",
+      "text": "🔥 Hollywood once tried to buy the greatest movie ever made… just to BURN it.\n\nIn 1941, a 25-year-old Orson Welles made Citizen Kane, the story of a powerful newspaper tycoon.\n\nEveryone knew who it was really about: William Randolph Hearst, the most powerful newspaper man in https://t.co/GlcUy7XJVe",
+      "created_at": "2026-11-13T17:30:00.000Z",
+      "likes": 3,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 395,
+      "url": "https://x.com/TBifford/status/2121294523988836482"
+    },
+    {
       "id": "2121060480680665252",
       "text": "🎙️ Mel Brooks and Carl Reiner were best friends for more than 70 years. It started with a party joke.\n\nIn the 1950s, Reiner would play a reporter interviewing \"a 2,000-year-old man.\" Brooks would answer, making it all up on the spot.\n\nThey did it at parties just to make their https://t.co/bQjXbimOus",
       "created_at": "2026-11-13T02:00:00.000Z",
-      "likes": 14,
-      "retweets": 2,
+      "likes": 18,
+      "retweets": 3,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 824,
+      "impression_count": 1769,
       "url": "https://x.com/TBifford/status/2121060480680665252"
     },
     {
@@ -26,7 +37,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 301,
+      "impression_count": 343,
       "url": "https://x.com/TBifford/status/2121027958689222666"
     },
     {
@@ -37,7 +48,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 210,
+      "impression_count": 240,
       "url": "https://x.com/TBifford/status/2121022237104836669"
     },
     {
@@ -48,18 +59,18 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 179,
+      "impression_count": 200,
       "url": "https://x.com/TBifford/status/2121021425699959021"
     },
     {
       "id": "2120969883005411465",
       "text": "🏆 The most famous trophy in the world has a nickname, and nobody can prove who gave it.\n\nIts official name is the \"Academy Award of Merit.\" But by 1934, everyone was calling it \"Oscar.\"\n\nWho started it? Three famous suspects:\n\n📚 Margaret Herrick, the Academy librarian, https://t.co/O7BmFQv8w5",
       "created_at": "2026-11-12T20:00:00.000Z",
-      "likes": 5,
+      "likes": 6,
       "retweets": 1,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 1154,
+      "impression_count": 1285,
       "url": "https://x.com/TBifford/status/2120969883005411465"
     },
     {
@@ -70,18 +81,18 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 198,
+      "impression_count": 212,
       "url": "https://x.com/TBifford/status/2120963087205552267"
     },
     {
       "id": "2120932134122582068",
       "text": "📺 M*A*S*H ended with the most-watched finale in TV history. But after its first season, it was almost canceled.\n\nWhen the show premiered in 1972, CBS put it on Sunday nights against The Wonderful World of Disney. It finished the season ranked 46th.\n\nAlan Alda later joked to Dan https://t.co/UjMPPjhEI4",
       "created_at": "2026-11-12T17:30:00.000Z",
-      "likes": 43,
+      "likes": 57,
       "retweets": 8,
       "replies": 7,
       "quotes": 0,
-      "impression_count": 2088,
+      "impression_count": 2559,
       "url": "https://x.com/TBifford/status/2120932134122582068"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 356,
+      "impression_count": 358,
       "url": "https://x.com/TBifford/status/2120700348901753172"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 32,
+      "impression_count": 35,
       "url": "https://x.com/TBifford/status/2120700151736258898"
-    },
-    {
-      "id": "2120698097319780523",
-      "text": "🧜‍♀️ As a little girl, she wore steel braces on her legs. She grew up to become Hollywood's first million-dollar mermaid.\n\nAnnette Kellermann was born in Sydney, Australia, in 1886. Doctors put her in leg braces, likely from polio, and she started swimming to make her legs https://t.co/IHrxh4Vhrz",
-      "created_at": "2026-11-12T02:00:01.000Z",
-      "likes": 16,
-      "retweets": 3,
-      "replies": 3,
-      "quotes": 0,
-      "impression_count": 1244,
-      "url": "https://x.com/TBifford/status/2120698097319780523"
     }
   ]
 }
