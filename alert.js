@@ -14,6 +14,7 @@
         ".bb-alert b{font-family:'Space Mono',monospace;font-size:.85em;letter-spacing:.08em;color:#C9A036;text-transform:uppercase}" +
         ".bb-alert a{color:#C9A036;font-weight:600;padding:8px 0;display:inline-block}" +
         ".bb-alert button{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:44px;height:44px;border:0;background:none;color:#EDE3CC;font-size:26px;cursor:pointer;line-height:1}" +
+        "@media(max-width:560px){.bb-alert{font-size:16px}.bb-alert .in{display:block;padding:6px 52px 6px 16px;line-height:1.35}.bb-alert .in>*{display:inline;margin-right:8px}.bb-alert a{display:inline-block;padding:6px 0}}" +
         ".bb-alert a:focus-visible,.bb-alert button:focus-visible{outline:3px solid #fff;outline-offset:2px}";
       document.head.appendChild(st);
       var bar = document.createElement("div");
