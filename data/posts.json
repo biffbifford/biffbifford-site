@@ -1,65 +1,109 @@
 {
-  "updated_at": "2026-11-15T18:37:14.147Z",
+  "updated_at": "2026-11-16T05:29:54.381Z",
   "account": {
     "followers": 79588,
-    "following": 28333,
-    "posts": 72216,
+    "following": 28334,
+    "posts": 72247,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2122150149732352183",
+      "text": "🙏 Thanks to @williamgnaught2 for suggesting this one! Keep the ideas coming, Will. 🍿🏆🫡",
+      "created_at": "2026-11-16T02:09:57.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 199,
+      "url": "https://x.com/TBifford/status/2122150149732352183"
+    },
+    {
+      "id": "2122147645829583190",
+      "text": "🤠 John Wayne's famous walk and slow, tough way of talking? He borrowed them from a rodeo cowboy named Yakima Canutt.\n\nCanutt was a bronc rider from Washington State, nicknamed \"Yakima\" at the Pendleton Round-Up, though he wasn't even from there.\n\nHe went to Hollywood and became https://t.co/lkjXow2HXB",
+      "created_at": "2026-11-16T02:00:01.000Z",
+      "likes": 14,
+      "retweets": 2,
+      "replies": 5,
+      "quotes": 0,
+      "impression_count": 950,
+      "url": "https://x.com/TBifford/status/2122147645829583190"
+    },
+    {
+      "id": "2122069390921453612",
+      "text": "🏆 Wallach finally got his Oscar in 2010, an honorary one, at 94. He played Tuco… and Mr. Freeze on Batman!",
+      "created_at": "2026-11-15T20:49:03.000Z",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 332,
+      "url": "https://x.com/TBifford/status/2122069390921453612"
+    },
+    {
+      "id": "2122057297371496956",
+      "text": "🤠 Making The Good, the Bad and the Ugly nearly killed Eli Wallach. Not once. Three times.\n\n1️⃣ Between takes he grabbed a bottle of lemon soda and took a sip. It wasn't soda. A crew member had stored acid in it for a prop. He spat it out and drank milk, but it left sores in his https://t.co/546nt4BxzD",
+      "created_at": "2026-11-15T20:01:00.000Z",
+      "likes": 190,
+      "retweets": 22,
+      "replies": 17,
+      "quotes": 2,
+      "impression_count": 11127,
+      "url": "https://x.com/TBifford/status/2122057297371496956"
+    },
+    {
       "id": "2122025785112588534",
       "text": "🎪 Imagine paying a penny to watch a movie in a tent at the county fair. That was Haggar's cinema. What's the oldest movie theater YOU remember going to as a kid?",
       "created_at": "2026-11-15T17:55:47.000Z",
-      "likes": 1,
+      "likes": 2,
       "retweets": 0,
-      "replies": 0,
+      "replies": 1,
       "quotes": 0,
-      "impression_count": 129,
+      "impression_count": 217,
       "url": "https://x.com/TBifford/status/2122025785112588534"
     },
     {
       "id": "2122019800675185072",
       "text": "🎪 Before Hollywood existed, a traveling showman in Wales helped invent the movie chase scene.\n\nWilliam Haggar ran a cinema in a tent, traveling from fair to fair. When he started making his own films, he cast his own family. Eight of his eleven children ended up on screen.\n\nIn https://t.co/B4VTeHoAqL",
       "created_at": "2026-11-15T17:32:00.000Z",
-      "likes": 3,
+      "likes": 9,
       "retweets": 0,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 337,
+      "impression_count": 927,
       "url": "https://x.com/TBifford/status/2122019800675185072"
     },
     {
       "id": "2122019299803996471",
       "text": "👗 Klinger was only supposed to be in ONE episode of M*A*S*H.\n\nJamie Farr got the call because he'd worked with the director before. It was one day's work for $250. A corporal from Toledo who wears dresses, hoping the Army will send him home.\n\nBut that first episode got such a https://t.co/s2HuobjUHn",
       "created_at": "2026-11-15T17:30:00.000Z",
-      "likes": 23,
-      "retweets": 1,
-      "replies": 2,
-      "quotes": 0,
-      "impression_count": 1216,
+      "likes": 371,
+      "retweets": 47,
+      "replies": 17,
+      "quotes": 2,
+      "impression_count": 16977,
       "url": "https://x.com/TBifford/status/2122019299803996471"
     },
     {
       "id": "2121785262355189896",
       "text": "🎬 Anthony Hopkins won the Oscar for Best Actor for The Silence of the Lambs. His total time on screen? About 16 minutes.\n\nThat's a world record. Guinness lists it as the shortest screen time ever for a Best Actor win.\n\nSixteen minutes… and Hannibal Lecter still haunts people 35 https://t.co/8GEttPMGqb",
       "created_at": "2026-11-15T02:00:02.000Z",
-      "likes": 28,
-      "retweets": 6,
+      "likes": 36,
+      "retweets": 7,
       "replies": 6,
       "quotes": 0,
-      "impression_count": 1504,
+      "impression_count": 2100,
       "url": "https://x.com/TBifford/status/2121785262355189896"
     },
     {
       "id": "2121735529934819546",
       "text": "🎬 They made 9 films together: Woman of the Year, Adam's Rib, Pat and Mike, Desk Set… Which Tracy &amp; Hepburn movie is YOUR favorite?\n\nJust for fun 👇\nWoman of the Year, Keeper of the Flame, Without Love, The Sea of Grass, State of the Union, Adam’s Rib, Pat and Mike, Desk Set,",
       "created_at": "2026-11-14T22:42:24.000Z",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 355,
+      "impression_count": 366,
       "url": "https://x.com/TBifford/status/2121735529934819546"
     },
     {
@@ -70,52 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 227,
+      "impression_count": 237,
       "url": "https://x.com/TBifford/status/2121724574278762703"
-    },
-    {
-      "id": "2121695477695471983",
-      "text": "🎬 Maureen O'Hara made five films with John Ford, including The Quiet Man. But for many of us, she'll always be the mom in Miracle on 34th Street or The Parent Trap. What's YOUR favorite Maureen O'Hara movie?",
-      "created_at": "2026-11-14T20:03:15.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 276,
-      "url": "https://x.com/TBifford/status/2121695477695471983"
-    },
-    {
-      "id": "2121694658111881534",
-      "text": "🧺 At 21, Maureen O'Hara corrected John Ford in front of his whole crew. It was the wrong move.\n\nIn 1941, filming How Green Was My Valley, she was handed a basket for a scene set in 1890s Wales. She took one look and said it wasn't from the right period.\n\nOut loud. In front of https://t.co/OUq34Ub3xE",
-      "created_at": "2026-11-14T20:00:00.000Z",
-      "likes": 36,
-      "retweets": 8,
-      "replies": 4,
-      "quotes": 0,
-      "impression_count": 2351,
-      "url": "https://x.com/TBifford/status/2121694658111881534"
-    },
-    {
-      "id": "2121656909757665482",
-      "text": "🔍 3 famous movie mysteries… and the people who made them STILL won't give a straight answer.\n\n💼 PULP FICTION (1994)\nWhat's glowing in Marcellus Wallace's briefcase? Tarantino says it was going to be diamonds, but that felt boring. So he left it a mystery and let YOU imagine https://t.co/6FfSxw1dXZ",
-      "created_at": "2026-11-14T17:30:00.000Z",
-      "likes": 5,
-      "retweets": 1,
-      "replies": 1,
-      "quotes": 0,
-      "impression_count": 840,
-      "url": "https://x.com/TBifford/status/2121656909757665482"
-    },
-    {
-      "id": "2121648343826805156",
-      "text": "🏆 Fun twist: Citizen Kane lost Best Picture to How Green Was My Valley. And on that set, a 21-year-old Maureen O'Hara made the mistake of correcting John Ford. That story's coming at noon today!",
-      "created_at": "2026-11-14T16:55:58.000Z",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 196,
-      "url": "https://x.com/TBifford/status/2121648343826805156"
     }
   ]
 }
