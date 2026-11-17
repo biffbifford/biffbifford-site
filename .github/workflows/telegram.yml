@@ -4,10 +4,13 @@ on:
   schedule:
     - cron: "5 16 * * *"    # morning: quiz poll + new blog story (about 9 AM Pacific)
     - cron: "35 1 * * *"    # evening: tonight's classic film (about 6:30 PM Pacific)
+    - cron: "5 20 * * *"    # midday: Movie Puzzle (about noon Pacific)
+    - cron: "30 22 * * 2,4,0" # afternoon trailer, Tue/Thu/Sun (about 2:30 PM Pacific)
+    - cron: "0 23 * * 6"    # Saturday fan poll (about 3 PM Pacific)
   workflow_dispatch:
     inputs:
       mode:
-        description: "What to post now: quiz, pick or blog"
+        description: "What to post now: quiz, pick, blog, puzzle, otd, poll, trailer or welcome"
         required: true
         default: quiz
 
@@ -32,10 +35,20 @@ jobs:
         if: github.event.schedule == '5 16 * * *'
         run: |
           node scripts/telegram-post.mjs quiz
+          node scripts/telegram-post.mjs otd
           node scripts/telegram-post.mjs blog
       - name: Evening post
         if: github.event.schedule == '35 1 * * *'
         run: node scripts/telegram-post.mjs pick
+      - name: Midday puzzle
+        if: github.event.schedule == '5 20 * * *'
+        run: node scripts/telegram-post.mjs puzzle
+      - name: Trailer
+        if: github.event.schedule == '30 22 * * 2,4,0'
+        run: node scripts/telegram-post.mjs trailer
+      - name: Saturday poll
+        if: github.event.schedule == '0 23 * * 6'
+        run: node scripts/telegram-post.mjs poll
       - name: Save the blog-announced note
         run: |
           git config user.name "github-actions[bot]"

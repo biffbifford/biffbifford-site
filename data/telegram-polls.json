@@ -1,0 +1,113 @@
+{
+ "_readme": "Weekend polls for the Telegram channel. One per Saturday, in order, then repeats.",
+ "polls": [
+  {
+   "q": "Best Western of all time?",
+   "options": [
+    "The Searchers",
+    "Rio Bravo",
+    "The Good, the Bad and the Ugly",
+    "High Noon"
+   ]
+  },
+  {
+   "q": "Favorite 70s sitcom?",
+   "options": [
+    "M*A*S*H",
+    "The Mary Tyler Moore Show",
+    "All in the Family",
+    "Happy Days"
+   ]
+  },
+  {
+   "q": "Which Hitchcock film is the best?",
+   "options": [
+    "Psycho",
+    "Vertigo",
+    "North by Northwest",
+    "Rear Window"
+   ]
+  },
+  {
+   "q": "Best movie tough guy?",
+   "options": [
+    "John Wayne",
+    "Clint Eastwood",
+    "Steve McQueen",
+    "Humphrey Bogart"
+   ]
+  },
+  {
+   "q": "Favorite classic movie musical?",
+   "options": [
+    "Singin' in the Rain",
+    "The Sound of Music",
+    "West Side Story",
+    "The Wizard of Oz"
+   ]
+  },
+  {
+   "q": "Best 80s teen movie?",
+   "options": [
+    "The Breakfast Club",
+    "Ferris Bueller's Day Off",
+    "Sixteen Candles",
+    "Footloose"
+   ]
+  },
+  {
+   "q": "Which Christmas movie do you watch every year?",
+   "options": [
+    "It's a Wonderful Life",
+    "A Christmas Story",
+    "White Christmas",
+    "Miracle on 34th Street"
+   ]
+  },
+  {
+   "q": "Best TV detective?",
+   "options": [
+    "Columbo",
+    "Magnum, P.I.",
+    "Jessica Fletcher",
+    "Perry Mason"
+   ]
+  },
+  {
+   "q": "Favorite Thanksgiving movie?",
+   "options": [
+    "Planes, Trains and Automobiles",
+    "Miracle on 34th Street",
+    "Home for the Holidays",
+    "Hannah and Her Sisters"
+   ]
+  },
+  {
+   "q": "Best movie car chase?",
+   "options": [
+    "Bullitt",
+    "The French Connection",
+    "The Blues Brothers",
+    "Smokey and the Bandit"
+   ]
+  },
+  {
+   "q": "Who was the greatest leading lady?",
+   "options": [
+    "Audrey Hepburn",
+    "Katharine Hepburn",
+    "Grace Kelly",
+    "Ingrid Bergman"
+   ]
+  },
+  {
+   "q": "Best 80s sitcom?",
+   "options": [
+    "Cheers",
+    "The Golden Girls",
+    "Family Ties",
+    "The Cosby Show"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 // scripts/telegram-post.mjs
 //
-// Posts to the Telegram channel. Usage:  node scripts/telegram-post.mjs <quiz|pick|blog>
+// Posts to the Telegram channel. Usage:  node scripts/telegram-post.mjs <quiz|pick|blog|puzzle|otd|poll|trailer|welcome>
 //   quiz - a quiz poll with the answer revealed on tap, from the verified questions
 //   pick - tonight's classic film (the same pick as the home page)
 //   blog - announces the newest blog story once
@@ -31,6 +31,7 @@ async function tg(method, body) {
   const j = await r.json();
   if (!j.ok) throw new Error(`Telegram ${method} failed: ${j.description}`);
   console.log(`Sent ${method}`);
+  return j.result;
 }
 const clip = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…");
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -68,7 +69,40 @@ if (mode === "quiz") {
     text: `📖 <b>New on the blog: ${esc(latest.title)}</b>\n\n${esc(latest.summary)}\n\n${SITE}/blog/${latest.slug}.html`
   });
   if (live) await writeFile("data/telegram-state.json", JSON.stringify({ last_blog: latest.slug }, null, 2) + "\n");
+} else if (mode === "puzzle") {
+  const ps = (await readJSON("data/puzzles.json")).puzzles;
+  const p = ps[(dayNum * 13 + Y) % ps.length];
+  await tg("sendMessage", {
+    parse_mode: "HTML", disable_web_page_preview: true,
+    text: `🧩 <b>Movie Puzzle: ${esc(p.category)}</b>\n\n${esc(p.clue)}\n\nGot it? Tap to check: <tg-spoiler>${esc(p.answer)}</tg-spoiler>\n\nPlay the full Movie Puzzle game: ${SITE}/puzzle.html`
+  });
+} else if (mode === "otd") {
+  const key = String(M).padStart(2, "0") + "-" + String(D).padStart(2, "0");
+  const hits = (await readJSON("data/onthisday.json")).entries.filter((e) => e.verified === true && e.date === key);
+  if (!hits.length) { console.log("Nothing for today."); process.exit(0); }
+  const lines = hits.map((e) => `<b>${esc(e.year)}:</b> ${esc(e.text)}`).join("\n\n");
+  await tg("sendMessage", {
+    parse_mode: "HTML", disable_web_page_preview: true,
+    text: `📅 <b>On this day in Hollywood</b>\n\n${lines}\n\nGot a memory of it? Tell us on X: https://x.com/TBifford`
+  });
+} else if (mode === "poll") {
+  const polls = (await readJSON("data/telegram-polls.json")).polls;
+  const week = Math.floor(dayNum / 7);
+  const p = polls[week % polls.length];
+  await tg("sendPoll", { question: clip(`🗳️ ${p.q}`, 300), options: p.options.map((o) => clip(o, 100)), is_anonymous: true });
+  await tg("sendMessage", { text: "Weekend poll! Vote above, then tell us your pick on X: https://x.com/TBifford", disable_web_page_preview: true });
+} else if (mode === "trailer") {
+  const clips = (await readJSON("data/trailers.json")).clips || [];
+  if (!clips.length) { console.log("No trailers."); process.exit(0); }
+  const c = clips[(dayNum + Y) % clips.length];
+  await tg("sendMessage", { text: `🍿 Trailer time: ${c.title}\n\n${c.url}\n\nSeen it? Tell us if it holds up.` });
+} else if (mode === "welcome") {
+  const m = await tg("sendMessage", {
+    parse_mode: "HTML", disable_web_page_preview: true,
+    text: `👋 <b>Welcome to the BiffBifford channel!</b>\n\nClassic movie, TV and music nostalgia, every day:\n\n☀️ Morning: a trivia quiz poll and new stories\n🧩 Midday: a Movie Puzzle to solve\n🎬 Evening: tonight's classic film\n🍿 A few times a week: a classic trailer\n🗳️ Saturdays: a fan poll\n📅 On this day in Hollywood history\n\nPlay free games: ${SITE}\nStories on X: https://x.com/TBifford\nTikTok: https://www.tiktok.com/@biffbifford\n\nInvite a friend who loves the classics!`
+  });
+  if (live && m?.message_id) { try { await tg("pinChatMessage", { message_id: m.message_id, disable_notification: true }); } catch (e) { console.log("Could not pin:", e.message); } }
 } else {
-  console.error("Usage: node scripts/telegram-post.mjs <quiz|pick|blog>");
+  console.error("Usage: node scripts/telegram-post.mjs <quiz|pick|blog|puzzle|otd|poll|trailer|welcome>");
   process.exit(1);
 }
