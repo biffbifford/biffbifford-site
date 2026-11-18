@@ -1,65 +1,98 @@
 {
-  "updated_at": "2026-11-18T06:32:07.046Z",
+  "updated_at": "2026-11-18T20:10:12.624Z",
   "account": {
-    "followers": 79557,
-    "following": 28324,
-    "posts": 72326,
+    "followers": 79556,
+    "following": 28325,
+    "posts": 72335,
     "listed": 96
   },
   "tweets": [
     {
-      "id": "2122876887689232566",
-      "text": "As a boy selling papers in Vincennes, Red met comedian Ed Wynn. Wynn bought all his papers and gave him a ticket to his show. That night, Red knew what he wanted to be. 🤡\n\nWho was your favorite Skelton character?",
-      "created_at": "2026-11-18T02:17:45.000Z",
-      "likes": 0,
+      "id": "2123144210329350579",
+      "text": "🔥 In January 1942, Clark Gable lost his wife, Carole Lombard, in a plane crash. She was coming home from selling war bonds.\n\nThe biggest star in Hollywood could have stayed safe at home.\n\nInstead, at 41, he signed up as a private.\n\nAnd a year later, over Germany, a shell came https://t.co/PbkFaWYjF5",
+      "created_at": "2026-11-18T20:00:00.000Z",
+      "likes": 2,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 156,
+      "impression_count": 80,
+      "url": "https://x.com/TBifford/status/2123144210329350579"
+    },
+    {
+      "id": "2123109466187133020",
+      "text": "Stiers got two Emmy nominations for playing Winchester. Did you love him or love to hate him? 😄",
+      "created_at": "2026-11-18T17:41:56.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 150,
+      "url": "https://x.com/TBifford/status/2123109466187133020"
+    },
+    {
+      "id": "2123106463497486734",
+      "text": "🎻 On M*A*S*H, Major Charles Emerson Winchester III loved classical music more than anything in Korea.\n\nThat wasn't just acting.\n\nDavid Ogden Stiers trained at Juilliard and joined M*A*S*H in 1977 to replace Frank Burns.\n\nBut behind the scenes, he had a dream that had nothing to https://t.co/WpL9ea8Bwy",
+      "created_at": "2026-11-18T17:30:00.000Z",
+      "likes": 72,
+      "retweets": 6,
+      "replies": 6,
+      "quotes": 0,
+      "impression_count": 3362,
+      "url": "https://x.com/TBifford/status/2123106463497486734"
+    },
+    {
+      "id": "2122876887689232566",
+      "text": "As a boy selling papers in Vincennes, Red met comedian Ed Wynn. Wynn bought all his papers and gave him a ticket to his show. That night, Red knew what he wanted to be. 🤡\n\nWho was your favorite Skelton character?",
+      "created_at": "2026-11-18T02:17:45.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 213,
       "url": "https://x.com/TBifford/status/2122876887689232566"
     },
     {
       "id": "2122872422978490740",
       "text": "🤡 Red Skelton never met his father. But he wore his father's clown face for 20 years on TV.\n\nJoseph Skelton had been a clown with the Hagenbeck-Wallace Circus. He died two months before his son was born.\n\nRed grew up poor in Vincennes, Indiana, and ran off to perform in a https://t.co/tNX2sDu7yq",
       "created_at": "2026-11-18T02:00:01.000Z",
-      "likes": 28,
-      "retweets": 5,
-      "replies": 3,
+      "likes": 72,
+      "retweets": 8,
+      "replies": 4,
       "quotes": 0,
-      "impression_count": 1096,
+      "impression_count": 2214,
       "url": "https://x.com/TBifford/status/2122872422978490740"
     },
     {
       "id": "2122781821570367933",
       "text": "🐴 Colonel Potter's horse in the M*A*S*H finale belonged to Harry Morgan himself.\n\nWhen Morgan joined the show in 1975, the producers asked about his hobbies. He said horses. He raised quarter horses on his ranch in Northern California.\n\nSo they made Potter an old cavalryman and https://t.co/bUtXzUXbt8",
       "created_at": "2026-11-17T20:00:00.000Z",
-      "likes": 356,
-      "retweets": 38,
-      "replies": 9,
+      "likes": 575,
+      "retweets": 58,
+      "replies": 11,
       "quotes": 0,
-      "impression_count": 9674,
+      "impression_count": 15847,
       "url": "https://x.com/TBifford/status/2122781821570367933"
     },
     {
       "id": "2122749586880049613",
       "text": "🤠 Brennan rode alongside the biggest names in Hollywood: Gary Cooper in The Westerner, John Wayne and Dean Martin in Rio Bravo, and Bogart in To Have and Have Not. \"Stumpy\" in Rio Bravo might be his best!",
       "created_at": "2026-11-17T17:51:54.000Z",
-      "likes": 14,
+      "likes": 18,
       "retweets": 1,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 313,
+      "impression_count": 417,
       "url": "https://x.com/TBifford/status/2122749586880049613"
     },
     {
       "id": "2122744576142106823",
       "text": "🤠 Walter Brennan won three Oscars before Hollywood's biggest stars had won two. And it started with a $7.50-a-day job.\n\nHe'd served in World War I, then sold real estate in California until land prices crashed and he went broke.\n\nSo he took work as a movie extra and stuntman, at https://t.co/GhXKOmAmiF",
       "created_at": "2026-11-17T17:32:00.000Z",
-      "likes": 348,
-      "retweets": 44,
-      "replies": 41,
-      "quotes": 3,
-      "impression_count": 11738,
+      "likes": 502,
+      "retweets": 64,
+      "replies": 69,
+      "quotes": 6,
+      "impression_count": 18275,
       "url": "https://x.com/TBifford/status/2122744576142106823"
     },
     {
@@ -70,7 +103,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 341,
+      "impression_count": 351,
       "url": "https://x.com/TBifford/status/2122569395738210577"
     },
     {
@@ -81,41 +114,8 @@
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 235,
+      "impression_count": 241,
       "url": "https://x.com/TBifford/status/2122511431090499949"
-    },
-    {
-      "id": "2122510035024818627",
-      "text": "🎂 Bill Bixby forgot his TV son's birthday. What he did about it lasted more than 20 years.\n\nOn The Courtship of Eddie's Father (1969–72), Bixby played a widowed dad raising a little boy. Brandon Cruz was just a kid with no acting training, and Bixby took him under his wing.\n\nOne https://t.co/MoOBGDICq1",
-      "created_at": "2026-11-17T02:00:01.000Z",
-      "likes": 42,
-      "retweets": 3,
-      "replies": 6,
-      "quotes": 2,
-      "impression_count": 3123,
-      "url": "https://x.com/TBifford/status/2122510035024818627"
-    },
-    {
-      "id": "2122446348326682928",
-      "text": "🟢 That deep voice was everywhere! Cassidy also narrated the opening of The Incredible Hulk TV series and did the Hulk's growls and roars. Tonight at 6, a story about the man who played Dr. Banner!",
-      "created_at": "2026-11-16T21:46:57.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 191,
-      "url": "https://x.com/TBifford/status/2122446348326682928"
-    },
-    {
-      "id": "2122446158958330007",
-      "text": "🎬 Wilder and Mel Brooks were a dream team: The Producers, Blazing Saddles, and Young Frankenstein, which Wilder co-wrote and earned an Oscar nomination for the script!",
-      "created_at": "2026-11-16T21:46:12.000Z",
-      "likes": 18,
-      "retweets": 2,
-      "replies": 1,
-      "quotes": 0,
-      "impression_count": 2245,
-      "url": "https://x.com/TBifford/status/2122446158958330007"
     }
   ]
 }
