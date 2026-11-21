@@ -1,32 +1,76 @@
 {
-  "updated_at": "2026-11-20T19:45:18.712Z",
+  "updated_at": "2026-11-21T06:11:01.266Z",
   "account": {
-    "followers": 79545,
-    "following": 28340,
-    "posts": 72423,
+    "followers": 79542,
+    "following": 28341,
+    "posts": 72470,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2123966188032323885",
+      "text": "Ed Ames Teaches Johnny Carson How to Throw a Tomahawk | Carson Tonight Show https://t.co/UUczURcOxs via @YouTube",
+      "created_at": "2026-11-21T02:26:15.000Z",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 316,
+      "url": "https://x.com/TBifford/status/2123966188032323885"
+    },
+    {
+      "id": "2123961847187685774",
+      "text": "🪓 April 29, 1965. Johnny Carson's guest on The Tonight Show was Ed Ames, who played Mingo on Daniel Boone.\n\nAmes was going to show Johnny how to throw a tomahawk.\n\nThe target was a cowboy drawn in chalk on a wooden board across the stage.\n\nAmes wound up... and let it fly.\n\nIt https://t.co/YWUqPNDiJS",
+      "created_at": "2026-11-21T02:09:00.000Z",
+      "likes": 9,
+      "retweets": 0,
+      "replies": 3,
+      "quotes": 0,
+      "impression_count": 522,
+      "url": "https://x.com/TBifford/status/2123961847187685774"
+    },
+    {
+      "id": "2123940865123254442",
+      "text": "Fun fact: Welk's famous catchphrase \"Wunnerful, wunnerful!\" came from his thick North Dakota German accent. He even used it as the title of his autobiography. 🪗🫧",
+      "created_at": "2026-11-21T00:45:37.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 157,
+      "url": "https://x.com/TBifford/status/2123940865123254442"
+    },
+    {
+      "id": "2123868990342574272",
+      "text": "💰 Wayne Rogers left M*A*S*H after just three seasons. Most people figured his career was over.\n\nHe'd played Trapper John, Hawkeye's best friend. But he felt Trapper was being pushed aside, so in 1975 he walked away.\n\nWhat came next surprised everyone...\n\nHe became one of the https://t.co/EkCimPDMOx",
+      "created_at": "2026-11-20T20:00:01.000Z",
+      "likes": 192,
+      "retweets": 12,
+      "replies": 38,
+      "quotes": 3,
+      "impression_count": 32270,
+      "url": "https://x.com/TBifford/status/2123868990342574272"
+    },
+    {
       "id": "2123830732934328819",
       "text": "🔥 In 1971, Clint Walker, TV's Cheyenne, was skiing at Mammoth Mountain in California.\n\nHe was 43, 6'6\", and as strong as the cowboys he played.\n\nThen he fell.\n\nOne of his ski poles landed point-up... and went straight through his chest, into his heart.\n\nOn the way to the https://t.co/Ulx3bSruSU",
       "created_at": "2026-11-20T17:28:00.000Z",
-      "likes": 19,
+      "likes": 46,
       "retweets": 8,
-      "replies": 8,
-      "quotes": 0,
-      "impression_count": 1252,
+      "replies": 11,
+      "quotes": 1,
+      "impression_count": 2621,
       "url": "https://x.com/TBifford/status/2123830732934328819"
     },
     {
       "id": "2123597196775805163",
       "text": "🪗 Lawrence Welk grew up on a North Dakota farm, the son of German-speaking immigrants. He didn't learn English until he was 21.\n\nWhen he was 17, he begged his father for a $400 mail-order accordion.\n\nThat was a fortune for a farm family.\n\nSo they made a deal...\n\nLawrence would https://t.co/oXsnAooOZD",
       "created_at": "2026-11-20T02:00:00.000Z",
-      "likes": 22,
-      "retweets": 4,
-      "replies": 8,
-      "quotes": 0,
-      "impression_count": 1740,
+      "likes": 41,
+      "retweets": 6,
+      "replies": 10,
+      "quotes": 1,
+      "impression_count": 2678,
       "url": "https://x.com/TBifford/status/2123597196775805163"
     },
     {
@@ -37,18 +81,18 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 264,
+      "impression_count": 277,
       "url": "https://x.com/TBifford/status/2123534148354580605"
     },
     {
       "id": "2123506606339924047",
       "text": "🔥 72 years ago today, Sammy Davis Jr. was driving home through the night after a show in Las Vegas.\n\nHe had a recording session in Los Angeles that morning.\n\nNear San Bernardino, on Route 66, another car pulled out in front of him...\n\nHis face slammed into the steering wheel. He https://t.co/iLwjoKjkD4",
       "created_at": "2026-11-19T20:00:02.000Z",
-      "likes": 103,
+      "likes": 104,
       "retweets": 23,
       "replies": 11,
       "quotes": 2,
-      "impression_count": 12162,
+      "impression_count": 12736,
       "url": "https://x.com/TBifford/status/2123506606339924047"
     },
     {
@@ -59,7 +103,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 236,
+      "impression_count": 239,
       "url": "https://x.com/TBifford/status/2123493849678873080"
     },
     {
@@ -70,52 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 318,
+      "impression_count": 323,
       "url": "https://x.com/TBifford/status/2123471497243017267"
-    },
-    {
-      "id": "2123468850276495487",
-      "text": "🤠 In 1965, Pernell Roberts did something nobody in Hollywood could believe.\n\nHe walked away from Bonanza.\n\nHe played Adam, the oldest Cartwright son, for six seasons. Bonanza was about to become the #1 show in America.\n\nHe was a stage-trained actor, and he was tired of the https://t.co/lYDMvLZiRo",
-      "created_at": "2026-11-19T17:30:00.000Z",
-      "likes": 103,
-      "retweets": 10,
-      "replies": 13,
-      "quotes": 5,
-      "impression_count": 10244,
-      "url": "https://x.com/TBifford/status/2123468850276495487"
-    },
-    {
-      "id": "2123234810307211449",
-      "text": "🃏 When Cesar Romero was cast as the Joker in Batman in 1966, there was one thing he flat-out refused to do.\n\nShave his mustache.\n\nIt was his trademark, and he wasn't giving it up for any TV show.\n\nSo the makeup team came up with a plan...\n\nThey painted the white clown makeup https://t.co/DrM4dPZdQv",
-      "created_at": "2026-11-19T02:00:01.000Z",
-      "likes": 72,
-      "retweets": 8,
-      "replies": 14,
-      "quotes": 1,
-      "impression_count": 3779,
-      "url": "https://x.com/TBifford/status/2123234810307211449"
-    },
-    {
-      "id": "2123144210329350579",
-      "text": "🔥 In January 1942, Clark Gable lost his wife, Carole Lombard, in a plane crash. She was coming home from selling war bonds.\n\nThe biggest star in Hollywood could have stayed safe at home.\n\nInstead, at 41, he signed up as a private.\n\nAnd a year later, over Germany, a shell came https://t.co/PbkFaWYjF5",
-      "created_at": "2026-11-18T20:00:00.000Z",
-      "likes": 664,
-      "retweets": 115,
-      "replies": 26,
-      "quotes": 3,
-      "impression_count": 19788,
-      "url": "https://x.com/TBifford/status/2123144210329350579"
-    },
-    {
-      "id": "2123109466187133020",
-      "text": "Stiers got two Emmy nominations for playing Winchester. Did you love him or love to hate him? 😄",
-      "created_at": "2026-11-18T17:41:56.000Z",
-      "likes": 6,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 336,
-      "url": "https://x.com/TBifford/status/2123109466187133020"
     }
   ]
 }
