@@ -1,32 +1,43 @@
 {
-  "updated_at": "2026-11-21T06:11:01.266Z",
+  "updated_at": "2026-11-21T18:51:20.000Z",
   "account": {
-    "followers": 79542,
-    "following": 28341,
-    "posts": 72470,
+    "followers": 79547,
+    "following": 28343,
+    "posts": 72475,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2124193626276131020",
+      "text": "🤠 When Slim Pickens joined the Army Air Forces in WWII, the clerk asked him what he did for a living.\n\n\"Rodeo,\" he said.\n\nThe clerk wrote down \"radio.\"\n\nSo the toughest rodeo clown in the West spent the whole war... at a radio station.\n\nHis real name was Louis Burton Lindley Jr. https://t.co/qiaqstSoqW",
+      "created_at": "2026-11-21T17:30:00.000Z",
+      "likes": 9,
+      "retweets": 0,
+      "replies": 4,
+      "quotes": 0,
+      "impression_count": 342,
+      "url": "https://x.com/TBifford/status/2124193626276131020"
+    },
+    {
       "id": "2123966188032323885",
       "text": "Ed Ames Teaches Johnny Carson How to Throw a Tomahawk | Carson Tonight Show https://t.co/UUczURcOxs via @YouTube",
       "created_at": "2026-11-21T02:26:15.000Z",
-      "likes": 1,
-      "retweets": 0,
+      "likes": 2,
+      "retweets": 1,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 316,
+      "impression_count": 395,
       "url": "https://x.com/TBifford/status/2123966188032323885"
     },
     {
       "id": "2123961847187685774",
       "text": "🪓 April 29, 1965. Johnny Carson's guest on The Tonight Show was Ed Ames, who played Mingo on Daniel Boone.\n\nAmes was going to show Johnny how to throw a tomahawk.\n\nThe target was a cowboy drawn in chalk on a wooden board across the stage.\n\nAmes wound up... and let it fly.\n\nIt https://t.co/YWUqPNDiJS",
       "created_at": "2026-11-21T02:09:00.000Z",
-      "likes": 9,
-      "retweets": 0,
+      "likes": 11,
+      "retweets": 1,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 522,
+      "impression_count": 768,
       "url": "https://x.com/TBifford/status/2123961847187685774"
     },
     {
@@ -37,29 +48,29 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 157,
+      "impression_count": 196,
       "url": "https://x.com/TBifford/status/2123940865123254442"
     },
     {
       "id": "2123868990342574272",
       "text": "💰 Wayne Rogers left M*A*S*H after just three seasons. Most people figured his career was over.\n\nHe'd played Trapper John, Hawkeye's best friend. But he felt Trapper was being pushed aside, so in 1975 he walked away.\n\nWhat came next surprised everyone...\n\nHe became one of the https://t.co/EkCimPDMOx",
       "created_at": "2026-11-20T20:00:01.000Z",
-      "likes": 192,
-      "retweets": 12,
-      "replies": 38,
-      "quotes": 3,
-      "impression_count": 32270,
+      "likes": 263,
+      "retweets": 23,
+      "replies": 48,
+      "quotes": 4,
+      "impression_count": 42844,
       "url": "https://x.com/TBifford/status/2123868990342574272"
     },
     {
       "id": "2123830732934328819",
       "text": "🔥 In 1971, Clint Walker, TV's Cheyenne, was skiing at Mammoth Mountain in California.\n\nHe was 43, 6'6\", and as strong as the cowboys he played.\n\nThen he fell.\n\nOne of his ski poles landed point-up... and went straight through his chest, into his heart.\n\nOn the way to the https://t.co/Ulx3bSruSU",
       "created_at": "2026-11-20T17:28:00.000Z",
-      "likes": 46,
-      "retweets": 8,
+      "likes": 50,
+      "retweets": 10,
       "replies": 11,
       "quotes": 1,
-      "impression_count": 2621,
+      "impression_count": 2841,
       "url": "https://x.com/TBifford/status/2123830732934328819"
     },
     {
@@ -70,7 +81,7 @@
       "retweets": 6,
       "replies": 10,
       "quotes": 1,
-      "impression_count": 2678,
+      "impression_count": 2741,
       "url": "https://x.com/TBifford/status/2123597196775805163"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 277,
+      "impression_count": 282,
       "url": "https://x.com/TBifford/status/2123534148354580605"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 23,
       "replies": 11,
       "quotes": 2,
-      "impression_count": 12736,
+      "impression_count": 12789,
       "url": "https://x.com/TBifford/status/2123506606339924047"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 239,
+      "impression_count": 240,
       "url": "https://x.com/TBifford/status/2123493849678873080"
-    },
-    {
-      "id": "2123471497243017267",
-      "text": "Here's a fun one: the 8th Air Force in England had three future Hollywood stars. Gable flew B-17 missions in 1943. And, at another base, a young sergeant named Walter Matthau served in a bomb group where Jimmy Stewart was the operations officer. Which WWII star surprises you",
-      "created_at": "2026-11-19T17:40:31.000Z",
-      "likes": 7,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 323,
-      "url": "https://x.com/TBifford/status/2123471497243017267"
     }
   ]
 }
