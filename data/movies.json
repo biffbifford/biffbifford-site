@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-20T21:57:10.485Z",
+  "updated_at": "2026-11-21T20:39:25.336Z",
   "boxoffice": [
+    {
+      "title": "Box Office: ‘The Hunger Games: Sunrise on the Reaping’ Scores $56 Million on Friday, ‘I Play Rocky’ Follows With $3.8 Million",
+      "url": "https://variety.com/2026/film/box-office/box-office-hunger-games-sunrise-of-the-reaping-opening-day-1236954987/",
+      "source": "Variety",
+      "published": "2026-11-21T16:42:06.000Z"
+    },
+    {
+      "title": "‘Hunger Games: Sunrise on the Reaping’ Feasting With $120M+ in Franchise’s Box Office Comeback",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/hunger-games-sunrise-on-the-reaping-box-office-opening-win-2-1236760511/",
+      "source": "The Hollywood Reporter",
+      "published": "2026-11-21T16:16:34.000Z"
+    },
     {
       "title": "‘Hunger Games: Sunrise On The Reaping’ Hot $110M+ U.S. Opening – Box Office Update",
       "url": "https://deadline.com/2026/11/box-office-hunger-games-sunrise-on-the-reaping-1237229925/",
@@ -24,18 +36,6 @@
       "url": "https://variety.com/2026/film/box-office/box-office-domestic-ticket-sales-increase-hunger-games-dune-3-avengers-doomsday-1236948160/",
       "source": "Variety",
       "published": "2026-11-15T19:04:29.000Z"
-    },
-    {
-      "title": "Box Office: Johnny Depp’s ‘Ebenezer’ Opens to No. 1 With $19 Million, ‘How to Rob a Bank’ Stumbles With $5 Million Debut",
-      "url": "https://variety.com/2026/film/box-office/ebenezer-box-office-johnny-depp-opening-weekend-how-to-rob-a-bank-1236948055/",
-      "source": "Variety",
-      "published": "2026-11-15T16:20:53.000Z"
-    },
-    {
-      "title": "‘Ebenezer’ Leads Box Office With $19 Million, ‘How to Rob a Bank’ Gets Busted With $5 Million",
-      "url": "https://www.thewrap.com/culture-lifestyle/culture/ebenezer-how-to-rob-a-bank-box-office/",
-      "source": "TheWrap",
-      "published": "2026-11-15T16:19:30.000Z"
     }
   ],
   "now_playing": [],
