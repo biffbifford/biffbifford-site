@@ -228,6 +228,18 @@ body{font-size:18px}
 .poster .py{font-family:'Space Mono',monospace;font-size:1rem;color:var(--gold);}
 .poster p{margin:0;font-size:1rem;color:#cfc6af;line-height:1.5;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;}
 .poster a.tr{margin-top:auto;padding-top:8px;color:var(--gold);font-weight:600;min-height:44px;display:inline-flex;align-items:center;}
+#video{padding:26px 0 0;}
+.video-card{background:linear-gradient(135deg,#2a2116,#1D1811);border:1px solid var(--gold-dim);border-left:6px solid var(--gold);padding:28px 30px;}
+.video-card .video-kicker{font-family:'Space Mono',monospace;font-size:1rem;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;margin:0 0 8px;}
+.video-card h2{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.7rem,4.6vw,2.6rem);line-height:1.12;margin:0 0 12px;color:var(--cream);}
+.video-card .video-text{font-size:1.25rem;color:#cfc6af;max-width:40em;margin:0 0 18px;}
+.video-frame{position:relative;width:100%;aspect-ratio:16/9;background:#000;border:1px solid var(--steel-line);}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.video-soon{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:6px;padding:16px;color:var(--cream);font-size:1.25rem;}
+.video-soon b{font-family:'Fraunces',serif;font-size:clamp(1.4rem,4vw,2rem);color:var(--gold);}
+.video-link[hidden]{display:none}
+.video-link{display:inline-block;margin-top:14px;font-size:1.1rem;color:var(--gold);}
+@media(max-width:560px){#video{padding:16px 0 0}.video-card{padding:20px 20px 22px}.video-card .video-text{font-size:1.1rem}}
 #feature{padding:26px 0 0;}
 .feature-card{display:flex;flex-direction:column;gap:10px;align-items:flex-start;text-decoration:none;color:var(--cream);background:linear-gradient(135deg,#2a2116,#1D1811);border:1px solid var(--gold-dim);border-left:6px solid var(--gold);padding:28px 30px;}
 .feature-card:hover{border-color:var(--gold);}
@@ -334,6 +346,35 @@ a.tile:hover{border-color:var(--gold);border-left-color:var(--gold);transform:tr
     <a class="btn btn-primary" href="challenge.html">Play now</a>
   </div>
 </section>
+
+<section id="video" aria-label="Featured documentary">
+  <div class="wrap">
+    <div class="video-card">
+      <p class="video-kicker">New documentary</p>
+      <h2>The King Goes to War: Clark Gable's Secret Combat Missions Over Europe</h2>
+      <p class="video-text">Clark Gable lost Carole Lombard, enlisted at 41, and flew five combat missions over Europe as a B-17 gunner. An 8-minute documentary made from real WWII footage, narrated by Biff Bifford.</p>
+      <div class="video-frame" id="vframe" data-id="7A9Y7QF9vEA" data-release="2026-11-22T15:00:00-08:00">
+        <div class="video-soon"><b>Premieres Sunday at 3 PM Pacific</b><span>Come back Sunday afternoon to watch.</span></div>
+      </div>
+      <noscript><p><a class="video-link" href="https://youtu.be/7A9Y7QF9vEA" target="_blank" rel="noopener">Watch on YouTube</a></p></noscript>
+      <a class="video-link" id="vlink" href="https://youtu.be/7A9Y7QF9vEA" target="_blank" rel="noopener" hidden>Watch on YouTube</a>
+    </div>
+  </div>
+</section>
+<script>
+(function(){
+  var f=document.getElementById('vframe');if(!f)return;
+  var live=Date.now()>=new Date(f.getAttribute('data-release')).getTime();
+  if(!live)return;
+  var i=document.createElement('iframe');
+  i.src='https://www.youtube-nocookie.com/embed/'+f.getAttribute('data-id')+'?rel=0';
+  i.title="The King Goes to War: Clark Gable's Secret Combat Missions Over Europe";
+  i.loading='lazy';i.allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  i.setAttribute('allowfullscreen','');i.referrerPolicy='strict-origin-when-cross-origin';
+  f.innerHTML='';f.appendChild(i);
+  var l=document.getElementById('vlink');if(l)l.hidden=false;
+})();
+</script>
 
 <section id="feature" hidden aria-label="Latest story">
   <div class="wrap">
