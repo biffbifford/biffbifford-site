@@ -1,9 +1,9 @@
 {
   "_readme": "Controls the Breaking bar across the top of every page. Set active to false, or let the 'until' time pass, to hide it.",
   "active": true,
-  "text": "The Thanksgiving movie that almost ran four hours.",
+  "text": "The Thanksgiving dinner that was only toast and jelly beans.",
   "link_text": "Read it",
-  "link": "/blog/planes-trains-and-automobiles.html",
-  "until": "2026-11-16T08:00:00-08:00",
+  "link": "/blog/a-charlie-brown-thanksgiving.html",
+  "until": "2026-11-27T08:00:00-08:00",
   "label": "New story"
 }
