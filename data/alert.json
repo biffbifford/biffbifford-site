@@ -1,9 +1,9 @@
 {
   "_readme": "Controls the Breaking bar across the top of every page. Set active to false, or let the 'until' time pass, to hide it.",
   "active": true,
-  "text": "The Thanksgiving dinner that was only toast and jelly beans.",
-  "link_text": "Read it",
-  "link": "/blog/a-charlie-brown-thanksgiving.html",
-  "until": "2026-11-27T08:00:00-08:00",
-  "label": "New story"
+  "text": "The King Goes to War: Clark Gable's combat missions over Europe.",
+  "link_text": "Watch it",
+  "link": "/#video",
+  "until": "2026-12-01T08:00:00-08:00",
+  "label": "New documentary"
 }

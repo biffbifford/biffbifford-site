@@ -18,7 +18,7 @@
     var home = document.getElementById("feature") || document.getElementById("top");
     if (home && now.getFullYear() === 2026 && (now.getMonth() === 10 && now.getDate() <= 26 || q === "thanksgiving")) {
       var r = document.createElement("div"); r.className = "bb-ribbon";
-      r.innerHTML = "<span>🦃 Thanksgiving is Thursday, November 26. Pull up a chair.</span>";
+      r.innerHTML = (now.getMonth() === 10 && now.getDate() === 26) ? "<span>🦃 Happy Thanksgiving from all of us at BiffBifford.</span>" : "<span>🦃 Thanksgiving is Thursday, November 26. Pull up a chair.</span>";
       var gg = document.querySelector(".bb-garland");
       (gg || host).parentNode.insertBefore(r, gg ? gg.nextSibling : host.nextSibling);
     }

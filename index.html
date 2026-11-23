@@ -241,6 +241,12 @@ body{font-size:18px}
 .video-link[hidden]{display:none}
 .video-link{display:inline-block;margin-top:14px;font-size:1.1rem;color:var(--gold);}
 @media(max-width:560px){.video-soon .sub{display:none}.video-soon .band{padding:8px 10px}.video-soon .band b{font-size:clamp(.85rem,4vw,1.05rem);margin:0;white-space:nowrap}#video{padding:16px 0 0}.video-card{padding:20px 20px 22px}.video-card .video-text{font-size:1.1rem}}
+#tgreads{padding:20px 0 0;}
+.tg-card{border:1px dashed var(--gold-dim);background:rgba(201,160,54,.07);padding:20px 24px;}
+.tg-card h2{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,4vw,1.9rem);margin:0 0 10px;color:var(--cream);}
+.tg-card ul{list-style:none;margin:0;padding:0;display:grid;gap:4px;}
+.tg-card a{display:block;padding:10px 0;font-size:1.2rem;color:var(--gold);min-height:44px;line-height:1.35;}
+@media(max-width:560px){.tg-card{padding:16px 16px}}
 #feature{padding:26px 0 0;}
 .feature-card{display:flex;flex-direction:column;gap:10px;align-items:flex-start;text-decoration:none;color:var(--cream);background:linear-gradient(135deg,#2a2116,#1D1811);border:1px solid var(--gold-dim);border-left:6px solid var(--gold);padding:28px 30px;}
 .feature-card:hover{border-color:var(--gold);}
@@ -377,6 +383,25 @@ a.tile:hover{border-color:var(--gold);border-left-color:var(--gold);transform:tr
 })();
 </script>
 
+<section id="tgreads" hidden aria-label="Thanksgiving reading">
+  <div class="wrap">
+    <div class="tg-card">
+      <h2>🦃 Thanksgiving week reading</h2>
+      <ul>
+        <li><a href="/blog/a-charlie-brown-thanksgiving.html">The Thanksgiving Dinner That Was Only Toast and Jelly Beans</a></li>
+        <li><a href="/blog/planes-trains-and-automobiles.html">The Thanksgiving Movie That Almost Ran Four Hours</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<script>
+(function(){
+  var q=(location.search.match(/[?&]theme=([a-z]+)/)||[])[1],n=new Date();
+  var show=q==="thanksgiving"||(q!=="off"&&n.getFullYear()===2026&&n.getMonth()===10&&n.getDate()<=29);
+  if(show){var s=document.getElementById('tgreads');if(s)s.hidden=false;}
+})();
+</script>
+
 <section id="feature" hidden aria-label="Latest story">
   <div class="wrap">
     <a class="feature-card" id="feature-card" href="blog/">
@@ -506,12 +531,12 @@ a.tile:hover{border-color:var(--gold);border-left-color:var(--gold);transform:tr
     </div>
     <div class="card-grid">
 <!--STORIES-START-->
+      <a class="title-card" href="blog/clark-gable-goes-to-war.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">MOVIES</span><h3>The King Goes to War: Clark Gable After Carole Lombard</h3><p>At 41, with a Hollywood career and a broken heart, Clark Gable joined the Army Air Forces and flew five combat missions over Europe in B-17s. Here is what is documented, and what has been exaggerated over the years.</p></a>
       <a class="title-card" href="blog/a-charlie-brown-thanksgiving.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">TELEVISION</span><h3>The Thanksgiving Dinner That Was Only Toast and Jelly Beans</h3><p>A Charlie Brown Thanksgiving aired on CBS in 1973, two days before the holiday, and the dinner on the table was toast, popcorn, pretzel sticks and jelly beans. Here is how a 25-minute cartoon became part of the holiday, and the one scene people still talk about.</p></a>
       <a class="title-card" href="blog/planes-trains-and-automobiles.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">MOVIES</span><h3>The Thanksgiving Movie That Almost Ran Four Hours</h3><p>John Hughes wrote Planes, Trains and Automobiles in three days, shot far more than anyone could use, and then rewrote the ending because he didn't like his own hero. Here is how the holiday favorite came together.</p></a>
       <a class="title-card" href="blog/tom-skerritt.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">IN MEMORIAM</span><h3>The Captain Who Never Got Home, and the Instructor Who Taught Maverick</h3><p>Tom Skerritt, who has died at 93, was the doomed captain in Alien, the flight instructor in Top Gun and an Emmy-winning sheriff. He once called himself a character actor locked in a leading man's body.</p></a>
       <a class="title-card" href="blog/ann-hornaday.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">IN MEMORIAM</span><h3>The Critic Who Wrote Like a Friend Who Knew More Than You</h3><p>Ann Hornaday, the longtime Washington Post film critic and Pulitzer finalist, has died at 66. She spent her career helping ordinary moviegoers see more in the films they loved.</p></a>
       <a class="title-card" href="blog/patrick-stewart.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">IN MEMORIAM</span><h3>The Actor Who Thought Star Trek Would Fail</h3><p>Sir Patrick Stewart, who has died at 86, left school at 15, spent 16 years on the Shakespeare stage, and almost didn't sign on to the show that made him Captain Picard.</p></a>
-      <a class="title-card" href="blog/jack-elam.html" style="text-decoration:none;color:inherit;display:block"><span class="tag">WESTERNS</span><h3>The Man Who Was Told Never to Fix His Eye</h3><p>You have seen Jack Elam's face in dozens of westerns. Before that, he was an accountant who kept the books for Hopalong Cassidy and audited Samuel Goldwyn.</p></a>
 <!--STORIES-END-->
     </div>
     <p style="margin-top:22px"><a class="btn btn-primary" href="blog/">All stories</a></p>
