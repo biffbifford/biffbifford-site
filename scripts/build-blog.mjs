@@ -27,7 +27,8 @@ function md(src) {
     const l = raw.trimEnd();
     if (!l.trim()) { flushP(); flushL(); continue; }
     let m;
-    if ((m = l.match(/^##\s+(.*)/))) { flushP(); flushL(); out.push(`<h2>${inline(m[1])}</h2>`); }
+    if ((m = l.match(/^!\[([^\]]*)\]\(([^\s)]+)(?:\s+"([^"]*)")?\)$/))) { flushP(); flushL(); out.push(`<figure class="pic"><img src="${esc(m[2])}" alt="${esc(m[1])}" loading="lazy">${m[3] ? `<figcaption>${inline(m[3])}</figcaption>` : ""}</figure>`); }
+    else if ((m = l.match(/^##\s+(.*)/))) { flushP(); flushL(); out.push(`<h2>${inline(m[1])}</h2>`); }
     else if ((m = l.match(/^-\s+(.*)/))) { flushP(); list.push(m[1]); }
     else { flushL(); para.push(l.trim()); }
   }
@@ -64,6 +65,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2.1rem,6.5vw,3.2rem);line-height:1.1;margin:8px 0 12px}
 article h2{font-family:"Fraunces",Georgia,serif;font-size:1.7rem;line-height:1.2;margin:2.2em 0 .4em;color:var(--gold)}
 article p{margin:0 0 1.1em}
+figure.pic{margin:1.6em 0}figure.pic img{display:block;width:100%;height:auto;border:1px solid var(--gold-dim)}figure.pic figcaption{font-size:.95rem;color:var(--gold-dim);margin-top:8px;line-height:1.4}
 article ul{padding-left:1.2em;margin:0 0 1.2em}
 article li{margin-bottom:.8em}
 .meta{color:var(--steel);font-size:1rem;margin-bottom:28px}
@@ -84,13 +86,13 @@ article li{margin-bottom:.8em}
 .foot a{display:inline-block;padding:8px 4px}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}`;
 
-const HEAD = (title, desc, url, extra = "") => `<!doctype html>
+const HEAD = (title, desc, url, extra = "", ogimg = `${SITE}/og-image.png`) => `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}">
-<meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TBifford"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${SITE}/og-image.png">
+<meta property="og:image" content="${ogimg}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TBifford"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${ogimg}">
 <link rel="alternate" type="application/rss+xml" title="BiffBifford stories" href="${SITE}/feed.xml">
 ${FONTS}
 <style>${CSS}</style><script src="/alert.js" defer></script><script src="/theme.js" defer></script><script src="/newsletter.js" defer></script><script src="/morenav.js" defer></script>${extra}
@@ -107,11 +109,12 @@ posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
 
 for (const p of posts) {
   const url = `${SITE}/blog/${p.slug}.html`;
-  const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: p.title, datePublished: p.date, description: p.summary, author: { "@type": "Person", name: "Biff Bifford" }, mainEntityOfPage: url, image: `${SITE}/og-image.png` })}</script>`;
+  const ogimg = p.image ? `${SITE}${p.image}` : `${SITE}/og-image.png`;
+  const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: p.title, datePublished: p.date, description: p.summary, author: { "@type": "Person", name: "Biff Bifford" }, mainEntityOfPage: url, image: `${ogimg}` })}</script>`;
   const tweet = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const others = posts.filter((o) => o.slug !== p.slug).slice(0, 3);
   const more = others.length ? `<h2 style="font-family:Fraunces,Georgia,serif;font-size:1.5rem;margin-top:2em">More from the blog</h2>` + others.map((o) => `<a class="card" href="/blog/${o.slug}.html"><p class="meta">${prettyDate(o.date)}</p><h2>${esc(o.title)}</h2><p>${esc(o.summary)}</p></a>`).join("") : "";
-  const html = HEAD(`${p.title} | BiffBifford`, p.summary, url, ld) +
+  const html = HEAD(`${p.title} | BiffBifford`, p.summary, url, ld, ogimg) +
     `${p.memorial ? `<p class="memorial">In memoriam · ${esc(p.memorial)}</p>` : ""}<p class="kicker">${esc(p.tags || "The Blog")}</p><article><h1>${esc(p.title)}</h1><p class="meta">By Biff Bifford · ${prettyDate(p.date)}</p>\n${md(p.body)}</article>
 <div class="row"><a class="btn" href="${tweet}" target="_blank" rel="noopener">Share on X</a><a class="btn alt" href="/challenge.html">Play the Daily Challenge</a></div>${more}` + FOOT;
   await writeFile(`blog/${p.slug}.html`, html);
