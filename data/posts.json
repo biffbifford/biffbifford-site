@@ -1,32 +1,65 @@
 {
-  "updated_at": "2026-11-26T07:27:54.668Z",
+  "updated_at": "2026-11-26T21:07:01.000Z",
   "account": {
-    "followers": 79492,
-    "following": 28332,
-    "posts": 72640,
+    "followers": 79489,
+    "following": 28331,
+    "posts": 72646,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2126043316772827312",
+      "text": "🎅 On Thanksgiving morning in 1946, the Santa in the Macy's parade was secretly a Hollywood actor, and the cameras were rolling.\n\nEdmund Gwenn rode the Santa float through New York while a film crew captured it for Miracle on 34th Street. The parade couldn't stop, so every shot https://t.co/fFr1GMe1I6",
+      "created_at": "2026-11-26T20:00:01.000Z",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 232,
+      "url": "https://x.com/TBifford/status/2126043316772827312"
+    },
+    {
+      "id": "2126009748730392952",
+      "text": "Bonus fact: after a preview of Breakfast at Tiffany's, a studio executive suggested cutting \"Moon River.\" Audrey reportedly said, \"Over my dead body.\" It won the Oscar. 🎶",
+      "created_at": "2026-11-26T17:46:38.000Z",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0,
+      "impression_count": 145,
+      "url": "https://x.com/TBifford/status/2126009748730392952"
+    },
+    {
+      "id": "2126005564463612133",
+      "text": "🙏 Before she was Hollywood royalty, Audrey Hepburn was a hungry teenager in Nazi-occupied Holland.\n\nDuring the \"Hunger Winter\" of 1944, she was so malnourished that her legs swelled with edema. She was 15. She even danced in secret recitals to raise money for the Dutch https://t.co/m4jWr4A4ni",
+      "created_at": "2026-11-26T17:30:00.000Z",
+      "likes": 8,
+      "retweets": 2,
+      "replies": 2,
+      "quotes": 0,
+      "impression_count": 499,
+      "url": "https://x.com/TBifford/status/2126005564463612133"
+    },
+    {
       "id": "2125771528214360362",
       "text": "🦃 Be honest: what was on TV at your house on Thanksgiving when you were a kid? The parade, the football game, or a Charlie Brown special? 📺 https://t.co/hpcUPIFVzD",
       "created_at": "2026-11-26T02:00:01.000Z",
-      "likes": 4,
+      "likes": 7,
       "retweets": 1,
-      "replies": 6,
+      "replies": 8,
       "quotes": 0,
-      "impression_count": 603,
+      "impression_count": 775,
       "url": "https://x.com/TBifford/status/2125771528214360362"
     },
     {
       "id": "2125754652453130629",
       "text": "Here's the famous scene, if you've never seen it (or just need a laugh) 🦃👇\nhttps://t.co/PcA1wxFwZv",
       "created_at": "2026-11-26T00:52:58.000Z",
-      "likes": 0,
+      "likes": 1,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 236,
+      "impression_count": 278,
       "url": "https://x.com/TBifford/status/2125754652453130629"
     },
     {
@@ -37,18 +70,18 @@
       "retweets": 0,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 649,
+      "impression_count": 751,
       "url": "https://x.com/TBifford/status/2125680933265113308"
     },
     {
       "id": "2125643175545241687",
       "text": "👗 As promised: the M*A*S*H character who was only supposed to appear in ONE episode.\n\nHere's what happened next. When Radar went home in season 8, Klinger became the company clerk, and the dresses went back in the closet for good.\n\nHe was the last one standing who'd been chasing https://t.co/02ptJd1ko6",
       "created_at": "2026-11-25T17:30:00.000Z",
-      "likes": 20,
+      "likes": 23,
       "retweets": 2,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 1409,
+      "impression_count": 1526,
       "url": "https://x.com/TBifford/status/2125643175545241687"
     },
     {
@@ -59,63 +92,30 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 214,
+      "impression_count": 215,
       "url": "https://x.com/TBifford/status/2125415307615629747"
     },
     {
       "id": "2125409137404096577",
       "text": "🦃 \"As God is my witness, I thought turkeys could fly.\"\n\nWKRP's famous Thanksgiving turkey drop wasn't completely made up. Creator Hugh Wilson's old boss at an Atlanta radio station said he'd once been fired from a Texas station for throwing live turkeys out of a helicopter.\n\nOh, https://t.co/IJGecjgC1B",
       "created_at": "2026-11-25T02:00:01.000Z",
-      "likes": 35,
+      "likes": 36,
       "retweets": 5,
       "replies": 4,
       "quotes": 0,
-      "impression_count": 1211,
+      "impression_count": 1274,
       "url": "https://x.com/TBifford/status/2125409137404096577"
     },
     {
       "id": "2125318537606504896",
       "text": "🐍 Frank Burns was the man M*A*S*H fans loved to hate. Strangers even scolded Larry Linville on the street.\n\nThe real Larry? Jamie Farr called him \"a wonderful man, a wonderful father.\" Alan Alda called him one of the nicest people he ever worked with.\n\n\"You just need to separate https://t.co/YmbwvcfVsz",
       "created_at": "2026-11-24T20:00:00.000Z",
-      "likes": 169,
+      "likes": 172,
       "retweets": 8,
       "replies": 19,
       "quotes": 0,
-      "impression_count": 4118,
+      "impression_count": 4174,
       "url": "https://x.com/TBifford/status/2125318537606504896"
-    },
-    {
-      "id": "2125271886875549914",
-      "text": "🎩 THE ANSWER: EDGAR BUCHANAN!\n\nBorn in Humansville, Missouri, in 1903, Edgar earned his dental degree in 1928, the same year he married fellow dentist Mildred \"Millie\" Spence. They practiced together in Eugene, Oregon.\n\nIn 1939 they moved the practice to Altadena, California.",
-      "created_at": "2026-11-24T16:54:38.000Z",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 263,
-      "url": "https://x.com/TBifford/status/2125271886875549914"
-    },
-    {
-      "id": "2125076946224807989",
-      "text": "🌪️ No computers. No CGI. In 1939, MGM needed a tornado for The Wizard of Oz.\n\nSo a pilot looked up at an airport windsock and had an idea. Here's how they did it. 🎬 https://t.co/FbdkRL6Yim",
-      "created_at": "2026-11-24T04:00:00.000Z",
-      "likes": 15,
-      "retweets": 3,
-      "replies": 2,
-      "quotes": 0,
-      "impression_count": 1008,
-      "url": "https://x.com/TBifford/status/2125076946224807989"
-    },
-    {
-      "id": "2125046753376264325",
-      "text": "🎩 NAME THIS FACE #4\n\nBefore he ever acted, this man spent years as a dentist. He and his wife met at dental school and practiced together.\n\nHe went on to appear in more than 100 movies, usually as a cranky old-timer.\n\nBut TV fans knew him best as a lazy, scheming uncle at a https://t.co/QlcKTw7ej4",
-      "created_at": "2026-11-24T02:00:02.000Z",
-      "likes": 40,
-      "retweets": 3,
-      "replies": 26,
-      "quotes": 0,
-      "impression_count": 6536,
-      "url": "https://x.com/TBifford/status/2125046753376264325"
     }
   ]
 }
