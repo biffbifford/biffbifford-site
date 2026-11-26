@@ -1,28 +1,52 @@
 {
   "posts": [
     {
+      "id": "2125771528214360362",
+      "text": "🦃 Be honest: what was on TV at your house on Thanksgiving when you were a kid? The parade, the football game, or a Charlie Brown special? 📺 https://t.co/hpcUPIFVzD",
+      "created_at": "2026-11-26T02:00:01.000Z",
+      "likes": 4,
+      "retweets": 1,
+      "replies": 6,
+      "quotes": 0,
+      "impression_count": 603,
+      "url": "https://x.com/TBifford/status/2125771528214360362",
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
+    },
+    {
+      "id": "2125754652453130629",
+      "text": "Here's the famous scene, if you've never seen it (or just need a laugh) 🦃👇\nhttps://t.co/PcA1wxFwZv",
+      "created_at": "2026-11-26T00:52:58.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0,
+      "impression_count": 236,
+      "url": "https://x.com/TBifford/status/2125754652453130629",
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
+    },
+    {
       "id": "2125680933265113308",
       "text": "✈️ Planes, Trains and Automobiles really happened to John Hughes.\n\nHe flew to New York for a Wednesday morning meeting and planned to be home in Chicago that night. Winds canceled his flights. A snowstorm hit Chicago. His plane was diverted to Denver, then Phoenix.\n\nHe didn't get https://t.co/u2S795AGje",
       "created_at": "2026-11-25T20:00:02.000Z",
-      "likes": 5,
+      "likes": 10,
       "retweets": 0,
-      "replies": 1,
+      "replies": 3,
       "quotes": 0,
-      "impression_count": 259,
+      "impression_count": 649,
       "url": "https://x.com/TBifford/status/2125680933265113308",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2125643175545241687",
       "text": "👗 As promised: the M*A*S*H character who was only supposed to appear in ONE episode.\n\nHere's what happened next. When Radar went home in season 8, Klinger became the company clerk, and the dresses went back in the closet for good.\n\nHe was the last one standing who'd been chasing https://t.co/02ptJd1ko6",
       "created_at": "2026-11-25T17:30:00.000Z",
-      "likes": 8,
+      "likes": 20,
       "retweets": 2,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 572,
+      "impression_count": 1409,
       "url": "https://x.com/TBifford/status/2125643175545241687",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2125415307615629747",
@@ -32,33 +56,33 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 210,
+      "impression_count": 214,
       "url": "https://x.com/TBifford/status/2125415307615629747",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2125409137404096577",
       "text": "🦃 \"As God is my witness, I thought turkeys could fly.\"\n\nWKRP's famous Thanksgiving turkey drop wasn't completely made up. Creator Hugh Wilson's old boss at an Atlanta radio station said he'd once been fired from a Texas station for throwing live turkeys out of a helicopter.\n\nOh, https://t.co/IJGecjgC1B",
       "created_at": "2026-11-25T02:00:01.000Z",
-      "likes": 28,
-      "retweets": 4,
-      "replies": 3,
+      "likes": 35,
+      "retweets": 5,
+      "replies": 4,
       "quotes": 0,
-      "impression_count": 862,
+      "impression_count": 1211,
       "url": "https://x.com/TBifford/status/2125409137404096577",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2125318537606504896",
       "text": "🐍 Frank Burns was the man M*A*S*H fans loved to hate. Strangers even scolded Larry Linville on the street.\n\nThe real Larry? Jamie Farr called him \"a wonderful man, a wonderful father.\" Alan Alda called him one of the nicest people he ever worked with.\n\n\"You just need to separate https://t.co/YmbwvcfVsz",
       "created_at": "2026-11-24T20:00:00.000Z",
-      "likes": 152,
-      "retweets": 7,
-      "replies": 17,
+      "likes": 169,
+      "retweets": 8,
+      "replies": 19,
       "quotes": 0,
-      "impression_count": 3973,
+      "impression_count": 4118,
       "url": "https://x.com/TBifford/status/2125318537606504896",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2125271886875549914",
@@ -68,9 +92,9 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 261,
+      "impression_count": 263,
       "url": "https://x.com/TBifford/status/2125271886875549914",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2125076946224807989",
@@ -80,21 +104,21 @@
       "retweets": 3,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 935,
+      "impression_count": 1008,
       "url": "https://x.com/TBifford/status/2125076946224807989",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2125046753376264325",
       "text": "🎩 NAME THIS FACE #4\n\nBefore he ever acted, this man spent years as a dentist. He and his wife met at dental school and practiced together.\n\nHe went on to appear in more than 100 movies, usually as a cranky old-timer.\n\nBut TV fans knew him best as a lazy, scheming uncle at a https://t.co/QlcKTw7ej4",
       "created_at": "2026-11-24T02:00:02.000Z",
-      "likes": 39,
+      "likes": 40,
       "retweets": 3,
       "replies": 26,
       "quotes": 0,
-      "impression_count": 6513,
+      "impression_count": 6536,
       "url": "https://x.com/TBifford/status/2125046753376264325",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124963698875806112",
@@ -116,9 +140,9 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 243,
+      "impression_count": 244,
       "url": "https://x.com/TBifford/status/2124960994669551889",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124956153805160455",
@@ -128,9 +152,9 @@
       "retweets": 3,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 821,
+      "impression_count": 822,
       "url": "https://x.com/TBifford/status/2124956153805160455",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124956151829733794",
@@ -140,9 +164,9 @@
       "retweets": 8,
       "replies": 8,
       "quotes": 0,
-      "impression_count": 2822,
+      "impression_count": 2827,
       "url": "https://x.com/TBifford/status/2124956151829733794",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124921985209692282",
@@ -152,9 +176,9 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 223,
+      "impression_count": 224,
       "url": "https://x.com/TBifford/status/2124921985209692282",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124918400669401449",
@@ -164,9 +188,9 @@
       "retweets": 7,
       "replies": 7,
       "quotes": 1,
-      "impression_count": 2280,
+      "impression_count": 2286,
       "url": "https://x.com/TBifford/status/2124918400669401449",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124684357629771849",
@@ -176,9 +200,9 @@
       "retweets": 2,
       "replies": 4,
       "quotes": 1,
-      "impression_count": 959,
+      "impression_count": 968,
       "url": "https://x.com/TBifford/status/2124684357629771849",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124593760860512428",
@@ -190,7 +214,7 @@
       "quotes": 0,
       "impression_count": 2635,
       "url": "https://x.com/TBifford/status/2124593760860512428",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124567032264020180",
@@ -200,9 +224,9 @@
       "retweets": 1,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 268,
+      "impression_count": 269,
       "url": "https://x.com/TBifford/status/2124567032264020180",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124556012808196605",
@@ -212,9 +236,9 @@
       "retweets": 6,
       "replies": 13,
       "quotes": 0,
-      "impression_count": 3046,
+      "impression_count": 3062,
       "url": "https://x.com/TBifford/status/2124556012808196605",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124331807558565911",
@@ -224,9 +248,9 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 320,
+      "impression_count": 321,
       "url": "https://x.com/TBifford/status/2124331807558565911",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124321978064478580",
@@ -236,9 +260,9 @@
       "retweets": 6,
       "replies": 4,
       "quotes": 0,
-      "impression_count": 1553,
+      "impression_count": 1560,
       "url": "https://x.com/TBifford/status/2124321978064478580",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124240743107645493",
@@ -250,7 +274,7 @@
       "quotes": 0,
       "impression_count": 256,
       "url": "https://x.com/TBifford/status/2124240743107645493",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124231624774877215",
@@ -260,9 +284,9 @@
       "retweets": 5,
       "replies": 7,
       "quotes": 0,
-      "impression_count": 2120,
+      "impression_count": 2123,
       "url": "https://x.com/TBifford/status/2124231624774877215",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2124193626276131020",
@@ -272,9 +296,9 @@
       "retweets": 37,
       "replies": 40,
       "quotes": 3,
-      "impression_count": 24746,
+      "impression_count": 24754,
       "url": "https://x.com/TBifford/status/2124193626276131020",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123966188032323885",
@@ -286,7 +310,7 @@
       "quotes": 0,
       "impression_count": 438,
       "url": "https://x.com/TBifford/status/2123966188032323885",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123961847187685774",
@@ -296,9 +320,9 @@
       "retweets": 1,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 1175,
+      "impression_count": 1204,
       "url": "https://x.com/TBifford/status/2123961847187685774",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123940865123254442",
@@ -308,9 +332,9 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 233,
+      "impression_count": 234,
       "url": "https://x.com/TBifford/status/2123940865123254442",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123868990342574272",
@@ -320,9 +344,9 @@
       "retweets": 24,
       "replies": 48,
       "quotes": 4,
-      "impression_count": 46088,
+      "impression_count": 46100,
       "url": "https://x.com/TBifford/status/2123868990342574272",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123830732934328819",
@@ -332,9 +356,9 @@
       "retweets": 10,
       "replies": 11,
       "quotes": 1,
-      "impression_count": 2955,
+      "impression_count": 2972,
       "url": "https://x.com/TBifford/status/2123830732934328819",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123597196775805163",
@@ -344,9 +368,9 @@
       "retweets": 7,
       "replies": 10,
       "quotes": 1,
-      "impression_count": 2820,
+      "impression_count": 2822,
       "url": "https://x.com/TBifford/status/2123597196775805163",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123534148354580605",
@@ -356,9 +380,9 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 299,
+      "impression_count": 300,
       "url": "https://x.com/TBifford/status/2123534148354580605",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123506606339924047",
@@ -368,9 +392,9 @@
       "retweets": 23,
       "replies": 11,
       "quotes": 2,
-      "impression_count": 12876,
+      "impression_count": 12892,
       "url": "https://x.com/TBifford/status/2123506606339924047",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123493849678873080",
@@ -382,7 +406,7 @@
       "quotes": 0,
       "impression_count": 247,
       "url": "https://x.com/TBifford/status/2123493849678873080",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123471497243017267",
@@ -394,7 +418,7 @@
       "quotes": 0,
       "impression_count": 329,
       "url": "https://x.com/TBifford/status/2123471497243017267",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123468850276495487",
@@ -404,9 +428,9 @@
       "retweets": 10,
       "replies": 13,
       "quotes": 5,
-      "impression_count": 10404,
+      "impression_count": 10409,
       "url": "https://x.com/TBifford/status/2123468850276495487",
-      "metrics_updated_at": "2026-11-25T21:19:44.658Z"
+      "metrics_updated_at": "2026-11-26T07:27:54.668Z"
     },
     {
       "id": "2123234810307211449",
