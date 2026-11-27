@@ -9,6 +9,12 @@ xpost: https://x.com/TBifford
 
 Every Thanksgiving, Santa Claus arrives at the end of the Macy's parade. In 1946, the Santa on that float was an actor named Edmund Gwenn, and the movie cameras were rolling.
 
+## The story
+
+*Miracle on 34th Street* began as an original story by Valentine Davies, which George Seaton turned into the screenplay. Edmund Gwenn plays Kris Kringle, an older man who is hired to play Santa Claus at Macy's in New York and insists he really is Santa. Maureen O'Hara plays Doris Walker, a store executive who has taught her young daughter Susan, played by Natalie Wood, not to believe in such things. John Payne plays their neighbor, a lawyer.
+
+After a jealous coworker causes trouble for Kringle, he is sent to a mental hospital. A court hearing then has to decide whether he is Santa Claus.
+
 ## Filming during the real parade
 
 The movie was *Miracle on 34th Street*. Production began in November 1946, and director George Seaton shot scenes during the actual Macy's Thanksgiving Day Parade on November 28. Macy's could not stop its own parade for a movie, so the crew worked inside the live event. By one account they got only one take of each shot, and it was bitterly cold, as Maureen O'Hara remembered it.
@@ -21,6 +27,10 @@ The scenes inside Macy's Herald Square were shot at night, after the customers a
 
 After New York, the company went back to California in January 1947 to finish on the 20th Century Fox lot. Filming wrapped in March.
 
+## A small budget, a big return
+
+Reports say the film cost about $630,000 to make and earned about $2.7 million. That was a strong profit for a movie shot partly on location in New York City. It was the second Fox film shot on location in New York.
+
 ## Macy's and Gimbels got a vote
 
 The story has rival department stores in it, so both real stores were asked to approve the picture. Executives from Macy's and Gimbels screened the film separately and are said to have had veto power. Both approved.
@@ -31,14 +41,21 @@ Fox studio chief Darryl Zanuck made a surprising choice. He released the film in
 
 ## The Oscars
 
-*Miracle on 34th Street* was nominated for Best Picture and won three Academy Awards:
+Gwenn's win was his only Academy Award. He is the only actor to have won an Oscar for playing Santa Claus. George Seaton won for the screenplay, though he was not nominated for Best Director.
+
+
+The movie was nominated for Best Picture and won three Academy Awards:
 
 - Edmund Gwenn, Best Supporting Actor
 - Best Original Story
 - Best Screenplay
 
+## The remakes
+
+The story has been told again many times. There were television versions in 1955 and 1973, a Broadway musical called *Here's Love* in 1963, and a 1994 film with Richard Attenborough as Kris Kringle. A book version of the story was also published in 1947.
+
 ## Watch it this week
 
-The story is simple. A man hired to play Santa at Macy's says he really is Santa Claus, and he ends up in a courtroom to prove it. With Maureen O'Hara, John Payne, Natalie Wood and Gwenn, it holds up after almost eighty years.
+It holds up after almost eighty years. The cast is warm, the New York scenes are real, and the courtroom is a lot of fun to watch. If you only see it at Christmas, try it in Thanksgiving week, when the parade it was filmed in is on.
 
 *Do you watch it every Thanksgiving week, or only at Christmas? Tell us on X.*

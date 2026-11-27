@@ -13,9 +13,15 @@ Millions of Americans knew Dorothy Kilgallen as the sharp, competitive woman on 
 
 Dorothy Kilgallen was born in Chicago on July 3, 1913, the daughter of a newspaper reporter. She went into the business herself. In 1936 she took part in a newspaper race around the world, traveling only on commercial routes, and the coverage made her famous.
 
+The trip was a newspaper stunt, and she was one of three reporters in the contest. She crossed the Atlantic on the airship Hindenburg, then continued by plane and train through Europe, the Middle East and Asia. She crossed the Pacific on the China Clipper flying boat and flew back across the United States. By her own account the whole trip took about 24 and a half days. She turned her daily columns into a book, *Girl Around the World*.
+
 From 1938 she wrote the Broadway column "Voice of Broadway," which spread to dozens of newspapers. In 1945 she and her husband, actor and producer Dick Kollmar, started a radio show called *Breakfast with Dorothy and Dick*. Beginning in 1950 she was a regular on *What's My Line?*, where viewers knew her for wanting to win.
 
 She also covered big trials. In 1954 she reported on the Sam Sheppard murder trial in Ohio.
+
+## What viewers saw on television
+
+On *What's My Line?*, the panel tried to guess a guest's job by asking yes-or-no questions while blindfolded. Kilgallen's quick questions and her dislike of losing were a big part of why the show worked. She was a reporter who happened to be a TV star, not the other way around.
 
 ## The Jack Ruby trial
 
@@ -38,6 +44,10 @@ Some writers say she was murdered to stop her from publishing what she knew abou
 - Her notes on the Ruby interview and the case have never been found.
 
 Her biographer Lee Israel has said she may have been murdered. But no proof of murder has ever been found. The official finding stands, and it was never changed.
+
+## The missing papers
+
+One of the most repeated claims is that her notes on the Ruby interview disappeared after her death and have never been found. Mark Shaw's book makes that point, and it is part of why the story keeps coming back. We can say the papers have not turned up. We cannot say who, if anyone, took them or why.
 
 ## Why her story lasts
 

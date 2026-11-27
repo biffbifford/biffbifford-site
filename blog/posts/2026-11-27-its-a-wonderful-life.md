@@ -15,9 +15,21 @@ Frank Capra directed it, with Jimmy Stewart as George Bailey and Donna Reed as M
 
 It did earn five Academy Award nominations, including Best Picture. But *The Best Years of Our Lives* won that year. The only award *It's a Wonderful Life* took home was a technical one, for the fake snow.
 
+## A reluctant star
+
+Jimmy Stewart had spent years as a bomber pilot in World War II, and by one author's account he came home worn out, with nightmares and no job offers. Frank Capra, who had also just come back from the war, pitched him the part. Stewart reportedly walked out of the first meeting, and he signed on only after his agent pointed out that he had no other offers.
+
+The shoot ran from early 1946 into June, and Donna Reed later remembered that the set was tense. Some who have written about the film believe that Stewart's war experience helped give George Bailey's panic and anger their raw edge. You can judge that for yourself in the scene where George loses his temper at home in front of his family.
+
 ## The snow
 
 Earlier movies used untoasted cornflakes for snow, which were noisy on the soundtrack, and sometimes asbestos. For this film the studio's special effects team came up with a new mix of water, soap flakes, foamite and sugar. Versions of it have been used in movies since.
+
+## Summer in Bedford Falls
+
+The movie was shot in the summer, so the "winter" scenes were filmed in heat. The town set was one of the longest ever built for a movie at that time, and the heat sometimes reached nearly 90 degrees. In the bridge scene it was close to 100 degrees, and you can see Stewart sweating in his heavy coat.
+
+One small story: when Mary and George throw stones at the old house, Capra reportedly hired a marksman to break the window in case Donna Reed missed. She broke it on her first throw.
 
 ## Who else could have been George Bailey
 

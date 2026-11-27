@@ -21,6 +21,12 @@ Soon after, by one account, he sent a telegram to President Roosevelt asking how
 
 Gable did not stay where he was. On August 12, 1942, he enlisted in Los Angeles. He went through the 13-week Officer Candidate School and trained as an aerial gunner and photographer. The Army Air Forces had a plan for him: make a film that would recruit gunners, and put a star behind the camera and in the plane.
 
+## Why the Army wanted a movie star
+
+Gable did not have to fly in combat, and he was not expected to. According to the National Museum of the U.S. Air Force, he went to England in February 1943 on orders from General Hap Arnold, the head of the Army Air Forces. The job was to film aerial gunners in action. The Army needed more of them, and a star's name on a recruiting film could help bring them in.
+
+Gable graduated from Officer Candidate School in Miami Beach as a second lieutenant on October 28, 1942. He later rose to captain, then major.
+
 ## England and the B-17
 
 By 1943 he was in England with the 351st Bomb Group at Polebrook, part of the Eighth Air Force. He went as a captain, and he flew with the crews in B-17s while his film team filmed the missions.
@@ -43,13 +49,19 @@ You have probably heard that a top Nazi offered a reward for Gable's capture. Th
 
 ## The film
 
-Gable came home in November 1943 with about 50,000 feet of 16mm color film. It became *Combat America*, a 63-minute documentary about the men who flew. It was overshadowed that year by William Wyler's *Memphis Belle*, which came out at the same time.
+Gable came back to the United States in the fall of 1943 with about 50,000 feet of 16mm color film. It became *Combat America*, a 63-minute documentary about the men who flew. It was overshadowed that year by William Wyler's *Memphis Belle*, which came out at the same time.
 
 ## Coming home
 
 He was promoted to major and, at his own request, was relieved of active duty on June 12, 1944, because he was too old for combat flying. He received the Air Medal, and later the Distinguished Flying Cross.
 
 He went back to Hollywood, but the men who served with him remembered something else. One sergeant called him "a great friend of the enlisted men as well as a great all-around guy."
+
+## After the war
+
+Gable went back to making movies after his discharge. He resigned his reserve commission on September 26, 1947, because his film schedule kept him from reserve duty. He died on November 16, 1960.
+
+What makes his story stand out is how little he had to prove. He was famous, wealthy and over the age for combat. He chose to climb into a bomber anyway.
 
 ## See the footage
 
