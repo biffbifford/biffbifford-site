@@ -1,43 +1,54 @@
 {
-  "updated_at": "2026-11-27T20:51:20.208Z",
+  "updated_at": "2026-11-28T06:55:40.442Z",
   "account": {
-    "followers": 79472,
-    "following": 28329,
-    "posts": 72651,
+    "followers": 79451,
+    "following": 28325,
+    "posts": 72671,
     "listed": 96
   },
   "tweets": [
     {
+      "id": "2126496299474378991",
+      "text": "🎁 Black Friday question:\n\nWhat toy did you circle in the Sears Wish Book? https://t.co/PT9jqmwEOi",
+      "created_at": "2026-11-28T02:00:00.000Z",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 3,
+      "quotes": 0,
+      "impression_count": 501,
+      "url": "https://x.com/TBifford/status/2126496299474378991"
+    },
+    {
       "id": "2126405704160252071",
       "text": "🎄 It's a Wonderful Life was a flop.\n\nIt lost money in 1946 and was nearly forgotten. Then a paperwork mistake turned it into the most-watched Christmas movie in America.\n\nThe story began as a Christmas card. In 1943, writer Philip Van Doren Stern couldn't find a publisher for https://t.co/0C2WqsP0QB",
       "created_at": "2026-11-27T20:00:01.000Z",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 0,
+      "likes": 11,
+      "retweets": 5,
+      "replies": 5,
       "quotes": 0,
-      "impression_count": 187,
+      "impression_count": 667,
       "url": "https://x.com/TBifford/status/2126405704160252071"
     },
     {
       "id": "2126398966455558380",
       "text": "Off camera, William Christopher and his wife Barbara raised a son with autism and wrote a book about it, \"Mixed Blessings,\" to help other families. A real-life Father Mulcahy. 💛",
       "created_at": "2026-11-27T19:33:14.000Z",
-      "likes": 3,
+      "likes": 4,
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 142,
+      "impression_count": 258,
       "url": "https://x.com/TBifford/status/2126398966455558380"
     },
     {
       "id": "2126367955478798391",
       "text": "✝️ Father Mulcahy wasn't always William Christopher.\n\nIn the very first episode of M*A*S*H, the chaplain was played by a different actor, George Morgan. He had only a few lines.\n\nThen the producers recast the role. Larry Gelbart later said it was \"for reasons having nothing to do https://t.co/WsghMb5q02",
       "created_at": "2026-11-27T17:30:01.000Z",
-      "likes": 51,
-      "retweets": 3,
-      "replies": 5,
-      "quotes": 0,
-      "impression_count": 1797,
+      "likes": 157,
+      "retweets": 7,
+      "replies": 12,
+      "quotes": 1,
+      "impression_count": 6848,
       "url": "https://x.com/TBifford/status/2126367955478798391"
     },
     {
@@ -48,7 +59,7 @@
       "retweets": 1,
       "replies": 2,
       "quotes": 0,
-      "impression_count": 672,
+      "impression_count": 695,
       "url": "https://x.com/TBifford/status/2126043316772827312"
     },
     {
@@ -59,18 +70,18 @@
       "retweets": 0,
       "replies": 1,
       "quotes": 0,
-      "impression_count": 192,
+      "impression_count": 201,
       "url": "https://x.com/TBifford/status/2126009748730392952"
     },
     {
       "id": "2126005564463612133",
       "text": "🙏 Before she was Hollywood royalty, Audrey Hepburn was a hungry teenager in Nazi-occupied Holland.\n\nDuring the \"Hunger Winter\" of 1944, she was so malnourished that her legs swelled with edema. She was 15. She even danced in secret recitals to raise money for the Dutch https://t.co/m4jWr4A4ni",
       "created_at": "2026-11-26T17:30:00.000Z",
-      "likes": 8,
+      "likes": 9,
       "retweets": 3,
       "replies": 3,
       "quotes": 1,
-      "impression_count": 903,
+      "impression_count": 924,
       "url": "https://x.com/TBifford/status/2126005564463612133"
     },
     {
@@ -81,7 +92,7 @@
       "retweets": 1,
       "replies": 8,
       "quotes": 0,
-      "impression_count": 825,
+      "impression_count": 834,
       "url": "https://x.com/TBifford/status/2125771528214360362"
     },
     {
@@ -92,7 +103,7 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0,
-      "impression_count": 288,
+      "impression_count": 297,
       "url": "https://x.com/TBifford/status/2125754652453130629"
     },
     {
@@ -103,19 +114,8 @@
       "retweets": 0,
       "replies": 3,
       "quotes": 0,
-      "impression_count": 792,
+      "impression_count": 798,
       "url": "https://x.com/TBifford/status/2125680933265113308"
-    },
-    {
-      "id": "2125643175545241687",
-      "text": "👗 As promised: the M*A*S*H character who was only supposed to appear in ONE episode.\n\nHere's what happened next. When Radar went home in season 8, Klinger became the company clerk, and the dresses went back in the closet for good.\n\nHe was the last one standing who'd been chasing https://t.co/02ptJd1ko6",
-      "created_at": "2026-11-25T17:30:00.000Z",
-      "likes": 24,
-      "retweets": 2,
-      "replies": 0,
-      "quotes": 0,
-      "impression_count": 1560,
-      "url": "https://x.com/TBifford/status/2125643175545241687"
     }
   ]
 }
